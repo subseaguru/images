@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "sic-901",
+      "stem": "A client is admitted with active pulmonary tuberculosis. Which precautions should the nurse implement?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Droplet precautions with a surgical mask when within three feet of the client",
+          "rationale": "Droplet precautions are for large-particle pathogens such as influenza; tuberculosis spreads by tiny airborne droplet nuclei that a surgical mask does not filter."
+        },
+        {
+          "label": "B",
+          "text": "Airborne precautions in a negative-pressure room with an N95 respirator",
+          "rationale": "Tuberculosis is spread by airborne droplet nuclei, so the client needs a negative-pressure room and staff must wear a fit-tested N95 respirator."
+        },
+        {
+          "label": "C",
+          "text": "Contact precautions with a gown and gloves for all care",
+          "rationale": "Contact precautions address organisms spread by touch, such as MRSA or C. difficile, and do nothing to stop airborne transmission."
+        }
+      ],
+      "correct": "B",
+      "category": "safety_and_infection_control",
+      "subtopic": "Standard Precautions/Transmission-Based Precautions/Surgical Asepsis",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Airborne precautions (negative pressure, N95) are required for tuberculosis, measles and varicella; droplet and contact precautions are not enough.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "sic-902",
+      "stem": "A client has soft wrist restraints ordered because of repeated attempts to pull out a central line. Which nursing action is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Secure the restraint ties to the side rails with a quick-release knot",
+          "rationale": "Ties must go to the bed frame, never the side rails, because moving the rail can tighten the restraint and injure the client."
+        },
+        {
+          "label": "B",
+          "text": "Check circulation, skin and range of motion at least every two hours and release the restraints periodically",
+          "rationale": "Regular monitoring of circulation and skin plus scheduled release prevents nerve damage, skin breakdown and contractures, and is required by restraint standards."
+        },
+        {
+          "label": "C",
+          "text": "Keep the restraints in place until the provider renews the order in seventy-two hours",
+          "rationale": "Restraint orders must be renewed far more often than every seventy-two hours and restraints are removed as soon as they are no longer needed."
+        }
+      ],
+      "correct": "B",
+      "category": "safety_and_infection_control",
+      "subtopic": "Use of Restraints/Safety Devices",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Restraints are a last resort: tie to the frame with a quick-release knot, check the client frequently, release regularly and use the least restrictive option.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "sic-903",
+      "stem": "The nurse discovers a small fire in a wastebasket in an occupied client room. What should the nurse do first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Pull the nearest fire alarm",
+          "rationale": "Sounding the alarm is the second step; the client in immediate danger must be moved away from the fire first."
+        },
+        {
+          "label": "B",
+          "text": "Move the client out of the room",
+          "rationale": "In the RACE sequence, rescuing anyone in immediate danger comes before alarm, containment and extinguishing."
+        },
+        {
+          "label": "C",
+          "text": "Extinguish the fire with the nearest extinguisher",
+          "rationale": "Extinguishing is the last step of RACE and is attempted only after people are safe and the alarm has been raised."
+        }
+      ],
+      "correct": "B",
+      "category": "safety_and_infection_control",
+      "subtopic": "Emergency Response Plan",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "RACE: Rescue, Alarm, Contain, Extinguish. Client safety always comes before fighting the fire.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    }
+  ]
+}

@@ -137,7 +137,8 @@ export function weakAreasFrom(stats: Stats | undefined, allowed?: readonly Categ
 /**
  * Decide how many questions each category should get. Starts from the blueprint split (within
  * the requested categories when given) and, when the learner asked to target weak areas, moves
- * up to 40% of the batch toward the weak categories - never emptying a category that had a quota.
+ * up to 40% of the batch toward the weak categories. A donor category keeps at least one
+ * question unless the weak category would otherwise get none at all.
  */
 export function planCategoryCounts(
   count: number,
@@ -150,18 +151,23 @@ export function planCategoryCounts(
 
   const weak = weakAreas.map((w) => w.category);
   const weakSet = new Set(weak);
+  const donorFor = (target: CategoryId): CategoryId | undefined => {
+    const best = CATEGORY_IDS.filter((id) => !weakSet.has(id) && counts[id] > 0).sort(
+      (a, b) => counts[b] - counts[a],
+    )[0];
+    if (!best) return undefined;
+    return counts[best] > 1 || counts[target] === 0 ? best : undefined;
+  };
+
   let budget = Math.floor(count * WEAK_AREA_SHARE);
   let moved = true;
-  // Take one question at a time from the most-stocked non-weak category and give it to the
-  // weakest categories in turn, until the budget is spent or nothing more can move.
+  // One question at a time, weakest category first, until the budget is spent or nothing can move.
   while (budget > 0 && moved) {
     moved = false;
     for (const target of weak) {
       if (budget === 0) break;
-      const donor = CATEGORY_IDS.filter((id) => !weakSet.has(id) && counts[id] > 1).sort(
-        (a, b) => counts[b] - counts[a],
-      )[0];
-      if (!donor) break;
+      const donor = donorFor(target);
+      if (!donor) continue;
       counts[donor] -= 1;
       counts[target] += 1;
       budget -= 1;

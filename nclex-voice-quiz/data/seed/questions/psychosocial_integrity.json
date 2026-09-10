@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "psi-001",
+      "stem": "A forty-two-year-old client on a medical-surgical unit was told this morning that a breast biopsy shows cancer. When the nurse enters the room, the client is staring out the window and says, \"I have no idea how I am going to tell my children about this.\" Which response by the nurse is most appropriate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"Children are more resilient than we think. They will handle this better than you expect.\"",
+          "rationale": "This is false reassurance. It minimizes the client's fear, closes the conversation, and makes a promise the nurse cannot keep about how the children will react."
+        },
+        {
+          "label": "B",
+          "text": "\"Telling your children feels overwhelming right now. Tell me more about what worries you most.\"",
+          "rationale": "Reflecting the client's feeling and following with an open-ended invitation keeps the focus on the client and encourages exploration of the concern, which is the core of therapeutic communication."
+        },
+        {
+          "label": "C",
+          "text": "\"Would you like me to ask the social worker to talk with your children for you?\"",
+          "rationale": "Offering to hand the task to someone else changes the subject and takes control away from the client before the nurse has explored what the client is actually feeling; a referral may be useful later, not as the first response."
+        }
+      ],
+      "correct": "B",
+      "category": "psychosocial_integrity",
+      "subtopic": "Therapeutic Communication",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "When a client voices distress, the most therapeutic first response reflects the feeling and invites the client to say more; reassurance, advice, and referrals come only after the client's concern has been fully heard.",
+      "references": [],
+      "tags": ["therapeutic communication", "oncology", "coping"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "psi-002",
+      "stem": "A parent brings a four-month-old infant to the emergency department, stating that the baby rolled off the couch yesterday and has been fussy since. While taking the history, the nurse examines the infant. Which finding is most consistent with non-accidental injury and obligates the nurse to follow mandated reporting procedures?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bruises of several different colors on the infant's back and buttocks.",
+          "rationale": "An infant who cannot yet crawl or cruise rarely bruises at all, and multiple bruises of different ages on protected areas such as the back, buttocks, or torso are sentinel injuries for physical abuse that a nurse is legally required to report."
+        },
+        {
+          "label": "B",
+          "text": "A single small bruise on the forehead with mild swelling.",
+          "rationale": "One bruise on a bony prominence that matches the reported fall is far less specific for abuse; it should still be documented and evaluated because any bruise in a non-mobile infant deserves scrutiny, but it does not by itself establish a pattern of inflicted injury."
+        },
+        {
+          "label": "C",
+          "text": "Crying that stops when the infant is picked up and held by the parent.",
+          "rationale": "An infant who is consoled by the caregiver is showing an expected attachment behavior, which is reassuring rather than concerning."
+        }
+      ],
+      "correct": "A",
+      "category": "psychosocial_integrity",
+      "subtopic": "Abuse/Neglect",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Injuries that do not fit the child's developmental ability or the story given, especially multiple bruises of different ages in a non-mobile infant, are red flags for abuse, and nurses are mandated reporters who report reasonable suspicion rather than proof.",
+      "references": ["American Academy of Pediatrics clinical report on the evaluation of suspected child physical abuse"],
+      "tags": ["child abuse", "mandated reporting", "pediatrics", "emergency"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "psi-003",
+      "stem": "A fifty-eight-year-old client is two days past a hip replacement. The admission history notes four to five beers every evening. Overnight the client becomes restless and sweaty, with a heart rate of one hundred sixteen, a blood pressure of one sixty-two over ninety-eight, and trembling hands, and asks the nurse to brush the ants off the blanket. Which explanation for these findings should the nurse consider most likely?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Excess opioid effect from the patient-controlled analgesia pump.",
+          "rationale": "Opioid excess produces sedation, pinpoint pupils, and slowed breathing, not the tremor, sweating, and racing heart seen here; hyperactivity with autonomic signs argues against opioid toxicity."
+        },
+        {
+          "label": "B",
+          "text": "Early sepsis from an infection at the surgical site.",
+          "rationale": "Sepsis can raise the heart rate, but it typically brings fever and a falling blood pressure, and it does not explain tremor or tactile hallucinations within forty-eight hours of the last drink."
+        },
+        {
+          "label": "C",
+          "text": "Alcohol withdrawal progressing toward delirium tremens.",
+          "rationale": "Daily heavy drinking stopped abruptly by admission, followed forty-eight hours later by tremor, sweating, tachycardia, hypertension, and tactile hallucinations, is the classic picture of severe alcohol withdrawal, which can progress to seizures and delirium tremens and needs symptom-triggered benzodiazepine treatment."
+        }
+      ],
+      "correct": "C",
+      "category": "psychosocial_integrity",
+      "subtopic": "Substance Use Disorders/Dependencies",
+      "clinicalJudgmentStep": "prioritize_hypotheses",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Alcohol withdrawal typically peaks twenty-four to seventy-two hours after the last drink; tremor with autonomic hyperactivity and hallucinations in a hospitalized drinker signals severe withdrawal that is a medical emergency, so screen every admission for alcohol use.",
+      "references": ["ASAM Clinical Practice Guideline on Alcohol Withdrawal Management"],
+      "tags": ["alcohol withdrawal", "postoperative", "delirium tremens", "substance use"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "psi-004",
+      "stem": "During a routine visit to a primary care clinic, a sixty-seven-year-old client whose spouse died four months ago tells the nurse, \"There is no point anymore. I have been setting my sleeping pills aside so I will have enough when I am ready.\" Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Stay with the client and arrange an immediate suicide risk evaluation before the client leaves the clinic.",
+          "rationale": "A stated wish to die plus a specific plan and access to the means places this client at high acute risk; the nurse's first duty is to keep the client safe and in sight until a qualified clinician completes a risk assessment and a safety plan."
+        },
+        {
+          "label": "B",
+          "text": "Ask the client to promise not to act on these thoughts until the next scheduled appointment.",
+          "rationale": "So-called no-suicide contracts are not supported by evidence, do not reduce risk, and can create false security for staff while a client with a plan and means goes home."
+        },
+        {
+          "label": "C",
+          "text": "Give the client the nine-eight-eight Suicide and Crisis Lifeline number and schedule a return visit in one week.",
+          "rationale": "Crisis line information is a valuable part of a safety plan, but relying on it and a delayed follow-up leaves a high-risk client alone with the means to act; it is an adjunct, not the first action."
+        }
+      ],
+      "correct": "A",
+      "category": "psychosocial_integrity",
+      "subtopic": "Crisis Intervention",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "When a client discloses suicidal ideation with a plan and available means, safety comes before anything else: do not leave the client alone, secure the means, and obtain an immediate risk evaluation rather than relying on promises or future appointments.",
+      "references": ["Joint Commission National Patient Safety Goal on suicide prevention", "Zero Suicide framework"],
+      "tags": ["suicide risk", "crisis", "safety", "grief"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "psi-005",
+      "stem": "A couple on a labor and birth unit has just delivered a stillborn infant at thirty-six weeks of gestation. The mother is physically stable, and both parents are crying quietly. The nurse is planning care for the next several hours. Which intervention should the nurse include in the plan?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Take the infant to the morgue promptly so the parents are not further distressed by seeing the body.",
+          "rationale": "Removing the infant quickly denies the parents the chance to make the loss real and to say goodbye, which is associated with more complicated grief; the decision to see the baby belongs to the parents."
+        },
+        {
+          "label": "B",
+          "text": "Reassure the parents that they are young and healthy and can try for another pregnancy soon.",
+          "rationale": "Pointing toward a future pregnancy dismisses this baby as replaceable and minimizes the current loss; it is a well-meaning cliche that blocks grieving rather than supporting it."
+        },
+        {
+          "label": "C",
+          "text": "Offer the parents the chance to hold, bathe, and name the infant and to keep mementos such as footprints.",
+          "rationale": "Offering, without pressure, time with the baby and tangible keepsakes validates the infant as a real child and the parents as parents, which supports healthy grieving after perinatal loss."
+        }
+      ],
+      "correct": "C",
+      "category": "psychosocial_integrity",
+      "subtopic": "Grief and Loss",
+      "clinicalJudgmentStep": "generate_solutions",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "After a perinatal loss the nurse's role is to acknowledge the baby and give parents choices, such as holding, naming, and keeping mementos, rather than shielding them from the loss or hurrying them toward the future.",
+      "references": ["ACOG Obstetric Care Consensus on management of stillbirth"],
+      "tags": ["perinatal loss", "grief", "maternity"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "psi-006",
+      "stem": "A home hospice nurse visits a client with end-stage heart failure who now sleeps most of the day and has taken only a few sips of water in the past two days. The client's daughter says, \"He is going to starve. Shouldn't we get him an intravenous (IV) line for fluids?\" Which response by the nurse is best?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"I will ask the hospice provider whether we can start intravenous fluids so he does not become dehydrated.\"",
+          "rationale": "Artificial hydration in the final days of life does not relieve thirst and can worsen edema, secretions, and breathlessness, especially in heart failure; deferring to a provider avoids the teaching the family needs."
+        },
+        {
+          "label": "B",
+          "text": "\"Taking in less is a natural part of dying. Let me show you ways to keep his mouth moist and comfortable.\"",
+          "rationale": "This answer gently corrects the misconception, normalizes the decline in intake as an expected part of the dying process, and redirects the daughter toward comfort measures she can provide, such as mouth care and ice chips."
+        },
+        {
+          "label": "C",
+          "text": "\"Try offering him a full meal and a large glass of water every few hours so he keeps his strength up.\"",
+          "rationale": "Pushing food and fluids on a dying client who no longer feels hunger or thirst risks aspiration and distress and reinforces the family's belief that the decline can be reversed."
+        }
+      ],
+      "correct": "B",
+      "category": "psychosocial_integrity",
+      "subtopic": "End of Life Care",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Decreased appetite and thirst are expected near death; the nurse supports families by explaining this, discouraging forced intake and artificial hydration that add burden, and teaching comfort measures such as mouth care.",
+      "references": ["National Hospice and Palliative Care Organization standards of practice"],
+      "tags": ["hospice", "end of life", "family teaching", "home care"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "psi-007",
+      "stem": "An eighty-two-year-old client is on day three in the intensive care unit (ICU) after abdominal surgery. Alert on admission, the client is now confused at night, pulls at the intravenous (IV) line, and says people are hiding in the corner of the room. The client's glasses and hearing aids are at home. Which intervention should the nurse include in the plan of care?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ask the family to bring the glasses and hearing aids and keep the blinds open during the day.",
+          "rationale": "Restoring sensory input and a normal day-night cycle are core non-drug strategies for delirium; sensory deprivation and disrupted sleep are among the most modifiable causes of confusion in older ICU clients."
+        },
+        {
+          "label": "B",
+          "text": "Request an as-needed dose of lorazepam at bedtime to help the client sleep through the night.",
+          "rationale": "Benzodiazepines are a well-established cause of delirium in older adults and are avoided for sleep in the ICU; sedating the client would deepen rather than resolve the confusion."
+        },
+        {
+          "label": "C",
+          "text": "Keep the room dark and quiet around the clock to reduce stimulation and confusion.",
+          "rationale": "Constant darkness removes the daytime cues the brain needs to stay oriented and disrupts the sleep-wake cycle further; noise should be reduced at night while daytime light and activity are maintained."
+        }
+      ],
+      "correct": "A",
+      "category": "psychosocial_integrity",
+      "subtopic": "Sensory/Perceptual Alterations",
+      "clinicalJudgmentStep": "generate_solutions",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Delirium is managed first with non-pharmacologic measures: correct vision and hearing, orient with clocks and daylight, mobilize, protect nighttime sleep, and avoid benzodiazepines and other deliriogenic drugs in older adults.",
+      "references": ["Society of Critical Care Medicine PADIS guidelines", "American Geriatrics Society guideline on postoperative delirium"],
+      "tags": ["delirium", "older adult", "icu", "sensory"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "psi-008",
+      "stem": "A client who speaks only Vietnamese is scheduled for a colonoscopy, and the nurse needs to review the bowel preparation instructions before discharge from the clinic. The client's adult son, who speaks English well, offers to translate for the nurse. Which action should the nurse take?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Accept the son's offer, since a family member can explain the instructions in a way the client will trust.",
+          "rationale": "Family members lack training in medical terminology, may filter or soften information, and put the client's privacy and autonomy at risk; they should not serve as interpreters for clinical teaching."
+        },
+        {
+          "label": "B",
+          "text": "Give the client the written English instructions with pictures and ask the son to review them at home.",
+          "rationale": "Handing a client materials in a language the client cannot read, with no verification of understanding, does not meet the duty to provide meaningful access to health information."
+        },
+        {
+          "label": "C",
+          "text": "Arrange a qualified medical interpreter, in person or by phone or video, and use the son only for support.",
+          "rationale": "Federal language access requirements and health care communication standards call for a qualified interpreter for clinical communication; a family member may stay for emotional support but not to interpret."
+        }
+      ],
+      "correct": "C",
+      "category": "psychosocial_integrity",
+      "subtopic": "Cultural Awareness/Cultural Influences on Health",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Clients with limited English proficiency have a right to a qualified medical interpreter for teaching and consent; using relatives, especially children, as interpreters compromises accuracy, confidentiality, and the client's autonomy.",
+      "references": ["HHS National CLAS Standards", "Joint Commission patient-centered communication standards"],
+      "tags": ["language access", "interpreter", "cultural competence"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "psi-009",
+      "stem": "A home health nurse visits a seventy-nine-year-old client with moderate dementia who lives with an adult daughter, the sole caregiver. While the nurse checks the client's medications, the daughter makes several comments about caring for her father. Which statement by the daughter requires the nurse's immediate follow-up?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"He asks me the same question twenty times a day, and honestly it wears me down.\"",
+          "rationale": "Frustration with repetitive questioning is a common and expected caregiver experience that calls for teaching and support, but it does not by itself signal danger to the client."
+        },
+        {
+          "label": "B",
+          "text": "\"I have not slept through the night in months, and yesterday I came so close to hitting him.\"",
+          "rationale": "Exhaustion combined with a disclosed impulse to strike the client is a warning sign of caregiver role strain at the threshold of elder abuse; the nurse must assess the client's safety now and connect the daughter with respite and support."
+        },
+        {
+          "label": "C",
+          "text": "\"I finally hired an aide to help with his bath three mornings a week, and it costs a fortune.\"",
+          "rationale": "Arranging paid help is an adaptive, resourceful coping response; the cost concern warrants a social work referral but is not urgent."
+        }
+      ],
+      "correct": "B",
+      "category": "psychosocial_integrity",
+      "subtopic": "Family Dynamics",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Caregiver exhaustion plus any expressed impulse to harm the dependent person is a red flag for abuse; the nurse assesses the client's safety immediately and treats caregiver strain as a risk to both people, not just a stress complaint.",
+      "references": [],
+      "tags": ["caregiver strain", "elder abuse", "dementia", "home care"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "psi-010",
+      "stem": "On an inpatient psychiatric unit, a client with bipolar disorder in a manic episode begins pacing the hallway, speaking loudly, and slamming a hand against the wall after being told that visiting hours are over. Other clients are watching from the dayroom. Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Direct staff to escort the client to the seclusion room until the client is calm.",
+          "rationale": "Seclusion is restricted by regulation to situations of imminent danger after less restrictive measures have failed; using it as a first response violates the client's rights and typically escalates the situation."
+        },
+        {
+          "label": "B",
+          "text": "Prepare the as-needed intramuscular (IM) haloperidol that is ordered for agitation.",
+          "rationale": "Chemical restraint is a later step reserved for agitation that verbal strategies and oral medication have not controlled; reaching for an injection first skips the least restrictive interventions."
+        },
+        {
+          "label": "C",
+          "text": "Approach calmly from the side, speak in a low voice, and offer a quieter place to talk.",
+          "rationale": "Verbal de-escalation with a non-threatening stance, a calm tone, and a face-saving choice is the least restrictive and most effective first intervention for rising agitation, and it protects the other clients by reducing the audience."
+        }
+      ],
+      "correct": "C",
+      "category": "psychosocial_integrity",
+      "subtopic": "Behavioral Interventions",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Manage escalating behavior along a least-restrictive continuum: verbal de-escalation and environmental changes first, medication next, and seclusion or restraint only for imminent danger when everything else has failed.",
+      "references": ["CMS Conditions of Participation on restraint and seclusion", "American Psychiatric Nurses Association position on seclusion and restraint"],
+      "tags": ["de-escalation", "agitation", "least restrictive", "mental health"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "psi-011",
+      "stem": "A fifty-four-year-old client had a colostomy created three days ago for colon cancer. On the first postoperative day the client turned away and refused to look at the stoma. The nurse has worked with the client each day since. Which observation on the third day indicates that the client is beginning to cope effectively?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The client jokes that the stoma is \"no big deal\" and says the teaching session can be skipped.",
+          "rationale": "Minimizing the change and avoiding teaching is a form of denial; humor can be healthy, but pairing it with refusal to learn self-care shows the client is not yet engaging with the reality of the ostomy."
+        },
+        {
+          "label": "B",
+          "text": "The client watches the nurse empty the pouch and asks how to manage odor at work.",
+          "rationale": "Looking at the stoma, observing care, and asking practical questions about daily life show the client is moving from avoidance toward acceptance and problem-focused coping, which is the expected outcome of the nurse's interventions."
+        },
+        {
+          "label": "C",
+          "text": "The client says the spouse will take care of the stoma at home so there is no need to learn.",
+          "rationale": "Delegating all care to a family member continues avoidance and creates unhealthy dependence; it does not demonstrate acceptance of the altered body image."
+        }
+      ],
+      "correct": "B",
+      "category": "psychosocial_integrity",
+      "subtopic": "Coping Mechanisms",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Adaptive coping with an altered body image shows up as willingness to look, touch, ask questions, and plan for real-life situations; denial and avoidance can be disguised as humor or reliance on others.",
+      "references": [],
+      "tags": ["body image", "ostomy", "coping", "postoperative"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "psi-012",
+      "stem": "A client admitted to a medical unit after an intentional overdose is on continuous one-to-one observation. The registered nurse assigned an assistive personnel (AP) to provide the observation and reviewed the expectations. One hour later the nurse checks on them. Which observation indicates that the assistive personnel needs further instruction?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The assistive personnel waits outside the closed bathroom door while the client showers.",
+          "rationale": "One-to-one observation means the client stays in direct sight and within arm's reach at all times, including in the bathroom, because ligature points and privacy make it the highest-risk location; the nurse must correct this immediately."
+        },
+        {
+          "label": "B",
+          "text": "The assistive personnel sits in a chair at the bedside while the client naps.",
+          "rationale": "Continuous observation continues during sleep, so remaining at the bedside with the client in view is exactly what is expected."
+        },
+        {
+          "label": "C",
+          "text": "The assistive personnel asks the nurse to send the client's meal tray with plastic utensils.",
+          "rationale": "Requesting a tray without metal utensils shows the assistive personnel understands the need to keep potential means of self-harm out of the client's reach."
+        }
+      ],
+      "correct": "A",
+      "category": "psychosocial_integrity",
+      "subtopic": "Therapeutic Environment",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "When delegating one-to-one observation of a suicidal client, the nurse remains accountable: the observer must keep the client in direct view and within reach without interruption, including in the bathroom and during sleep, and the nurse verifies that this is happening.",
+      "references": ["Joint Commission National Patient Safety Goal on suicide prevention"],
+      "tags": ["delegation", "suicide precautions", "safety", "supervision"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    }
+  ]
+}

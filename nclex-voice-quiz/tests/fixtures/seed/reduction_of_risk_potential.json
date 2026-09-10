@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "rrp-901",
+      "stem": "A client taking warfarin has an INR of 5.2 with no signs of bleeding. Which action should the nurse anticipate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Continue warfarin at the same dose",
+          "rationale": "An INR above the therapeutic range of 2 to 3 carries a high bleeding risk, so continuing the same dose is unsafe."
+        },
+        {
+          "label": "B",
+          "text": "Hold the warfarin and prepare to give vitamin K if prescribed",
+          "rationale": "Warfarin is held for a supratherapeutic INR, and vitamin K is the antidote the provider may prescribe to bring the INR down."
+        },
+        {
+          "label": "C",
+          "text": "Administer protamine sulfate",
+          "rationale": "Protamine sulfate reverses heparin, not warfarin, and would not correct a high INR."
+        }
+      ],
+      "correct": "B",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Laboratory Values",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Therapeutic INR on warfarin is 2 to 3; vitamin K reverses warfarin, protamine reverses heparin.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "rrp-902",
+      "stem": "A client is two days post-operative after a total hip replacement. The nurse notes that the right calf is swollen, warm and tender. What should the nurse do?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Massage the calf to relieve the discomfort",
+          "rationale": "Massaging a possible deep vein thrombosis can dislodge the clot and cause a pulmonary embolism."
+        },
+        {
+          "label": "B",
+          "text": "Keep the client in bed, notify the provider and anticipate a venous duplex ultrasound",
+          "rationale": "A swollen, warm, tender calf after hip surgery suggests deep vein thrombosis; limiting movement and prompt evaluation prevent embolization."
+        },
+        {
+          "label": "C",
+          "text": "Encourage the client to ambulate to improve circulation",
+          "rationale": "Ambulation is prevention, not treatment; with a suspected clot, walking may cause it to break loose."
+        }
+      ],
+      "correct": "B",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Potential for Complications from Surgical Procedures and Health Alterations",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Post-operative unilateral calf swelling, warmth and tenderness is deep vein thrombosis until proven otherwise: do not massage, notify the provider.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "rrp-903",
+      "stem": "The nurse is preparing a client for a cardiac catheterization. Which finding should the nurse report to the provider before the procedure?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The client reports an allergy to shellfish and iodine",
+          "rationale": "Iodinated contrast is used during catheterization; a reported iodine or contrast allergy needs premedication or an alternative plan."
+        },
+        {
+          "label": "B",
+          "text": "The client's blood pressure is 128 over 78",
+          "rationale": "This blood pressure is within normal limits and does not affect the procedure."
+        },
+        {
+          "label": "C",
+          "text": "The client has had nothing to eat for eight hours",
+          "rationale": "Fasting before the procedure is expected and required, not a concern to report."
+        }
+      ],
+      "correct": "A",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Diagnostic Tests",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Before contrast studies, screen for contrast or iodine allergy, kidney function and metformin use, and confirm fasting status.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "bcc-901",
+      "stem": "A client with chronic kidney disease who receives hemodialysis asks which snack is best. Which choice should the nurse recommend?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A banana",
+          "rationale": "Bananas are high in potassium, which clients on dialysis must limit to avoid dangerous hyperkalemia."
+        },
+        {
+          "label": "B",
+          "text": "A glass of orange juice",
+          "rationale": "Orange juice is high in potassium and adds fluid, both of which are restricted for clients on hemodialysis."
+        },
+        {
+          "label": "C",
+          "text": "Apple slices",
+          "rationale": "Apples are low in potassium and phosphorus, making them a safe fruit choice on a renal diet."
+        }
+      ],
+      "correct": "C",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Nutrition and Oral Hydration",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Renal diets restrict potassium, phosphorus, sodium and fluid; apples, berries and grapes are lower-potassium fruit choices.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "bcc-902",
+      "stem": "The nurse teaches a client with a right ankle fracture to use crutches with a three-point gait. Which client statement indicates correct understanding?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'I will move both crutches and my right leg forward together, then bring my left leg through.'",
+          "rationale": "In the three-point gait both crutches and the injured leg advance together while the strong leg bears the weight, which keeps weight off the fracture."
+        },
+        {
+          "label": "B",
+          "text": "'I will rest my weight on my armpits when I stand still.'",
+          "rationale": "Resting on the axillae compresses the brachial plexus and can cause crutch palsy; weight belongs on the hands."
+        },
+        {
+          "label": "C",
+          "text": "'I will move the left crutch and my right leg forward together, then the right crutch and my left leg.'",
+          "rationale": "That describes the two-point gait, which requires partial weight bearing on both legs and is not safe for a fresh fracture."
+        }
+      ],
+      "correct": "A",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Assistive Devices",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Three-point gait: crutches and the affected leg move together, then the unaffected leg; keep two to three finger widths between the axilla and the crutch pad.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "bcc-903",
+      "stem": "A client on prolonged bed rest has a reddened area over the sacrum that does not blanch when pressed. Which action should the nurse take?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Massage the reddened area to improve circulation",
+          "rationale": "Massaging non-blanchable erythema damages fragile tissue and can deepen the injury."
+        },
+        {
+          "label": "B",
+          "text": "Reposition the client at least every two hours and keep pressure off the sacrum",
+          "rationale": "Non-blanchable redness is a stage 1 pressure injury; relieving pressure through regular repositioning is the priority to prevent progression."
+        },
+        {
+          "label": "C",
+          "text": "Apply a warm pack to the area",
+          "rationale": "Heat increases metabolic demand in already compromised tissue and is not used on pressure injuries."
+        }
+      ],
+      "correct": "B",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Mobility/Immobility",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Non-blanchable erythema is a stage 1 pressure injury: offload the area, reposition frequently, protect the skin and never massage.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    }
+  ]
+}

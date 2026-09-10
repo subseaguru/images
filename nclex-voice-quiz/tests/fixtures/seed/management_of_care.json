@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "moc-901",
+      "stem": "The nurse is planning assignments on a medical unit. Which task is most appropriate to delegate to unlicensed assistive personnel?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Obtaining vital signs on a client who is two days post-appendectomy and stable",
+          "rationale": "Vital signs on a stable client are a routine, predictable task with a standard procedure, which is exactly what may be delegated to unlicensed assistive personnel."
+        },
+        {
+          "label": "B",
+          "text": "Teaching a newly diagnosed client how to draw up and inject insulin",
+          "rationale": "Teaching requires nursing judgment and evaluation of learning, so it must stay with the registered nurse and cannot be delegated."
+        },
+        {
+          "label": "C",
+          "text": "Assessing a client's pain thirty minutes after an intravenous opioid dose",
+          "rationale": "Assessment, especially reassessment after a high-alert medication, is a nursing responsibility that cannot be delegated to unlicensed staff."
+        }
+      ],
+      "correct": "A",
+      "category": "management_of_care",
+      "subtopic": "Assignment, Delegation and Supervision",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Delegate stable, routine, predictable tasks; keep assessment, teaching, evaluation and nursing judgment with the registered nurse.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "moc-902",
+      "stem": "The nurse receives report on four clients at the start of the shift. Which client should the nurse assess first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A client with pneumonia whose oxygen saturation is 92 percent on 2 liters, unchanged from baseline",
+          "rationale": "A saturation at the client's known baseline is stable and expected, so this client can safely wait a few minutes."
+        },
+        {
+          "label": "B",
+          "text": "A client one day after abdominal surgery with new shortness of breath and chest pain",
+          "rationale": "New shortness of breath with chest pain after surgery may signal a pulmonary embolism, an airway and circulation emergency that must be assessed first."
+        },
+        {
+          "label": "C",
+          "text": "A client with diabetes whose fasting glucose is 180 milligrams per deciliter and who is asking for breakfast",
+          "rationale": "A moderately elevated glucose needs attention but is not immediately life-threatening, so this client is a lower priority."
+        }
+      ],
+      "correct": "B",
+      "category": "management_of_care",
+      "subtopic": "Establishing Priorities",
+      "clinicalJudgmentStep": "prioritize_hypotheses",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Use the ABCs and the principle of new versus expected findings: a new, unexpected change in airway, breathing or circulation always comes first.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "moc-903",
+      "stem": "A client scheduled for surgery says, 'I signed the consent form, but I still do not understand what the surgeon is going to do.' What is the nurse's best action?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Explain the details of the procedure and its risks to the client",
+          "rationale": "Explaining the procedure, its risks and alternatives is the responsibility of the provider performing it, not the nurse witnessing the signature."
+        },
+        {
+          "label": "B",
+          "text": "Notify the surgeon that the client needs more information before the procedure proceeds",
+          "rationale": "Consent is valid only when it is informed; the nurse advocates for the client by contacting the surgeon so the client's questions are answered before surgery."
+        },
+        {
+          "label": "C",
+          "text": "Reassure the client that the surgeon has performed this operation many times",
+          "rationale": "Reassurance does not address the client's lack of understanding and would allow surgery to proceed without truly informed consent."
+        }
+      ],
+      "correct": "B",
+      "category": "management_of_care",
+      "subtopic": "Informed Consent",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "The nurse witnesses the signature and verifies understanding; when understanding is missing, the nurse stops the process and involves the provider.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    }
+  ]
+}

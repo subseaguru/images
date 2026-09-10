@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "psi-901",
+      "stem": "A client whose spouse died last week says to the nurse, 'I do not know how I am going to go on without her.' Which response by the nurse is most therapeutic?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'You will feel better with time; grief always passes.'",
+          "rationale": "This is false reassurance that minimizes the client's feelings and closes the conversation."
+        },
+        {
+          "label": "B",
+          "text": "'This must be a very difficult time. Tell me more about what you are feeling.'",
+          "rationale": "Acknowledging the loss and inviting the client to talk uses empathy and open-ended communication, which supports healthy grieving."
+        },
+        {
+          "label": "C",
+          "text": "'You should keep busy so you do not think about it so much.'",
+          "rationale": "Giving advice and encouraging avoidance dismisses the grief and is not therapeutic."
+        }
+      ],
+      "correct": "B",
+      "category": "psychosocial_integrity",
+      "subtopic": "Therapeutic Communication",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Therapeutic responses acknowledge feelings and invite the client to say more; avoid false reassurance, advice and changing the subject.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "psi-902",
+      "stem": "A client admitted for elective surgery reports drinking six beers every day. Thirty-six hours after the last drink the client is tremulous, diaphoretic and reports seeing insects crawling on the wall. Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Turn on the lights and reorient the client to the room",
+          "rationale": "Reorientation is helpful but does not treat the autonomic hyperactivity and hallucinations of alcohol withdrawal, which can progress to seizures."
+        },
+        {
+          "label": "B",
+          "text": "Assess vital signs and administer the prescribed benzodiazepine",
+          "rationale": "These findings indicate alcohol withdrawal; benzodiazepines are the first-line treatment and prevent progression to seizures and delirium tremens."
+        },
+        {
+          "label": "C",
+          "text": "Apply soft restraints to prevent injury",
+          "rationale": "Restraints are a last resort and do not address the underlying withdrawal; they can increase agitation and risk of injury."
+        }
+      ],
+      "correct": "B",
+      "category": "psychosocial_integrity",
+      "subtopic": "Substance Use Disorders/Dependencies",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Alcohol withdrawal peaks at 24 to 72 hours; tremor, sweating, hallucinations and rising vital signs call for prompt benzodiazepine treatment.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "psi-903",
+      "stem": "An older adult is brought to the clinic by an adult child. The nurse notes bruises in different stages of healing on the client's arms, and the child answers every question for the client. What should the nurse do first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ask the adult child to explain how the bruises occurred",
+          "rationale": "Questioning the possible abuser in front of the client may increase danger and will not yield an honest history."
+        },
+        {
+          "label": "B",
+          "text": "Interview the client privately, away from the adult child",
+          "rationale": "A private interview allows the client to speak freely and is the essential first step in screening for elder abuse."
+        },
+        {
+          "label": "C",
+          "text": "Report the situation to adult protective services immediately without further assessment",
+          "rationale": "Reporting may be required, but the nurse first gathers the client's own account so the report and safety plan are accurate."
+        }
+      ],
+      "correct": "B",
+      "category": "psychosocial_integrity",
+      "subtopic": "Abuse/Neglect",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "When abuse is suspected, separate the client from the possible abuser, interview privately, document objectively and follow mandatory reporting laws.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    }
+  ]
+}

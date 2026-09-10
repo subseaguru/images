@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>NCLEX Voice Quiz</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#/" aria-label="NCLEX Voice Quiz home">
+        <span class="brand-mark" aria-hidden="true">RN</span>
+        <span class="brand-name">NCLEX Voice Quiz</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#/" data-testid="nav-home" data-route="home">Home</a>
+        <a href="#/generate" data-testid="nav-generate" data-route="generate">Generate</a>
+        <a href="#/sources" data-testid="nav-sources" data-route="sources">Sources</a>
+        <a href="#/bank" data-testid="nav-bank" data-route="bank">Bank</a>
+        <a href="#/settings" data-testid="nav-settings" data-route="settings">Settings</a>
+      </nav>
+    </header>
+    <main id="app" class="app" tabindex="-1"></main>
+    <noscript><p class="notice">This app needs JavaScript.</p></noscript>
+    <script type="module" src="/js/web/main.js"></script>
+  </body>
+</html>

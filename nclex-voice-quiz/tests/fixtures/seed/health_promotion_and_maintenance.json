@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "hpm-901",
+      "stem": "The nurse assesses a newborn one minute after birth: heart rate 110, slow and weak cry, some flexion of the extremities, grimace when suctioned, and a pink body with blue hands and feet. What Apgar score should the nurse assign?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Five",
+          "rationale": "A score of five undercounts the findings; each of the five categories earns at least one point here and the heart rate earns two."
+        },
+        {
+          "label": "B",
+          "text": "Six",
+          "rationale": "Heart rate above 100 scores two; weak cry, some flexion, grimace and acrocyanosis each score one, for a total of six."
+        },
+        {
+          "label": "C",
+          "text": "Eight",
+          "rationale": "Eight would require a strong cry, active motion or completely pink color, none of which were observed."
+        }
+      ],
+      "correct": "B",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Ante/Intra/Postpartum and Newborn Care",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Apgar scores heart rate, respiratory effort, muscle tone, reflex irritability and color from zero to two each; seven to ten is reassuring.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "hpm-902",
+      "stem": "A 45-year-old client with no family history of cancer asks the nurse when colorectal cancer screening should begin. Which response is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Screening for people at average risk should begin now, at age 45",
+          "rationale": "Current guidelines recommend starting colorectal cancer screening at age 45 for adults at average risk, using colonoscopy or stool-based tests."
+        },
+        {
+          "label": "B",
+          "text": "Screening is not needed until age 60 unless symptoms develop",
+          "rationale": "Waiting until 60 or until symptoms appear misses the window in which precancerous polyps can be found and removed."
+        },
+        {
+          "label": "C",
+          "text": "Screening is only recommended for people with a family history of colon cancer",
+          "rationale": "Family history increases risk and may move screening earlier, but average-risk adults are screened too."
+        }
+      ],
+      "correct": "A",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Health Screening",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Average-risk adults start colorectal screening at 45; those with a family history or inflammatory bowel disease start earlier.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "hpm-903",
+      "stem": "The parent of a healthy 9-month-old infant is worried because the infant is not yet walking. Which response by the nurse is most appropriate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Explain that most infants walk independently between 12 and 15 months, so this is expected at 9 months",
+          "rationale": "Independent walking typically appears between 12 and 15 months; at 9 months, pulling to stand and cruising are the expected milestones."
+        },
+        {
+          "label": "B",
+          "text": "Refer the infant for a developmental evaluation",
+          "rationale": "A referral is not indicated because the infant is within the normal range for gross motor development."
+        },
+        {
+          "label": "C",
+          "text": "Suggest using an infant walker to strengthen the legs",
+          "rationale": "Infant walkers are unsafe, cause injuries and do not speed up walking; they should be discouraged."
+        }
+      ],
+      "correct": "A",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Developmental Stages and Transitions",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Know the milestone windows: sitting without support around 6 to 8 months, pulling to stand around 9 months, walking around 12 to 15 months.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    }
+  ]
+}

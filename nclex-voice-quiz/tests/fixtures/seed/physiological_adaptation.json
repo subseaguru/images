@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "pa-901",
+      "stem": "A client with acute kidney injury has a potassium level of 6.8 milliequivalents per liter and peaked T waves on the ECG. Which prescription should the nurse implement first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sodium polystyrene sulfonate by mouth",
+          "rationale": "Polystyrene sulfonate removes potassium over hours; it does not protect the heart from an immediate dysrhythmia."
+        },
+        {
+          "label": "B",
+          "text": "Intravenous calcium gluconate",
+          "rationale": "Calcium gluconate stabilizes the cardiac membrane within minutes, protecting against lethal dysrhythmias while other measures lower the potassium."
+        },
+        {
+          "label": "C",
+          "text": "Restrict dietary potassium",
+          "rationale": "Dietary restriction is important long term but does nothing for an acute, life-threatening potassium level with ECG changes."
+        }
+      ],
+      "correct": "B",
+      "category": "physiological_adaptation",
+      "subtopic": "Fluid and Electrolyte Imbalances",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Hyperkalemia with ECG changes: give calcium first to protect the heart, then insulin with glucose to shift potassium, then remove it.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "pa-902",
+      "stem": "A client with type 1 diabetes has deep, rapid respirations, a fruity breath odor, a blood glucose of 480 milligrams per deciliter and an arterial pH of 7.22. Which initial intervention should the nurse anticipate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An intravenous bolus of regular insulin before any fluids",
+          "rationale": "Insulin is essential but is started after fluid resuscitation and once potassium is known, because it drives potassium into cells."
+        },
+        {
+          "label": "B",
+          "text": "An infusion of 0.9 percent sodium chloride",
+          "rationale": "Diabetic ketoacidosis causes profound dehydration; isotonic fluid restores perfusion and is the first step before insulin."
+        },
+        {
+          "label": "C",
+          "text": "Intravenous sodium bicarbonate",
+          "rationale": "Bicarbonate is reserved for severe acidosis with pH below 6.9 and is not a routine first intervention."
+        }
+      ],
+      "correct": "B",
+      "category": "physiological_adaptation",
+      "subtopic": "Medical Emergencies",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Diabetic ketoacidosis management: fluids first, then insulin infusion with potassium monitoring, then glucose-containing fluids as glucose falls.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "pa-903",
+      "stem": "A client with heart failure reports gaining three pounds in two days and being short of breath when lying flat. Which is the nurse's best interpretation of these findings?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An expected effect of the client's diuretic therapy",
+          "rationale": "Diuretics should produce weight loss; rapid gain means fluid is being retained despite treatment."
+        },
+        {
+          "label": "B",
+          "text": "Fluid volume overload that should be reported to the provider",
+          "rationale": "A gain of more than two to three pounds in a few days with orthopnea indicates worsening heart failure and needs prompt treatment adjustment."
+        },
+        {
+          "label": "C",
+          "text": "Dehydration from a low-sodium diet",
+          "rationale": "Dehydration would cause weight loss and would not produce orthopnea."
+        }
+      ],
+      "correct": "B",
+      "category": "physiological_adaptation",
+      "subtopic": "Illness Management",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Teach clients with heart failure to weigh daily and report a gain of two to three pounds in a day or five pounds in a week.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    }
+  ]
+}

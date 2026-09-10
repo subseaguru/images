@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "ppt-901",
+      "stem": "A provider prescribes heparin 5,000 units subcutaneously. The vial is labeled 10,000 units per milliliter. How many milliliters should the nurse administer?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.25 milliliter",
+          "rationale": "A quarter of a milliliter would deliver only 2,500 units, half the prescribed dose."
+        },
+        {
+          "label": "B",
+          "text": "0.5 milliliter",
+          "rationale": "Desired dose divided by the concentration: 5,000 units divided by 10,000 units per milliliter equals 0.5 milliliter."
+        },
+        {
+          "label": "C",
+          "text": "2 milliliters",
+          "rationale": "Two milliliters would deliver 20,000 units, four times the prescribed dose."
+        }
+      ],
+      "correct": "B",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Dosage Calculation",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Dose calculations: desired dose divided by dose on hand, multiplied by the volume on hand. Always double-check high-alert drugs such as heparin.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "ppt-902",
+      "stem": "Before administering digoxin to an adult client, the nurse notes an apical pulse of 54 beats per minute and a potassium level of 3.1 milliequivalents per liter. Which action should the nurse take?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Administer the digoxin as prescribed",
+          "rationale": "Giving digoxin with bradycardia and hypokalemia raises the risk of toxicity and dangerous dysrhythmias."
+        },
+        {
+          "label": "B",
+          "text": "Hold the dose and notify the provider",
+          "rationale": "An apical pulse below 60 and a low potassium level both increase the risk of digoxin toxicity, so the dose is held and the provider informed."
+        },
+        {
+          "label": "C",
+          "text": "Give half of the prescribed dose",
+          "rationale": "Nurses may not alter a prescribed dose; the findings require holding the drug and contacting the provider."
+        }
+      ],
+      "correct": "B",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Adverse Effects/Contraindications/Side Effects/Interactions",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Hold digoxin for an apical pulse below 60 and watch potassium closely: hypokalemia potentiates digoxin toxicity.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    },
+    {
+      "id": "ppt-903",
+      "stem": "Fifteen minutes after a transfusion of packed red blood cells begins, the client reports chills and low back pain and appears anxious. What is the nurse's first action?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Slow the transfusion rate and notify the provider",
+          "rationale": "Slowing the infusion continues to deliver incompatible blood; the transfusion must be stopped entirely."
+        },
+        {
+          "label": "B",
+          "text": "Stop the transfusion and keep the vein open with normal saline through new tubing",
+          "rationale": "Chills, back pain and anxiety early in a transfusion suggest an acute hemolytic reaction; stopping the blood immediately limits the amount transfused."
+        },
+        {
+          "label": "C",
+          "text": "Administer acetaminophen and continue the transfusion",
+          "rationale": "Treating symptoms while continuing the transfusion allows more incompatible blood to infuse and could be fatal."
+        }
+      ],
+      "correct": "B",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Blood and Blood Products",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "For any suspected transfusion reaction: stop the blood, keep the line open with saline on new tubing, stay with the client, notify the provider and blood bank.",
+      "tags": [
+        "fixture"
+      ],
+      "createdAt": "2026-01-15T12:00:00.000Z"
+    }
+  ]
+}

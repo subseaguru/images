@@ -65,7 +65,7 @@ export function decodeEntities(text: string): string {
 export function collapseWhitespace(text: string): string {
   return text
     .replace(/\r\n?/g, "\n")
-    .replace(/[ \t\f\v ]+/g, " ")
+    .replace(/[ \t\f\v\u00a0]+/g, " ")
     .split("\n")
     .map((line) => line.trim())
     .join("\n")

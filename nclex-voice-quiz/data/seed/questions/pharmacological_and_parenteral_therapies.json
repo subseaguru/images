@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "ppt-001",
+      "stem": "A client on a medical-surgical unit is fifteen minutes into a transfusion of packed red blood cells. The client suddenly reports chills and aching in the lower back. The nurse notes the temperature has risen from thirty-seven to thirty-eight point four degrees Celsius and the client looks anxious. Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Slow the transfusion rate and reassess the client in fifteen minutes.",
+          "rationale": "Slowing the rate keeps incompatible blood flowing into the client; even a small additional volume can worsen an acute hemolytic reaction. Suspected reactions are handled by stopping, not slowing, the blood."
+        },
+        {
+          "label": "B",
+          "text": "Stop the transfusion and keep the vein open with normal saline through new tubing.",
+          "rationale": "Chills, back pain and a rising temperature early in a transfusion suggest an acute hemolytic reaction. The first action is to stop the blood, disconnect the blood tubing, and maintain intravenous (IV) access with normal saline on fresh tubing so no more blood reaches the client."
+        },
+        {
+          "label": "C",
+          "text": "Give the prescribed acetaminophen and diphenhydramine and continue the transfusion.",
+          "rationale": "Premedication can mask symptoms but does not treat a hemolytic reaction, and continuing the transfusion is unsafe until the reaction has been evaluated. Medications are considered only after the blood is stopped and the provider is notified."
+        }
+      ],
+      "correct": "B",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Blood and Blood Products",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Any new symptom during a transfusion is treated as a reaction until proven otherwise: stop the blood, keep the line open with saline on new tubing, stay with the client, and notify the provider and blood bank.",
+      "references": ["AABB Technical Manual", "Infusion Nurses Society Standards of Practice"],
+      "tags": ["transfusion reaction", "blood products", "priority"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "ppt-002",
+      "stem": "A nurse on a pediatric unit is preparing to give amoxicillin oral suspension to a child who weighs twenty-two kilograms. The prescription reads forty milligrams per kilogram per day, divided into two equal doses given every twelve hours. The suspension on hand is labeled four hundred milligrams per five milliliters. How many milliliters should the nurse give for each dose?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Five and one-half milliliters per dose.",
+          "rationale": "Forty milligrams times twenty-two kilograms equals eight hundred eighty milligrams per day; divided into two doses that is four hundred forty milligrams per dose. At four hundred milligrams per five milliliters, four hundred forty milligrams is five point five milliliters."
+        },
+        {
+          "label": "B",
+          "text": "Eleven milliliters per dose.",
+          "rationale": "Eleven milliliters is the volume for the entire daily amount of eight hundred eighty milligrams. Forgetting to divide a per-day order by the number of doses is a common error that doubles each dose."
+        },
+        {
+          "label": "C",
+          "text": "Two and three-quarter milliliters per dose.",
+          "rationale": "This volume results from dividing the correct single dose by two a second time. Weight-based orders written as per day are divided once by the number of doses, not again by the dosing interval."
+        }
+      ],
+      "correct": "A",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Dosage Calculation",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "For weight-based pediatric orders, calculate the total daily dose first, divide by the number of doses per day, and only then convert milligrams to milliliters using the concentration on the label.",
+      "references": [],
+      "tags": ["dosage calculation", "pediatrics", "weight-based dosing"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "ppt-003",
+      "stem": "A nurse in the intensive care unit (ICU) is preparing to remove a nontunneled central venous catheter from the internal jugular vein of a client who is alert and able to follow directions. The nurse gathers supplies and reviews the procedure. Which instruction to the client will best reduce the risk of air embolism during removal?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sit upright at ninety degrees and breathe normally while the catheter is withdrawn.",
+          "rationale": "Sitting upright places the insertion site above the level of the heart, which lowers venous pressure and makes it easier for air to be drawn into the vein. The client should be flat or head-down, not upright, during removal."
+        },
+        {
+          "label": "B",
+          "text": "Lie flat and take a slow deep breath in as the catheter is withdrawn.",
+          "rationale": "Inhaling creates negative pressure inside the chest, which can pull air into the open vein through the catheter tract. Removal is timed to a moment when intrathoracic pressure is raised, not lowered."
+        },
+        {
+          "label": "C",
+          "text": "Lie flat, hold a breath and bear down while the catheter is withdrawn.",
+          "rationale": "Bearing down while holding the breath (a Valsalva maneuver) raises pressure in the chest so venous pressure exceeds atmospheric pressure, and lying flat or head-down keeps the site below the heart. Together these prevent air from entering the vein while the tract is open."
+        }
+      ],
+      "correct": "C",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Central Venous Access Devices",
+      "clinicalJudgmentStep": "generate_solutions",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "During central line removal, position the client supine or head-down, have the client bear down or exhale as the catheter comes out, and immediately cover the site with an airtight occlusive dressing that stays in place for at least twenty-four hours.",
+      "references": ["Infusion Nurses Society Standards of Practice"],
+      "tags": ["central line", "air embolism", "icu"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "ppt-004",
+      "stem": "A client at a community mental health clinic has been taking clozapine for schizophrenia for six weeks. During today's visit the client reports a sore throat and a fever of thirty-eight point five degrees Celsius for two days, and has gained two kilograms since the last visit. The nurse also observes the client drooling. Which finding requires immediate follow-up?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The sore throat and fever that have lasted two days.",
+          "rationale": "Clozapine can cause severe neutropenia, and the first sign is often an infection such as fever with a sore throat. An absolute neutrophil count is needed right away because the drug may have to be held to prevent a life-threatening infection."
+        },
+        {
+          "label": "B",
+          "text": "The two-kilogram weight gain since the last visit.",
+          "rationale": "Weight gain is an expected metabolic side effect of clozapine that is monitored over time and managed with diet and activity counseling. It is important but is not an emergency compared with a possible drop in neutrophils."
+        },
+        {
+          "label": "C",
+          "text": "The drooling observed during the visit.",
+          "rationale": "Hypersalivation is a common and uncomfortable side effect of clozapine, particularly at night, and is managed with positioning or medication adjustments. It does not signal a dangerous complication."
+        }
+      ],
+      "correct": "A",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Adverse Effects/Contraindications/Side Effects/Interactions",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Any client taking clozapine who reports fever, sore throat or other signs of infection needs an urgent absolute neutrophil count, because severe neutropenia is the drug's most dangerous adverse effect.",
+      "references": ["Clozapine prescribing information (absolute neutrophil count monitoring)"],
+      "tags": ["clozapine", "neutropenia", "mental health"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "ppt-005",
+      "stem": "A registered nurse (RN) on a medical-surgical unit is working with a licensed practical nurse (LPN) and assistive personnel. The morning medication work includes a stable client with pneumonia, a newly admitted client due for a first dose of intravenous (IV) vancomycin, and a client whose IV heparin infusion must be adjusted after a new coagulation result. Which task is appropriate for the RN to assign to the LPN?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Adjusting the heparin infusion rate according to the new coagulation result.",
+          "rationale": "Titrating a high-alert IV medication requires interpreting a laboratory value and applying a protocol, which is nursing judgment that stays with the RN. The LPN may report the result but does not independently change the infusion."
+        },
+        {
+          "label": "B",
+          "text": "Giving the first dose of IV vancomycin to the newly admitted client.",
+          "rationale": "A first dose of an IV antibiotic in a new admission carries an unpredictable risk of reaction and requires an initial assessment, so it stays with the RN. Later doses in a stable client may be appropriate for an LPN where the state practice act permits."
+        },
+        {
+          "label": "C",
+          "text": "Administering the scheduled oral medications to the stable client with pneumonia.",
+          "rationale": "Giving routine oral medications to a stable client with a predictable course is within the LPN scope of practice under RN supervision. Tasks are assigned by matching client stability and task complexity to the licensed scope."
+        }
+      ],
+      "correct": "C",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Medication Administration",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Assign the LPN medication tasks for stable clients with predictable outcomes, and keep initial doses, titration of high-alert infusions and any task requiring assessment or interpretation with the RN.",
+      "references": ["ANA and NCSBN Joint Statement on Delegation", "NCSBN National Guidelines for Nursing Delegation"],
+      "tags": ["delegation", "scope of practice", "medication safety"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "ppt-006",
+      "stem": "A client on a medical-surgical unit is receiving intravenous (IV) fluids through a peripheral catheter in the forearm. The client says the area feels tight and uncomfortable. The nurse finds the tissue around the site swollen, cool and pale compared with the other arm, and the infusion pump has alarmed twice for occlusion. Which problem do these findings most likely indicate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Phlebitis of the vein used for the infusion.",
+          "rationale": "Phlebitis is inflammation of the vein and presents with warmth, redness, tenderness and sometimes a palpable cord along the vein. A cool, pale, swollen site points to fluid outside the vein rather than an inflamed vein."
+        },
+        {
+          "label": "B",
+          "text": "Infiltration of fluid into the surrounding tissue.",
+          "rationale": "Infiltration occurs when the catheter leaves the vein and fluid collects in the tissue, producing swelling, coolness, pallor, tightness and a sluggish or occluded infusion. The catheter should be removed and a new site started."
+        },
+        {
+          "label": "C",
+          "text": "An early infection at the catheter insertion site.",
+          "rationale": "A local site infection produces warmth, redness, tenderness and sometimes drainage, and it usually develops after several days. Coolness and pallor are not features of infection."
+        }
+      ],
+      "correct": "B",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Parenteral/Intravenous Therapies",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Cool, pale, swollen tissue with a slowed infusion means infiltration, while warm, red, tender tissue along the vein means phlebitis; both require stopping the infusion and restarting at a new site.",
+      "references": ["Infusion Nurses Society Standards of Practice"],
+      "tags": ["iv therapy", "infiltration", "site assessment"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "ppt-007",
+      "stem": "A client on a surgical unit receiving hydromorphone by patient-controlled analgesia (PCA) was found difficult to arouse with a respiratory rate of six breaths per minute. The nurse stopped the PCA, supported breathing, and gave intravenous (IV) naloxone per protocol. Twenty minutes later the client is awake, breathing sixteen times per minute, and asking for pain medication. Which action should the nurse take next?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Resume the PCA at the previous settings because the client is alert and reporting pain.",
+          "rationale": "The client just had life-threatening respiratory depression at those settings, so restarting them unchanged invites a repeat. The provider must reassess the opioid dose and the client's pain plan before any opioid is resumed."
+        },
+        {
+          "label": "B",
+          "text": "Document the reversal and return to the unit's routine every-four-hour vital sign checks.",
+          "rationale": "Routine monitoring is not safe after naloxone because the client can slip back into sedation once the antagonist wears off. Assessment must be far more frequent for at least the next few hours."
+        },
+        {
+          "label": "C",
+          "text": "Keep checking sedation and breathing frequently because naloxone may wear off before the opioid.",
+          "rationale": "Naloxone acts for roughly thirty to ninety minutes, while hydromorphone and other opioids last longer, so respiratory depression can recur. Close, frequent observation of sedation level and respirations continues until the opioid effect has clearly passed."
+        }
+      ],
+      "correct": "C",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Pharmacological Pain Management",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "A good response to naloxone is not the end of the emergency: because the antagonist is shorter acting than most opioids, the client needs continued close monitoring for renarcotization and a revised opioid plan before dosing resumes.",
+      "references": ["American Society for Pain Management Nursing guidelines on opioid-induced sedation and respiratory depression"],
+      "tags": ["opioids", "naloxone", "pca", "monitoring"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "ppt-008",
+      "stem": "A client on a medical-surgical unit is receiving total parenteral nutrition (TPN) with twenty-five percent dextrose through a central line at eighty milliliters per hour. The current bag is almost empty, and the pharmacy reports that the next bag will not be ready for about two hours. Which action should the nurse take?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hang ten percent dextrose in water at the same rate until the new bag arrives.",
+          "rationale": "TPN keeps insulin secretion high, so an abrupt stop can cause rebound hypoglycemia. Ten percent dextrose in water at the same rate supplies glucose to bridge the gap until the next bag is available."
+        },
+        {
+          "label": "B",
+          "text": "Hang zero point nine percent sodium chloride at the same rate until the new bag arrives.",
+          "rationale": "Normal saline keeps the line open but contains no glucose, so it does nothing to prevent the rebound hypoglycemia that follows a sudden stop of concentrated dextrose. A dextrose solution is required."
+        },
+        {
+          "label": "C",
+          "text": "Increase the rate of the new bag when it arrives to make up the missed volume.",
+          "rationale": "Speeding up TPN to catch up delivers a sudden glucose load and can cause hyperglycemia and fluid overload. TPN is run at the prescribed rate and is not sped up to compensate for missed volume."
+        }
+      ],
+      "correct": "A",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Total Parenteral Nutrition",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Do not let TPN stop abruptly or run at a catch-up rate; if the next bag is delayed, bridge with ten percent dextrose at the prescribed rate and check the blood glucose.",
+      "references": ["ASPEN Parenteral Nutrition Safety Consensus Recommendations"],
+      "tags": ["tpn", "hypoglycemia", "central line"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "ppt-009",
+      "stem": "A client with heart failure was admitted yesterday with crackles in both lung bases, a weight of eighty-four kilograms, and shortness of breath when lying flat. Intravenous (IV) furosemide was started on admission. This morning the nurse reviews the overnight data before the first dose of the day. Which finding best indicates that the furosemide is producing the expected effect?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Heart rate of one hundred twelve and blood pressure of ninety over fifty-six.",
+          "rationale": "Tachycardia with a low blood pressure suggests the client has lost too much volume, which is an adverse effect of diuresis rather than the therapeutic goal. This finding should prompt holding the dose and notifying the provider."
+        },
+        {
+          "label": "B",
+          "text": "Weight of eighty-two point five kilograms with crackles only faintly heard at the bases.",
+          "rationale": "A loop diuretic is given to remove excess fluid, and a falling weight with clearing lung sounds shows that the fluid overload is resolving. Daily weight is the most reliable bedside measure of fluid balance."
+        },
+        {
+          "label": "C",
+          "text": "Serum potassium of three point two milliequivalents per liter.",
+          "rationale": "Potassium loss is a predictable side effect of furosemide, not evidence of benefit. A level of three point two is low and needs replacement and continued monitoring."
+        }
+      ],
+      "correct": "B",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Expected Actions/Outcomes",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Judge a diuretic by the problem it was given for: falling daily weight, clearing lungs and easier breathing show effectiveness, while hypotension, tachycardia and low potassium are side effects to act on.",
+      "references": ["AHA/ACC/HFSA Guideline for the Management of Heart Failure"],
+      "tags": ["furosemide", "heart failure", "evaluation"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "ppt-010",
+      "stem": "A client arrives in the emergency department (ED) with crushing chest pain, and the provider prescribes sublingual nitroglycerin. While reviewing the medication history the nurse learns the client took tadalafil for erectile dysfunction about twelve hours ago. The client's blood pressure is one hundred thirty-two over eighty. Which action should the nurse take?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Give the nitroglycerin as prescribed because the blood pressure is within normal limits.",
+          "rationale": "A normal starting blood pressure does not protect the client; the combination of a nitrate with a phosphodiesterase inhibitor can cause a sudden, severe and treatment-resistant drop in pressure. The current reading is not the deciding factor."
+        },
+        {
+          "label": "B",
+          "text": "Give the nitroglycerin because more than four hours have passed since the tadalafil dose.",
+          "rationale": "Tadalafil has a long half-life, and nitrates are contraindicated for forty-eight hours after a dose (twenty-four hours for sildenafil or vardenafil). Twelve hours is well inside the danger window."
+        },
+        {
+          "label": "C",
+          "text": "Withhold the nitroglycerin and notify the provider of the tadalafil use.",
+          "rationale": "Nitrates and phosphodiesterase inhibitors both raise nitric oxide signaling, and together they can cause profound hypotension and cardiovascular collapse. The nurse holds the nitrate and alerts the provider so alternative chest pain treatment can be chosen."
+        }
+      ],
+      "correct": "C",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Adverse Effects/Contraindications/Side Effects/Interactions",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Ask every chest pain client about phosphodiesterase inhibitor use before giving a nitrate: withhold nitrates for twenty-four hours after sildenafil or vardenafil and forty-eight hours after tadalafil, regardless of the current blood pressure.",
+      "references": ["ACC/AHA Guideline for the Management of Acute Coronary Syndromes", "Tadalafil prescribing information"],
+      "tags": ["nitroglycerin", "drug interaction", "chest pain", "emergency"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "ppt-011",
+      "stem": "A client at thirty-four weeks of gestation is receiving an intravenous (IV) magnesium sulfate infusion for severe preeclampsia. On the hourly assessment the nurse finds a respiratory rate of ten breaths per minute, absent patellar reflexes, and a client who is drowsy but responds to voice. Urine output has been forty milliliters over the past two hours. Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Stop the magnesium sulfate infusion.",
+          "rationale": "Absent reflexes and a respiratory rate below twelve are signs of magnesium toxicity, and low urine output means the drug is accumulating. Stopping the infusion removes the source of the toxicity and comes before any other step."
+        },
+        {
+          "label": "B",
+          "text": "Administer the prescribed IV calcium gluconate.",
+          "rationale": "Calcium gluconate is the antidote for magnesium toxicity and is given promptly, but only after the infusion has been stopped. Giving the antidote while magnesium continues to run in leaves the cause in place."
+        },
+        {
+          "label": "C",
+          "text": "Notify the health care provider of the assessment findings.",
+          "rationale": "The provider must be told right away, but notification does not remove the magnesium that is causing respiratory depression. The nurse stops the infusion first, then calls and prepares the antidote."
+        }
+      ],
+      "correct": "A",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Adverse Effects/Contraindications/Side Effects/Interactions",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "During magnesium sulfate therapy, loss of deep tendon reflexes, respirations below twelve per minute and urine output below thirty milliliters per hour signal toxicity: stop the infusion first, then give calcium gluconate and notify the provider.",
+      "references": ["ACOG Practice Bulletin on Gestational Hypertension and Preeclampsia"],
+      "tags": ["magnesium sulfate", "preeclampsia", "maternity", "toxicity"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "ppt-012",
+      "stem": "A home infusion nurse is giving intravenous (IV) vancomycin to a client with osteomyelitis. Twenty minutes into the infusion the client's face, neck and upper chest become flushed and itchy. Blood pressure is one hundred ten over seventy, breathing is unlabored, the lungs are clear, and there is no swelling of the lips or tongue. Which explanation should the nurse consider most likely?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Anaphylaxis that requires intramuscular epinephrine and permanent discontinuation of vancomycin.",
+          "rationale": "Anaphylaxis involves the airway or circulation, such as wheezing, stridor, lip or tongue swelling, or hypotension. Flushing and itching with a stable blood pressure and clear lungs do not meet that picture, so epinephrine is not indicated."
+        },
+        {
+          "label": "B",
+          "text": "A rate-related histamine reaction that is managed by slowing the infusion.",
+          "rationale": "Vancomycin infused too quickly triggers direct histamine release, producing flushing and itching of the face, neck and upper trunk. This vancomycin infusion reaction is not a true allergy and resolves when the infusion is slowed or paused and given over a longer time, often with an antihistamine."
+        },
+        {
+          "label": "C",
+          "text": "Phlebitis from the irritating solution that requires moving the IV site.",
+          "rationale": "Phlebitis is a local problem at the vein with redness, warmth and tenderness along the catheter path. Flushing of the face and neck is a systemic response and is not explained by irritation at the site."
+        }
+      ],
+      "correct": "B",
+      "category": "pharmacological_and_parenteral_therapies",
+      "subtopic": "Adverse Effects/Contraindications/Side Effects/Interactions",
+      "clinicalJudgmentStep": "prioritize_hypotheses",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Distinguish a vancomycin infusion reaction (flushing and itching from rapid infusion, treated by slowing the rate) from anaphylaxis (airway compromise or hypotension, treated with epinephrine), because the first does not require stopping the drug permanently.",
+      "references": ["ASHP/IDSA/PIDS/SIDP Consensus Guideline on Therapeutic Monitoring of Vancomycin", "Vancomycin prescribing information"],
+      "tags": ["vancomycin", "infusion reaction", "home infusion"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    }
+  ]
+}
