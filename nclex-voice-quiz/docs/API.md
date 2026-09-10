@@ -17,8 +17,13 @@ Storage lives in the data directory (`DATA_DIR` env, default `./data`):
 | `data/sources/index.json` | `{ version: 1, sources: StudySource[] }` |
 | `data/sources/<id>.txt` | Extracted text of each study source |
 
-The seed directory is resolved relative to the project root (`<project>/data/seed/questions`), not
-`DATA_DIR`, so tests can point `DATA_DIR` at a temp folder and still see the bundled bank.
+The seed directory defaults to `<project>/data/seed/questions` (relative to the project root, not
+`DATA_DIR`) and can be overridden with the `SEED_DIR` environment variable, so tests can point
+`DATA_DIR` at a temp folder and `SEED_DIR` at a small fixture bank.
+
+Server environment variables: `PORT` (3000), `HOST` (0.0.0.0), `DATA_DIR`, `SEED_DIR`,
+`HTTPS` (`1` serves HTTPS with a self-signed certificate cached in `DATA_DIR/cert/`),
+`ANTHROPIC_API_KEY` (takes precedence over the key saved in settings).
 
 ## Health & blueprint
 
