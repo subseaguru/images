@@ -28,8 +28,14 @@
       "difficulty": "medium",
       "source": "bundled",
       "teachingPoint": "In the postpartum assessment, a firm fundus that sits above the umbilicus and off to one side points to bladder distention. Empty the bladder first; a boggy fundus is what calls for massage.",
-      "references": ["AWHONN postpartum nursing care guidelines"],
-      "tags": ["postpartum", "fundal assessment", "bladder distention"],
+      "references": [
+        "AWHONN postpartum nursing care guidelines"
+      ],
+      "tags": [
+        "postpartum",
+        "fundal assessment",
+        "bladder distention"
+      ],
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
@@ -59,8 +65,15 @@
       "difficulty": "medium",
       "source": "bundled",
       "teachingPoint": "Know the normal newborn ranges so the abnormal cue stands out: heart rate 110 to 160, respirations 30 to 60 without grunting, flaring, or retractions, and acrocyanosis that is expected early but central cyanosis that is not.",
-      "references": ["AAP and ACOG Guidelines for Perinatal Care", "AWHONN Assessment and Care of the Late Preterm and Term Newborn"],
-      "tags": ["newborn assessment", "respiratory distress", "transition"],
+      "references": [
+        "AAP and ACOG Guidelines for Perinatal Care",
+        "AWHONN Assessment and Care of the Late Preterm and Term Newborn"
+      ],
+      "tags": [
+        "newborn assessment",
+        "respiratory distress",
+        "transition"
+      ],
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
@@ -90,8 +103,15 @@
       "difficulty": "easy",
       "source": "bundled",
       "teachingPoint": "Average-risk colorectal cancer screening begins at age 45 and continues through age 75. Screening is for people without symptoms; symptoms call for diagnostic workup, not screening.",
-      "references": ["USPSTF colorectal cancer screening recommendation (2021)", "American Cancer Society colorectal cancer screening guideline"],
-      "tags": ["cancer screening", "colorectal", "adult health"],
+      "references": [
+        "USPSTF colorectal cancer screening recommendation (2021)",
+        "American Cancer Society colorectal cancer screening guideline"
+      ],
+      "tags": [
+        "cancer screening",
+        "colorectal",
+        "adult health"
+      ],
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
@@ -121,8 +141,16 @@
       "difficulty": "hard",
       "source": "bundled",
       "teachingPoint": "Older adults often present acute illness atypically, with confusion, drowsiness, or falls instead of fever. Acute onset over days means delirium, a medical emergency that needs a full search for the cause, including infection, dehydration, and medications; urine odor or cloudiness alone does not diagnose a urinary tract infection.",
-      "references": ["American Geriatrics Society delirium guidance", "Hartford Institute for Geriatric Nursing, Confusion Assessment Method", "IDSA guideline on asymptomatic bacteriuria (2019, reaffirmed 2024)"],
-      "tags": ["older adult", "delirium", "atypical presentation"],
+      "references": [
+        "American Geriatrics Society delirium guidance",
+        "Hartford Institute for Geriatric Nursing, Confusion Assessment Method",
+        "IDSA guideline on asymptomatic bacteriuria (2019, reaffirmed 2024)"
+      ],
+      "tags": [
+        "older adult",
+        "delirium",
+        "atypical presentation"
+      ],
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
@@ -152,8 +180,15 @@
       "difficulty": "easy",
       "source": "bundled",
       "teachingPoint": "Match the intervention to the developmental stage: toddlers need limited choices and parental presence, because negativism and ritualism are how they exercise emerging autonomy.",
-      "references": ["Erikson psychosocial stages of development", "Hockenberry, Wong's Nursing Care of Infants and Children"],
-      "tags": ["pediatrics", "toddler", "growth and development"],
+      "references": [
+        "Erikson psychosocial stages of development",
+        "Hockenberry, Wong's Nursing Care of Infants and Children"
+      ],
+      "tags": [
+        "pediatrics",
+        "toddler",
+        "growth and development"
+      ],
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
@@ -183,8 +218,14 @@
       "difficulty": "easy",
       "source": "bundled",
       "teachingPoint": "For the abdomen the sequence is inspect, auscultate, percuss, palpate, and the tender quadrant is palpated last. Touching the abdomen before listening alters the bowel sounds you are trying to hear.",
-      "references": ["Jarvis, Physical Examination and Health Assessment"],
-      "tags": ["physical assessment", "abdomen", "technique"],
+      "references": [
+        "Jarvis, Physical Examination and Health Assessment"
+      ],
+      "tags": [
+        "physical assessment",
+        "abdomen",
+        "technique"
+      ],
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
@@ -214,8 +255,14 @@
       "difficulty": "hard",
       "source": "bundled",
       "teachingPoint": "Know the adult schedule that older clients ask about most: yearly influenza, tetanus booster every ten years, a single completed pneumococcal series, and two doses of recombinant zoster vaccine from age 50.",
-      "references": ["CDC and ACIP Adult Immunization Schedule (2025)"],
-      "tags": ["immunizations", "older adult", "primary prevention"],
+      "references": [
+        "CDC and ACIP Adult Immunization Schedule (2025)"
+      ],
+      "tags": [
+        "immunizations",
+        "older adult",
+        "primary prevention"
+      ],
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
@@ -245,8 +292,16 @@
       "difficulty": "medium",
       "source": "bundled",
       "teachingPoint": "For risky drinking in young adults, use screening, brief intervention, and referral to treatment: explore the person's own perception of risk without judgment, and reserve intensive referral for signs of dependence.",
-      "references": ["SAMHSA Screening, Brief Intervention and Referral to Treatment (SBIRT)", "NIAAA guidance on brief alcohol intervention"],
-      "tags": ["alcohol", "young adult", "brief intervention", "confidentiality"],
+      "references": [
+        "SAMHSA Screening, Brief Intervention and Referral to Treatment (SBIRT)",
+        "NIAAA guidance on brief alcohol intervention"
+      ],
+      "tags": [
+        "alcohol",
+        "young adult",
+        "brief intervention",
+        "confidentiality"
+      ],
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
@@ -276,8 +331,16 @@
       "difficulty": "medium",
       "source": "bundled",
       "teachingPoint": "Prediabetes teaching starts with the two proven targets: about seven percent weight loss and 150 minutes of moderate activity per week. Realistic, measurable goals outperform extreme diets.",
-      "references": ["ADA Standards of Care in Diabetes (2025), Prevention or Delay of Diabetes", "CDC National Diabetes Prevention Program"],
-      "tags": ["prediabetes", "lifestyle", "weight management", "exercise"],
+      "references": [
+        "ADA Standards of Care in Diabetes (2025), Prevention or Delay of Diabetes",
+        "CDC National Diabetes Prevention Program"
+      ],
+      "tags": [
+        "prediabetes",
+        "lifestyle",
+        "weight management",
+        "exercise"
+      ],
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
@@ -307,8 +370,15 @@
       "difficulty": "easy",
       "source": "bundled",
       "teachingPoint": "Diabetic foot self-care rests on daily inspection, lukewarm washing with careful drying, well-fitting shoes, and leaving corns and calluses to a professional, because neuropathy removes the warning of pain.",
-      "references": ["ADA Standards of Care in Diabetes, foot care recommendations"],
-      "tags": ["diabetes", "foot care", "self-care", "neuropathy"],
+      "references": [
+        "ADA Standards of Care in Diabetes, foot care recommendations"
+      ],
+      "tags": [
+        "diabetes",
+        "foot care",
+        "self-care",
+        "neuropathy"
+      ],
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
@@ -338,13 +408,20 @@
       "difficulty": "medium",
       "source": "bundled",
       "teachingPoint": "Delegate the task, not the judgment: assistive personnel can collect data such as blood pressure once competent, while assessment, interpretation, teaching, and referral decisions stay with the registered nurse.",
-      "references": ["ANA and NCSBN Joint Statement on Delegation (2019)", "NCSBN Five Rights of Delegation"],
-      "tags": ["delegation", "screening", "community health"],
+      "references": [
+        "ANA and NCSBN Joint Statement on Delegation (2019)",
+        "NCSBN Five Rights of Delegation"
+      ],
+      "tags": [
+        "delegation",
+        "screening",
+        "community health"
+      ],
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
       "id": "hpm-012",
-      "stem": "During a home visit on the third day of life, a nurse assesses an exclusively breastfed term newborn. The parent reports that the baby feeds every four to five hours, is hard to wake for feedings, and had two wet diapers in the past 24 hours. The newborn has lost six percent of birth weight and has a yellow tint limited to the face. Which finding is most concerning?",
+      "stem": "During a home visit on the third day of life, a nurse assesses an exclusively breastfed term newborn. The parent reports that the baby feeds every four to five hours, is hard to wake for feedings, and had two wet diapers in the past 24 hours. The newborn has lost six percent of birth weight and has dry, peeling skin on the hands and feet. Which finding is most concerning?",
       "options": [
         {
           "label": "A",
@@ -354,12 +431,12 @@
         {
           "label": "B",
           "text": "Two wet diapers during the past 24 hours.",
-          "rationale": "By day three a newborn should have at least three wet diapers a day, rising to six or more by day five, and should feed eight to twelve times in 24 hours. Two wet diapers with infrequent, sleepy feeding signals inadequate intake and dehydration, which also drives bilirubin higher."
+          "rationale": "By day three a newborn should have at least three wet diapers a day, rising to six or more by day five, and should feed eight to twelve times in 24 hours. Two wet diapers with infrequent, sleepy feeding signals inadequate intake and dehydration, which raises the risk of hyperbilirubinemia and hypoglycemia and needs same-day follow-up."
         },
         {
           "label": "C",
-          "text": "Yellow tint limited to the face on day three.",
-          "rationale": "Jaundice that appears after the first 24 hours and is confined to the face follows the usual physiologic pattern and bilirubin should be measured, but it is the poor intake that is causing the risk. Jaundice within the first 24 hours or spreading to the abdomen and legs would be the alarming pattern."
+          "text": "Dry, peeling skin on the hands and feet.",
+          "rationale": "Superficial peeling of the hands and feet is common in term and post-term newborns during the first week; it needs only routine skin care and does not indicate dehydration, infection or illness."
         }
       ],
       "correct": "B",
@@ -369,8 +446,15 @@
       "difficulty": "hard",
       "source": "bundled",
       "teachingPoint": "Judge newborn feeding by output: expect at least one wet diaper per day of life through day five, then six or more, with eight to twelve feedings daily. Low output plus a sleepy baby means inadequate intake, which worsens jaundice.",
-      "references": ["AAP clinical practice guideline on hyperbilirubinemia in newborns (2022)", "Academy of Breastfeeding Medicine clinical protocols"],
-      "tags": ["newborn", "breastfeeding", "jaundice", "home visit"],
+      "references": [
+        "AAP clinical practice guideline on hyperbilirubinemia in newborns (2022)",
+        "Academy of Breastfeeding Medicine clinical protocols"
+      ],
+      "tags": [
+        "newborn",
+        "breastfeeding",
+        "home visit"
+      ],
       "createdAt": "2026-09-10T00:00:00Z"
     }
   ]

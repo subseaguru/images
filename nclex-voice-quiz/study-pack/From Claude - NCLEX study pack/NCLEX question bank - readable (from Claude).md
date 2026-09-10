@@ -736,19 +736,19 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 ## 36. hpm-012 · Ante/Intra/Postpartum and Newborn Care
 
-*Difficulty: hard · Clinical judgment: Analyze Cues · Tags: newborn, breastfeeding, jaundice, home visit*
+*Difficulty: hard · Clinical judgment: Analyze Cues · Tags: newborn, breastfeeding, home visit*
 
-**During a home visit on the third day of life, a nurse assesses an exclusively breastfed term newborn. The parent reports that the baby feeds every four to five hours, is hard to wake for feedings, and had two wet diapers in the past 24 hours. The newborn has lost six percent of birth weight and has a yellow tint limited to the face. Which finding is most concerning?**
+**During a home visit on the third day of life, a nurse assesses an exclusively breastfed term newborn. The parent reports that the baby feeds every four to five hours, is hard to wake for feedings, and had two wet diapers in the past 24 hours. The newborn has lost six percent of birth weight and has dry, peeling skin on the hands and feet. Which finding is most concerning?**
 
 - **A.** Weight loss of six percent from the birth weight.
 - **B.** Two wet diapers during the past 24 hours.
-- **C.** Yellow tint limited to the face on day three.
+- **C.** Dry, peeling skin on the hands and feet.
 
 **Correct answer: B**
 
 - **A** (incorrect): Breastfed newborns commonly lose up to seven percent of birth weight in the first days; a loss of more than seven percent prompts a feeding evaluation, and more than ten percent calls for intervention. Six percent on day three is within the expected range and should begin to reverse as milk volume increases.
-- **B** (correct): By day three a newborn should have at least three wet diapers a day, rising to six or more by day five, and should feed eight to twelve times in 24 hours. Two wet diapers with infrequent, sleepy feeding signals inadequate intake and dehydration, which also drives bilirubin higher.
-- **C** (incorrect): Jaundice that appears after the first 24 hours and is confined to the face follows the usual physiologic pattern and bilirubin should be measured, but it is the poor intake that is causing the risk. Jaundice within the first 24 hours or spreading to the abdomen and legs would be the alarming pattern.
+- **B** (correct): By day three a newborn should have at least three wet diapers a day, rising to six or more by day five, and should feed eight to twelve times in 24 hours. Two wet diapers with infrequent, sleepy feeding signals inadequate intake and dehydration, which raises the risk of hyperbilirubinemia and hypoglycemia and needs same-day follow-up.
+- **C** (incorrect): Superficial peeling of the hands and feet is common in term and post-term newborns during the first week; it needs only routine skin care and does not indicate dehydration, infection or illness.
 
 **Teaching point:** Judge newborn feeding by output: expect at least one wet diaper per day of life through day five, then six or more, with eight to twelve feedings daily. Low output plus a sleepy baby means inadequate intake, which worsens jaundice.
 
