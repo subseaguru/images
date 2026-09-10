@@ -13,7 +13,7 @@
         {
           "label": "B",
           "text": "A blood glucose of 148 milligrams per deciliter drawn before breakfast.",
-          "rationale": "Mild hyperglycemia after surgery is a common stress response, especially in a client receiving IV fluids, and it warrants monitoring rather than urgent action."
+          "rationale": "Mild hyperglycemia after surgery is a common stress response; it warrants monitoring and possibly correction insulin, but it is not an immediate threat to the client."
         },
         {
           "label": "C",
@@ -194,7 +194,7 @@
     },
     {
       "id": "rrp-006",
-      "stem": "A 70-year-old client with stage 3 chronic kidney disease and an estimated glomerular filtration rate of 38 milliliters per minute is scheduled for a computed tomography (CT) scan of the abdomen with intravenous (IV) iodinated contrast to evaluate a suspected abscess. The nurse is planning care to reduce the risk of contrast-associated acute kidney injury. Which intervention should the nurse anticipate including in the plan?",
+      "stem": "A 70-year-old client with stage 4 chronic kidney disease and an estimated glomerular filtration rate of 26 milliliters per minute is scheduled for a computed tomography (CT) scan of the abdomen with intravenous (IV) iodinated contrast to evaluate a suspected abscess. The nurse is planning care to reduce the risk of contrast-associated acute kidney injury. Which intervention should the nurse anticipate including in the plan?",
       "options": [
         {
           "label": "A",
@@ -204,12 +204,12 @@
         {
           "label": "B",
           "text": "Infusing isotonic IV fluid for several hours before and again after the contrast is given.",
-          "rationale": "Volume expansion with isotonic crystalloid such as normal saline maintains renal perfusion and dilutes the contrast in the tubules, and it is the best-supported measure for preventing contrast-associated kidney injury in high-risk clients."
+          "rationale": "Volume expansion with isotonic crystalloid such as normal saline maintains renal perfusion and dilutes the contrast in the tubules; for clients with an estimated glomerular filtration rate below 30 who are not on dialysis, it is the best-supported measure for preventing contrast-associated kidney injury."
         },
         {
           "label": "C",
           "text": "Keeping the client without oral fluids for the eight hours before the scan to reduce vomiting.",
-          "rationale": "Dehydration is a major risk factor for contrast-associated kidney injury; modern contrast agents rarely cause vomiting, and any fasting should be brief and offset with IV hydration."
+          "rationale": "Fasting is not required before IV iodinated contrast, and a long period without fluids causes the dehydration that is a major risk factor for contrast-associated kidney injury; modern low-osmolar agents rarely cause vomiting, so this plan adds risk without benefit."
         }
       ],
       "correct": "B",
@@ -218,7 +218,7 @@
       "clinicalJudgmentStep": "generate_solutions",
       "difficulty": "medium",
       "source": "bundled",
-      "teachingPoint": "In clients with reduced kidney function, IV isotonic hydration before and after iodinated contrast is the key protective measure; avoid dehydration and diuretics around the study and recheck creatinine within 48 hours.",
+      "teachingPoint": "In clients with severely reduced kidney function, IV isotonic hydration before and after iodinated contrast is the key protective measure; avoid dehydration, prolonged fasting, and diuretics around the study, and recheck creatinine within 48 to 72 hours.",
       "references": [
         "ACR Manual on Contrast Media",
         "KDIGO Clinical Practice Guideline for Acute Kidney Injury"
@@ -276,7 +276,7 @@
         {
           "label": "A",
           "text": "Place the open end of the chest tube into a container of sterile water.",
-          "rationale": "Submerging the tube end in sterile water creates a temporary water seal that lets air escape from the pleural space while preventing air from being drawn back in, protecting the client until a new sterile system is connected."
+          "rationale": "Submerging the tube end in sterile water creates a temporary water seal that lets air escape from the pleural space while preventing air from being drawn back in; the tube end that touched the linen is contaminated and cannot simply be reconnected, so the water seal protects the client until a new sterile system is connected."
         },
         {
           "label": "B",
@@ -386,7 +386,7 @@
     },
     {
       "id": "rrp-011",
-      "stem": "A nurse on a surgical unit is performing the shift assessment of a client eight hours after a total thyroidectomy for a large goiter. The neck dressing is dry, the client is resting with the head of the bed raised, and the oxygen saturation is 97 percent on room air. Which finding requires the nurse's immediate follow-up?",
+      "stem": "A nurse on a surgical unit is performing the shift assessment of a client eighteen hours after a total thyroidectomy for a large goiter. The neck dressing is dry, the client is resting with the head of the bed raised, and the oxygen saturation is 97 percent on room air. Which finding requires the nurse's immediate follow-up?",
       "options": [
         {
           "label": "A",
@@ -429,7 +429,7 @@
         {
           "label": "A",
           "text": "Increase the flow rate of the irrigation solution so the extra fluid flushes the clot out of the catheter.",
-          "rationale": "Adding more fluid to a bladder that cannot drain worsens distention and pain and can tear the fresh surgical site, so the irrigation is stopped, not sped up, until drainage is restored."
+          "rationale": "Adding more fluid to a bladder that cannot drain worsens distention and pain and can disrupt the fresh surgical site and restart bleeding, so the irrigation is stopped, not sped up, until drainage is restored."
         },
         {
           "label": "B",
