@@ -1,0 +1,11 @@
+node_modules/
+dist/
+public/js/
+data/*
+!data/seed/
+!data/seed/**
+test-results/
+playwright-report/
+.playwright-tmp/
+*.log
+.DS_Store

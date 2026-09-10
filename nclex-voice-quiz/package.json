@@ -1,0 +1,31 @@
+{
+  "name": "nclex-voice-quiz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local NCLEX-RN practice website: spoken questions with A/B/C voice answers, rationales for every option, and Claude-generated questions aligned to the NCLEX-RN test plan.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.server.json && tsc -p tsconfig.web.json",
+    "typecheck": "tsc -p tsconfig.server.json --noEmit && tsc -p tsconfig.web.json --noEmit",
+    "start": "npm run build && node dist/src/server/index.js",
+    "serve": "node dist/src/server/index.js",
+    "test": "npm run build && node --test \"dist/tests/**/*.test.js\"",
+    "test:e2e": "npm run build && playwright test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.124.0",
+    "express": "^5.2.1",
+    "pdf-parse": "^2.4.5",
+    "selfsigned": "^5.5.0",
+    "zod": "^4.6.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.20.2",
+    "typescript": "^5.9.3"
+  }
+}
