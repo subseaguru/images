@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "hpm-001",
+      "stem": "A nurse is assessing a client two hours after an uncomplicated vaginal birth. The fundus is firm, located two centimeters above the umbilicus, and deviated to the right of midline. Lochia rubra is moderate in amount. The client has not voided since the delivery. Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Massage the fundus firmly until it returns to the midline.",
+          "rationale": "Fundal massage is indicated for a boggy, poorly contracted uterus. This fundus is already firm, so massage adds discomfort and can fatigue the uterine muscle without correcting the underlying cause of the displacement."
+        },
+        {
+          "label": "B",
+          "text": "Assist the client to the bathroom to empty her bladder.",
+          "rationale": "A fundus that is firm but high and displaced to one side is the classic sign of a full bladder pushing the uterus out of position. Emptying the bladder lets the uterus contract in the midline and lowers the risk of hemorrhage."
+        },
+        {
+          "label": "C",
+          "text": "Notify the health care provider and prepare an oxytocin infusion.",
+          "rationale": "Oxytocin is used when the uterus is not contracting and bleeding is excessive. Here the fundus is firm and lochia is moderate, so the first step is to correct the bladder distention rather than escalate to medication."
+        }
+      ],
+      "correct": "B",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Ante/Intra/Postpartum and Newborn Care",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "In the postpartum assessment, a firm fundus that sits above the umbilicus and off to one side points to bladder distention. Empty the bladder first; a boggy fundus is what calls for massage.",
+      "references": ["AWHONN postpartum nursing care guidelines"],
+      "tags": ["postpartum", "fundal assessment", "bladder distention"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "hpm-002",
+      "stem": "A nurse is completing the one-hour assessment of a term newborn after a vaginal delivery. Findings include a heart rate of 150 beats per minute, a respiratory rate of 68 breaths per minute with expiratory grunting and nasal flaring, bluish hands and feet, and an axillary temperature of 98.2 degrees Fahrenheit. Which finding requires immediate follow-up?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Heart rate of 150 beats per minute at rest.",
+          "rationale": "A newborn heart rate between 110 and 160 beats per minute is expected, and a rate of 150 in the first hour after birth reflects normal transition rather than distress."
+        },
+        {
+          "label": "B",
+          "text": "Bluish color of the hands and feet with a pink trunk.",
+          "rationale": "Acrocyanosis, a bluish tint of the hands and feet with a pink trunk, is a normal finding in the first 24 to 48 hours because peripheral circulation is still immature. Central cyanosis of the lips or trunk would be the concern."
+        },
+        {
+          "label": "C",
+          "text": "Respiratory rate of 68 with grunting and flaring.",
+          "rationale": "A sustained respiratory rate above 60 breaths per minute combined with grunting and nasal flaring signals respiratory distress, such as transient tachypnea or retained lung fluid, and needs prompt evaluation and provider notification."
+        }
+      ],
+      "correct": "C",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Ante/Intra/Postpartum and Newborn Care",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Know the normal newborn ranges so the abnormal cue stands out: heart rate 110 to 160, respirations 30 to 60 without grunting, flaring, or retractions, and acrocyanosis that is expected early but central cyanosis that is not.",
+      "references": ["AAP and AHA Neonatal Resuscitation Program guidelines"],
+      "tags": ["newborn assessment", "respiratory distress", "transition"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "hpm-003",
+      "stem": "A 45-year-old client with no personal or family history of colorectal cancer or polyps attends a routine wellness visit. The nurse reviews the recommended cancer screening schedule with the client. Which statement by the client indicates understanding of the teaching?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"Since I am 45 and at average risk, I can start colorectal cancer screening now.\"",
+          "rationale": "Current United States guidelines recommend that adults at average risk begin colorectal cancer screening at age 45, using a stool-based test or a visual test such as colonoscopy, so this statement reflects the teaching correctly."
+        },
+        {
+          "label": "B",
+          "text": "\"I should wait until I am 50 because no one in my family has had colon cancer.\"",
+          "rationale": "The starting age for average-risk screening was lowered from 50 to 45 because colorectal cancer is being diagnosed in younger adults. The absence of a family history defines average risk; it does not delay the start of screening."
+        },
+        {
+          "label": "C",
+          "text": "\"I only need to be screened if I notice blood in my stool or a change in bowel habits.\"",
+          "rationale": "Screening is done in people who have no symptoms so that polyps and early cancers are found before they cause problems. Waiting for bleeding or bowel changes turns screening into diagnostic testing at a later, less treatable stage."
+        }
+      ],
+      "correct": "A",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Health Screening",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Average-risk colorectal cancer screening begins at age 45 and continues through age 75. Screening is for people without symptoms; symptoms call for diagnostic workup, not screening.",
+      "references": ["USPSTF colorectal cancer screening recommendation (2021)", "American Cancer Society colorectal cancer screening guideline"],
+      "tags": ["cancer screening", "colorectal", "adult health"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "hpm-004",
+      "stem": "A home health nurse visits an 82-year-old client whose daughter reports that over the past three days the client has become forgetful, drowsy during the day, and fell once while getting out of bed. The client is oriented to person only, temperature is 98.0 degrees Fahrenheit, and the daughter mentions that the urine has looked cloudy and smelled strong. Which explanation should the nurse consider most likely?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Expected age-related changes in memory and sleep pattern.",
+          "rationale": "Normal aging brings slower recall and lighter sleep, but it does not cause disorientation to place and time, daytime drowsiness, or falls that appear within days. Attributing acute change to age delays diagnosis of a treatable problem."
+        },
+        {
+          "label": "B",
+          "text": "Delirium caused by an acute illness such as a urinary tract infection.",
+          "rationale": "A change in cognition and alertness that develops over hours to days is delirium until proven otherwise, and infection is a leading cause in older adults. Cloudy urine, falls, and confusion fit an atypical presentation of infection, which often occurs without fever in this age group."
+        },
+        {
+          "label": "C",
+          "text": "Progression of an underlying dementia that has not yet been diagnosed.",
+          "rationale": "Dementia progresses gradually over months to years with a stable level of alertness. A three-day decline with drowsiness is the time course of delirium, so an acute, reversible cause must be sought before assuming dementia."
+        }
+      ],
+      "correct": "B",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Aging Process",
+      "clinicalJudgmentStep": "prioritize_hypotheses",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Older adults often present infection atypically, with confusion, drowsiness, or falls instead of fever. Acute onset over days means delirium, which is a medical emergency, not normal aging or dementia.",
+      "references": ["American Geriatrics Society delirium guidance", "Hartford Institute for Geriatric Nursing, Confusion Assessment Method"],
+      "tags": ["older adult", "delirium", "atypical presentation"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "hpm-005",
+      "stem": "A 2-year-old admitted for mild dehydration refuses the oral rehydration solution, shouts \"no,\" and throws the cup on the floor. The parent apologizes and says the child has been \"impossible\" for the past few months. Which response by the nurse is most appropriate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Explain that the behavior reflects a toddler's normal drive for autonomy and offer a choice of two cups.",
+          "rationale": "Toddlers are in the stage of autonomy versus shame and doubt, so saying no and resisting control are expected. Offering two acceptable choices gives the child a sense of control while still meeting the goal of oral rehydration."
+        },
+        {
+          "label": "B",
+          "text": "Suggest that the parent step out of the room for a while so the child will calm down and drink.",
+          "rationale": "Separation from the parent is the greatest stressor for a hospitalized toddler and typically increases protest rather than cooperation. Keeping the parent present supports security and the child's willingness to drink."
+        },
+        {
+          "label": "C",
+          "text": "Advise the parent to set firm limits with no choices because the fluids are medically necessary.",
+          "rationale": "Consistent limits matter, but removing every choice from a toddler escalates power struggles. Limited, real choices within safe boundaries are the developmentally appropriate way to gain cooperation."
+        }
+      ],
+      "correct": "A",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Developmental Stages and Transitions",
+      "clinicalJudgmentStep": "generate_solutions",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Match the intervention to the developmental stage: toddlers need limited choices and parental presence, because negativism and ritualism are how they exercise emerging autonomy.",
+      "references": ["Erikson psychosocial stages of development", "Hockenberry, Wong's Nursing Care of Infants and Children"],
+      "tags": ["pediatrics", "toddler", "growth and development"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "hpm-006",
+      "stem": "A nurse is performing an abdominal assessment on a client who reports several hours of pain in the right lower quadrant. The abdomen appears slightly distended and the client is guarding the area. Which action by the nurse demonstrates correct assessment technique?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Palpate the right lower quadrant first to pinpoint the source of the pain.",
+          "rationale": "The painful area is examined last, because palpating it first causes guarding and muscle tensing that make the rest of the abdomen impossible to assess accurately."
+        },
+        {
+          "label": "B",
+          "text": "Auscultate bowel sounds in all four quadrants before percussing or palpating.",
+          "rationale": "The abdomen is the one region where the order changes to inspect, auscultate, percuss, then palpate. Listening first prevents the examiner's hands from stimulating the bowel and altering the sounds that are heard."
+        },
+        {
+          "label": "C",
+          "text": "Begin with deep palpation of each quadrant, leaving auscultation for last.",
+          "rationale": "Deep palpation performed before auscultation stimulates peristalsis and changes bowel sounds, and starting with deep pressure on a guarded abdomen increases pain and the risk of aggravating an inflamed organ."
+        }
+      ],
+      "correct": "B",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Techniques of Physical Assessment",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "For the abdomen the sequence is inspect, auscultate, percuss, palpate, and the tender quadrant is palpated last. Touching the abdomen before listening alters the bowel sounds you are trying to hear.",
+      "references": ["Jarvis, Physical Examination and Health Assessment"],
+      "tags": ["physical assessment", "abdomen", "technique"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "hpm-007",
+      "stem": "A 66-year-old client with well-controlled hypertension asks the clinic nurse about vaccines. The record shows an influenza vaccine last fall, a tetanus-diphtheria booster four years ago, and completed pneumococcal vaccination last year. The client has not received a zoster vaccine. Which statement by the client indicates understanding of the nurse's teaching?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"I need a repeat pneumococcal vaccine every five years now that I am past age 65.\"",
+          "rationale": "Once an adult has completed the recommended pneumococcal series, no routine repeat doses are scheduled. Periodic boosters of this vaccine are not part of current adult immunization guidance."
+        },
+        {
+          "label": "B",
+          "text": "\"I am overdue for my tetanus booster because more than three years have passed since the last one.\"",
+          "rationale": "Tetanus and diphtheria boosters are given every ten years in adults, or sooner only after a dirty wound. A booster four years ago is current, so this statement shows a misunderstanding of the interval."
+        },
+        {
+          "label": "C",
+          "text": "\"I should get the two-dose recombinant zoster vaccine, spaced two to six months apart.\"",
+          "rationale": "The recombinant zoster vaccine is recommended for all adults 50 and older as a two-dose series given two to six months apart, regardless of a prior history of shingles. This client has not been vaccinated and is due now."
+        }
+      ],
+      "correct": "C",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Health Promotion/Disease Prevention",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Know the adult schedule that older clients ask about most: yearly influenza, tetanus booster every ten years, a single completed pneumococcal series, and two doses of recombinant zoster vaccine from age 50.",
+      "references": ["CDC and ACIP Adult Immunization Schedule (2025)"],
+      "tags": ["immunizations", "older adult", "primary prevention"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "hpm-008",
+      "stem": "A 19-year-old college student tells the campus health nurse about drinking six or seven beers most Saturday nights and driving home from a party last weekend. The student says, \"It is not a big deal, everyone does it.\" Which action by the nurse is most appropriate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Explore, without judgment, the student's own view of the risks of binge drinking and driving.",
+          "rationale": "Screening and brief intervention using motivational techniques is the evidence-based first response to risky drinking. A nonjudgmental conversation that elicits the student's own concerns is far more likely to change behavior than lecturing or immediate referral."
+        },
+        {
+          "label": "B",
+          "text": "Refer the student to an inpatient alcohol treatment program because of the weekend binge drinking.",
+          "rationale": "Inpatient treatment is reserved for alcohol use disorder with dependence, withdrawal risk, or failed outpatient care. Weekend binge drinking without those features calls for brief intervention and follow-up, and an unwanted referral is likely to end the conversation."
+        },
+        {
+          "label": "C",
+          "text": "Contact the student's parents so they can monitor the drinking when the student is at home.",
+          "rationale": "The student is a legal adult, so disclosing this information to parents without consent breaches confidentiality and destroys the trust needed for future care. Confidential, respectful engagement is the priority."
+        }
+      ],
+      "correct": "A",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "High Risk Behaviors",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "For risky drinking in young adults, use screening, brief intervention, and referral to treatment: explore the person's own perception of risk without judgment, and reserve intensive referral for signs of dependence.",
+      "references": ["SAMHSA Screening, Brief Intervention and Referral to Treatment (SBIRT)", "NIAAA guidance on brief alcohol intervention"],
+      "tags": ["alcohol", "young adult", "brief intervention", "confidentiality"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "hpm-009",
+      "stem": "A 52-year-old client with a body mass index of 31 and a hemoglobin A1C of 6.1 percent is told that the results indicate prediabetes. The client works at a desk all day and says, \"I want to avoid diabetes, but I do not know where to start.\" Which goal should the nurse help the client set first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Eliminate all carbohydrate foods from the diet and check a fingerstick glucose every morning.",
+          "rationale": "Eliminating an entire food group is not sustainable and is not what prevention evidence supports; balanced calorie reduction is. Daily glucose checks are not needed in prediabetes and do not by themselves lower risk."
+        },
+        {
+          "label": "B",
+          "text": "Reach a normal body weight before starting any exercise program to protect the joints.",
+          "rationale": "Physical activity is a core part of prevention from the start and improves insulin sensitivity even before weight changes. Delaying activity until weight is normal removes one of the two interventions that prevent progression."
+        },
+        {
+          "label": "C",
+          "text": "Lose about seven percent of body weight and work up to 150 minutes of moderate activity each week.",
+          "rationale": "The Diabetes Prevention Program showed that a seven percent weight loss with at least 150 minutes of moderate activity weekly cuts progression to type 2 diabetes by more than half, so this is the evidence-based first goal."
+        }
+      ],
+      "correct": "C",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Lifestyle Choices",
+      "clinicalJudgmentStep": "generate_solutions",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Prediabetes teaching starts with the two proven targets: about seven percent weight loss and 150 minutes of moderate activity per week. Realistic, measurable goals outperform extreme diets.",
+      "references": ["ADA Standards of Care in Diabetes (2025), Prevention or Delay of Diabetes", "CDC National Diabetes Prevention Program"],
+      "tags": ["prediabetes", "lifestyle", "weight management", "exercise"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "hpm-010",
+      "stem": "A nurse teaches daily foot care to a 60-year-old client with type 2 diabetes and reduced sensation in both feet who lives alone. At the end of the session the nurse asks the client to describe the plan for home. Which statement by the client indicates understanding of the teaching?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"I will look at the tops and bottoms of my feet every day, using a mirror to see underneath.\"",
+          "rationale": "With neuropathy the client cannot rely on pain to signal injury, so a daily visual inspection of the whole foot, including the soles with a mirror, is the key to catching blisters, cuts, and redness before they become ulcers."
+        },
+        {
+          "label": "B",
+          "text": "\"I will soak my feet in hot water each evening to improve the circulation.\"",
+          "rationale": "Reduced sensation means the client may not feel water that is hot enough to burn, and prolonged soaking softens and macerates the skin. Feet should be washed in lukewarm water, dried well, and not soaked."
+        },
+        {
+          "label": "C",
+          "text": "\"I will trim any corns or calluses myself with a clean blade as soon as I notice them.\"",
+          "rationale": "Cutting corns or calluses at home creates wounds that heal poorly in diabetic feet and can become infected. Corns and calluses should be managed by a podiatrist or other trained provider."
+        }
+      ],
+      "correct": "A",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Self-Care",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Diabetic foot self-care rests on daily inspection, lukewarm washing with careful drying, well-fitting shoes, and leaving corns and calluses to a professional, because neuropathy removes the warning of pain.",
+      "references": ["ADA Standards of Care in Diabetes, foot care recommendations"],
+      "tags": ["diabetes", "foot care", "self-care", "neuropathy"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "hpm-011",
+      "stem": "A registered nurse is coordinating a community blood pressure screening at a senior center and is working with assistive personnel (AP) who have been trained and validated in using the automated blood pressure device. Which task is appropriate for the nurse to delegate to the assistive personnel?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Explain to a participant what a reading of 162 over 98 means for that person's health.",
+          "rationale": "Interpreting a result and teaching the client about it require nursing judgment and are part of the registered nurse's scope. Assistive personnel may report the number but should not explain its meaning."
+        },
+        {
+          "label": "B",
+          "text": "Decide which participants with elevated readings need a referral to a health care provider.",
+          "rationale": "Deciding who needs referral is an assessment and clinical judgment function that cannot be delegated. The nurse reviews every elevated reading and determines the appropriate follow-up."
+        },
+        {
+          "label": "C",
+          "text": "Measure and record each participant's blood pressure using the automated device.",
+          "rationale": "Measuring a vital sign with validated competence in a stable population is a routine task with a predictable outcome, which fits the criteria for delegation. The nurse remains accountable for reviewing and acting on the results."
+        }
+      ],
+      "correct": "C",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Health Screening",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Delegate the task, not the judgment: assistive personnel can collect data such as blood pressure once competent, while assessment, interpretation, teaching, and referral decisions stay with the registered nurse.",
+      "references": ["ANA and NCSBN Joint Statement on Delegation (2019)", "NCSBN Five Rights of Delegation"],
+      "tags": ["delegation", "screening", "community health"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "hpm-012",
+      "stem": "During a home visit on the third day of life, a nurse assesses an exclusively breastfed term newborn. The parent reports that the baby feeds every four to five hours, is hard to wake for feedings, and had two wet diapers in the past 24 hours. The newborn has lost six percent of birth weight and has a yellow tint limited to the face. Which finding is most concerning?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Weight loss of six percent from the birth weight.",
+          "rationale": "Breastfed newborns are expected to lose up to seven percent of birth weight in the first days; loss beyond seven to ten percent is what prompts evaluation of feeding. Six percent on day three is within the expected range and should begin to reverse as milk volume increases."
+        },
+        {
+          "label": "B",
+          "text": "Only two wet diapers during the past 24 hours.",
+          "rationale": "By day three a newborn should have at least three wet diapers a day, rising to six or more by day five, and should feed eight to twelve times in 24 hours. Two wet diapers with infrequent, sleepy feeding signals inadequate intake and dehydration, which also drives bilirubin higher."
+        },
+        {
+          "label": "C",
+          "text": "Yellow tint limited to the face on day three.",
+          "rationale": "Jaundice that appears after the first 24 hours and is confined to the face follows the usual physiologic pattern and bilirubin should be measured, but it is the poor intake that is causing the risk. Jaundice within the first 24 hours or spreading to the abdomen and legs would be the alarming pattern."
+        }
+      ],
+      "correct": "B",
+      "category": "health_promotion_and_maintenance",
+      "subtopic": "Ante/Intra/Postpartum and Newborn Care",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Judge newborn feeding by output: expect at least one wet diaper per day of life through day five, then six or more, with eight to twelve feedings daily. Low output plus a sleepy baby means inadequate intake, which worsens jaundice.",
+      "references": ["AAP clinical practice guideline on hyperbilirubinemia in newborns (2022)", "Academy of Breastfeeding Medicine clinical protocols"],
+      "tags": ["newborn", "breastfeeding", "jaundice", "home visit"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    }
+  ]
+}

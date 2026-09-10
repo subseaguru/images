@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "sic-001",
+      "stem": "A nurse on a medical-surgical unit is caring for a client with watery diarrhea who has tested positive for Clostridioides difficile (C. diff). The client is on contact precautions in a private room. After removing gloves and gown at the end of care, which action should the nurse take before leaving the room?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Apply an alcohol-based hand rub and rub the hands together until they are completely dry.",
+          "rationale": "Alcohol-based hand rubs do not kill C. difficile spores, so they are not sufficient after caring for a client with this infection; the spores must be physically removed from the skin."
+        },
+        {
+          "label": "B",
+          "text": "Wash the hands with soap and running water for at least twenty seconds.",
+          "rationale": "C. difficile forms spores that resist alcohol; the friction of washing with soap and water followed by rinsing physically removes the spores from the hands, which is why soap and water is preferred in this setting."
+        },
+        {
+          "label": "C",
+          "text": "Wipe the hands with a bleach-based disinfectant wipe from the room's surface-cleaning supplies.",
+          "rationale": "Bleach and other sporicidal disinfectants are appropriate for cleaning environmental surfaces in a C. difficile room, but they are not intended for skin and can cause chemical injury."
+        }
+      ],
+      "correct": "B",
+      "category": "safety_and_infection_control",
+      "subtopic": "Standard Precautions/Transmission-Based Precautions/Surgical Asepsis",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "For spore-forming organisms such as C. difficile, and for norovirus, choose soap and water over alcohol-based hand rub, because alcohol does not inactivate spores.",
+      "references": ["CDC Hand Hygiene in Healthcare Settings", "CDC isolation precautions"],
+      "tags": ["hand hygiene", "c diff", "contact precautions"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "sic-002",
+      "stem": "A client in the intensive care unit (ICU) who is intubated has bilateral soft wrist restraints because the client repeatedly reached for the endotracheal tube. The nurse performs the scheduled restraint check and assesses both hands, the restraint fit, and how the straps are secured. Which finding requires immediate follow-up?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The fingers of the right hand are cool, pale, and slow to regain color after being pressed.",
+          "rationale": "Cool, pale fingers with delayed capillary refill mean the restraint is impairing circulation; the nurse must loosen or remove it right away and reassess, because unrelieved pressure can cause nerve and tissue injury."
+        },
+        {
+          "label": "B",
+          "text": "The restraint straps are tied to the bed frame with a knot that releases with a single pull.",
+          "rationale": "Securing restraints to the bed frame, never to the side rail, with a quick-release knot is the expected safe technique, so this finding does not need correction."
+        },
+        {
+          "label": "C",
+          "text": "The nurse can slide two fingers between the restraint cuff and the client's wrist.",
+          "rationale": "Being able to slide two fingers under the cuff shows the restraint is snug enough to be effective but loose enough to protect skin and circulation; this is the desired fit."
+        }
+      ],
+      "correct": "A",
+      "category": "safety_and_infection_control",
+      "subtopic": "Use of Restraints/Safety Devices",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "During every restraint check, assess circulation, sensation, skin, and movement of the restrained limb; any sign of impaired perfusion means the restraint is too tight and needs immediate attention.",
+      "references": ["CMS Conditions of Participation on restraint and seclusion", "The Joint Commission restraint standards"],
+      "tags": ["restraints", "icu", "circulation"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "sic-003",
+      "stem": "A nurse is performing rapid triage at the scene of a building collapse using the Simple Triage and Rapid Treatment (START) method. Dozens of people are injured, and rescue resources are limited. Which adult should the nurse tag as the highest priority for immediate care?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An adult with a deep, bleeding forearm laceration who is walking toward the triage area.",
+          "rationale": "In START, anyone who can walk is tagged minor (green) regardless of visible bleeding; the wound is treated after the immediate and delayed victims have been cared for."
+        },
+        {
+          "label": "B",
+          "text": "An adult who does not begin breathing after the nurse opens the airway by repositioning the head.",
+          "rationale": "A victim who does not breathe after the airway is opened is tagged expectant (black) in mass casualty triage, because limited resources must go to those most likely to survive."
+        },
+        {
+          "label": "C",
+          "text": "An adult who cannot walk, is breathing thirty-four times per minute, and can follow simple commands.",
+          "rationale": "A respiratory rate above thirty breaths per minute in a victim who cannot walk meets START criteria for immediate (red), the highest priority for treatment and transport."
+        }
+      ],
+      "correct": "C",
+      "category": "safety_and_infection_control",
+      "subtopic": "Emergency Response Plan",
+      "clinicalJudgmentStep": "prioritize_hypotheses",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Mass casualty triage aims for the greatest good for the greatest number: walking wounded wait, victims with no respirations after airway opening are tagged expectant, and a respiratory rate above thirty, absent radial pulse, or inability to follow commands means immediate.",
+      "references": ["START triage algorithm", "FEMA mass casualty triage guidance"],
+      "tags": ["triage", "disaster", "mass casualty"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "sic-004",
+      "stem": "A nurse on a medical-surgical unit is disposing of a needle that was just used to draw blood and sustains a puncture wound to the thumb. The client's hepatitis and human immunodeficiency virus (HIV) status is unknown. Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Wash the puncture site thoroughly with soap and running water.",
+          "rationale": "Immediate washing of the wound with soap and water is the first step after a percutaneous exposure; it is followed promptly by reporting so that source testing and any post-exposure prophylaxis can begin within hours."
+        },
+        {
+          "label": "B",
+          "text": "Squeeze the puncture site to express blood, then apply a strong antiseptic.",
+          "rationale": "Squeezing the wound has not been shown to reduce the risk of infection and can traumatize the tissue; harsh agents such as bleach are also not recommended on the wound."
+        },
+        {
+          "label": "C",
+          "text": "Complete an occupational exposure report and take it to employee health.",
+          "rationale": "Reporting the exposure to employee health is essential and should happen right away so post-exposure evaluation starts promptly, but it comes after first aid to the wound."
+        }
+      ],
+      "correct": "A",
+      "category": "safety_and_infection_control",
+      "subtopic": "Handling Hazardous and Infectious Materials",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "After a needlestick, wash first, then report immediately and seek evaluation, because HIV post-exposure prophylaxis works best when started within hours of the exposure.",
+      "references": ["CDC and NIOSH guidance on bloodborne pathogen exposures", "OSHA Bloodborne Pathogens Standard"],
+      "tags": ["needlestick", "bloodborne pathogens", "exposure"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "sic-005",
+      "stem": "A home health nurse is teaching a client with chronic obstructive pulmonary disease (COPD) who has just started continuous home oxygen at two liters per minute by nasal cannula. The client lives with an adult son who smokes cigarettes. Which statement by the client indicates understanding of the safety teaching?",
+      "options": [
+        {
+          "label": "A",
+          "text": "I can keep using petroleum jelly on my dry lips as long as the oxygen flow stays low.",
+          "rationale": "Petroleum-based products are flammable and should not be used near oxygen at any flow rate; a water-based lubricant is the safe choice for dry lips and nostrils."
+        },
+        {
+          "label": "B",
+          "text": "I will store the spare oxygen cylinders lying on their sides in the hall closet.",
+          "rationale": "Oxygen cylinders must be secured upright in a stand or cart in a well-ventilated area away from heat; a loose cylinder can be knocked over and become a dangerous projectile if the valve breaks."
+        },
+        {
+          "label": "C",
+          "text": "I will post no-smoking signs and ask my son to smoke only outside the house.",
+          "rationale": "Oxygen supports combustion, so no one may smoke in a home where oxygen is in use; posting signs and moving smoking outdoors removes the most common cause of home oxygen fires."
+        }
+      ],
+      "correct": "C",
+      "category": "safety_and_infection_control",
+      "subtopic": "Home Safety",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Home oxygen teaching centers on fire prevention: no smoking or open flames near the oxygen, keep tubing and cylinders away from heat sources, use water-based skin products, and secure cylinders upright.",
+      "references": ["NFPA home oxygen safety guidance", "American Lung Association home oxygen safety"],
+      "tags": ["home oxygen", "fire safety", "copd"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "sic-006",
+      "stem": "A nurse realizes that a client on a medical-surgical unit received ten milligrams of morphine intravenously (IV) thirty minutes ago instead of the prescribed dose of two milligrams. The client is lying in bed with the eyes closed and has not been checked since the dose. Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Notify the health care provider and document the incident report number in the progress notes.",
+          "rationale": "The provider must be notified, but only after the nurse knows the client's current condition; also, incident reports are internal quality documents, and their existence is not referenced in the medical record."
+        },
+        {
+          "label": "B",
+          "text": "Assess the client's respiratory rate, oxygen saturation, pupil size, and level of consciousness.",
+          "rationale": "When an error is discovered, the client's safety comes first; a five-fold morphine overdose can cause respiratory depression, so the nurse assesses immediately and prepares to give naloxone and call for help if needed."
+        },
+        {
+          "label": "C",
+          "text": "Complete an incident report and file a copy in the client's medical record.",
+          "rationale": "An incident report is required and should be completed promptly, but it goes to risk management, not into the medical record, and it never comes before assessing and stabilizing the client."
+        }
+      ],
+      "correct": "B",
+      "category": "safety_and_infection_control",
+      "subtopic": "Reporting of Incident/Event/Irregular Occurrence/Variance",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "After any medication error: assess and stabilize the client, notify the provider, document the facts objectively in the record, and complete a separate incident report that is not mentioned in the chart.",
+      "references": ["ANA Code of Ethics for Nurses", "Institute for Safe Medication Practices error reporting guidance"],
+      "tags": ["medication error", "incident report", "opioid"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "sic-007",
+      "stem": "An unlicensed assistive personnel (UAP) tells the nurse that the electric bed in a newly cleaned room has a power cord with a cracked cover and exposed wire near the plug. A client is scheduled to be admitted to that room within the hour. Which action should the nurse take?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cover the exposed area with electrical tape and use the bed until maintenance can replace the cord.",
+          "rationale": "Taping over exposed wiring does not restore the insulation and leaves the client and staff at risk for shock and fire; it is not an acceptable temporary fix."
+        },
+        {
+          "label": "B",
+          "text": "Unplug the bed, tag it as defective, and ask biomedical engineering for a replacement bed.",
+          "rationale": "Damaged electrical equipment must be removed from service immediately, labelled so no one else uses it, and reported to biomedical engineering; a safe replacement is obtained for the client."
+        },
+        {
+          "label": "C",
+          "text": "Plug the bed into a different grounded outlet and test all bed functions before the client arrives.",
+          "rationale": "A grounded outlet does not make a bed with exposed wiring safe; the fault is in the cord itself, and testing the functions of a damaged device exposes the person testing it to shock."
+        }
+      ],
+      "correct": "B",
+      "category": "safety_and_infection_control",
+      "subtopic": "Safe Use of Equipment",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Any equipment with a frayed cord, damaged plug, or unusual sparks, smell, or heat is taken out of service, tagged, and reported; nurses do not improvise repairs.",
+      "references": ["The Joint Commission Environment of Care standards", "NFPA 99 Health Care Facilities Code"],
+      "tags": ["electrical safety", "equipment", "delegation"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "sic-008",
+      "stem": "A nurse is supervising a newly hired nurse who is setting up a sterile field for a central venous catheter dressing change on a medical-surgical unit. The supervising nurse watches each step of the setup. Which action by the newly hired nurse requires the supervising nurse to intervene?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Opens the outer wrapper of the sterile kit by pulling the first flap away from the body.",
+          "rationale": "Opening the first flap away from the body is correct technique; it prevents the nurse from having to reach across the sterile inner surface of the wrapper later."
+        },
+        {
+          "label": "B",
+          "text": "Holds the bottle of sterile saline about six inches above the sterile basin while pouring.",
+          "rationale": "Pouring from a height of four to six inches keeps the unsterile bottle from touching the sterile basin while limiting splashing, so this technique is acceptable."
+        },
+        {
+          "label": "C",
+          "text": "Turns away from the sterile field to answer a family member's question, then turns back to continue.",
+          "rationale": "A sterile field must stay within the nurse's line of sight at all times; once the nurse turns away, contamination could occur unnoticed, so the field is considered contaminated and must be set up again."
+        }
+      ],
+      "correct": "C",
+      "category": "safety_and_infection_control",
+      "subtopic": "Standard Precautions/Transmission-Based Precautions/Surgical Asepsis",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Surgical asepsis rules to remember: keep the field in view and above waist level, do not reach across it, treat the one-inch border as unsterile, and consider anything out of sight or wet to be contaminated.",
+      "references": ["AORN Guidelines for Perioperative Practice", "CDC Guidelines for the Prevention of Intravascular Catheter-Related Infections"],
+      "tags": ["sterile technique", "surgical asepsis", "central line"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "sic-009",
+      "stem": "A nurse on a postpartum unit reviews the infant security plan with a mother who delivered a healthy newborn six hours ago. The unit uses electronic ankle sensors on newborns and a distinctive photo identification badge for staff who are authorized to transport infants. Which statement by the mother indicates understanding of the teaching?",
+      "options": [
+        {
+          "label": "A",
+          "text": "I will only give my baby to staff members who are wearing the special photo identification badge for the nursery.",
+          "rationale": "Facilities designate a specific badge for staff authorized to handle newborns; teaching parents to release the infant only to those staff members is a key defense against abduction."
+        },
+        {
+          "label": "B",
+          "text": "I can leave my baby sleeping in the bassinet by the nurses' station while I take a shower.",
+          "rationale": "The infant should stay with the mother, a designated family member, or authorized staff; a bassinet left unattended in a public area, even near the station, is a security gap."
+        },
+        {
+          "label": "C",
+          "text": "I will carry my baby in my arms when we walk to the family lounge so the ankle sensor stays on.",
+          "rationale": "Newborns are transported in the bassinet rather than carried in arms through hallways, which prevents drops and makes it obvious when someone is carrying an infant inappropriately."
+        }
+      ],
+      "correct": "A",
+      "category": "safety_and_infection_control",
+      "subtopic": "Security Plan",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Infant abduction prevention relies on parents as partners: verify the designated staff badge, keep the infant in sight or with authorized staff, transport in the bassinet, and report anyone asking to take the baby without proper identification.",
+      "references": ["National Center for Missing and Exploited Children infant abduction prevention guidelines", "AWHONN infant security guidance"],
+      "tags": ["infant security", "maternity", "abduction prevention"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "sic-010",
+      "stem": "A nurse on a rehabilitation unit plans to move a client who weighs one hundred thirty kilograms (about two hundred eighty-five pounds) from the bed to a wheelchair with the help of an unlicensed assistive personnel (UAP). The client had a stroke, cannot bear weight on either leg, and does not reliably follow directions. Which transfer method should the nurse choose?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A two-person stand-and-pivot transfer using a gait belt around the client's waist.",
+          "rationale": "A stand-and-pivot transfer requires the client to bear weight on at least one leg and follow directions; this client can do neither, so staff would end up lifting the full body weight and risking injury to everyone."
+        },
+        {
+          "label": "B",
+          "text": "A lateral slide across a transfer board with two staff after lowering the bed to chair height.",
+          "rationale": "A transfer board suits clients who have upper body strength and can help scoot themselves across; a fully dependent, heavy client cannot assist, and the staff would still bear an unsafe load."
+        },
+        {
+          "label": "C",
+          "text": "A full-body mechanical lift with a sling, operated by the nurse and the trained UAP together.",
+          "rationale": "Safe patient handling standards call for mechanical lift equipment when a client is dependent or cannot bear weight; a full-body sling lift moves the client without staff lifting, protecting both the client and the caregivers."
+        }
+      ],
+      "correct": "C",
+      "category": "safety_and_infection_control",
+      "subtopic": "Ergonomic Principles",
+      "clinicalJudgmentStep": "generate_solutions",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Match the transfer method to the client's ability: weight-bearing, cooperative clients may pivot with a gait belt, but dependent or non-weight-bearing clients need mechanical lift equipment, because no caregiver should manually lift more than about thirty-five pounds of a client's weight.",
+      "references": ["ANA Safe Patient Handling and Mobility Interprofessional National Standards", "NIOSH safe patient handling guidance"],
+      "tags": ["safe patient handling", "transfer", "body mechanics"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "sic-011",
+      "stem": "A nurse on an inpatient psychiatric unit receives a telephone order for bilateral soft wrist restraints for an adult client who punched a staff member and continues to threaten others after verbal de-escalation and medication have failed. Which part of the order requires the nurse to contact the provider for clarification?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The order states that the restraints may be reapplied as needed whenever the client becomes threatening again.",
+          "rationale": "As-needed and standing orders for restraints are prohibited; each restraint episode requires a new order based on a current assessment, so this portion must be clarified and rewritten."
+        },
+        {
+          "label": "B",
+          "text": "The order is written for four hours, and the provider will evaluate the client in person within one hour.",
+          "rationale": "For violent or self-destructive behavior, an adult restraint order may last up to four hours, and a face-to-face evaluation within one hour of applying the restraint is required; this part of the order is correct."
+        },
+        {
+          "label": "C",
+          "text": "The order names the specific type of restraint and describes the behavior that made it necessary.",
+          "rationale": "Restraint orders must specify the type of restraint, the clinical justification, and the time limit, so this portion meets requirements and does not need clarification."
+        }
+      ],
+      "correct": "A",
+      "category": "safety_and_infection_control",
+      "subtopic": "Use of Restraints/Safety Devices",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Restraint orders are episode-specific and time-limited: no as-needed orders, a maximum of four hours for violent behavior in adults (two hours for ages nine to seventeen, one hour under age nine), a face-to-face evaluation within one hour, and renewal only after reassessment.",
+      "references": ["CMS Conditions of Participation 42 CFR 482.13(e)", "The Joint Commission restraint and seclusion standards"],
+      "tags": ["restraints", "mental health", "orders"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "sic-012",
+      "stem": "A nurse on a pediatric unit is caring for a seven-year-old child admitted for evaluation of new-onset seizures. While the nurse is in the room, the child suddenly stiffens and then begins rhythmic jerking of the arms and legs consistent with a generalized tonic-clonic seizure. Which action should the nurse take?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hold the child's arms and legs firmly against the bed so the movements do not cause injury.",
+          "rationale": "Restraining a seizing client's limbs does not stop the seizure and can cause fractures, dislocations, or soft tissue injury; the nurse instead clears the area and protects the head."
+        },
+        {
+          "label": "B",
+          "text": "Turn the child onto one side, loosen clothing around the neck, and note the time the seizure began.",
+          "rationale": "Side-lying lets saliva and vomit drain away from the airway, loosening clothing eases breathing, and timing the seizure guides treatment, because a seizure lasting five minutes or more is status epilepticus and needs emergency medication."
+        },
+        {
+          "label": "C",
+          "text": "Slide a padded tongue blade between the child's teeth so the tongue is not bitten.",
+          "rationale": "Nothing is placed in the mouth during a seizure; a tongue blade can break teeth, injure the gums, or be aspirated, and the tongue cannot be swallowed."
+        }
+      ],
+      "correct": "B",
+      "category": "safety_and_infection_control",
+      "subtopic": "Accident/Error/Injury Prevention",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "During a seizure: protect from injury, turn to the side, loosen clothing, put nothing in the mouth, do not restrain, time it, and call for emergency help if it lasts five minutes or more or the child does not recover.",
+      "references": ["Epilepsy Foundation seizure first aid", "American Academy of Pediatrics"],
+      "tags": ["seizure precautions", "pediatrics", "injury prevention"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    }
+  ]
+}

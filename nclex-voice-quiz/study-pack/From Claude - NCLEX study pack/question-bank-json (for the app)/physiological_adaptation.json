@@ -1,0 +1,464 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "pa-001",
+      "stem": "A 24-year-old client arrives in the emergency department ten minutes after a bee sting. The client has hives across the trunk, swelling of the lips, audible wheezing, and a blood pressure of 84 over 50. The client is anxious and says, \"My throat feels tight.\" Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Administer diphenhydramine fifty milligrams by the intravenous (IV) route.",
+          "rationale": "Antihistamines relieve itching and hives but do not reverse airway swelling or hypotension, so they are an adjunct given after epinephrine rather than the first drug in anaphylaxis."
+        },
+        {
+          "label": "B",
+          "text": "Begin a one liter bolus of normal saline through a large-bore intravenous (IV) line.",
+          "rationale": "Fluid resuscitation supports the blood pressure once vasodilation and capillary leak are under way, but it takes time and does not stop the mast cell release that is closing the airway, so it follows epinephrine."
+        },
+        {
+          "label": "C",
+          "text": "Inject epinephrine three tenths of a milligram intramuscularly into the outer thigh.",
+          "rationale": "Intramuscular epinephrine is the first-line treatment for anaphylaxis because it constricts blood vessels, relaxes bronchial smooth muscle, and halts mediator release; delay in giving it is the main preventable cause of death from anaphylaxis."
+        }
+      ],
+      "correct": "C",
+      "category": "physiological_adaptation",
+      "subtopic": "Medical Emergencies",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "In anaphylaxis with airway involvement or hypotension, give intramuscular epinephrine in the anterolateral thigh immediately; antihistamines, oxygen, and fluids are supportive additions, not substitutes.",
+      "references": [
+        "AAAAI/ACAAI Anaphylaxis Practice Parameter",
+        "AHA ACLS Guidelines"
+      ],
+      "tags": [
+        "anaphylaxis",
+        "emergency",
+        "epinephrine"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "pa-002",
+      "stem": "A nurse on a medical-surgical unit is caring for a 68-year-old client admitted with three days of vomiting who also takes furosemide daily for heart failure. The morning serum potassium is 2.8 milliequivalents per liter, and the client is on continuous cardiac monitoring. Which finding requires the nurse's immediate follow-up?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The client reports cramping in both calves and feels too weak to stand.",
+          "rationale": "Muscle cramps and weakness are common signs of hypokalemia that need treatment and fall precautions, but they are not immediately life threatening compared with a change in cardiac rhythm."
+        },
+        {
+          "label": "B",
+          "text": "The monitor shows flattened T waves with frequent premature ventricular contractions.",
+          "rationale": "Flattened T waves and new ectopic beats show that low potassium is already destabilizing the heart's electrical activity, which can progress to lethal ventricular dysrhythmias, so the provider is notified and potassium is replaced now."
+        },
+        {
+          "label": "C",
+          "text": "Bowel sounds are faint and infrequent in all four abdominal quadrants.",
+          "rationale": "Decreased bowel sounds reflect the slowing of smooth muscle activity caused by hypokalemia and should be monitored for ileus, but they do not threaten life the way a cardiac rhythm change does."
+        }
+      ],
+      "correct": "B",
+      "category": "physiological_adaptation",
+      "subtopic": "Fluid and Electrolyte Imbalances",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Potassium controls cardiac electrical stability; whenever an electrolyte is abnormal, look first for cardiac rhythm changes, because dysrhythmias are the most immediately dangerous effect.",
+      "references": [
+        "AHA ACLS Guidelines (electrolyte abnormalities)"
+      ],
+      "tags": [
+        "hypokalemia",
+        "electrolytes",
+        "dysrhythmia",
+        "telemetry"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "pa-003",
+      "stem": "A client in the intensive care unit (ICU) with septic shock from pneumonia has received a thirty milliliter per kilogram crystalloid bolus. The mean arterial pressure is now 58, heart rate 118, central venous pressure 12, lactate 4.2 millimoles per liter, and the extremities are warm and flushed. Which order should the nurse anticipate next?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A second thirty milliliter per kilogram crystalloid bolus infused over thirty minutes.",
+          "rationale": "The initial bolus is complete and a central venous pressure of 12 suggests preload is adequate, so more fluid risks pulmonary edema without correcting the low vascular resistance that is driving the hypotension."
+        },
+        {
+          "label": "B",
+          "text": "A norepinephrine infusion titrated to a mean arterial pressure of at least 65.",
+          "rationale": "Persistent hypotension after adequate fluid resuscitation in septic shock reflects profound vasodilation, and norepinephrine is the first-line vasopressor recommended to restore a mean arterial pressure of 65 or greater and organ perfusion."
+        },
+        {
+          "label": "C",
+          "text": "A dobutamine infusion titrated to improve contractility and cardiac output.",
+          "rationale": "Dobutamine is added when there is evidence of myocardial dysfunction and poor perfusion despite fluids and vasopressors; warm, flushed extremities point to vasodilation rather than pump failure."
+        }
+      ],
+      "correct": "B",
+      "category": "physiological_adaptation",
+      "subtopic": "Hemodynamics",
+      "clinicalJudgmentStep": "generate_solutions",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "In septic shock, once a thirty milliliter per kilogram bolus has been given, hypotension that persists is treated with norepinephrine to reach a mean arterial pressure of 65; more fluid or an inotrope is chosen only when the assessment shows low preload or poor contractility.",
+      "references": [
+        "Surviving Sepsis Campaign Guidelines 2021"
+      ],
+      "tags": [
+        "septic shock",
+        "vasopressors",
+        "icu",
+        "hemodynamics"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "pa-004",
+      "stem": "A nurse in the pediatric emergency department is assessing a ten-year-old child with newly diagnosed type 1 diabetes. The child is lethargic, has deep, rapid respirations with a fruity breath odor, a blood glucose of 486 milligrams per deciliter, and an arterial pH of 7.18. How should the nurse interpret the child's breathing pattern?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The lungs are removing carbon dioxide to compensate for metabolic acidosis.",
+          "rationale": "Kussmaul respirations are the body's attempt to blow off carbon dioxide and raise the pH in diabetic ketoacidosis; they signal significant acidosis and the need for fluids and insulin, not a primary lung problem."
+        },
+        {
+          "label": "B",
+          "text": "Rising pressure inside the skull from cerebral edema is affecting the respiratory center.",
+          "rationale": "Cerebral edema is a feared complication of diabetic ketoacidosis in children, but it typically appears during treatment and presents with headache, a worsening level of consciousness, bradycardia, and irregular or slowing respirations rather than deep, regular breathing."
+        },
+        {
+          "label": "C",
+          "text": "Severe dehydration has thickened secretions and is narrowing the lower airways.",
+          "rationale": "Dehydration in diabetic ketoacidosis causes tachycardia, poor perfusion, and dry mucous membranes, but the airways are not obstructed; deep, unlabored breathing without wheezing points to a metabolic rather than an airway cause."
+        }
+      ],
+      "correct": "A",
+      "category": "physiological_adaptation",
+      "subtopic": "Pathophysiology",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Deep, rapid Kussmaul breathing is respiratory compensation for metabolic acidosis; recognizing it prevents mistaking a metabolic emergency for a respiratory one and directs treatment toward fluids, insulin, and electrolyte correction.",
+      "references": [
+        "ADA Standards of Care in Diabetes",
+        "ISPAD Clinical Practice Consensus Guidelines (diabetic ketoacidosis)"
+      ],
+      "tags": [
+        "dka",
+        "pediatrics",
+        "acid-base",
+        "type 1 diabetes"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "pa-005",
+      "stem": "A home health nurse is following up with a 74-year-old client discharged one week ago after an exacerbation of heart failure. The client takes furosemide, carvedilol, and lisinopril and was taught how to manage the condition at home. Which statement by the client indicates understanding of the teaching?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"I will weigh myself each morning and call if I gain three pounds in a day or five in a week.\"",
+          "rationale": "Daily morning weights on the same scale are the most sensitive early indicator of fluid retention, and reporting a gain of two to three pounds in a day or five pounds in a week allows treatment before breathlessness and hospitalization occur."
+        },
+        {
+          "label": "B",
+          "text": "\"I will take my furosemide at bedtime so that it works on the fluid while I am sleeping.\"",
+          "rationale": "A loop diuretic taken at bedtime causes nighttime urination, disrupted sleep, and a higher risk of falls in the dark; it should be taken in the morning or early afternoon."
+        },
+        {
+          "label": "C",
+          "text": "\"I will drink at least three liters of fluid each day so that my kidneys keep working well.\"",
+          "rationale": "Clients with heart failure are usually asked to limit fluid to about two liters a day and to restrict sodium, because excess fluid increases the volume the weakened heart must pump."
+        }
+      ],
+      "correct": "A",
+      "category": "physiological_adaptation",
+      "subtopic": "Illness Management",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Heart failure self-care rests on daily weights, sodium and fluid limits, and morning diuretic dosing; a rapid weight gain is the earliest sign of decompensation and should trigger a call before symptoms develop.",
+      "references": [
+        "AHA/ACC/HFSA Guideline for the Management of Heart Failure 2022"
+      ],
+      "tags": [
+        "heart failure",
+        "teaching",
+        "home health",
+        "fluid balance"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "pa-006",
+      "stem": "A nurse on a medical-surgical unit started a unit of packed red blood cells for a client with a hemoglobin of 6.8 grams per deciliter. Fifteen minutes into the transfusion the client reports chills and aching low back pain, the temperature has risen from 37.0 to 38.4 degrees Celsius, and the blood pressure has dropped to 88 over 54. Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Slow the transfusion to a keep-open rate and give acetaminophen as ordered.",
+          "rationale": "Slowing the infusion allows more of the incompatible blood to enter the client; fever with back pain and hypotension suggests an acute hemolytic reaction, and even a small additional volume can worsen it."
+        },
+        {
+          "label": "B",
+          "text": "Stop the transfusion and disconnect the blood tubing from the intravenous (IV) line.",
+          "rationale": "Stopping the transfusion and removing the blood tubing immediately limits the amount of incompatible blood the client receives, which is the single most important step; a new line of normal saline is then attached to keep the vein open."
+        },
+        {
+          "label": "C",
+          "text": "Notify the provider and the blood bank that a transfusion reaction is suspected.",
+          "rationale": "The provider and blood bank must be notified and the blood bag and tubing returned for testing, but notification comes after the blood has been stopped, because every minute of continued infusion increases harm."
+        }
+      ],
+      "correct": "B",
+      "category": "physiological_adaptation",
+      "subtopic": "Unexpected Response to Therapies",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "For any suspected transfusion reaction, stop the blood first, keep the vein open with new tubing and normal saline, stay with the client and assess, and then notify the provider and blood bank.",
+      "references": [
+        "AABB Standards for Blood Banks and Transfusion Services"
+      ],
+      "tags": [
+        "transfusion reaction",
+        "hemolytic",
+        "blood products",
+        "priority"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "pa-007",
+      "stem": "A client at 34 weeks of gestation with preeclampsia with severe features is receiving a magnesium sulfate infusion at two grams per hour on the labor and delivery unit. The nurse completes the hourly assessment. Which finding indicates that the nurse should stop the infusion and notify the provider?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Deep tendon reflexes are one plus and the client reports feeling warm and flushed.",
+          "rationale": "Diminished but present reflexes and a sensation of warmth are expected effects of a therapeutic magnesium level; they should be documented and trended, not treated as toxicity."
+        },
+        {
+          "label": "B",
+          "text": "Blood pressure is 152 over 96 and the client reports mild nausea.",
+          "rationale": "A blood pressure in this range and nausea are consistent with the underlying preeclampsia and with magnesium's side effects; they call for continued monitoring and possibly antihypertensive medication, not stopping magnesium."
+        },
+        {
+          "label": "C",
+          "text": "Respiratory rate is ten breaths per minute and the patellar reflex cannot be elicited.",
+          "rationale": "Absent deep tendon reflexes and a respiratory rate below twelve show that magnesium has reached a toxic level with neuromuscular and respiratory depression; the infusion is stopped and calcium gluconate is prepared as the antidote."
+        }
+      ],
+      "correct": "C",
+      "category": "physiological_adaptation",
+      "subtopic": "Unexpected Response to Therapies",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "During a magnesium sulfate infusion, assess reflexes, respirations, and urine output every hour; loss of the patellar reflex, respirations under twelve, or urine output under thirty milliliters per hour signals toxicity, and calcium gluconate is the reversal agent.",
+      "references": [
+        "ACOG Practice Bulletin: Gestational Hypertension and Preeclampsia"
+      ],
+      "tags": [
+        "magnesium sulfate",
+        "preeclampsia",
+        "maternity",
+        "toxicity"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "pa-008",
+      "stem": "A 17-year-old client with anorexia nervosa is on day three of nutritional rehabilitation on an inpatient eating disorder unit. The client reports palpitations, weakness, and tingling in the fingers. The heart rate is 112 and irregular. Serum phosphorus is 1.4 milligrams per deciliter and potassium is 3.1 milliequivalents per liter. Which explanation for these findings should the nurse consider most likely?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Refeeding syndrome from the rapid shift of electrolytes into the cells.",
+          "rationale": "When a starved client is fed, insulin drives phosphorus, potassium, and magnesium into cells and serum levels fall; low phosphorus in the first days of feeding with cardiac symptoms is refeeding syndrome, which can cause fatal dysrhythmias and heart failure."
+        },
+        {
+          "label": "B",
+          "text": "An anxiety response to the increased calories in the new meal plan.",
+          "rationale": "Anxiety about eating is common in this population and can cause palpitations, but it does not lower serum phosphorus or produce an irregular rhythm, so the laboratory values point to a physiologic cause."
+        },
+        {
+          "label": "C",
+          "text": "Orthostatic hypotension from the client's ongoing restriction of fluids.",
+          "rationale": "Malnourished clients are often orthostatic, but orthostasis presents with dizziness and a blood pressure drop on standing rather than a low phosphorus level and an irregular tachycardia."
+        }
+      ],
+      "correct": "A",
+      "category": "physiological_adaptation",
+      "subtopic": "Fluid and Electrolyte Imbalances",
+      "clinicalJudgmentStep": "prioritize_hypotheses",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Refeeding syndrome appears within the first several days of nutritional rehabilitation as falling phosphorus, potassium, and magnesium; monitor electrolytes daily, advance calories gradually, and treat cardiac symptoms as an emergency.",
+      "references": [
+        "ASPEN Consensus Recommendations for Refeeding Syndrome 2020",
+        "APA Practice Guideline for the Treatment of Patients with Eating Disorders 2023"
+      ],
+      "tags": [
+        "refeeding syndrome",
+        "eating disorders",
+        "hypophosphatemia",
+        "mental health"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "pa-009",
+      "stem": "A client with cirrhosis was admitted to a medical-surgical unit two days ago with hepatic encephalopathy. On admission the client was disoriented and had asterixis, and lactulose thirty milliliters was ordered three times daily. The nurse is evaluating the client's response to the medication. Which finding indicates that the lactulose is achieving its intended effect?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The client has passed six watery stools since the morning dose and reports thirst.",
+          "rationale": "Six or more watery stools mean the dose is too high; excessive lactulose causes dehydration, hypokalemia, and hypernatremia, which can themselves worsen encephalopathy, so the dose needs adjusting."
+        },
+        {
+          "label": "B",
+          "text": "The client's abdominal girth has decreased by two centimeters since the day of admission.",
+          "rationale": "A smaller abdominal girth reflects less ascites, which is the goal of diuretics and sodium restriction rather than lactulose; it does not show that ammonia is being cleared."
+        },
+        {
+          "label": "C",
+          "text": "The client has two soft stools daily and can now state the month and place.",
+          "rationale": "Lactulose is titrated to two or three soft stools a day, which traps ammonia in the bowel and removes it; improving orientation shows that the reduced ammonia load is reversing the encephalopathy."
+        }
+      ],
+      "correct": "C",
+      "category": "physiological_adaptation",
+      "subtopic": "Alterations in Body Systems",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Judge lactulose by its intended outcome: two to three soft stools a day with clearer mental status; more stools signal overdosing and fewer signal an inadequate dose.",
+      "references": [
+        "AASLD/EASL Practice Guideline on Hepatic Encephalopathy"
+      ],
+      "tags": [
+        "cirrhosis",
+        "hepatic encephalopathy",
+        "lactulose",
+        "evaluation"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "pa-010",
+      "stem": "A client in the intensive care unit (ICU) was admitted twelve hours ago after a fall with a subdural hematoma. At the start of the shift the blood pressure was 128 over 76 and the heart rate 88. The nurse now finds a blood pressure of 176 over 58, a heart rate of 50, and an irregular breathing pattern. How should the nurse interpret these changes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rising intracranial pressure is compressing the brainstem and herniation may be imminent.",
+          "rationale": "Widening pulse pressure with systolic hypertension, bradycardia, and irregular respirations form the Cushing triad, a late sign that intracranial pressure is high enough to compress the brainstem; the provider is notified immediately and measures to lower the pressure are prepared."
+        },
+        {
+          "label": "B",
+          "text": "Neurogenic shock from an unrecognized spinal cord injury is developing.",
+          "rationale": "Neurogenic shock produces bradycardia, but it is accompanied by hypotension and warm, dry skin from the loss of sympathetic tone, so a rising blood pressure argues against it."
+        },
+        {
+          "label": "C",
+          "text": "Autonomic dysreflexia is being triggered by a distended bladder.",
+          "rationale": "Autonomic dysreflexia also combines hypertension with bradycardia, but it occurs in clients with an established spinal cord injury at or above the sixth thoracic level, usually weeks after injury, and does not cause irregular respirations."
+        }
+      ],
+      "correct": "A",
+      "category": "physiological_adaptation",
+      "subtopic": "Alterations in Body Systems",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "The Cushing triad of widening pulse pressure, bradycardia, and irregular respirations is a late sign of dangerously high intracranial pressure; trend vital signs against the baseline and act on the earlier signs, which are a declining level of consciousness and pupil changes.",
+      "references": [
+        "Brain Trauma Foundation Guidelines for the Management of Severe Traumatic Brain Injury",
+        "AANN Care of the Patient with Severe Traumatic Brain Injury"
+      ],
+      "tags": [
+        "intracranial pressure",
+        "cushing triad",
+        "neuro",
+        "icu"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "pa-011",
+      "stem": "A nurse at a community clinic takes a telephone call from a 30-year-old client with type 1 diabetes who has had influenza for two days with nausea and a poor appetite. The client uses a long-acting insulin at night and a rapid-acting insulin with meals and asks how to manage the diabetes while sick. Which statement by the client indicates understanding of the sick-day teaching?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"I will hold both of my insulins until I can eat normally again so my sugar does not drop too low.\"",
+          "rationale": "Illness raises stress hormones and blood glucose even when the client is not eating, and stopping basal insulin in type 1 diabetes leads to ketone production and diabetic ketoacidosis within hours."
+        },
+        {
+          "label": "B",
+          "text": "\"I will keep taking my long-acting insulin, check my glucose every few hours, and test my urine for ketones.\"",
+          "rationale": "Basal insulin must continue during illness, and glucose every two to four hours with ketone testing detects developing ketoacidosis early; mealtime doses are adjusted to intake and correction doses are given as directed."
+        },
+        {
+          "label": "C",
+          "text": "\"I will drink plenty of sugar-free fluids and check my glucose once each morning until I feel better.\"",
+          "rationale": "Fluids are important, but checking glucose only once a day misses the rapid rises that occur with illness, and ketones must be tested whenever glucose is elevated or the client is vomiting."
+        }
+      ],
+      "correct": "B",
+      "category": "physiological_adaptation",
+      "subtopic": "Illness Management",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Sick-day rules for type 1 diabetes: continue basal insulin, check glucose every two to four hours, test for ketones, maintain fluids, and call for persistent vomiting, moderate or large ketones, or an inability to keep fluids down.",
+      "references": [
+        "ADA Standards of Care in Diabetes"
+      ],
+      "tags": [
+        "type 1 diabetes",
+        "sick-day rules",
+        "teaching",
+        "community"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "pa-012",
+      "stem": "A 22-year-old client on an orthopedic unit had an intramedullary rod placed twenty hours ago for a closed femur fracture sustained in a motorcycle crash. The nurse finds the client restless and confused, with a respiratory rate of 30, an oxygen saturation of 89 percent on room air, and a new petechial rash across the chest and axillae. Which complication should the nurse suspect first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Pulmonary embolism from a thrombus in the injured leg.",
+          "rationale": "Venous thromboembolism also causes sudden dyspnea and hypoxemia, but it usually develops several days after immobilization and does not produce a petechial rash or the early confusion seen here."
+        },
+        {
+          "label": "B",
+          "text": "Compartment syndrome from swelling within the operative thigh.",
+          "rationale": "Compartment syndrome presents with severe pain out of proportion to the injury, tense swelling, and paresthesia in the affected limb; it does not explain hypoxemia, confusion, or a rash on the trunk."
+        },
+        {
+          "label": "C",
+          "text": "Fat embolism syndrome from the fractured long bone.",
+          "rationale": "Fat embolism syndrome classically appears twelve to seventy-two hours after a long bone fracture with the triad of respiratory distress, neurologic changes, and petechiae on the chest, axillae, and conjunctivae; it is a life-threatening emergency requiring oxygen and immediate provider notification."
+        }
+      ],
+      "correct": "C",
+      "category": "physiological_adaptation",
+      "subtopic": "Pathophysiology",
+      "clinicalJudgmentStep": "prioritize_hypotheses",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "After a long bone or pelvic fracture, the triad of hypoxemia, altered mental status, and a petechial rash within the first three days points to fat embolism syndrome; early fracture stabilization and rapid recognition are the keys to survival.",
+      "references": [
+        "Gurd and Wilson diagnostic criteria for fat embolism syndrome"
+      ],
+      "tags": [
+        "fat embolism",
+        "fracture",
+        "orthopedics",
+        "deterioration"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    }
+  ]
+}

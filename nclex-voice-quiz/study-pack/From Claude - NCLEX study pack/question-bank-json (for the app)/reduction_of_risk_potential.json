@@ -1,0 +1,465 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "rrp-001",
+      "stem": "A nurse on a medical-surgical unit is reviewing the morning laboratory results of a client who is two days after a bowel resection and is receiving intravenous (IV) furosemide for fluid overload. The client has a nasogastric tube to suction and has had nothing by mouth since surgery. Which laboratory value requires the nurse's immediate follow-up?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A hemoglobin of 11.2 grams per deciliter, down from 12.4 before surgery.",
+          "rationale": "A modest drop in hemoglobin after surgery reflects expected operative blood loss and dilution from IV fluids; it should be trended, but at this level it does not signal an immediate threat."
+        },
+        {
+          "label": "B",
+          "text": "A blood glucose of 148 milligrams per deciliter drawn before breakfast.",
+          "rationale": "Mild hyperglycemia after surgery is a common stress response, especially in a client receiving IV fluids, and it warrants monitoring rather than urgent action."
+        },
+        {
+          "label": "C",
+          "text": "A potassium of 2.9 milliequivalents per liter, down from 3.8 before surgery.",
+          "rationale": "Loop diuretics and nasogastric suction both waste potassium, and a level below 3.0 milliequivalents per liter raises the risk of life-threatening cardiac dysrhythmias, so it must be reported and replaced promptly."
+        }
+      ],
+      "correct": "C",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Laboratory Values",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "When several results are abnormal, act first on the one tied to a life-threatening complication; hypokalemia from diuretics and gastric losses threatens cardiac rhythm and must be corrected before it worsens.",
+      "references": [
+        "Standard laboratory reference range for serum potassium (3.5 to 5.0 milliequivalents per liter)",
+        "AHA ACLS guidance on electrolyte-related dysrhythmias"
+      ],
+      "tags": [
+        "hypokalemia",
+        "lab values",
+        "postoperative",
+        "furosemide"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "rrp-002",
+      "stem": "A 24-year-old client is admitted to the emergency department (ED) after a motorcycle crash with a head injury. On arrival the blood pressure was 128 over 78, the heart rate 88, and respirations 18 and regular. One hour later the blood pressure is 168 over 60, the heart rate is 52, and respirations are irregular with periods of apnea. How should the nurse interpret these changes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rising intracranial pressure is compressing the brainstem.",
+          "rationale": "A widening pulse pressure, bradycardia, and irregular respirations form the Cushing triad, a late sign of severely increased intracranial pressure that requires immediate provider notification."
+        },
+        {
+          "label": "B",
+          "text": "Hidden blood loss is producing early hypovolemic shock.",
+          "rationale": "Hypovolemia causes a falling blood pressure with a narrowing pulse pressure and a rising heart rate, which is the opposite of the pattern seen in this client."
+        },
+        {
+          "label": "C",
+          "text": "Severe pain is triggering a sympathetic stress response.",
+          "rationale": "A pain response raises blood pressure and heart rate together; it does not slow the heart or produce irregular breathing with pauses."
+        }
+      ],
+      "correct": "A",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Changes/Abnormalities in Vital Signs",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "A widening pulse pressure, bradycardia, and irregular respirations together (the Cushing triad) signal dangerously increased intracranial pressure and impending herniation; recognize the pattern and escalate immediately.",
+      "references": [
+        "Brain Trauma Foundation Guidelines for the Management of Severe Traumatic Brain Injury"
+      ],
+      "tags": [
+        "head injury",
+        "intracranial pressure",
+        "vital signs",
+        "emergency"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "rrp-003",
+      "stem": "A nurse at a community health clinic is teaching a 58-year-old client with newly diagnosed hypertension how to complete a 24-hour urine collection for protein at home. The nurse reviews the written instructions and the collection container with the client. Which statement by the client indicates understanding of the teaching?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"I will keep the very first urine I pass in the morning because that sample is the most concentrated of the day.\"",
+          "rationale": "The first void is discarded because that urine formed before the timing began; saving it adds urine from outside the 24-hour window and skews the result."
+        },
+        {
+          "label": "B",
+          "text": "\"I will throw away my first void, write down the time, and then save every void for 24 hours, including one at the end.\"",
+          "rationale": "A timed collection starts with an empty bladder at a recorded time, and every void through the end of the period, including a final void at the 24-hour mark, must be collected so the sample reflects exactly one day."
+        },
+        {
+          "label": "C",
+          "text": "\"If I forget to save one of my voids, I will write that on the log sheet and keep collecting until the time is up.\"",
+          "rationale": "A missed void makes the total volume and the measured protein inaccurate, so the collection must be discarded and restarted rather than noted and continued."
+        }
+      ],
+      "correct": "B",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Diagnostic Tests",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "A timed urine collection is valid only when it begins with a discarded void at a recorded time, captures every void for the full period, and is restarted if any specimen is missed.",
+      "references": [
+        "Standard clinical laboratory specimen collection procedures for timed urine tests"
+      ],
+      "tags": [
+        "diagnostic tests",
+        "urine collection",
+        "teaching",
+        "community health"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "rrp-004",
+      "stem": "A nurse is caring for a client two hours after a vaginal birth of a nine-pound infant. During the assessment the nurse finds the fundus boggy and displaced to the right of the umbilicus, the perineal pad saturated within fifteen minutes, and the client's heart rate at 104 beats per minute. Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Massage the fundus with the palm of the hand until it becomes firm.",
+          "rationale": "Uterine atony is the leading cause of early postpartum hemorrhage, and fundal massage stimulates contraction that compresses the bleeding vessels, so it is the immediate first step while other help is summoned."
+        },
+        {
+          "label": "B",
+          "text": "Assist the client to the bathroom to empty the bladder before reassessing.",
+          "rationale": "A displaced fundus suggests a full bladder that must be emptied so the uterus can contract, but active heavy bleeding is controlled by massage first, and walking a hemorrhaging client to the bathroom risks a fall."
+        },
+        {
+          "label": "C",
+          "text": "Notify the provider and prepare to give a uterotonic medication such as oxytocin.",
+          "rationale": "Uterotonic medication and provider notification follow quickly, but they take time to arrange, while massage can begin immediately at the bedside and often restores tone on its own."
+        }
+      ],
+      "correct": "A",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Potential for Complications from Surgical Procedures and Health Alterations",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "For a boggy fundus with heavy bleeding, massage the fundus first to restore uterine tone, then empty the bladder and give uterotonics; the intervention that stops blood loss fastest comes first.",
+      "references": [
+        "ACOG Practice Bulletin on Postpartum Hemorrhage",
+        "AWHONN Postpartum Hemorrhage Project"
+      ],
+      "tags": [
+        "postpartum hemorrhage",
+        "uterine atony",
+        "maternity"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "rrp-005",
+      "stem": "A 22-year-old client was admitted to the orthopedic unit with a closed fracture of the femur and is in skeletal traction awaiting surgery. Thirty-six hours after admission the client becomes restless and confused, has a respiratory rate of 30, an oxygen saturation of 89 percent on room air, and a scattering of small red-purple spots across the chest and neck. Which complication should the nurse suspect first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Delirium caused by the opioid analgesics prescribed for fracture pain.",
+          "rationale": "Opioids can cause confusion and slow breathing, but they do not produce rapid breathing, hypoxemia, or a petechial rash, so they do not explain the full picture."
+        },
+        {
+          "label": "B",
+          "text": "Pulmonary embolism from a deep vein thrombosis in the immobilized leg.",
+          "rationale": "A thrombotic pulmonary embolism also causes sudden dyspnea and hypoxemia, but it does not produce petechiae, and the rash plus the timing point to a different source of emboli."
+        },
+        {
+          "label": "C",
+          "text": "Fat embolism syndrome from marrow fat released by the femur fracture.",
+          "rationale": "The triad of hypoxemia, new confusion, and a petechial rash on the chest and neck appearing 24 to 72 hours after a long-bone fracture is the classic presentation of fat embolism syndrome, which needs immediate respiratory support."
+        }
+      ],
+      "correct": "C",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Potential for Alterations in Body Systems",
+      "clinicalJudgmentStep": "prioritize_hypotheses",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "After a long-bone or pelvic fracture, new hypoxemia and confusion with petechiae on the upper body within the first three days point to fat embolism syndrome; the petechial rash is what separates it from a thrombotic pulmonary embolism.",
+      "references": [
+        "Gurd and Wilson diagnostic criteria for fat embolism syndrome"
+      ],
+      "tags": [
+        "fat embolism",
+        "fracture",
+        "orthopedics",
+        "hypoxemia"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "rrp-006",
+      "stem": "A 70-year-old client with stage 3 chronic kidney disease and an estimated glomerular filtration rate of 38 milliliters per minute is scheduled for a computed tomography (CT) scan of the abdomen with intravenous (IV) iodinated contrast to evaluate a suspected abscess. The nurse is planning care to reduce the risk of contrast-associated acute kidney injury. Which intervention should the nurse anticipate including in the plan?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Giving a dose of IV furosemide after the scan to flush the contrast out of the kidneys.",
+          "rationale": "Diuretics do not speed contrast clearance and instead cause volume depletion, which lowers renal perfusion and increases the risk of kidney injury, so they are avoided around contrast studies."
+        },
+        {
+          "label": "B",
+          "text": "Infusing isotonic IV fluid for several hours before and again after the contrast is given.",
+          "rationale": "Volume expansion with isotonic crystalloid such as normal saline maintains renal perfusion and dilutes the contrast in the tubules, and it is the best-supported measure for preventing contrast-associated kidney injury in high-risk clients."
+        },
+        {
+          "label": "C",
+          "text": "Keeping the client without oral fluids for the eight hours before the scan to reduce vomiting.",
+          "rationale": "Dehydration is a major risk factor for contrast-associated kidney injury; modern contrast agents rarely cause vomiting, and any fasting should be brief and offset with IV hydration."
+        }
+      ],
+      "correct": "B",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Potential for Complications of Diagnostic Tests/Treatments/Procedures",
+      "clinicalJudgmentStep": "generate_solutions",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "In clients with reduced kidney function, IV isotonic hydration before and after iodinated contrast is the key protective measure; avoid dehydration and diuretics around the study and recheck creatinine within 48 hours.",
+      "references": [
+        "ACR Manual on Contrast Media",
+        "KDIGO Clinical Practice Guideline for Acute Kidney Injury"
+      ],
+      "tags": [
+        "contrast",
+        "kidney injury",
+        "ct scan",
+        "chronic kidney disease"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "rrp-007",
+      "stem": "A nurse on a pediatric unit is assessing a seven-year-old child six hours after a fiberglass cast was applied for a fractured forearm. The arm is elevated on two pillows and the child received oral ibuprofen one hour ago. Which finding requires the nurse's immediate follow-up?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The child says the cast feels heavy and the skin under it itches.",
+          "rationale": "A heavy, itchy feeling is a common and expected complaint with a new cast; the nurse teaches the child not to push objects under the cast and offers distraction rather than escalating."
+        },
+        {
+          "label": "B",
+          "text": "The child cries out in pain when the nurse gently straightens the fingers.",
+          "rationale": "Pain that increases with passive stretching of the fingers, especially when elevation and analgesia have not relieved it, is an early sign of compartment syndrome and requires immediate provider notification because tissue can be lost within hours."
+        },
+        {
+          "label": "C",
+          "text": "The child's fingers look slightly puffy but are pink with brisk capillary refill.",
+          "rationale": "Mild swelling of the fingers is expected in the first day after a fracture and cast; pink color and capillary refill under two seconds show that circulation is adequate, so elevation and monitoring continue."
+        }
+      ],
+      "correct": "B",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "System Specific Assessments",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Pain out of proportion to the injury and pain with passive stretch are the earliest signs of compartment syndrome; do not wait for pallor or a lost pulse, which are late findings.",
+      "references": [
+        "American Academy of Orthopaedic Surgeons guidance on acute compartment syndrome"
+      ],
+      "tags": [
+        "compartment syndrome",
+        "cast care",
+        "pediatrics",
+        "neurovascular"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "rrp-008",
+      "stem": "A nurse in the intensive care unit (ICU) is repositioning a client who has a chest tube for a pneumothorax. As the client turns, the chest tube pulls apart from the connecting tubing of the drainage system and the open end falls onto the bed linen. The insertion site on the chest remains intact. Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Place the open end of the chest tube into a container of sterile water.",
+          "rationale": "Submerging the tube end in sterile water creates a temporary water seal that lets air escape from the pleural space while preventing air from being drawn back in, protecting the client until a new sterile system is connected."
+        },
+        {
+          "label": "B",
+          "text": "Clamp the chest tube close to the chest wall until a new drainage system is set up.",
+          "rationale": "Clamping a chest tube in a client with a pneumothorax traps air in the pleural space and can produce a tension pneumothorax within minutes, so a clamp is used only momentarily under specific direction, not while gathering equipment."
+        },
+        {
+          "label": "C",
+          "text": "Cover the insertion site on the chest with petroleum gauze taped on three sides.",
+          "rationale": "An occlusive dressing at the skin is the response when the tube itself comes out of the chest; here the tube is still in place, and covering the site does nothing to reseal the open tube end."
+        }
+      ],
+      "correct": "A",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Therapeutic Procedures",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "If a chest tube disconnects from its drainage system, submerge the tube end in sterile water to restore a water seal; if the tube comes out of the chest, cover the site with an occlusive dressing. Prolonged clamping risks tension pneumothorax.",
+      "references": [
+        "AACN Procedure Manual for Progressive and Critical Care"
+      ],
+      "tags": [
+        "chest tube",
+        "pneumothorax",
+        "icu",
+        "equipment"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "rrp-009",
+      "stem": "A nurse on an inpatient mental health unit is preparing the morning medications for a client with bipolar disorder who takes lithium carbonate. The client reports two days of diarrhea and says a hand tremor has become coarse and hard to control. The lithium level drawn this morning is 1.8 milliequivalents per liter. Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Give the dose with a full meal and encourage the client to drink extra fluids.",
+          "rationale": "Food and fluids reduce stomach upset and support hydration, but they do not lower a level that is already toxic, and giving another dose adds to the lithium load."
+        },
+        {
+          "label": "B",
+          "text": "Teach the client to limit salt intake until the diarrhea has resolved.",
+          "rationale": "A low sodium intake causes the kidneys to retain lithium and drives the level even higher; a consistent sodium intake is what keeps lithium levels stable."
+        },
+        {
+          "label": "C",
+          "text": "Withhold the lithium dose and notify the provider of the level and symptoms.",
+          "rationale": "A level above 1.5 milliequivalents per liter with coarse tremor, vomiting, or diarrhea indicates lithium toxicity; the drug is held and the provider notified so hydration, repeat levels, and possibly dialysis can be arranged."
+        }
+      ],
+      "correct": "C",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Laboratory Values",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Lithium has a narrow therapeutic range of about 0.6 to 1.2 milliequivalents per liter; a level above 1.5 with gastrointestinal symptoms or coarse tremor means toxicity, so hold the dose and escalate rather than medicate through it.",
+      "references": [
+        "Lithium carbonate prescribing information (FDA label)",
+        "APA Practice Guideline for the Treatment of Patients with Bipolar Disorder"
+      ],
+      "tags": [
+        "lithium",
+        "toxicity",
+        "mental health",
+        "lab values"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "rrp-010",
+      "stem": "A 68-year-old client with a suspected urinary source of sepsis arrives at the emergency department (ED) with a temperature of 39.2 degrees Celsius, a heart rate of 124, and a blood pressure of 82 over 46 with a mean arterial pressure of 58. After cultures, antibiotics, and a 30 milliliter per kilogram intravenous (IV) crystalloid bolus, the nurse reassesses. Which finding best indicates that the fluid bolus achieved its goal?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The mean arterial pressure has risen to 68 millimeters of mercury.",
+          "rationale": "The purpose of the initial bolus in septic shock is to restore tissue perfusion, and a mean arterial pressure of at least 65 millimeters of mercury is the resuscitation target; reaching it shows the fluid is doing its job."
+        },
+        {
+          "label": "B",
+          "text": "The heart rate has decreased from 124 to 118 beats per minute.",
+          "rationale": "A small drop in heart rate is a favorable trend, but the client remains markedly tachycardic and the change is too small to confirm that perfusion has been restored."
+        },
+        {
+          "label": "C",
+          "text": "The temperature has decreased from 39.2 to 38.6 degrees Celsius.",
+          "rationale": "Fever reflects the infection and its treatment with antibiotics and antipyretics; a lower temperature does not tell the nurse whether circulating volume and perfusion have improved."
+        }
+      ],
+      "correct": "A",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Changes/Abnormalities in Vital Signs",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Judge fluid resuscitation in sepsis by perfusion targets rather than by fever or small heart-rate changes: a mean arterial pressure of 65 or higher, a falling lactate, and urine output of at least 0.5 milliliters per kilogram per hour show the plan is working.",
+      "references": [
+        "Surviving Sepsis Campaign International Guidelines 2021"
+      ],
+      "tags": [
+        "sepsis",
+        "fluid resuscitation",
+        "mean arterial pressure",
+        "emergency"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "rrp-011",
+      "stem": "A nurse on a surgical unit is performing the shift assessment of a client eight hours after a total thyroidectomy for a large goiter. The neck dressing is dry, the client is resting with the head of the bed raised, and the oxygen saturation is 97 percent on room air. Which finding requires the nurse's immediate follow-up?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The client reports a sore throat and mild pain when swallowing.",
+          "rationale": "Throat soreness and painful swallowing are expected after endotracheal intubation and neck surgery; they are treated with prescribed analgesics and do not by themselves signal a complication."
+        },
+        {
+          "label": "B",
+          "text": "The client reports tingling around the lips and in the fingertips.",
+          "rationale": "Tingling around the mouth and in the fingertips is the earliest sign of hypocalcemia from injury to the parathyroid glands, which can progress to tetany and laryngospasm; the nurse checks for Chvostek and Trousseau signs and reports it so calcium can be given."
+        },
+        {
+          "label": "C",
+          "text": "The client's voice sounds mildly hoarse when answering questions.",
+          "rationale": "Mild, temporary hoarseness is common after intubation and surgical handling near the laryngeal nerves; it is monitored for worsening, but stable mild hoarseness alone does not require urgent action."
+        }
+      ],
+      "correct": "B",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "System Specific Assessments",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "After thyroidectomy, watch for the two dangerous complications: airway compromise from bleeding or swelling, and hypocalcemia from parathyroid injury, which first appears as tingling around the mouth and fingertips before tetany develops.",
+      "references": [
+        "American Thyroid Association statement on postoperative hypoparathyroidism"
+      ],
+      "tags": [
+        "thyroidectomy",
+        "hypocalcemia",
+        "postoperative",
+        "assessment"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "rrp-012",
+      "stem": "A nurse is caring for a client the night after a transurethral resection of the prostate (TURP) who has a three-way urinary catheter with continuous bladder irrigation. The nurse notes that no fluid has drained into the collection bag for twenty minutes, the client reports lower abdominal pressure and pain, and the bladder feels firm above the pubic bone. Which action should the nurse take first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Increase the flow rate of the irrigation solution so the extra fluid flushes the clot out of the catheter.",
+          "rationale": "Adding more fluid to a bladder that cannot drain worsens distention and pain and can tear the fresh surgical site, so the irrigation is stopped, not sped up, until drainage is restored."
+        },
+        {
+          "label": "B",
+          "text": "Administer the prescribed antispasmodic medication and reassess the client's pain in thirty minutes.",
+          "rationale": "Bladder spasms are common after prostate surgery, but here the pain comes from an obstructed catheter and a distended bladder; medicating the symptom leaves the obstruction and the risk of bleeding untreated."
+        },
+        {
+          "label": "C",
+          "text": "Stop the irrigation, check the tubing for kinks, and manually irrigate the catheter as prescribed.",
+          "rationale": "Absent outflow with a distended bladder means the catheter is blocked, usually by a clot; stopping the inflow and clearing the obstruction by checking the tubing and hand-irrigating with sterile saline restores drainage and prevents bladder rupture and bleeding."
+        }
+      ],
+      "correct": "C",
+      "category": "reduction_of_risk_potential",
+      "subtopic": "Therapeutic Procedures",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "With continuous bladder irrigation, outflow must at least equal inflow; when drainage stops and the bladder distends, stop the irrigant, clear the obstruction, and notify the provider if patency cannot be restored, rather than adding fluid or treating the pain alone.",
+      "references": [
+        "AUA guideline on surgical management of benign prostatic hyperplasia",
+        "Standard nursing procedure for continuous bladder irrigation"
+      ],
+      "tags": [
+        "turp",
+        "bladder irrigation",
+        "catheter",
+        "postoperative"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    }
+  ]
+}

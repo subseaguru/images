@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "bcc-001",
+      "stem": "A home health nurse visits a seventy-four-year-old client who has osteoarthritis of the right knee. The physical therapist has just issued a single-point cane, and the client asks the nurse how to use it when walking on level ground. Which instruction should the nurse give the client?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hold the cane in your right hand and move it forward together with your right leg.",
+          "rationale": "Holding the cane on the same side as the painful knee narrows the base of support and does not shift weight away from the joint. The cane belongs in the hand opposite the affected leg."
+        },
+        {
+          "label": "B",
+          "text": "Hold the cane in your left hand and move it forward together with your right leg.",
+          "rationale": "The cane is held on the strong side and advanced at the same time as the affected leg, so the cane and the weak leg share the load. This widens the base of support and preserves a normal reciprocal arm-and-leg gait pattern."
+        },
+        {
+          "label": "C",
+          "text": "Hold the cane in your right hand and move it forward together with your left leg.",
+          "rationale": "Advancing the cane with the unaffected leg leaves the painful right knee unsupported during its own step. The cane must move with the weak leg, and it is held on the opposite, stronger side."
+        }
+      ],
+      "correct": "B",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Assistive Devices",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Cane on the strong side, moved together with the weak leg: this keeps weight off the painful joint and widens the base of support. The handle should sit at wrist-crease height so the elbow bends about fifteen to thirty degrees.",
+      "references": [],
+      "tags": ["cane", "gait", "assistive devices", "home health"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "bcc-002",
+      "stem": "A nurse on a rehabilitation unit asks assistive personnel to transfer a client who has left-sided hemiparesis after a stroke from the bed to a wheelchair. The client can bear weight on the right leg and follows commands. Which instruction should the nurse give the assistive personnel before the transfer?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Place the wheelchair on the client's left side so that the weaker side reaches the chair first.",
+          "rationale": "Placing the chair on the weak side forces the client to lead with the hemiparetic leg and reach across with an arm that cannot help, which raises the risk of a fall. The chair goes on the stronger side so the client can see it and lead with the sound limb."
+        },
+        {
+          "label": "B",
+          "text": "Lift the client under both arms and pivot quickly so that the weak leg has no time to buckle.",
+          "rationale": "Pulling under the arms can subluxate the flaccid shoulder on the affected side, and a rushed pivot invites a fall. A gait belt around the waist, with the client bearing weight on the strong leg, is the safe technique."
+        },
+        {
+          "label": "C",
+          "text": "Place the wheelchair on the client's right side, lock the brakes, and have the client pivot on the stronger leg.",
+          "rationale": "With the chair on the stronger side and its brakes locked, the client stands on the sound leg, pivots toward the chair and sits while the caregiver guides with a gait belt. This uses the client's remaining strength and protects the affected limbs."
+        }
+      ],
+      "correct": "C",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Mobility/Immobility",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "When one side is weak, move toward the strong side: chair on the strong side, weight on the strong leg, gait belt on, brakes locked. The nurse remains responsible for giving assistive personnel clear, client-specific instructions for a delegated transfer.",
+      "references": ["ANA and NCSBN National Guidelines for Nursing Delegation"],
+      "tags": ["transfer", "stroke", "delegation", "safety"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "bcc-003",
+      "stem": "A nurse making rounds on a medical-surgical unit checks a client who has had an indwelling urinary catheter for two days following pelvic surgery. The catheter was placed for accurate measurement of urine output. Which observation requires the nurse to intervene?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The catheter tubing is secured to the client's inner thigh with an adhesive securement device.",
+          "rationale": "Securing the catheter prevents movement and traction on the urethra, which reduces tissue trauma and lowers the risk of infection. This is a recommended practice and does not need correction."
+        },
+        {
+          "label": "B",
+          "text": "The drainage bag is hanging from the bed frame below the level of the client's bladder.",
+          "rationale": "Keeping the bag below the bladder and off the floor allows unobstructed downhill flow and prevents urine from flowing back toward the bladder. This is the correct position for the collection bag."
+        },
+        {
+          "label": "C",
+          "text": "The drainage bag is resting on the mattress beside the client's hip while the client lies in bed.",
+          "rationale": "A bag lying at bladder level lets urine pool in the tubing and reflux into the bladder, which is a major risk factor for catheter-associated urinary tract infection. The nurse must move the bag to a hook below the bladder."
+        }
+      ],
+      "correct": "C",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Elimination",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Maintain a closed drainage system that is secured, kept below the bladder, off the floor and free of dependent loops. Any position that lets urine flow back toward the bladder invites infection.",
+      "references": ["CDC Guideline for Prevention of Catheter-Associated Urinary Tract Infections"],
+      "tags": ["urinary catheter", "cauti", "elimination", "infection prevention"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "bcc-004",
+      "stem": "A client who had a stroke three days ago has right-sided facial weakness. After a bedside swallow evaluation, the speech-language pathologist recommends a dysphagia diet with mildly thick liquids. Which intervention should the nurse include in the plan of care for mealtimes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sit the client fully upright with the chin slightly tucked and place food on the left side of the mouth.",
+          "rationale": "An upright position with a chin tuck helps protect the airway during the swallow, and placing food on the unaffected side lets the client feel and control the bolus. Together these measures reduce pocketing and aspiration."
+        },
+        {
+          "label": "B",
+          "text": "Offer the thickened liquids through a straw so the client can control the flow more easily.",
+          "rationale": "A straw delivers liquid rapidly to the back of the throat before the swallow is ready, which increases aspiration risk. Clients with dysphagia are usually taught to sip from a cup or spoon unless the therapist specifically approves a straw."
+        },
+        {
+          "label": "C",
+          "text": "Serve large spoonfuls of moist food so the client has fewer swallows to perform during the meal.",
+          "rationale": "Large boluses are harder to control and are more likely to be pocketed or aspirated. Small bites, one at a time, with the mouth checked for clearing before the next bite, are safer for a client with dysphagia."
+        }
+      ],
+      "correct": "A",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Nutrition and Oral Hydration",
+      "clinicalJudgmentStep": "generate_solutions",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "For dysphagia after stroke: upright at ninety degrees, chin slightly tucked, small bites placed on the unaffected side, no straws unless approved, and remain upright for at least thirty minutes after eating.",
+      "references": ["IDDSI (International Dysphagia Diet Standardisation Initiative) framework"],
+      "tags": ["dysphagia", "stroke", "aspiration", "nutrition"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "bcc-005",
+      "stem": "A parent brings a fourteen-month-old toddler with two days of vomiting and watery diarrhea to a pediatric clinic. The toddler is alert with moist mucous membranes and is assessed as mildly dehydrated. The nurse teaches the parent about oral rehydration at home. Which statement by the parent indicates understanding of the teaching?",
+      "options": [
+        {
+          "label": "A",
+          "text": "I will give only apple juice and a sports drink until the diarrhea stops so she gets some sugar and salt.",
+          "rationale": "Juice and sports drinks are high in sugar and low in sodium, so they can worsen diarrhea by pulling water into the gut. A balanced oral rehydration solution is the recommended fluid for replacing losses."
+        },
+        {
+          "label": "B",
+          "text": "I will give small amounts of oral rehydration solution every few minutes and continue her usual foods as she tolerates them.",
+          "rationale": "Frequent small volumes of oral rehydration solution are absorbed even when a child is vomiting, and early refeeding of an age-appropriate diet shortens the illness. This is the recommended approach for mild dehydration."
+        },
+        {
+          "label": "C",
+          "text": "I will hold all food and fluids for twenty-four hours so her stomach can rest before I start rehydrating her.",
+          "rationale": "Withholding fluids allows dehydration to progress, and prolonged fasting delays gut recovery. Current guidance is to rehydrate promptly and resume feeding as soon as the child will take it."
+        }
+      ],
+      "correct": "B",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Nutrition and Oral Hydration",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "For mild to moderate dehydration from gastroenteritis, give oral rehydration solution in small frequent amounts and resume the usual diet early; avoid sugary drinks and avoid withholding fluids.",
+      "references": ["CDC and American Academy of Pediatrics guidance on oral rehydration therapy for acute gastroenteritis in children"],
+      "tags": ["pediatrics", "dehydration", "oral rehydration", "teaching"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "bcc-006",
+      "stem": "An intensive care nurse turns a client who has been sedated and on bed rest for four days. The nurse finds a coin-sized area of intact, reddened skin over the coccyx that does not blanch when pressed and feels warmer than the surrounding skin. How should the nurse interpret this finding?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A stage 1 pressure injury that requires the area to be offloaded right away.",
+          "rationale": "Intact skin with nonblanchable redness over a bony prominence defines a stage 1 pressure injury. Because tissue damage has already begun, the area must be kept free of pressure and the prevention plan intensified."
+        },
+        {
+          "label": "B",
+          "text": "Reactive hyperemia that is expected after lying in one position and will fade within an hour.",
+          "rationale": "Reactive hyperemia is a normal, temporary increase in blood flow after pressure is relieved, and it blanches when pressed. Redness that does not blanch indicates capillary damage rather than a normal response."
+        },
+        {
+          "label": "C",
+          "text": "A deep tissue pressure injury that is likely to open into a full-thickness wound.",
+          "rationale": "Deep tissue pressure injury presents as persistent purple or maroon discoloration or a blood-filled blister, not simple redness. Reddened intact skin that does not blanch is classified as stage 1."
+        }
+      ],
+      "correct": "A",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Mobility/Immobility",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "The blanch test separates harmless reactive hyperemia from a stage 1 pressure injury. Nonblanchable redness over a bony prominence means damage has started, so offload the area, reposition on schedule and reassess skin at every turn.",
+      "references": ["NPIAP (National Pressure Injury Advisory Panel) pressure injury staging system"],
+      "tags": ["pressure injury", "immobility", "skin assessment", "icu"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "bcc-007",
+      "stem": "A client in active labor at five centimeters dilated reports intense lower back pain with every contraction, and the fetus is in an occiput posterior position. The client has chosen not to use medication for pain relief at this time. Which comfort measure is most appropriate for the nurse to offer?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Help the client lie flat on the back with the knees bent and apply a warm pack to the abdomen.",
+          "rationale": "Lying flat on the back compresses the vena cava, reduces placental perfusion and keeps the fetal head pressing against the sacrum, which worsens back labor. Upright or side-lying positions are preferred."
+        },
+        {
+          "label": "B",
+          "text": "Apply firm, steady counterpressure to the sacrum during contractions and encourage a hands-and-knees position.",
+          "rationale": "Sacral counterpressure directly counters the pressure of the fetal occiput on the sacrum, and the hands-and-knees position uses gravity to encourage the fetus to rotate. These are the first-line comfort measures for back labor."
+        },
+        {
+          "label": "C",
+          "text": "Perform light effleurage over the abdomen and dim the lights to promote relaxation.",
+          "rationale": "Effleurage and a calm environment can ease general labor discomfort, but light abdominal stroking does little for the sacral pressure of an occiput posterior fetus. Back labor calls for measures aimed at the sacrum and fetal position."
+        }
+      ],
+      "correct": "B",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Non-Pharmacological Comfort Interventions",
+      "clinicalJudgmentStep": "generate_solutions",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Match the comfort measure to the cause of the pain: back labor from an occiput posterior fetus responds to sacral counterpressure and positions such as hands-and-knees that relieve sacral pressure and promote fetal rotation.",
+      "references": ["AWHONN (Association of Women's Health, Obstetric and Neonatal Nurses) guidance on continuous labor support"],
+      "tags": ["labor", "back pain", "comfort measures", "maternity"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "bcc-008",
+      "stem": "An eighty-two-year-old client on a medical unit tells the nurse on the third hospital morning that they have barely slept for two nights and have been dozing during the day. The client asks for a sleeping pill. Which intervention should the nurse include in the plan of care?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Request a nightly order for a sedative-hypnotic so the client can catch up on the lost sleep.",
+          "rationale": "Sedative-hypnotics in older adults raise the risk of falls, delirium and daytime drowsiness and are listed as potentially inappropriate for this age group. Non-drug measures should be tried before any medication is considered."
+        },
+        {
+          "label": "B",
+          "text": "Keep the room dim and quiet throughout the day so the client can nap whenever they feel tired.",
+          "rationale": "Daytime napping in a dark room weakens the circadian rhythm and makes nighttime sleep even harder. Bright daytime light and activity help reset the sleep-wake cycle."
+        },
+        {
+          "label": "C",
+          "text": "Encourage daytime activity with daylight exposure and cluster nighttime care to limit interruptions.",
+          "rationale": "Daytime light and activity strengthen the circadian rhythm, while grouping nighttime tasks reduces awakenings. These non-pharmacological measures are the first-line approach to sleep disturbance in hospitalized older adults."
+        }
+      ],
+      "correct": "C",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Rest and Sleep",
+      "clinicalJudgmentStep": "generate_solutions",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "For sleep problems in hospitalized older adults, start with sleep hygiene: daytime light and activity, limited napping, quiet dark nights and clustered care. Sedative-hypnotics are a last resort because of falls and delirium.",
+      "references": ["American Geriatrics Society Beers Criteria (2023 update)"],
+      "tags": ["sleep", "older adult", "sleep hygiene", "beers criteria"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "bcc-009",
+      "stem": "A thirty-year-old client is being discharged from the emergency department with a fractured left ankle in a splint, instructions to bear no weight on the left leg, and a pair of axillary crutches. The nurse teaches the client how to manage stairs. Which statement by the client indicates understanding of the teaching?",
+      "options": [
+        {
+          "label": "A",
+          "text": "When I go down the stairs I will step down with my right leg first, then bring the crutches and my left leg down.",
+          "rationale": "Going down, the crutches and the injured leg move down first so the strong leg stays on the higher step to control the descent. Leading down with the strong leg leaves the body unsupported and risks a fall."
+        },
+        {
+          "label": "B",
+          "text": "When I stand still I will rest my body weight on the pads under my arms so my hands can relax.",
+          "rationale": "Leaning on the axillary pads compresses the brachial plexus and can cause numbness, weakness or crutch palsy. Weight is carried on the hands with the pads about two finger-widths below the armpit."
+        },
+        {
+          "label": "C",
+          "text": "When I go up the stairs I will step up with my right leg first, then bring the crutches and my left leg up.",
+          "rationale": "Going up, the strong leg lifts the body to the next step and the crutches with the injured leg follow, so the strong leg does the work. This is the correct sequence for climbing stairs with crutches."
+        }
+      ],
+      "correct": "C",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Assistive Devices",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Up with the good, down with the bad: the strong leg leads going upstairs, and the crutches with the injured leg lead going downstairs. Weight rests on the hands, not the armpits.",
+      "references": [],
+      "tags": ["crutches", "stairs", "assistive devices", "emergency department"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "bcc-010",
+      "stem": "An intensive care nurse is preparing to perform oral care for a client who is intubated and receiving mechanical ventilation. The client is sedated and has an orogastric tube in place. Which action should the nurse take while providing the oral care?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Keep the head of the bed raised at least thirty degrees and suction the mouth after brushing the teeth.",
+          "rationale": "Head elevation and oropharyngeal suctioning keep loosened secretions and rinse fluid from pooling above the cuff and being aspirated. Both are core elements of oral care bundles for ventilated clients."
+        },
+        {
+          "label": "B",
+          "text": "Lower the head of the bed flat to get a clear view of the back of the mouth while brushing.",
+          "rationale": "A flat position lets secretions and fluid drain toward the airway and is associated with ventilator-associated pneumonia. The head of the bed should stay elevated at thirty degrees or more unless there is a contraindication."
+        },
+        {
+          "label": "C",
+          "text": "Clean the mucosa with lemon-glycerin swabs to moisten the mouth and freshen the breath.",
+          "rationale": "Lemon-glycerin swabs are acidic and drying, so they irritate the mucosa and erode tooth enamel. A soft toothbrush with water or an approved oral rinse, followed by a water-based moisturizer, is recommended."
+        }
+      ],
+      "correct": "A",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Personal Hygiene",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Oral care in a ventilated client is an infection-prevention measure: head of bed elevated, brush teeth with a soft brush, suction the oropharynx, moisturize the lips, and avoid drying agents such as lemon-glycerin swabs.",
+      "references": ["AACN Practice Alert: Oral Care for Acutely and Critically Ill Patients"],
+      "tags": ["oral care", "ventilator", "icu", "hygiene"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "bcc-011",
+      "stem": "A nurse on a surgical unit is assessing a client on the second postoperative day after a bowel resection that created a sigmoid colostomy. The nurse removes the pouch to inspect the stoma and surrounding skin. Which finding requires immediate follow-up?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The stoma is moist, beefy red and mildly swollen, with a small amount of bleeding when wiped.",
+          "rationale": "A moist, beefy red stoma with mild early swelling shows good blood supply, and slight bleeding when the surface is cleaned is expected because the mucosa is highly vascular. These findings are normal in the early postoperative period."
+        },
+        {
+          "label": "B",
+          "text": "The stoma has become dark purple and dry compared with the assessment four hours earlier.",
+          "rationale": "A dusky, purple or dry stoma indicates compromised blood flow and possible necrosis, which can lead to loss of the stoma. The nurse must notify the surgeon promptly so the stoma can be evaluated."
+        },
+        {
+          "label": "C",
+          "text": "The pouch contains a small amount of flatus and a few milliliters of liquid stool.",
+          "rationale": "Flatus and small amounts of liquid stool are expected as bowel function returns after surgery, and colostomy output thickens over the following days. This finding shows the bowel is beginning to work."
+        }
+      ],
+      "correct": "B",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Elimination",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "A healthy stoma is moist and red to pink; a dusky, purple, black or dry stoma signals ischemia and needs immediate reporting. Compare each assessment with the previous one to catch a change in color early.",
+      "references": ["WOCN Society (Wound, Ostomy and Continence Nurses Society) clinical guidance on ostomy care"],
+      "tags": ["colostomy", "stoma", "elimination", "postoperative"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "bcc-012",
+      "stem": "A nurse beginning a day shift on a medical-surgical unit receives a handoff report on three assigned clients, each of whom has a need related to basic care and comfort. Which client should the nurse assess first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A client on continuous nasogastric tube feeding who has become restless and whose oxygen saturation has fallen from 97 to 90 percent.",
+          "rationale": "Restlessness with a falling oxygen saturation during tube feeding suggests aspiration, which threatens the airway and breathing. Airway and breathing problems come before pain, mobility and elimination needs."
+        },
+        {
+          "label": "B",
+          "text": "A client with a fractured hip awaiting surgery who reports pain of six out of ten and is due to be repositioned.",
+          "rationale": "Pain and scheduled repositioning are important but not immediately life-threatening. This client can safely wait a few minutes while an airway problem is addressed, and pain management can then be delegated in part or handled next."
+        },
+        {
+          "label": "C",
+          "text": "A client who has not had a bowel movement for three days since starting scheduled oxycodone after knee surgery.",
+          "rationale": "Opioid-induced constipation needs a bowel regimen and assessment for distention, but it is a stable chronic problem that does not threaten oxygenation. It is the lowest priority of the three."
+        }
+      ],
+      "correct": "A",
+      "category": "basic_care_and_comfort",
+      "subtopic": "Nutrition and Oral Hydration",
+      "clinicalJudgmentStep": "prioritize_hypotheses",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "When ranking clients, an actual or potential airway or breathing problem outranks pain, mobility and elimination needs. A change in mental status with a falling saturation during enteral feeding should be treated as aspiration until proven otherwise.",
+      "references": ["ASPEN (American Society for Parenteral and Enteral Nutrition) enteral nutrition safe practice recommendations"],
+      "tags": ["prioritization", "enteral feeding", "aspiration", "medical-surgical"],
+      "createdAt": "2026-09-10T00:00:00Z"
+    }
+  ]
+}

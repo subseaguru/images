@@ -1,0 +1,463 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "moc-001",
+      "stem": "A medical-surgical nurse receives handoff report on three clients. One client with heart failure gained one kilogram overnight and has ankle swelling. One client with chronic obstructive pulmonary disease (COPD) became newly confused overnight and has an oxygen saturation of 88 percent on two liters of oxygen. One client one day after knee replacement rates pain at 7 out of 10. Which client should the nurse assess first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The client with heart failure who gained one kilogram overnight and has ankle swelling.",
+          "rationale": "A one kilogram overnight gain with edema signals fluid retention that needs attention and a provider update, but it is a gradual change rather than an acute threat to oxygenation, so it can safely wait a few minutes."
+        },
+        {
+          "label": "B",
+          "text": "The client with COPD who is newly confused and has an oxygen saturation of 88 percent.",
+          "rationale": "New confusion combined with a low oxygen saturation is an acute change in condition that points to hypoxemia or hypercapnia, so breathing and mental status changes take priority over stable or expected findings."
+        },
+        {
+          "label": "C",
+          "text": "The client one day after knee replacement who rates pain at 7 out of 10.",
+          "rationale": "Pain one day after surgery is expected and important to treat promptly, but it is not life threatening, so it ranks below an acute change in oxygenation and level of consciousness."
+        }
+      ],
+      "correct": "B",
+      "category": "management_of_care",
+      "subtopic": "Establishing Priorities",
+      "clinicalJudgmentStep": "prioritize_hypotheses",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "When deciding whom to see first, an acute or unexpected change in airway, breathing, circulation, or level of consciousness outranks expected findings and chronic or gradually developing problems.",
+      "references": [
+        "NCSBN Clinical Judgment Measurement Model",
+        "ABC (airway, breathing, circulation) prioritization framework"
+      ],
+      "tags": [
+        "prioritization",
+        "copd",
+        "hypoxemia",
+        "handoff"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "moc-002",
+      "stem": "A registered nurse on a medical-surgical unit is caring for four clients and is working with an experienced assistive personnel (AP) team member. The nurse is deciding which tasks can be delegated so that the nurse can complete an admission assessment. Which task is appropriate for the nurse to delegate to the AP?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Measure vital signs and record intake and output for a stable client two days after hip surgery.",
+          "rationale": "Vital signs and intake and output on a stable client with a predictable course are routine, standardized tasks that fall within the assistive personnel role, with the nurse remaining responsible for interpreting the results."
+        },
+        {
+          "label": "B",
+          "text": "Evaluate the pain level of a client thirty minutes after a scheduled oral opioid was given.",
+          "rationale": "Evaluating a client's response to a medication requires nursing judgment about effectiveness and adverse effects, and evaluation is a step of the nursing process that cannot be delegated."
+        },
+        {
+          "label": "C",
+          "text": "Show a client with pneumonia how to use an incentive spirometer for the first time after admission.",
+          "rationale": "Initial client teaching requires assessment of readiness and understanding and belongs to the nurse; assistive personnel may reinforce a skill only after the nurse has taught it."
+        }
+      ],
+      "correct": "A",
+      "category": "management_of_care",
+      "subtopic": "Assignment, Delegation and Supervision",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Delegate routine, predictable tasks for stable clients, and keep assessment, evaluation, initial teaching, and clinical judgment with the nurse, who remains accountable for the outcome.",
+      "references": [
+        "ANA and NCSBN National Guidelines for Nursing Delegation"
+      ],
+      "tags": [
+        "delegation",
+        "assistive personnel",
+        "scope of practice"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "moc-003",
+      "stem": "A nurse is completing the preoperative checklist for a client scheduled for a laparoscopic gallbladder removal in one hour. The surgeon has already left the unit and the consent form is signed. The client tells the nurse, \"I know they are taking out my gallbladder, but I really do not understand what could go wrong.\" Which action should the nurse take?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Review the risks and possible complications of the surgery with the client using the consent form.",
+          "rationale": "Explaining the procedure, its risks, benefits, and alternatives is the responsibility of the provider who performs it; the nurse may clarify and reinforce, but should not become the primary source of that information."
+        },
+        {
+          "label": "B",
+          "text": "Reassure the client that the surgeon explained everything and that the signature shows the client agreed.",
+          "rationale": "A signature is only valid evidence of consent when the client actually understands what was explained, so dismissing the client's stated confusion leaves the consent incomplete and the nurse's witnessing inaccurate."
+        },
+        {
+          "label": "C",
+          "text": "Contact the surgeon so the client's questions are answered before the surgery proceeds.",
+          "rationale": "When a client expresses a lack of understanding, informed consent has not truly been given, and the nurse's role as client advocate is to notify the provider so the discussion can be completed before the procedure."
+        }
+      ],
+      "correct": "C",
+      "category": "management_of_care",
+      "subtopic": "Informed Consent",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "The provider obtains informed consent; the nurse verifies that the client understands and is signing voluntarily, and notifies the provider whenever that understanding is missing.",
+      "references": [
+        "The Joint Commission informed consent standards",
+        "ANA Code of Ethics for Nurses"
+      ],
+      "tags": [
+        "informed consent",
+        "preoperative",
+        "advocacy"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "moc-004",
+      "stem": "A 72-year-old client in the intensive care unit (ICU) with worsening pneumonia has a living will that declines mechanical ventilation. The client is alert and oriented and tells the nurse, \"I have changed my mind. If I need the breathing machine, I want it.\" The client's daughter, who is the named health care agent, insists that the living will be followed. How should the nurse interpret this situation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The living will stays in effect until the client revokes it in writing, so the nurse should follow it.",
+          "rationale": "A living will only takes effect when the client can no longer communicate decisions, and a client with capacity may revoke or change it at any time, including verbally, so it does not override the client's current wishes."
+        },
+        {
+          "label": "B",
+          "text": "The health care agent's decision takes precedence because the client is critically ill.",
+          "rationale": "A health care agent's authority begins only when the client loses decision-making capacity; being seriously ill does not by itself remove capacity, so the agent cannot override an alert and oriented client."
+        },
+        {
+          "label": "C",
+          "text": "The client's current spoken wishes take precedence because the client has decision-making capacity.",
+          "rationale": "Self-determination means a client who can understand the situation and communicate a choice directs care in real time, so the nurse honors the stated wish, documents it, and notifies the provider to update the orders."
+        }
+      ],
+      "correct": "C",
+      "category": "management_of_care",
+      "subtopic": "Advance Directives/Self-Determination/Life Planning",
+      "clinicalJudgmentStep": "analyze_cues",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Advance directives and health care agents speak for the client only when the client cannot; a client with decision-making capacity can change any prior instruction at any time.",
+      "references": [
+        "Patient Self-Determination Act of 1990",
+        "ANA Code of Ethics for Nurses"
+      ],
+      "tags": [
+        "advance directives",
+        "capacity",
+        "icu",
+        "self-determination"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "moc-005",
+      "stem": "A nurse on a pediatric unit is caring for a six-year-old child who is recovering from an appendectomy. During the shift the nurse observes several interactions involving the child's health information. Which situation requires the nurse to intervene to protect the child's confidentiality?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A nurse gives change-of-shift handoff at the bedside while the child's mother is present.",
+          "rationale": "A parent or legal guardian is entitled to a minor child's health information, and bedside handoff with the family present is an accepted practice as long as other visitors cannot overhear."
+        },
+        {
+          "label": "B",
+          "text": "A nurse tells a caller who says she is the child's teacher that the child is doing well after surgery.",
+          "rationale": "Telling an unverified caller that the child had surgery and how the child is recovering releases treatment information to someone outside the care team without the parent's authorization, so this is a privacy breach."
+        },
+        {
+          "label": "C",
+          "text": "A nurse discusses the child's overnight fever with the pediatric resident in the medication room.",
+          "rationale": "Sharing information among members of the treatment team for the purpose of care is permitted, and a private staff area is an appropriate place for that conversation."
+        }
+      ],
+      "correct": "B",
+      "category": "management_of_care",
+      "subtopic": "Confidentiality/Information Security",
+      "clinicalJudgmentStep": "recognize_cues",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Protected health information may be shared with the treatment team and the client's legal decision maker; releasing it to anyone else, even a caring caller, requires the client's or guardian's authorization.",
+      "references": [
+        "HIPAA Privacy Rule"
+      ],
+      "tags": [
+        "confidentiality",
+        "hipaa",
+        "pediatrics"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "moc-006",
+      "stem": "A client who was admitted voluntarily to an inpatient psychiatric unit three days ago for major depression tells the nurse, \"I want to leave today. I signed myself in, so I can sign myself out.\" The client is calm, denies thoughts of self-harm, and has no history of violence. Which action should the nurse take?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Explain that a voluntary admission ends only when the treatment team completes the planned course of care.",
+          "rationale": "A voluntary client keeps the right to request discharge; treatment cannot be forced simply because the team believes more time would help, so this statement misrepresents the client's legal rights."
+        },
+        {
+          "label": "B",
+          "text": "Notify the provider of the request and help the client complete the written discharge request per facility policy.",
+          "rationale": "A voluntary client may request release in writing, after which the provider must evaluate the client within the period set by state law and either discharge the client or begin proceedings only if the client is a danger to self or others."
+        },
+        {
+          "label": "C",
+          "text": "Begin the process for an involuntary hold because the client is leaving against medical advice.",
+          "rationale": "Involuntary commitment requires evidence that the client is a danger to self or others or is gravely disabled, and wanting to leave does not meet that standard, so this would violate the client's rights."
+        }
+      ],
+      "correct": "B",
+      "category": "management_of_care",
+      "subtopic": "Legal Rights and Responsibilities",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Voluntarily admitted clients retain the right to request discharge; the nurse's role is to route the request to the provider promptly, and involuntary status can be pursued only when the client meets the legal danger standard.",
+      "references": [
+        "State mental health laws on voluntary and involuntary admission",
+        "ANA Code of Ethics for Nurses"
+      ],
+      "tags": [
+        "mental health",
+        "voluntary admission",
+        "client rights"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "moc-007",
+      "stem": "A nurse is preparing a client at 39 weeks of gestation for a planned cesarean birth. The client speaks Vietnamese and understands very little English. The client's adult son, who is fluent in both languages, offers to interpret during the surgeon's consent discussion. Which action should the nurse take?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Arrange for a qualified medical interpreter before the surgeon discusses the consent.",
+          "rationale": "Clients with limited English proficiency have a right to a qualified interpreter for health care decisions, which protects accuracy, confidentiality, and the client's ability to ask questions about sensitive topics."
+        },
+        {
+          "label": "B",
+          "text": "Accept the son's offer because a trusted family member is present and available.",
+          "rationale": "Family members may omit, soften, or misunderstand medical terms and the client may withhold private information in front of them, so relatives should interpret only in an emergency when no qualified interpreter is available."
+        },
+        {
+          "label": "C",
+          "text": "Provide the client with a consent form printed in Vietnamese to read and sign.",
+          "rationale": "A translated form supports but does not replace the two-way conversation in which the provider explains the procedure and the client asks questions, and it assumes the client reads the language."
+        }
+      ],
+      "correct": "A",
+      "category": "management_of_care",
+      "subtopic": "Advocacy",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "easy",
+      "source": "bundled",
+      "teachingPoint": "Advocating for a client with limited English proficiency means securing a qualified interpreter for consent and teaching, rather than relying on family members or written translations alone.",
+      "references": [
+        "National CLAS Standards (HHS Office of Minority Health)",
+        "Title VI of the Civil Rights Act of 1964",
+        "The Joint Commission patient-centered communication standards"
+      ],
+      "tags": [
+        "advocacy",
+        "interpreter",
+        "maternity",
+        "informed consent"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "moc-008",
+      "stem": "A home health nurse visits a 79-year-old client who had a stroke two months ago and lives alone. The client's daughter reports that the client coughs during meals, takes almost an hour to finish eating, and has lost five pounds over the past month. Which referral should the nurse initiate first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A registered dietitian to add calorie-dense supplements to the client's meals.",
+          "rationale": "Nutrition support will likely be needed, but adding more food or liquids before swallowing safety is confirmed could increase the risk of aspiration, so it follows rather than precedes the swallowing evaluation."
+        },
+        {
+          "label": "B",
+          "text": "An occupational therapist to provide adaptive eating utensils and positioning.",
+          "rationale": "Adaptive equipment addresses the motor difficulty of self-feeding, but the coughing with meals points to a swallowing problem rather than a hand or arm limitation, so this does not address the safety concern."
+        },
+        {
+          "label": "C",
+          "text": "A speech-language pathologist to evaluate the client's swallowing.",
+          "rationale": "Coughing with meals, prolonged eating, and weight loss after a stroke are signs of dysphagia, and a swallowing evaluation determines safe food textures and techniques before other nutrition interventions."
+        }
+      ],
+      "correct": "C",
+      "category": "management_of_care",
+      "subtopic": "Referrals",
+      "clinicalJudgmentStep": "generate_solutions",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Match the referral to the underlying problem and address safety first: signs of dysphagia after a stroke call for a speech-language pathology swallowing evaluation before diet or equipment changes.",
+      "references": [
+        "AHA/ASA Guidelines for Adult Stroke Rehabilitation and Recovery"
+      ],
+      "tags": [
+        "referrals",
+        "home health",
+        "stroke",
+        "dysphagia"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "moc-009",
+      "stem": "A medical-surgical unit implemented hourly rounding six months ago as a quality improvement project with the goal of reducing client falls. The nurse manager is reviewing the results with the unit practice council. Which finding best indicates that the project achieved its goal?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Audits show that hourly rounding was documented on 94 percent of shifts during the period.",
+          "rationale": "Documentation of rounding is a process measure that shows the intervention was carried out as planned, but it does not show whether the intervention actually changed the outcome it was meant to improve."
+        },
+        {
+          "label": "B",
+          "text": "The fall rate decreased from 4.2 to 2.1 falls per one thousand client days over the period.",
+          "rationale": "The fall rate is the outcome measure tied directly to the project's goal, and a rate expressed per one thousand client days adjusts for census so the before and after periods can be compared fairly."
+        },
+        {
+          "label": "C",
+          "text": "Client satisfaction scores for nurse responsiveness increased by twelve points over the period.",
+          "rationale": "Improved satisfaction is a welcome secondary effect of rounding, but it measures the client's experience rather than fall occurrence, so it cannot prove the fall-reduction goal was met."
+        }
+      ],
+      "correct": "B",
+      "category": "management_of_care",
+      "subtopic": "Performance Improvement (Quality Improvement)",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "To judge whether a quality improvement project worked, look at the outcome measure that matches its stated goal; process measures show only that the change was implemented.",
+      "references": [
+        "AHRQ Preventing Falls in Hospitals toolkit",
+        "IHI Model for Improvement"
+      ],
+      "tags": [
+        "quality improvement",
+        "falls",
+        "outcome measures"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "moc-010",
+      "stem": "A charge nurse on a medical-surgical unit is making the day-shift assignments. A licensed practical nurse (LPN) will work alongside a registered nurse, and the charge nurse must decide which client is most appropriate for the LPN. Which client should the charge nurse assign to the LPN?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A client admitted two hours ago with chest pain whose first troponin result is still pending.",
+          "rationale": "A newly admitted client with an undiagnosed, potentially unstable condition needs ongoing registered nurse assessment and clinical judgment, which are outside the practical nurse scope in most states."
+        },
+        {
+          "label": "B",
+          "text": "A client who began receiving a unit of packed red blood cells ten minutes ago.",
+          "rationale": "The first fifteen minutes of a transfusion carry the highest risk of an acute reaction, and blood administration and reaction assessment are generally a registered nurse responsibility, so this client is not a safe LPN assignment."
+        },
+        {
+          "label": "C",
+          "text": "A client three days after colon surgery who needs a dressing change and oral medications.",
+          "rationale": "A stable client with a predictable course whose care consists of established procedures and oral medications fits the practical nurse scope, with the registered nurse available for supervision."
+        }
+      ],
+      "correct": "C",
+      "category": "management_of_care",
+      "subtopic": "Assignment, Delegation and Supervision",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "hard",
+      "source": "bundled",
+      "teachingPoint": "Assign the practical nurse to stable clients with predictable outcomes and established care plans; keep new admissions, unstable clients, and high-risk therapies such as blood transfusion with the registered nurse.",
+      "references": [
+        "ANA and NCSBN National Guidelines for Nursing Delegation",
+        "AABB blood transfusion standards"
+      ],
+      "tags": [
+        "assignment",
+        "lpn scope",
+        "transfusion",
+        "charge nurse"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "moc-011",
+      "stem": "A nurse on an oncology unit is caring for a client with metastatic pancreatic cancer. Earlier in the day the client's spouse asked the staff not to discuss the prognosis with the client. During evening care the client says to the nurse, \"Please be honest with me. Am I dying?\" Which response by the nurse is best?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"Tell me what you understand about your illness and what you would like to know.\"",
+          "rationale": "A client with capacity has the right to truthful information about their own condition, and this response respects autonomy and veracity by assessing what the client knows and wants while opening the way to involve the provider."
+        },
+        {
+          "label": "B",
+          "text": "\"That is something your provider should go over with you when your family is here.\"",
+          "rationale": "Deferring entirely to a future family meeting closes the conversation the client just opened and lets the family's wishes control what the client may learn, which conflicts with the client's own right to information."
+        },
+        {
+          "label": "C",
+          "text": "\"Let us focus on keeping you comfortable tonight, and we can talk about that tomorrow.\"",
+          "rationale": "Redirecting to comfort avoids the question and communicates that the topic is off limits; postponing a direct request for honesty undermines trust and the client's right to make informed decisions."
+        }
+      ],
+      "correct": "A",
+      "category": "management_of_care",
+      "subtopic": "Ethical Practice",
+      "clinicalJudgmentStep": "take_action",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "The client, not the family, decides what the client learns about their own diagnosis; the nurse responds to questions about prognosis by exploring understanding and preferences and then involving the provider.",
+      "references": [
+        "ANA Code of Ethics for Nurses (Provision 1, respect for autonomy)"
+      ],
+      "tags": [
+        "ethics",
+        "veracity",
+        "oncology",
+        "therapeutic communication"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "moc-012",
+      "stem": "A nurse at a community health clinic is teaching a 68-year-old client with early heart failure about advance directives. The client has not yet completed a living will or named a health care agent and wants to do so before the condition worsens. Which statement by the client indicates understanding of the teaching?",
+      "options": [
+        {
+          "label": "A",
+          "text": "\"I can change or cancel my living will at any time as long as I am able to make my own decisions.\"",
+          "rationale": "A living will reflects the client's wishes and can be revised or revoked whenever the client has decision-making capacity, which is why clients are encouraged to review it after any change in health."
+        },
+        {
+          "label": "B",
+          "text": "\"My living will needs to be prepared by a lawyer before the hospital will accept it.\"",
+          "rationale": "Advance directive forms are available without an attorney; states require signatures with witnesses or notarization, and hospitals must accept and honor a validly completed document."
+        },
+        {
+          "label": "C",
+          "text": "\"As soon as I name a health care agent, that person will make my medical decisions for me.\"",
+          "rationale": "A health care agent acts only when the client is unable to make or communicate decisions; while the client has capacity, the client continues to make every decision."
+        }
+      ],
+      "correct": "A",
+      "category": "management_of_care",
+      "subtopic": "Advance Directives/Self-Determination/Life Planning",
+      "clinicalJudgmentStep": "evaluate_outcomes",
+      "difficulty": "medium",
+      "source": "bundled",
+      "teachingPoint": "Teach clients that advance directives are flexible documents they control: no attorney is required, they can be changed while the client has capacity, and the health care agent acts only when the client cannot.",
+      "references": [
+        "Patient Self-Determination Act of 1990"
+      ],
+      "tags": [
+        "advance directives",
+        "teaching",
+        "community health"
+      ],
+      "createdAt": "2026-09-10T00:00:00Z"
+    }
+  ]
+}
