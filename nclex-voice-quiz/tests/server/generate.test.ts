@@ -214,6 +214,14 @@ describe("POST /api/generate", () => {
     assert.equal(limited.status, 429);
     assert.equal(limited.body.code, "rate_limited");
 
+    // 5xx generator errors are still ours: the learner needs the message ("offline?"), not a generic 500.
+    respond = async () => {
+      throw new GeneratorError("Could not reach the Claude API - is this computer online?", 502, "unreachable");
+    };
+    const offline = await call<{ error: string; code: string }>(s.base, "/api/generate", "POST", { count: 1 });
+    assert.equal(offline.status, 502);
+    assert.deepEqual(offline.body, { error: "Could not reach the Claude API - is this computer online?", code: "unreachable" });
+
     const originalError = console.error;
     console.error = () => undefined;
     try {

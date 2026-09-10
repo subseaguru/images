@@ -44,16 +44,16 @@
         },
         {
           "label": "B",
-          "text": "Keep the client in bed, notify the provider and anticipate a venous duplex ultrasound",
-          "rationale": "A swollen, warm, tender calf after hip surgery suggests deep vein thrombosis; limiting movement and prompt evaluation prevent embolization."
+          "text": "Encourage the client to ambulate to improve circulation",
+          "rationale": "Ambulation is prevention, not treatment; with a suspected clot, walking may cause it to break loose."
         },
         {
           "label": "C",
-          "text": "Encourage the client to ambulate to improve circulation",
-          "rationale": "Ambulation is prevention, not treatment; with a suspected clot, walking may cause it to break loose."
+          "text": "Keep the client in bed, notify the provider and anticipate a venous duplex ultrasound",
+          "rationale": "A swollen, warm, tender calf after hip surgery suggests deep vein thrombosis; limiting movement and prompt evaluation prevent embolization."
         }
       ],
-      "correct": "B",
+      "correct": "C",
       "category": "reduction_of_risk_potential",
       "subtopic": "Potential for Complications from Surgical Procedures and Health Alterations",
       "clinicalJudgmentStep": "take_action",

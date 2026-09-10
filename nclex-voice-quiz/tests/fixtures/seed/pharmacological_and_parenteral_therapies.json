@@ -44,16 +44,16 @@
         },
         {
           "label": "B",
-          "text": "Hold the dose and notify the provider",
-          "rationale": "An apical pulse below 60 and a low potassium level both increase the risk of digoxin toxicity, so the dose is held and the provider informed."
+          "text": "Give half of the prescribed dose",
+          "rationale": "Nurses may not alter a prescribed dose; the findings require holding the drug and contacting the provider."
         },
         {
           "label": "C",
-          "text": "Give half of the prescribed dose",
-          "rationale": "Nurses may not alter a prescribed dose; the findings require holding the drug and contacting the provider."
+          "text": "Hold the dose and notify the provider",
+          "rationale": "An apical pulse below 60 and a low potassium level both increase the risk of digoxin toxicity, so the dose is held and the provider informed."
         }
       ],
-      "correct": "B",
+      "correct": "C",
       "category": "pharmacological_and_parenteral_therapies",
       "subtopic": "Adverse Effects/Contraindications/Side Effects/Interactions",
       "clinicalJudgmentStep": "analyze_cues",
@@ -71,13 +71,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Slow the transfusion rate and notify the provider",
-          "rationale": "Slowing the infusion continues to deliver incompatible blood; the transfusion must be stopped entirely."
+          "text": "Stop the transfusion and keep the vein open with normal saline through new tubing",
+          "rationale": "Chills, back pain and anxiety early in a transfusion suggest an acute hemolytic reaction; stopping the blood immediately limits the amount transfused."
         },
         {
           "label": "B",
-          "text": "Stop the transfusion and keep the vein open with normal saline through new tubing",
-          "rationale": "Chills, back pain and anxiety early in a transfusion suggest an acute hemolytic reaction; stopping the blood immediately limits the amount transfused."
+          "text": "Slow the transfusion rate and notify the provider",
+          "rationale": "Slowing the infusion continues to deliver incompatible blood; the transfusion must be stopped entirely."
         },
         {
           "label": "C",
@@ -85,7 +85,7 @@
           "rationale": "Treating symptoms while continuing the transfusion allows more incompatible blood to infuse and could be fatal."
         }
       ],
-      "correct": "B",
+      "correct": "A",
       "category": "pharmacological_and_parenteral_therapies",
       "subtopic": "Blood and Blood Products",
       "clinicalJudgmentStep": "take_action",

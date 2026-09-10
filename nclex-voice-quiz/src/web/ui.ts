@@ -2,8 +2,8 @@
  * Small DOM helpers. All text goes through `textContent`, so user- and API-supplied strings are
  * never interpreted as HTML.
  */
-import type { CategoryId, Difficulty, OptionLabel, QuestionSource } from "../shared/types.js";
-import { categoryName } from "../shared/blueprint.js";
+import type { CategoryId, Difficulty, OptionLabel, Question, QuestionSource } from "../shared/types.js";
+import { categoryName, clinicalJudgmentStepName, NCLEX_RN_BLUEPRINT } from "../shared/blueprint.js";
 import { errorMessage } from "./api.js";
 
 type Child = Node | string | number | null | undefined | false;
@@ -183,4 +183,66 @@ export function focus(node: HTMLElement | null | undefined): void {
   } catch {
     // Some elements refuse focus; nothing to do.
   }
+}
+
+/** Expandable question card: stem as the summary, then options with rationales and the teaching point. */
+export function questionDetails(
+  question: Question,
+  options: { open?: boolean; actions?: HTMLElement[]; testid?: string; summaryPrefix?: string } = {},
+): HTMLDetailsElement {
+  const summary = el("summary", {}, el("span", { text: `${options.summaryPrefix ?? ""}${question.stem}` }));
+  const meta = el(
+    "div",
+    { class: "row item-meta" },
+    chip(safeCategoryName(question.category)),
+    chip(difficultyLabel(question.difficulty), true),
+    chip(sourceLabel(question.source), true),
+    question.subtopic ? el("span", { text: question.subtopic }) : null,
+    question.clinicalJudgmentStep ? el("span", { text: clinicalJudgmentStepName(question.clinicalJudgmentStep) }) : null,
+  );
+  const list = el("ul", { class: "options" });
+  for (const option of question.options) {
+    list.appendChild(
+      el(
+        "li",
+        { class: option.label === question.correct ? "correct" : "" },
+        el("div", { text: `${option.label}. ${option.text}${option.label === question.correct ? " (correct)" : ""}` }),
+        el("div", { class: "rationale", text: option.rationale }),
+      ),
+    );
+  }
+  const details = el("details", { class: "q", testid: options.testid }, summary, meta, list);
+  if (question.teachingPoint) {
+    details.appendChild(el("div", { class: "teaching-point" }, el("strong", { text: "Teaching point" }), question.teachingPoint));
+  }
+  if (question.references && question.references.length > 0) {
+    details.appendChild(el("div", { class: "item-meta", text: `References: ${question.references.join("; ")}` }));
+  }
+  if (options.actions && options.actions.length > 0) details.appendChild(el("div", { class: "row" }, ...options.actions));
+  details.open = options.open === true;
+  return details;
+}
+
+/** Category checkbox list with the blueprint percentage next to each name. */
+export function categoryChecklist(
+  testidPrefix: string | undefined,
+  checked: (id: CategoryId) => boolean,
+): { node: HTMLDivElement; inputs: Map<CategoryId, HTMLInputElement>; selected: () => CategoryId[] } {
+  const node = el("div", { class: "checks" });
+  const inputs = new Map<CategoryId, HTMLInputElement>();
+  for (const category of NCLEX_RN_BLUEPRINT.categories) {
+    const box = checkbox(category.name, {
+      checked: checked(category.id),
+      value: category.id,
+      testid: testidPrefix ? `${testidPrefix}-${category.id}` : undefined,
+      extra: `${category.minPercent}–${category.maxPercent}%`,
+    });
+    inputs.set(category.id, box.input);
+    node.appendChild(box.wrapper);
+  }
+  return {
+    node,
+    inputs,
+    selected: () => [...inputs.entries()].filter(([, input]) => input.checked).map(([id]) => id),
+  };
 }

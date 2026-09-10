@@ -11,6 +11,7 @@ import type { SourceStore } from "../sources/store.js";
 import {
   badRequest,
   bodyObject,
+  HttpError,
   optionalBoolean,
   optionalEnum,
   optionalEnumList,
@@ -82,7 +83,19 @@ export function generateRouter(deps: {
     };
     if (request.targetWeakAreas) ctx.stats = computeStats(deps.attempts.list());
 
-    const result = await deps.generateQuestions(request, ctx);
+    const result = await deps.generateQuestions(request, ctx).catch((err: unknown) => {
+      // GeneratorError messages are written for the learner (bad key, unknown model, offline...),
+      // so forward them with their status instead of masking 5xx ones as a generic failure.
+      if (err instanceof Error && err.name === "GeneratorError") {
+        const { status, code } = err as Error & { status?: unknown; code?: unknown };
+        throw new HttpError(
+          typeof status === "number" ? status : 500,
+          err.message,
+          typeof code === "string" ? code : "generator_error",
+        );
+      }
+      throw err;
+    });
 
     const warnings = [...(result.warnings ?? [])];
     const valid: Question[] = [];

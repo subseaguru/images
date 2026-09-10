@@ -7,6 +7,9 @@ export const FETCH_MAX_BYTES = 10 * 1024 * 1024;
 
 /** Error carrying an HTTP status so the API layer can forward it as-is. */
 export class ExtractError extends Error {
+  /** Written for the learner ("could not fetch ..."), so the API may forward it even as a 5xx. */
+  readonly expose = true;
+
   constructor(
     message: string,
     readonly status: number = 400,
@@ -73,8 +76,11 @@ export function collapseWhitespace(text: string): string {
     .trim();
 }
 
-const BLOCK_TAGS =
-  "p|div|br|hr|h[1-6]|li|ul|ol|tr|td|th|table|thead|tbody|section|article|header|footer|nav|aside|main|blockquote|pre|dd|dt|dl|figure|figcaption|form|fieldset|address|details|summary";
+/** Elements that start a new line but not a new paragraph (list items, table cells, line breaks). */
+const LINE_TAGS = "br|li|tr|td|th|dt|dd";
+/** Elements that separate paragraphs: a blank line on either side once whitespace is collapsed. */
+const PARAGRAPH_TAGS =
+  "p|div|hr|h[1-6]|ul|ol|table|thead|tbody|section|article|header|footer|nav|aside|main|blockquote|pre|dl|figure|figcaption|form|fieldset|address|details|summary";
 
 export function extractTextFromHtml(html: string): { title: string; text: string } {
   const titleMatch = /<title[^>]*>([\s\S]*?)<\/title>/i.exec(html);
@@ -82,7 +88,10 @@ export function extractTextFromHtml(html: string): { title: string; text: string
   const stripped = html
     .replace(/<!--[\s\S]*?-->/g, " ")
     .replace(/<(script|style|noscript|template|svg|head)\b[^>]*>[\s\S]*?<\/\1\s*>/gi, " ")
-    .replace(new RegExp(`</?(?:${BLOCK_TAGS})\\b[^>]*>`, "gi"), "\n")
+    .replace(new RegExp(`<(?:${LINE_TAGS})\\b[^>]*>`, "gi"), "\n")
+    // A closing line tag only ends the text run; the next opening tag supplies the newline.
+    .replace(new RegExp(`</(?:${LINE_TAGS})\\s*>`, "gi"), " ")
+    .replace(new RegExp(`</?(?:${PARAGRAPH_TAGS})\\b[^>]*>`, "gi"), "\n\n")
     .replace(/<[^>]+>/g, " ");
   return { title, text: collapseWhitespace(decodeEntities(stripped)) };
 }

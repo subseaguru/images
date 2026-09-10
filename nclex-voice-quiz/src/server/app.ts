@@ -52,6 +52,8 @@ interface ErrorLike {
   code?: unknown;
   type?: unknown;
   message?: unknown;
+  /** Set by our own typed errors (and by http-errors) when the message is safe to show. */
+  expose?: unknown;
 }
 
 /** Body-parser failures carry a `type` instead of a code we would choose ourselves. */
@@ -63,15 +65,30 @@ const BODY_PARSER_CODES: Record<string, string> = {
   "request.aborted": "request_aborted",
 };
 
-export function errorToResponse(err: unknown): { status: number; body: { error: string; code: string } } {
+/**
+ * Turns anything thrown by a route into `{ status, body }`. Messages are only forwarded for
+ * errors that opt in (`expose`, as set by our typed errors and the body parser) or that are
+ * plain 4xx; anything else is an unexpected failure and stays a generic 500 with no details.
+ */
+export function errorToResponse(err: unknown): {
+  status: number;
+  body: { error: string; code: string };
+  exposed: boolean;
+} {
   const e = (typeof err === "object" && err !== null ? err : {}) as ErrorLike;
   const rawStatus = typeof e.status === "number" ? e.status : typeof e.statusCode === "number" ? e.statusCode : 500;
   const status = rawStatus >= 400 && rawStatus <= 599 ? rawStatus : 500;
+  const exposed = e.expose === true || status < 500;
   const parserCode = typeof e.type === "string" ? BODY_PARSER_CODES[e.type] : undefined;
-  const code = parserCode ?? (typeof e.code === "string" && status < 500 ? e.code : status < 500 ? "bad_request" : "internal_error");
+  const fallbackCode = status < 500 ? "bad_request" : "internal_error";
+  const code = parserCode ?? (exposed && typeof e.code === "string" && e.code ? e.code : fallbackCode);
   const message =
-    status < 500 ? (typeof e.message === "string" && e.message ? e.message : "Bad request.") : "Internal server error.";
-  return { status, body: { error: message, code } };
+    exposed && typeof e.message === "string" && e.message
+      ? e.message
+      : status < 500
+        ? "Bad request."
+        : "Internal server error.";
+  return { status, body: { error: message, code }, exposed };
 }
 
 export function createApp(options: AppOptions): { app: Express; stores: AppStores } {
@@ -138,8 +155,8 @@ export function createApp(options: AppOptions): { app: Express; stores: AppStore
   });
 
   const errorHandler: ErrorRequestHandler = (err, _req, res, _next) => {
-    const { status, body } = errorToResponse(err);
-    if (status >= 500) console.error("Unexpected error:", err);
+    const { status, body, exposed } = errorToResponse(err);
+    if (!exposed) console.error("Unexpected error:", err);
     if (res.headersSent) {
       res.end();
       return;

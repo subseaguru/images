@@ -44,16 +44,16 @@
         },
         {
           "label": "B",
-          "text": "Check circulation, skin and range of motion at least every two hours and release the restraints periodically",
-          "rationale": "Regular monitoring of circulation and skin plus scheduled release prevents nerve damage, skin breakdown and contractures, and is required by restraint standards."
+          "text": "Keep the restraints in place until the provider renews the order in seventy-two hours",
+          "rationale": "Restraint orders must be renewed far more often than every seventy-two hours and restraints are removed as soon as they are no longer needed."
         },
         {
           "label": "C",
-          "text": "Keep the restraints in place until the provider renews the order in seventy-two hours",
-          "rationale": "Restraint orders must be renewed far more often than every seventy-two hours and restraints are removed as soon as they are no longer needed."
+          "text": "Check circulation, skin and range of motion at least every two hours and release the restraints periodically",
+          "rationale": "Regular monitoring of circulation and skin plus scheduled release prevents nerve damage, skin breakdown and contractures, and is required by restraint standards."
         }
       ],
-      "correct": "B",
+      "correct": "C",
       "category": "safety_and_infection_control",
       "subtopic": "Use of Restraints/Safety Devices",
       "clinicalJudgmentStep": "take_action",
@@ -71,13 +71,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Pull the nearest fire alarm",
-          "rationale": "Sounding the alarm is the second step; the client in immediate danger must be moved away from the fire first."
+          "text": "Move the client out of the room",
+          "rationale": "In the RACE sequence, rescuing anyone in immediate danger comes before alarm, containment and extinguishing."
         },
         {
           "label": "B",
-          "text": "Move the client out of the room",
-          "rationale": "In the RACE sequence, rescuing anyone in immediate danger comes before alarm, containment and extinguishing."
+          "text": "Pull the nearest fire alarm",
+          "rationale": "Sounding the alarm is the second step; the client in immediate danger must be moved away from the fire first."
         },
         {
           "label": "C",
@@ -85,7 +85,7 @@
           "rationale": "Extinguishing is the last step of RACE and is attempted only after people are safe and the alarm has been raised."
         }
       ],
-      "correct": "B",
+      "correct": "A",
       "category": "safety_and_infection_control",
       "subtopic": "Emergency Response Plan",
       "clinicalJudgmentStep": "take_action",

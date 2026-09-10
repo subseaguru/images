@@ -95,6 +95,9 @@ describe("extractTextFromHtml", () => {
     assert.equal(collapseWhitespace("  a \t b\r\n\r\n\r\n\r\n c  "), "a b\n\nc");
     assert.equal(extractTextFromHtml("").text, "");
     assert.equal(extractTextFromHtml("plain text without tags").text, "plain text without tags");
+    // Minified markup: paragraphs stay separated by a blank line, list items by a single newline.
+    assert.equal(extractTextFromHtml("<p>one</p><p>two</p><ul><li>a</li><li>b</li></ul><table><tr><td>x</td><td>y</td></tr></table>").text, "one\n\ntwo\n\na\nb\n\nx\ny");
+    assert.equal(extractTextFromHtml("line<br>break<br/>here").text, "line\nbreak\nhere");
     assert.equal(looksBinary(Buffer.from("hello\nworld")), false);
     assert.equal(looksBinary(Buffer.from([0x50, 0x4b, 0x03, 0x04, 0x00, 0x00])), true);
   });
@@ -221,8 +224,10 @@ describe("/api/sources", () => {
 
   it("extracts text from PDF uploads", async () => {
     const res = await fetch(s.base + "/api/sources/upload?name=guide.pdf", { method: "PUT", headers: { "content-type": "application/pdf" }, body: new Uint8Array(tinyPdf("Hello NCLEX from PDF")) });
-    assert.equal(res.status, 201, await res.text().catch(() => ""));
-    const body = (await res.json()) as StudySource;
+    // Read once: the body can only be consumed a single time, so keep it for the failure message too.
+    const raw = await res.text();
+    assert.equal(res.status, 201, raw);
+    const body = JSON.parse(raw) as StudySource;
     assert.ok(body.preview.includes("Hello NCLEX from PDF"), body.preview);
     assert.ok((await extractPdfText(tinyPdf("Second check"))).includes("Second check"));
   });

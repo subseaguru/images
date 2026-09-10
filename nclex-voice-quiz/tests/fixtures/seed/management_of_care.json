@@ -76,16 +76,16 @@
         },
         {
           "label": "B",
-          "text": "Notify the surgeon that the client needs more information before the procedure proceeds",
-          "rationale": "Consent is valid only when it is informed; the nurse advocates for the client by contacting the surgeon so the client's questions are answered before surgery."
+          "text": "Reassure the client that the surgeon has performed this operation many times",
+          "rationale": "Reassurance does not address the client's lack of understanding and would allow surgery to proceed without truly informed consent."
         },
         {
           "label": "C",
-          "text": "Reassure the client that the surgeon has performed this operation many times",
-          "rationale": "Reassurance does not address the client's lack of understanding and would allow surgery to proceed without truly informed consent."
+          "text": "Notify the surgeon that the client needs more information before the procedure proceeds",
+          "rationale": "Consent is valid only when it is informed; the nurse advocates for the client by contacting the surgeon so the client's questions are answered before surgery."
         }
       ],
-      "correct": "B",
+      "correct": "C",
       "category": "management_of_care",
       "subtopic": "Informed Consent",
       "clinicalJudgmentStep": "take_action",

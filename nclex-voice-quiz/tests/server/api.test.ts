@@ -4,7 +4,8 @@ import type { AddressInfo } from "node:net";
 import os from "node:os";
 import path from "node:path";
 import { after, before, describe, it } from "node:test";
-import { createApp } from "../../src/server/app.js";
+import { createApp, errorToResponse } from "../../src/server/app.js";
+import { HttpError } from "../../src/server/routes/http.js";
 import { PROJECT_ROOT } from "../../src/server/paths.js";
 import type { Blueprint, Question } from "../../src/shared/types.js";
 import { CATEGORY_IDS } from "../../src/shared/types.js";
@@ -217,5 +218,49 @@ describe("questions", () => {
     const { stores } = createApp({ dataDir: s.dataDir, seedDir: SEED_DIR, version: "test", warn: () => undefined });
     assert.equal(stores.questions.counts().bySource.imported, before);
     assert.equal(stores.questions.counts().total, 24 + before);
+  });
+});
+
+describe("static site and error handling", () => {
+  let s: Server;
+  before(async () => {
+    s = await startServer();
+  });
+  after(() => s.close());
+
+  it("serves index.html for / and for unknown non-API paths (SPA fallback)", async () => {
+    const root = await fetch(s.base + "/");
+    assert.equal(root.status, 200);
+    assert.match(root.headers.get("content-type") ?? "", /text\/html/);
+    const html = await root.text();
+    assert.match(html, /<!doctype html>/i);
+    const deep = await fetch(s.base + "/quiz/session/abc");
+    assert.equal(deep.status, 200);
+    assert.equal(await deep.text(), html);
+    // API paths never fall through to the page.
+    const api = await fetch(s.base + "/api/quiz/session/abc");
+    assert.equal(api.status, 404);
+    assert.match(api.headers.get("content-type") ?? "", /application\/json/);
+  });
+
+  it("does not cache API responses or advertise the framework", async () => {
+    const res = await fetch(s.base + "/api/health");
+    assert.equal(res.headers.get("cache-control"), "no-store");
+    assert.equal(res.headers.get("x-powered-by"), null);
+  });
+
+  it("errorToResponse hides details of unexpected errors and keeps typed ones", () => {
+    const crash = errorToResponse(new Error("ENOENT: secret path /home/user/data"));
+    assert.deepEqual(crash, { status: 500, body: { error: "Internal server error.", code: "internal_error" }, exposed: false });
+    assert.equal(errorToResponse("a string").status, 500);
+    assert.equal(errorToResponse(undefined).body.code, "internal_error");
+    // A 5xx we raised on purpose (e.g. an upstream fetch failure) keeps its message and code.
+    const upstream = errorToResponse(new HttpError(502, "Could not fetch https://x: HTTP 500", "fetch_failed"));
+    assert.deepEqual(upstream, { status: 502, body: { error: "Could not fetch https://x: HTTP 500", code: "fetch_failed" }, exposed: true });
+    // Body-parser errors are translated to our codes.
+    const big = errorToResponse(Object.assign(new Error("request entity too large"), { status: 413, type: "entity.too.large", expose: true }));
+    assert.deepEqual(big.body, { error: "request entity too large", code: "payload_too_large" });
+    // Out-of-range statuses collapse to 500.
+    assert.equal(errorToResponse(Object.assign(new Error("x"), { status: 999 })).status, 500);
   });
 });

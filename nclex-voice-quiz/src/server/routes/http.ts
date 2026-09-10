@@ -5,6 +5,9 @@
 import type { Request } from "express";
 
 export class HttpError extends Error {
+  /** The message was written for the learner, so the error handler may forward it at any status. */
+  readonly expose = true;
+
   constructor(
     readonly status: number,
     message: string,

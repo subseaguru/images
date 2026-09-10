@@ -242,13 +242,16 @@ describe("attempts, stats and sessions", () => {
   });
 
   it("computes stats, weak categories and recent sessions", async () => {
+    // Look the keys up so the test does not depend on which label each fixture happens to use.
+    const keyOf = (id: string) => s.stores.questions.get(id)?.correct ?? "A";
+    const wrongFor = (id: string) => (keyOf(id) === "A" ? "B" : "A");
     // Session 2: physiological adaptation, 1 of 3 correct -> weak. Session 3: pharmacology 3/3.
-    await answer(s.base, "sess-2", "pa-901", "B");
-    await answer(s.base, "sess-2", "pa-902", "A");
-    await answer(s.base, "sess-2", "pa-903", "C");
-    await answer(s.base, "sess-3", "ppt-901", "B");
-    await answer(s.base, "sess-3", "ppt-902", "B");
-    await answer(s.base, "sess-3", "ppt-903", "B");
+    await answer(s.base, "sess-2", "pa-901", keyOf("pa-901"));
+    await answer(s.base, "sess-2", "pa-902", wrongFor("pa-902"));
+    await answer(s.base, "sess-2", "pa-903", wrongFor("pa-903"));
+    await answer(s.base, "sess-3", "ppt-901", keyOf("ppt-901"));
+    await answer(s.base, "sess-3", "ppt-902", keyOf("ppt-902"));
+    await answer(s.base, "sess-3", "ppt-903", keyOf("ppt-903"));
 
     const { status, body } = await getJson<Stats>(s.base, "/api/stats");
     assert.equal(status, 200);

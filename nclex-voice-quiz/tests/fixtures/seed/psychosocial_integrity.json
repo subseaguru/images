@@ -44,16 +44,16 @@
         },
         {
           "label": "B",
-          "text": "Assess vital signs and administer the prescribed benzodiazepine",
-          "rationale": "These findings indicate alcohol withdrawal; benzodiazepines are the first-line treatment and prevent progression to seizures and delirium tremens."
+          "text": "Apply soft restraints to prevent injury",
+          "rationale": "Restraints are a last resort and do not address the underlying withdrawal; they can increase agitation and risk of injury."
         },
         {
           "label": "C",
-          "text": "Apply soft restraints to prevent injury",
-          "rationale": "Restraints are a last resort and do not address the underlying withdrawal; they can increase agitation and risk of injury."
+          "text": "Assess vital signs and administer the prescribed benzodiazepine",
+          "rationale": "These findings indicate alcohol withdrawal; benzodiazepines are the first-line treatment and prevent progression to seizures and delirium tremens."
         }
       ],
-      "correct": "B",
+      "correct": "C",
       "category": "psychosocial_integrity",
       "subtopic": "Substance Use Disorders/Dependencies",
       "clinicalJudgmentStep": "take_action",
@@ -71,13 +71,13 @@
       "options": [
         {
           "label": "A",
-          "text": "Ask the adult child to explain how the bruises occurred",
-          "rationale": "Questioning the possible abuser in front of the client may increase danger and will not yield an honest history."
+          "text": "Interview the client privately, away from the adult child",
+          "rationale": "A private interview allows the client to speak freely and is the essential first step in screening for elder abuse."
         },
         {
           "label": "B",
-          "text": "Interview the client privately, away from the adult child",
-          "rationale": "A private interview allows the client to speak freely and is the essential first step in screening for elder abuse."
+          "text": "Ask the adult child to explain how the bruises occurred",
+          "rationale": "Questioning the possible abuser in front of the client may increase danger and will not yield an honest history."
         },
         {
           "label": "C",
@@ -85,7 +85,7 @@
           "rationale": "Reporting may be required, but the nurse first gathers the client's own account so the report and safety plan are accurate."
         }
       ],
-      "correct": "B",
+      "correct": "A",
       "category": "psychosocial_integrity",
       "subtopic": "Abuse/Neglect",
       "clinicalJudgmentStep": "take_action",

@@ -17,7 +17,7 @@
         },
         {
           "label": "C",
-          "text": "The client one day after knee replacement who rates pain at 7 out of 10 and asks for medication.",
+          "text": "The client one day after knee replacement who rates pain at 7 out of 10.",
           "rationale": "Pain one day after surgery is expected and important to treat promptly, but it is not life threatening, so it ranks below an acute change in oxygenation and level of consciousness."
         }
       ],
@@ -121,7 +121,7 @@
       "options": [
         {
           "label": "A",
-          "text": "The living will is a legal document and must be followed until it is formally revoked in writing.",
+          "text": "The living will stays in effect until the client revokes it in writing, so the nurse should follow it.",
           "rationale": "A living will only takes effect when the client can no longer communicate decisions, and a client with capacity may revoke or change it at any time, including verbally, so it does not override the client's current wishes."
         },
         {
@@ -166,7 +166,7 @@
         {
           "label": "B",
           "text": "A nurse tells a caller who says she is the child's teacher that the child is doing well after surgery.",
-          "rationale": "Confirming a client's admission or condition to anyone outside the care team requires authorization from the parent or guardian, and a caller's identity cannot be verified, so this is a privacy breach."
+          "rationale": "Telling an unverified caller that the child had surgery and how the child is recovering releases treatment information to someone outside the care team without the parent's authorization, so this is a privacy breach."
         },
         {
           "label": "C",
@@ -197,7 +197,7 @@
       "options": [
         {
           "label": "A",
-          "text": "Explain that a voluntary admission cannot end until the treatment team completes the planned course of care.",
+          "text": "Explain that a voluntary admission ends only when the treatment team completes the planned course of care.",
           "rationale": "A voluntary client keeps the right to request discharge; treatment cannot be forced simply because the team believes more time would help, so this statement misrepresents the client's legal rights."
         },
         {

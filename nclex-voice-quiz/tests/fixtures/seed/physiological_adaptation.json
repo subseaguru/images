@@ -12,16 +12,16 @@
         },
         {
           "label": "B",
-          "text": "Intravenous calcium gluconate",
-          "rationale": "Calcium gluconate stabilizes the cardiac membrane within minutes, protecting against lethal dysrhythmias while other measures lower the potassium."
+          "text": "Restrict dietary potassium",
+          "rationale": "Dietary restriction is important long term but does nothing for an acute, life-threatening potassium level with ECG changes."
         },
         {
           "label": "C",
-          "text": "Restrict dietary potassium",
-          "rationale": "Dietary restriction is important long term but does nothing for an acute, life-threatening potassium level with ECG changes."
+          "text": "Intravenous calcium gluconate",
+          "rationale": "Calcium gluconate stabilizes the cardiac membrane within minutes, protecting against lethal dysrhythmias while other measures lower the potassium."
         }
       ],
-      "correct": "B",
+      "correct": "C",
       "category": "physiological_adaptation",
       "subtopic": "Fluid and Electrolyte Imbalances",
       "clinicalJudgmentStep": "take_action",
@@ -76,16 +76,16 @@
         },
         {
           "label": "B",
-          "text": "Fluid volume overload that should be reported to the provider",
-          "rationale": "A gain of more than two to three pounds in a few days with orthopnea indicates worsening heart failure and needs prompt treatment adjustment."
+          "text": "Dehydration from a low-sodium diet",
+          "rationale": "Dehydration would cause weight loss and would not produce orthopnea."
         },
         {
           "label": "C",
-          "text": "Dehydration from a low-sodium diet",
-          "rationale": "Dehydration would cause weight loss and would not produce orthopnea."
+          "text": "Fluid volume overload that should be reported to the provider",
+          "rationale": "A gain of more than two to three pounds in a few days with orthopnea indicates worsening heart failure and needs prompt treatment adjustment."
         }
       ],
-      "correct": "B",
+      "correct": "C",
       "category": "physiological_adaptation",
       "subtopic": "Illness Management",
       "clinicalJudgmentStep": "analyze_cues",

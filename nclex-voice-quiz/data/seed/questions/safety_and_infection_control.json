@@ -12,8 +12,8 @@
         },
         {
           "label": "B",
-          "text": "Wash the hands with soap and running water for at least twenty seconds.",
-          "rationale": "C. difficile forms spores that resist alcohol; the friction of washing with soap and water followed by rinsing physically removes the spores from the hands, which is why soap and water is preferred in this setting."
+          "text": "Wash the hands with soap and running water for at least fifteen seconds.",
+          "rationale": "C. difficile forms spores that resist alcohol; the friction of washing with soap and water for at least fifteen seconds, followed by rinsing, physically removes the spores from the hands, which is why soap and water is preferred after caring for a client with this infection."
         },
         {
           "label": "C",
@@ -198,8 +198,8 @@
         },
         {
           "label": "B",
-          "text": "Unplug the bed, tag it as defective, and ask biomedical engineering for a replacement bed.",
-          "rationale": "Damaged electrical equipment must be removed from service immediately, labelled so no one else uses it, and reported to biomedical engineering; a safe replacement is obtained for the client."
+          "text": "Unplug the bed, tag it as defective, report it for repair, and obtain a different bed for the admission.",
+          "rationale": "Damaged electrical equipment must be removed from service immediately, labelled so no one else uses it, and reported to biomedical engineering or maintenance for repair; the nurse then obtains a safe bed so the admission is not delayed."
         },
         {
           "label": "C",
@@ -282,7 +282,7 @@
     },
     {
       "id": "sic-010",
-      "stem": "A nurse on a rehabilitation unit plans to move a client who weighs one hundred thirty kilograms (about two hundred eighty-five pounds) from the bed to a wheelchair with the help of an unlicensed assistive personnel (UAP). The client had a stroke, cannot bear weight on either leg, and does not reliably follow directions. Which transfer method should the nurse choose?",
+      "stem": "A nurse on a rehabilitation unit plans to move a client who weighs one hundred thirty kilograms (about two hundred eighty-seven pounds) from the bed to a wheelchair with the help of an unlicensed assistive personnel (UAP). The client had a stroke, cannot bear weight on either leg, and does not reliably follow directions. Which transfer method should the nurse choose?",
       "options": [
         {
           "label": "A",
