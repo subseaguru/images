@@ -48,7 +48,7 @@
         },
         {
           "label": "C",
-          "text": "Place the wheelchair on the client's right side, lock the brakes, and have the client pivot on the stronger leg.",
+          "text": "Place the wheelchair on the client's right side, lock the brakes and have the client pivot on the right leg.",
           "rationale": "With the chair on the stronger side and its brakes locked, the client stands on the sound leg, pivots toward the chair and sits while the caregiver guides with a gait belt. This uses the client's remaining strength and protects the affected limbs."
         }
       ],
@@ -136,7 +136,7 @@
         },
         {
           "label": "B",
-          "text": "I will give small amounts of oral rehydration solution every few minutes and continue her usual foods as she tolerates them.",
+          "text": "I will give small sips of oral rehydration solution every few minutes and keep offering her usual foods.",
           "rationale": "Frequent small volumes of oral rehydration solution are absorbed even when a child is vomiting, and early refeeding of an age-appropriate diet shortens the illness. This is the recommended approach for mild dehydration."
         },
         {
@@ -162,8 +162,8 @@
       "options": [
         {
           "label": "A",
-          "text": "A stage 1 pressure injury that requires the area to be offloaded right away.",
-          "rationale": "Intact skin with nonblanchable redness over a bony prominence defines a stage 1 pressure injury. Because tissue damage has already begun, the area must be kept free of pressure and the prevention plan intensified."
+          "text": "A stage one pressure injury that requires the area to be offloaded right away.",
+          "rationale": "Intact skin with nonblanchable redness over a bony prominence defines a stage one pressure injury. Because tissue damage has already begun, the area must be kept free of pressure and the prevention plan intensified."
         },
         {
           "label": "B",
@@ -173,7 +173,7 @@
         {
           "label": "C",
           "text": "A deep tissue pressure injury that is likely to open into a full-thickness wound.",
-          "rationale": "Deep tissue pressure injury presents as persistent purple or maroon discoloration or a blood-filled blister, not simple redness. Reddened intact skin that does not blanch is classified as stage 1."
+          "rationale": "Deep tissue pressure injury presents as persistent purple or maroon discoloration or a blood-filled blister, not simple redness. Reddened intact skin that does not blanch is classified as stage one."
         }
       ],
       "correct": "A",
@@ -182,7 +182,7 @@
       "clinicalJudgmentStep": "analyze_cues",
       "difficulty": "medium",
       "source": "bundled",
-      "teachingPoint": "The blanch test separates harmless reactive hyperemia from a stage 1 pressure injury. Nonblanchable redness over a bony prominence means damage has started, so offload the area, reposition on schedule and reassess skin at every turn.",
+      "teachingPoint": "The blanch test separates harmless reactive hyperemia from a stage one pressure injury. Nonblanchable redness over a bony prominence means damage has started, so offload the area, reposition on schedule and reassess skin at every turn.",
       "references": ["NPIAP (National Pressure Injury Advisory Panel) pressure injury staging system"],
       "tags": ["pressure injury", "immobility", "skin assessment", "icu"],
       "createdAt": "2026-09-10T00:00:00Z"
@@ -198,16 +198,16 @@
         },
         {
           "label": "B",
-          "text": "Apply firm, steady counterpressure to the sacrum during contractions and encourage a hands-and-knees position.",
-          "rationale": "Sacral counterpressure directly counters the pressure of the fetal occiput on the sacrum, and the hands-and-knees position uses gravity to encourage the fetus to rotate. These are the first-line comfort measures for back labor."
+          "text": "Perform light effleurage over the abdomen and dim the lights to promote relaxation.",
+          "rationale": "Effleurage and a calm environment can ease general labor discomfort, but light abdominal stroking does little for the sacral pressure of an occiput posterior fetus. Back labor calls for measures aimed at the sacrum and fetal position."
         },
         {
           "label": "C",
-          "text": "Perform light effleurage over the abdomen and dim the lights to promote relaxation.",
-          "rationale": "Effleurage and a calm environment can ease general labor discomfort, but light abdominal stroking does little for the sacral pressure of an occiput posterior fetus. Back labor calls for measures aimed at the sacrum and fetal position."
+          "text": "Apply firm counterpressure to the sacrum during contractions and suggest a hands-and-knees position.",
+          "rationale": "Sacral counterpressure directly counters the pressure of the fetal occiput on the sacrum, and the hands-and-knees position uses gravity to encourage the fetus to rotate. These are the first-line comfort measures for back labor."
         }
       ],
-      "correct": "B",
+      "correct": "C",
       "category": "basic_care_and_comfort",
       "subtopic": "Non-Pharmacological Comfort Interventions",
       "clinicalJudgmentStep": "generate_solutions",
@@ -229,16 +229,16 @@
         },
         {
           "label": "B",
-          "text": "Keep the room dim and quiet throughout the day so the client can nap whenever they feel tired.",
-          "rationale": "Daytime napping in a dark room weakens the circadian rhythm and makes nighttime sleep even harder. Bright daytime light and activity help reset the sleep-wake cycle."
+          "text": "Encourage daytime activity with daylight exposure and cluster nighttime care to limit interruptions.",
+          "rationale": "Daytime light and activity strengthen the circadian rhythm, while grouping nighttime tasks reduces awakenings. These non-pharmacological measures are the first-line approach to sleep disturbance in hospitalized older adults."
         },
         {
           "label": "C",
-          "text": "Encourage daytime activity with daylight exposure and cluster nighttime care to limit interruptions.",
-          "rationale": "Daytime light and activity strengthen the circadian rhythm, while grouping nighttime tasks reduces awakenings. These non-pharmacological measures are the first-line approach to sleep disturbance in hospitalized older adults."
+          "text": "Keep the room dim and quiet throughout the day so the client can nap whenever they feel tired.",
+          "rationale": "Daytime napping in a dark room weakens the circadian rhythm and makes nighttime sleep even harder. Bright daytime light and activity help reset the sleep-wake cycle."
         }
       ],
-      "correct": "C",
+      "correct": "B",
       "category": "basic_care_and_comfort",
       "subtopic": "Rest and Sleep",
       "clinicalJudgmentStep": "generate_solutions",
@@ -348,18 +348,18 @@
       "options": [
         {
           "label": "A",
-          "text": "A client on continuous nasogastric tube feeding who has become restless and whose oxygen saturation has fallen from 97 to 90 percent.",
+          "text": "A client on continuous nasogastric tube feeding who has become restless with an oxygen saturation of 90 percent.",
           "rationale": "Restlessness with a falling oxygen saturation during tube feeding suggests aspiration, which threatens the airway and breathing. Airway and breathing problems come before pain, mobility and elimination needs."
         },
         {
           "label": "B",
           "text": "A client with a fractured hip awaiting surgery who reports pain of six out of ten and is due to be repositioned.",
-          "rationale": "Pain and scheduled repositioning are important but not immediately life-threatening. This client can safely wait a few minutes while an airway problem is addressed, and pain management can then be delegated in part or handled next."
+          "rationale": "Pain and scheduled repositioning are important but not immediately life-threatening. This client can safely wait a few minutes while a possible airway problem is addressed, and the nurse then assesses and treats the pain next."
         },
         {
           "label": "C",
           "text": "A client who has not had a bowel movement for three days since starting scheduled oxycodone after knee surgery.",
-          "rationale": "Opioid-induced constipation needs a bowel regimen and assessment for distention, but it is a stable chronic problem that does not threaten oxygenation. It is the lowest priority of the three."
+          "rationale": "Opioid-induced constipation needs a bowel regimen and assessment for distention, but it is a stable problem that does not threaten oxygenation. It is the lowest priority of the three."
         }
       ],
       "correct": "A",

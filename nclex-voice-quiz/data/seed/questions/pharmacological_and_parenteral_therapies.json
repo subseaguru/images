@@ -189,22 +189,22 @@
     },
     {
       "id": "ppt-007",
-      "stem": "A client on a surgical unit receiving hydromorphone by patient-controlled analgesia (PCA) was found difficult to arouse with a respiratory rate of six breaths per minute. The nurse stopped the PCA, supported breathing, and gave intravenous (IV) naloxone per protocol. Twenty minutes later the client is awake, breathing sixteen times per minute, and asking for pain medication. Which action should the nurse take next?",
+      "stem": "A client on a surgical unit receiving hydromorphone by patient-controlled analgesia (PCA) was found difficult to arouse with a respiratory rate of six breaths per minute. The nurse stopped the PCA, supported breathing, and gave intravenous (IV) naloxone per protocol. Twenty minutes later the client is awake, breathing sixteen times per minute, and asking for pain medication. How should the nurse interpret the client's current status?",
       "options": [
         {
           "label": "A",
-          "text": "Resume the PCA at the previous settings because the client is alert and reporting pain.",
-          "rationale": "The client just had life-threatening respiratory depression at those settings, so restarting them unchanged invites a repeat. The provider must reassess the opioid dose and the client's pain plan before any opioid is resumed."
+          "text": "The overdose has resolved, so the PCA can be resumed at the previous settings.",
+          "rationale": "The client just had life-threatening respiratory depression at those settings, so an alert client is not proof the problem is over. The provider must reassess the opioid dose and the client's pain plan before any opioid is resumed."
         },
         {
           "label": "B",
-          "text": "Document the reversal and return to the unit's routine every-four-hour vital sign checks.",
+          "text": "The client is stable and can return to the unit's routine every-four-hour vital sign checks.",
           "rationale": "Routine monitoring is not safe after naloxone because the client can slip back into sedation once the antagonist wears off. Assessment must be far more frequent for at least the next few hours."
         },
         {
           "label": "C",
-          "text": "Keep checking sedation and breathing frequently because naloxone may wear off before the opioid.",
-          "rationale": "Naloxone acts for roughly thirty to ninety minutes, while hydromorphone and other opioids last longer, so respiratory depression can recur. Close, frequent observation of sedation level and respirations continues until the opioid effect has clearly passed."
+          "text": "The client remains at risk of renewed sedation because naloxone may wear off before the opioid.",
+          "rationale": "Naloxone acts for roughly thirty to ninety minutes, while hydromorphone and other opioids last longer, so respiratory depression can recur. The improvement is real but temporary, and close, frequent observation of sedation level and respirations continues until the opioid effect has clearly passed."
         }
       ],
       "correct": "C",
@@ -354,7 +354,7 @@
         {
           "label": "B",
           "text": "A rate-related histamine reaction that is managed by slowing the infusion.",
-          "rationale": "Vancomycin infused too quickly triggers direct histamine release, producing flushing and itching of the face, neck and upper trunk. This vancomycin infusion reaction is not a true allergy and resolves when the infusion is slowed or paused and given over a longer time, often with an antihistamine."
+          "rationale": "Vancomycin infused too quickly triggers direct histamine release, producing flushing and itching of the face, neck and upper trunk. This reaction, now called vancomycin flushing syndrome and formerly red man syndrome, is not a true allergy and resolves when the infusion is slowed or paused and given over a longer time, often with an antihistamine."
         },
         {
           "label": "C",

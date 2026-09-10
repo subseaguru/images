@@ -79,12 +79,12 @@
     },
     {
       "id": "pa-003",
-      "stem": "A client in the intensive care unit (ICU) with septic shock from pneumonia has received a thirty milliliter per kilogram crystalloid bolus. The mean arterial pressure is now 58, heart rate 118, central venous pressure 12, lactate 4.2 millimoles per liter, and the extremities are warm and flushed. Which order should the nurse anticipate next?",
+      "stem": "A client in the intensive care unit (ICU) with septic shock from pneumonia has received a thirty milliliter per kilogram crystalloid bolus. The mean arterial pressure is now 58, heart rate 118, and lactate 4.2 millimoles per liter. A passive leg raise produces no increase in stroke volume, and the extremities are warm and flushed. Which order should the nurse anticipate next?",
       "options": [
         {
           "label": "A",
           "text": "A second thirty milliliter per kilogram crystalloid bolus infused over thirty minutes.",
-          "rationale": "The initial bolus is complete and a central venous pressure of 12 suggests preload is adequate, so more fluid risks pulmonary edema without correcting the low vascular resistance that is driving the hypotension."
+          "rationale": "The initial bolus is complete and a passive leg raise that does not increase stroke volume shows the client is no longer fluid responsive, so more fluid risks pulmonary edema without correcting the low vascular resistance that is driving the hypotension."
         },
         {
           "label": "B",
@@ -103,7 +103,7 @@
       "clinicalJudgmentStep": "generate_solutions",
       "difficulty": "hard",
       "source": "bundled",
-      "teachingPoint": "In septic shock, once a thirty milliliter per kilogram bolus has been given, hypotension that persists is treated with norepinephrine to reach a mean arterial pressure of 65; more fluid or an inotrope is chosen only when the assessment shows low preload or poor contractility.",
+      "teachingPoint": "In septic shock, once a thirty milliliter per kilogram bolus has been given, hypotension that persists is treated with norepinephrine to reach a mean arterial pressure of 65; more fluid is given only when a dynamic measure such as a passive leg raise shows fluid responsiveness, and an inotrope only when there is evidence of poor contractility.",
       "references": [
         "Surviving Sepsis Campaign Guidelines 2021"
       ],
@@ -236,8 +236,8 @@
       "options": [
         {
           "label": "A",
-          "text": "Deep tendon reflexes are one plus and the client reports feeling warm and flushed.",
-          "rationale": "Diminished but present reflexes and a sensation of warmth are expected effects of a therapeutic magnesium level; they should be documented and trended, not treated as toxicity."
+          "text": "Deep tendon reflexes are two plus and the client reports feeling warm and flushed.",
+          "rationale": "Normal two plus reflexes show that magnesium has not reached a toxic level, and a sensation of warmth and flushing is an expected effect of the infusion; these findings are documented and trended, not treated as toxicity."
         },
         {
           "label": "B",
@@ -424,12 +424,12 @@
     },
     {
       "id": "pa-012",
-      "stem": "A 22-year-old client on an orthopedic unit had an intramedullary rod placed twenty hours ago for a closed femur fracture sustained in a motorcycle crash. The nurse finds the client restless and confused, with a respiratory rate of 30, an oxygen saturation of 89 percent on room air, and a new petechial rash across the chest and axillae. Which complication should the nurse suspect first?",
+      "stem": "A 22-year-old client on an orthopedic unit had an intramedullary rod placed thirty-six hours ago for a closed femur fracture sustained in a motorcycle crash. The nurse finds the client restless and confused, with a respiratory rate of 30, an oxygen saturation of 89 percent on room air, and a new petechial rash across the chest and axillae. Which complication should the nurse suspect first?",
       "options": [
         {
           "label": "A",
           "text": "Pulmonary embolism from a thrombus in the injured leg.",
-          "rationale": "Venous thromboembolism also causes sudden dyspnea and hypoxemia, but it usually develops several days after immobilization and does not produce a petechial rash or the early confusion seen here."
+          "rationale": "Pulmonary embolism from a deep vein thrombosis also causes sudden dyspnea and hypoxemia, but it does not produce a petechial rash, and it more often develops after several days of immobility rather than within the first two days of a long bone fracture."
         },
         {
           "label": "B",
@@ -439,7 +439,7 @@
         {
           "label": "C",
           "text": "Fat embolism syndrome from the fractured long bone.",
-          "rationale": "Fat embolism syndrome classically appears twelve to seventy-two hours after a long bone fracture with the triad of respiratory distress, neurologic changes, and petechiae on the chest, axillae, and conjunctivae; it is a life-threatening emergency requiring oxygen and immediate provider notification."
+          "rationale": "Fat embolism syndrome classically appears twenty-four to seventy-two hours after a long bone fracture with the triad of respiratory distress, neurologic changes, and petechiae on the chest, axillae, and conjunctivae; it is a life-threatening emergency requiring oxygen and immediate provider notification."
         }
       ],
       "correct": "C",

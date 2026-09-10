@@ -1,7 +1,7 @@
 /**
  * Generate: ask Claude for new questions grounded in the selected study sources.
  */
-import type { ClinicalJudgmentStep, Difficulty, GenerateRequest, StudySource } from "../../shared/types.js";
+import type { ClinicalJudgmentStep, Difficulty, GenerateRequest, Question, StudySource } from "../../shared/types.js";
 import { CLINICAL_JUDGMENT_STEPS, DIFFICULTIES } from "../../shared/types.js";
 import { clinicalJudgmentStepName } from "../../shared/blueprint.js";
 import { ApiError, api, errorMessage } from "../api.js";
@@ -167,7 +167,7 @@ export function generateView(root: HTMLElement): Dispose {
   }
 
   function renderResult(
-    questions: GenerateRequest extends never ? never : import("../../shared/types.js").Question[],
+    questions: Question[],
     brief: string | undefined,
     usage: { inputTokens: number; outputTokens: number },
     warnings: string[],
