@@ -59,7 +59,7 @@
       "difficulty": "medium",
       "source": "bundled",
       "teachingPoint": "Know the normal newborn ranges so the abnormal cue stands out: heart rate 110 to 160, respirations 30 to 60 without grunting, flaring, or retractions, and acrocyanosis that is expected early but central cyanosis that is not.",
-      "references": ["AAP and AHA Neonatal Resuscitation Program guidelines"],
+      "references": ["AAP and ACOG Guidelines for Perinatal Care", "AWHONN Assessment and Care of the Late Preterm and Term Newborn"],
       "tags": ["newborn assessment", "respiratory distress", "transition"],
       "createdAt": "2026-09-10T00:00:00Z"
     },
@@ -105,8 +105,8 @@
         },
         {
           "label": "B",
-          "text": "Delirium caused by an acute illness such as a urinary tract infection.",
-          "rationale": "A change in cognition and alertness that develops over hours to days is delirium until proven otherwise, and acute infection is a leading cause in older adults, who often present without fever. The new confusion, drowsiness, and fall call for prompt medical evaluation for a reversible cause such as a urinary tract infection rather than acceptance of a chronic explanation."
+          "text": "Delirium from an acute medical cause, such as an infection or dehydration.",
+          "rationale": "A change in cognition and alertness that develops over hours to days is delirium until proven otherwise, and acute illness is a leading cause in older adults, who often present without fever. The daughter's description of the urine raises concern for a urinary tract infection, but cloudy or strong-smelling urine alone does not confirm one, because bacteriuria without infection is common at this age. The new confusion, drowsiness, and fall call for prompt medical evaluation of infection, hydration, medications, and injury from the fall rather than acceptance of a chronic explanation."
         },
         {
           "label": "C",
@@ -120,8 +120,8 @@
       "clinicalJudgmentStep": "prioritize_hypotheses",
       "difficulty": "hard",
       "source": "bundled",
-      "teachingPoint": "Older adults often present infection atypically, with confusion, drowsiness, or falls instead of fever. Acute onset over days means delirium, which is a medical emergency, not normal aging or dementia.",
-      "references": ["American Geriatrics Society delirium guidance", "Hartford Institute for Geriatric Nursing, Confusion Assessment Method"],
+      "teachingPoint": "Older adults often present acute illness atypically, with confusion, drowsiness, or falls instead of fever. Acute onset over days means delirium, a medical emergency that needs a full search for the cause, including infection, dehydration, and medications; urine odor or cloudiness alone does not diagnose a urinary tract infection.",
+      "references": ["American Geriatrics Society delirium guidance", "Hartford Institute for Geriatric Nursing, Confusion Assessment Method", "IDSA guideline on asymptomatic bacteriuria (2019, reaffirmed 2024)"],
       "tags": ["older adult", "delirium", "atypical presentation"],
       "createdAt": "2026-09-10T00:00:00Z"
     },
@@ -189,7 +189,7 @@
     },
     {
       "id": "hpm-007",
-      "stem": "A 66-year-old client with well-controlled hypertension asks the clinic nurse about vaccines. The record shows an influenza vaccine last fall, a tetanus-diphtheria booster four years ago, and completed pneumococcal vaccination last year. The client has not received a zoster vaccine. Which statement by the client indicates understanding of the nurse's teaching?",
+      "stem": "A 66-year-old client with well-controlled hypertension asks the clinic nurse about vaccines. The record shows an influenza vaccine last fall, a tetanus-diphtheria booster four years ago, completed pneumococcal vaccination last year, and no zoster vaccine. Which statement by the client indicates understanding of the nurse's teaching?",
       "options": [
         {
           "label": "A",
@@ -199,12 +199,12 @@
         {
           "label": "B",
           "text": "\"I am overdue for my tetanus booster because more than three years have passed since the last one.\"",
-          "rationale": "Tetanus and diphtheria boosters are given every ten years in adults, or sooner only after a dirty wound. A booster four years ago is current, so this statement shows a misunderstanding of the interval."
+          "rationale": "Adults receive a tetanus and diphtheria booster, as Td or Tdap, every ten years; an earlier dose is given only as part of wound care when five or more years have passed since the last dose. A booster four years ago is current, so this statement shows a misunderstanding of the interval."
         },
         {
           "label": "C",
           "text": "\"I should get the two-dose recombinant zoster vaccine, spaced two to six months apart.\"",
-          "rationale": "The recombinant zoster vaccine is recommended for all adults 50 and older as a two-dose series given two to six months apart, regardless of a prior history of shingles. This client has not been vaccinated and is due now."
+          "rationale": "The recombinant zoster vaccine is recommended for all adults 50 and older as a two-dose series given two to six months apart, regardless of a prior episode of shingles or an earlier live zoster vaccine. This client has not been vaccinated and is due now."
         }
       ],
       "correct": "C",
@@ -256,7 +256,7 @@
         {
           "label": "A",
           "text": "Follow a very low carbohydrate diet and check a fingerstick glucose every morning.",
-          "rationale": "Severely restricting one food group is hard to sustain and is not what prevention evidence supports; a balanced reduction in calories is. Daily glucose checks are not needed in prediabetes and do not by themselves lower the risk of progression."
+          "rationale": "Prevention evidence comes from a moderate calorie reduction within an eating pattern the client can keep up, and an extreme restriction of one food group is hard to sustain and is not required. Daily fingerstick glucose checks are not recommended in prediabetes and do not by themselves lower the risk of progression."
         },
         {
           "label": "B",
@@ -349,7 +349,7 @@
         {
           "label": "A",
           "text": "Weight loss of six percent from the birth weight.",
-          "rationale": "Breastfed newborns are expected to lose up to seven percent of birth weight in the first days; loss beyond seven to ten percent is what prompts evaluation of feeding. Six percent on day three is within the expected range and should begin to reverse as milk volume increases."
+          "rationale": "Breastfed newborns commonly lose up to seven percent of birth weight in the first days; a loss of more than seven percent prompts a feeding evaluation, and more than ten percent calls for intervention. Six percent on day three is within the expected range and should begin to reverse as milk volume increases."
         },
         {
           "label": "B",

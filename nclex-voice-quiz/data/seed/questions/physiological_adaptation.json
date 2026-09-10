@@ -41,7 +41,7 @@
     },
     {
       "id": "pa-002",
-      "stem": "A nurse on a medical-surgical unit is caring for a 68-year-old client admitted with three days of vomiting who also takes furosemide daily for heart failure. The morning serum potassium is 2.8 milliequivalents per liter, and the client is on continuous cardiac monitoring. Which finding requires the nurse's immediate follow-up?",
+      "stem": "A nurse on a medical-surgical unit is caring for a 68-year-old client admitted with three days of vomiting who also takes furosemide daily for heart failure. The morning serum potassium is 2.8 milliequivalents per liter. Which finding requires the nurse's immediate follow-up?",
       "options": [
         {
           "label": "A",
@@ -50,7 +50,7 @@
         },
         {
           "label": "B",
-          "text": "The monitor shows flattened T waves with frequent premature ventricular contractions.",
+          "text": "The cardiac monitor shows flattened T waves with frequent premature ventricular contractions.",
           "rationale": "Flattened T waves and new ectopic beats show that low potassium is already destabilizing the heart's electrical activity, which can progress to lethal ventricular dysrhythmias, so the provider is notified and potassium is replaced now."
         },
         {
@@ -161,7 +161,7 @@
         {
           "label": "A",
           "text": "\"I will weigh myself each morning and call if I gain three pounds in a day or five in a week.\"",
-          "rationale": "Daily morning weights on the same scale are the most sensitive early indicator of fluid retention, and reporting a gain of two to three pounds in a day or five pounds in a week allows treatment before breathlessness and hospitalization occur."
+          "rationale": "Daily morning weights on the same scale, after voiding and before breakfast, are the most sensitive early indicator of fluid retention; reporting a gain of about three pounds in a day or five pounds in a week (the thresholds commonly taught) allows treatment before breathlessness and hospitalization occur."
         },
         {
           "label": "B",
@@ -171,7 +171,7 @@
         {
           "label": "C",
           "text": "\"I will drink at least three liters of fluid each day so that my kidneys keep working well.\"",
-          "rationale": "Clients with heart failure are usually asked to limit fluid to about two liters a day and to restrict sodium, because excess fluid increases the volume the weakened heart must pump."
+          "rationale": "Clients with heart failure are never told to push fluids: every extra liter adds to the volume the weakened heart must pump. Most are asked to limit sodium and, when directed, to keep fluid intake to about two liters a day, especially if the sodium level is low."
         }
       ],
       "correct": "A",
@@ -256,7 +256,7 @@
       "clinicalJudgmentStep": "recognize_cues",
       "difficulty": "easy",
       "source": "bundled",
-      "teachingPoint": "During a magnesium sulfate infusion, assess reflexes, respirations, and urine output every hour; loss of the patellar reflex, respirations under twelve, or urine output under thirty milliliters per hour signals toxicity, and calcium gluconate is the reversal agent.",
+      "teachingPoint": "During a magnesium sulfate infusion, assess reflexes, respirations, and urine output every hour; loss of the patellar reflex or respirations under twelve signals toxicity, urine output under thirty milliliters per hour warns that magnesium is accumulating, and calcium gluconate is the reversal agent.",
       "references": [
         "ACOG Practice Bulletin: Gestational Hypertension and Preeclampsia"
       ],

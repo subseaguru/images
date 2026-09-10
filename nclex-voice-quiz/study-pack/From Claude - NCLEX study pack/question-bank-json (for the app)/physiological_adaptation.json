@@ -41,7 +41,7 @@
     },
     {
       "id": "pa-002",
-      "stem": "A nurse on a medical-surgical unit is caring for a 68-year-old client admitted with three days of vomiting who also takes furosemide daily for heart failure. The morning serum potassium is 2.8 milliequivalents per liter, and the client is on continuous cardiac monitoring. Which finding requires the nurse's immediate follow-up?",
+      "stem": "A nurse on a medical-surgical unit is caring for a 68-year-old client admitted with three days of vomiting who also takes furosemide daily for heart failure. The morning serum potassium is 2.8 milliequivalents per liter. Which finding requires the nurse's immediate follow-up?",
       "options": [
         {
           "label": "A",
@@ -50,7 +50,7 @@
         },
         {
           "label": "B",
-          "text": "The monitor shows flattened T waves with frequent premature ventricular contractions.",
+          "text": "The cardiac monitor shows flattened T waves with frequent premature ventricular contractions.",
           "rationale": "Flattened T waves and new ectopic beats show that low potassium is already destabilizing the heart's electrical activity, which can progress to lethal ventricular dysrhythmias, so the provider is notified and potassium is replaced now."
         },
         {
@@ -79,12 +79,12 @@
     },
     {
       "id": "pa-003",
-      "stem": "A client in the intensive care unit (ICU) with septic shock from pneumonia has received a thirty milliliter per kilogram crystalloid bolus. The mean arterial pressure is now 58, heart rate 118, central venous pressure 12, lactate 4.2 millimoles per liter, and the extremities are warm and flushed. Which order should the nurse anticipate next?",
+      "stem": "A client in the intensive care unit (ICU) with septic shock from pneumonia has received a thirty milliliter per kilogram crystalloid bolus. The mean arterial pressure is now 58, heart rate 118, and lactate 4.2 millimoles per liter. A passive leg raise produces no increase in stroke volume, and the extremities are warm and flushed. Which order should the nurse anticipate next?",
       "options": [
         {
           "label": "A",
           "text": "A second thirty milliliter per kilogram crystalloid bolus infused over thirty minutes.",
-          "rationale": "The initial bolus is complete and a central venous pressure of 12 suggests preload is adequate, so more fluid risks pulmonary edema without correcting the low vascular resistance that is driving the hypotension."
+          "rationale": "The initial bolus is complete and a passive leg raise that does not increase stroke volume shows the client is no longer fluid responsive, so more fluid risks pulmonary edema without correcting the low vascular resistance that is driving the hypotension."
         },
         {
           "label": "B",
@@ -103,7 +103,7 @@
       "clinicalJudgmentStep": "generate_solutions",
       "difficulty": "hard",
       "source": "bundled",
-      "teachingPoint": "In septic shock, once a thirty milliliter per kilogram bolus has been given, hypotension that persists is treated with norepinephrine to reach a mean arterial pressure of 65; more fluid or an inotrope is chosen only when the assessment shows low preload or poor contractility.",
+      "teachingPoint": "In septic shock, once a thirty milliliter per kilogram bolus has been given, hypotension that persists is treated with norepinephrine to reach a mean arterial pressure of 65; more fluid is given only when a dynamic measure such as a passive leg raise shows fluid responsiveness, and an inotrope only when there is evidence of poor contractility.",
       "references": [
         "Surviving Sepsis Campaign Guidelines 2021"
       ],
@@ -161,7 +161,7 @@
         {
           "label": "A",
           "text": "\"I will weigh myself each morning and call if I gain three pounds in a day or five in a week.\"",
-          "rationale": "Daily morning weights on the same scale are the most sensitive early indicator of fluid retention, and reporting a gain of two to three pounds in a day or five pounds in a week allows treatment before breathlessness and hospitalization occur."
+          "rationale": "Daily morning weights on the same scale, after voiding and before breakfast, are the most sensitive early indicator of fluid retention; reporting a gain of about three pounds in a day or five pounds in a week (the thresholds commonly taught) allows treatment before breathlessness and hospitalization occur."
         },
         {
           "label": "B",
@@ -171,7 +171,7 @@
         {
           "label": "C",
           "text": "\"I will drink at least three liters of fluid each day so that my kidneys keep working well.\"",
-          "rationale": "Clients with heart failure are usually asked to limit fluid to about two liters a day and to restrict sodium, because excess fluid increases the volume the weakened heart must pump."
+          "rationale": "Clients with heart failure are never told to push fluids: every extra liter adds to the volume the weakened heart must pump. Most are asked to limit sodium and, when directed, to keep fluid intake to about two liters a day, especially if the sodium level is low."
         }
       ],
       "correct": "A",
@@ -236,8 +236,8 @@
       "options": [
         {
           "label": "A",
-          "text": "Deep tendon reflexes are one plus and the client reports feeling warm and flushed.",
-          "rationale": "Diminished but present reflexes and a sensation of warmth are expected effects of a therapeutic magnesium level; they should be documented and trended, not treated as toxicity."
+          "text": "Deep tendon reflexes are two plus and the client reports feeling warm and flushed.",
+          "rationale": "Normal two plus reflexes show that magnesium has not reached a toxic level, and a sensation of warmth and flushing is an expected effect of the infusion; these findings are documented and trended, not treated as toxicity."
         },
         {
           "label": "B",
@@ -256,7 +256,7 @@
       "clinicalJudgmentStep": "recognize_cues",
       "difficulty": "easy",
       "source": "bundled",
-      "teachingPoint": "During a magnesium sulfate infusion, assess reflexes, respirations, and urine output every hour; loss of the patellar reflex, respirations under twelve, or urine output under thirty milliliters per hour signals toxicity, and calcium gluconate is the reversal agent.",
+      "teachingPoint": "During a magnesium sulfate infusion, assess reflexes, respirations, and urine output every hour; loss of the patellar reflex or respirations under twelve signals toxicity, urine output under thirty milliliters per hour warns that magnesium is accumulating, and calcium gluconate is the reversal agent.",
       "references": [
         "ACOG Practice Bulletin: Gestational Hypertension and Preeclampsia"
       ],
@@ -424,12 +424,12 @@
     },
     {
       "id": "pa-012",
-      "stem": "A 22-year-old client on an orthopedic unit had an intramedullary rod placed twenty hours ago for a closed femur fracture sustained in a motorcycle crash. The nurse finds the client restless and confused, with a respiratory rate of 30, an oxygen saturation of 89 percent on room air, and a new petechial rash across the chest and axillae. Which complication should the nurse suspect first?",
+      "stem": "A 22-year-old client on an orthopedic unit had an intramedullary rod placed thirty-six hours ago for a closed femur fracture sustained in a motorcycle crash. The nurse finds the client restless and confused, with a respiratory rate of 30, an oxygen saturation of 89 percent on room air, and a new petechial rash across the chest and axillae. Which complication should the nurse suspect first?",
       "options": [
         {
           "label": "A",
           "text": "Pulmonary embolism from a thrombus in the injured leg.",
-          "rationale": "Venous thromboembolism also causes sudden dyspnea and hypoxemia, but it usually develops several days after immobilization and does not produce a petechial rash or the early confusion seen here."
+          "rationale": "Pulmonary embolism from a deep vein thrombosis also causes sudden dyspnea and hypoxemia, but it does not produce a petechial rash, and it more often develops after several days of immobility rather than within the first two days of a long bone fracture."
         },
         {
           "label": "B",
@@ -439,7 +439,7 @@
         {
           "label": "C",
           "text": "Fat embolism syndrome from the fractured long bone.",
-          "rationale": "Fat embolism syndrome classically appears twelve to seventy-two hours after a long bone fracture with the triad of respiratory distress, neurologic changes, and petechiae on the chest, axillae, and conjunctivae; it is a life-threatening emergency requiring oxygen and immediate provider notification."
+          "rationale": "Fat embolism syndrome classically appears twenty-four to seventy-two hours after a long bone fracture with the triad of respiratory distress, neurologic changes, and petechiae on the chest, axillae, and conjunctivae; it is a life-threatening emergency requiring oxygen and immediate provider notification."
         }
       ],
       "correct": "C",

@@ -12,7 +12,7 @@
         },
         {
           "label": "B",
-          "text": "A blood glucose of 148 milligrams per deciliter drawn before breakfast.",
+          "text": "A blood glucose of 148 milligrams per deciliter on the morning draw.",
           "rationale": "Mild hyperglycemia after surgery is a common stress response; it warrants monitoring and possibly correction insulin, but it is not an immediate threat to the client."
         },
         {
@@ -161,7 +161,7 @@
         {
           "label": "A",
           "text": "Delirium caused by the opioid analgesics prescribed for fracture pain.",
-          "rationale": "Opioids can cause confusion and slow breathing, but they do not produce rapid breathing, hypoxemia, or a petechial rash, so they do not explain the full picture."
+          "rationale": "Opioids can cause confusion and slow, shallow breathing, but they do not produce a rapid respiratory rate or a petechial rash, so they do not explain the full picture."
         },
         {
           "label": "B",
@@ -324,7 +324,7 @@
         {
           "label": "C",
           "text": "Withhold the lithium dose and notify the provider of the level and symptoms.",
-          "rationale": "A level above 1.5 milliequivalents per liter with coarse tremor, vomiting, or diarrhea indicates lithium toxicity; the drug is held and the provider notified so hydration, repeat levels, and possibly dialysis can be arranged."
+          "rationale": "A level above 1.5 milliequivalents per liter with coarse tremor, vomiting, or diarrhea indicates lithium toxicity; the drug is held and the provider notified so IV fluids, repeat levels, and further treatment can be arranged."
         }
       ],
       "correct": "C",
@@ -363,7 +363,7 @@
         {
           "label": "C",
           "text": "The temperature has decreased from 39.2 to 38.6 degrees Celsius.",
-          "rationale": "Fever reflects the infection and its treatment with antibiotics and antipyretics; a lower temperature does not tell the nurse whether circulating volume and perfusion have improved."
+          "rationale": "Fever reflects the infection and begins to respond to antibiotics or to any antipyretic given; a lower temperature does not tell the nurse whether circulating volume and perfusion have improved."
         }
       ],
       "correct": "A",
@@ -386,7 +386,7 @@
     },
     {
       "id": "rrp-011",
-      "stem": "A nurse on a surgical unit is performing the shift assessment of a client eighteen hours after a total thyroidectomy for a large goiter. The neck dressing is dry, the client is resting with the head of the bed raised, and the oxygen saturation is 97 percent on room air. Which finding requires the nurse's immediate follow-up?",
+      "stem": "A nurse on a surgical unit is performing the shift assessment of a client twenty-four hours after a total thyroidectomy for a large goiter. The neck dressing is dry, the client is resting with the head of the bed raised, and the oxygen saturation is 97 percent on room air. Which finding requires the nurse's immediate follow-up?",
       "options": [
         {
           "label": "A",

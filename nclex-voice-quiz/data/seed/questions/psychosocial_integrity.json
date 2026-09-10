@@ -132,11 +132,11 @@
         {
           "label": "A",
           "text": "Take the infant to the morgue promptly so the parents are not further distressed by seeing the body.",
-          "rationale": "Removing the infant quickly denies the parents the chance to make the loss real and to say goodbye, which is associated with more complicated grief; the decision to see the baby belongs to the parents."
+          "rationale": "Removing the infant quickly takes away the parents' chance to make the loss real and to say goodbye; most bereaved parents later say they valued that time, and current obstetric guidance is that seeing and holding the baby is offered as a choice that belongs to the parents, never decided for them by staff."
         },
         {
           "label": "B",
-          "text": "Reassure the parents that they are young and healthy and can try for another pregnancy soon.",
+          "text": "Reassure the parents that they are healthy and can try for another pregnancy soon.",
           "rationale": "Pointing toward a future pregnancy dismisses this baby as replaceable and minimizes the current loss; it is a well-meaning cliche that blocks grieving rather than supporting it."
         },
         {
@@ -168,7 +168,7 @@
         {
           "label": "B",
           "text": "\"Taking in less is a natural part of dying. Let me show you ways to keep his mouth moist and comfortable.\"",
-          "rationale": "This answer gently corrects the misconception, normalizes the decline in intake as an expected part of the dying process, and redirects the daughter toward comfort measures she can provide, such as mouth care and ice chips."
+          "rationale": "This answer gently corrects the misconception, normalizes the decline in intake as an expected part of the dying process, and redirects the daughter toward comfort measures she can provide, such as moistening the lips and mouth with swabs and offering small sips only when he is awake and able to swallow."
         },
         {
           "label": "C",
@@ -225,7 +225,7 @@
         {
           "label": "A",
           "text": "Accept the son's offer, since a family member can explain the instructions in a way the client will trust.",
-          "rationale": "Family members lack training in medical terminology, may filter or soften information, and put the client's privacy and autonomy at risk; they should not serve as interpreters for clinical teaching."
+          "rationale": "Federal language access rules allow an accompanying adult to interpret only in an emergency or when the client specifically asks for it; here the son volunteered, and family members lack training in medical terminology, may filter or soften information, and put the client's privacy and autonomy at risk, so the nurse should not rely on him for clinical teaching."
         },
         {
           "label": "B",
@@ -245,7 +245,7 @@
       "difficulty": "easy",
       "source": "bundled",
       "teachingPoint": "Clients with limited English proficiency have a right to a qualified medical interpreter for teaching and consent; using relatives, especially children, as interpreters compromises accuracy, confidentiality, and the client's autonomy.",
-      "references": ["HHS National CLAS Standards", "Joint Commission patient-centered communication standards"],
+      "references": ["HHS Section 1557 regulations on language assistance services", "HHS National CLAS Standards", "Joint Commission patient-centered communication standards"],
       "tags": ["language access", "interpreter", "cultural competence"],
       "createdAt": "2026-09-10T00:00:00Z"
     },
@@ -292,7 +292,7 @@
         {
           "label": "B",
           "text": "Prepare the as-needed intramuscular haloperidol that is ordered for agitation.",
-          "rationale": "Chemical restraint is a later step reserved for agitation that verbal strategies and oral medication have not controlled; reaching for an injection first skips the least restrictive interventions."
+          "rationale": "An intramuscular antipsychotic is a later step reserved for agitation that verbal strategies and offered oral medication have not controlled; reaching for an injection first skips the least restrictive interventions, and a drug given to control behavior rather than to treat the condition counts as a chemical restraint under federal rules."
         },
         {
           "label": "C",
@@ -349,7 +349,7 @@
         {
           "label": "A",
           "text": "The assistive personnel waits outside the closed bathroom door while the client showers.",
-          "rationale": "One-to-one observation means the client stays in direct, unobstructed view at all times, including in the bathroom, where most policies also require the observer to stay within arm's reach because ligature points and privacy make it the highest-risk location; the nurse must correct this immediately."
+          "rationale": "One-to-one observation means the client stays in direct, unobstructed view at all times, including in the bathroom, which is the highest-risk location because of ligature points and privacy; many facility policies also require the observer to stay within arm's reach there, so the nurse must correct this immediately."
         },
         {
           "label": "B",

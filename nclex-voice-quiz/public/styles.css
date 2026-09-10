@@ -566,6 +566,7 @@ pre.wrap {
   font-size: 2.2rem;
   font-weight: 900;
   letter-spacing: 0.02em;
+  text-transform: uppercase;
   padding: 0.75rem 1.25rem;
   border-radius: var(--radius);
   margin-bottom: 1rem;

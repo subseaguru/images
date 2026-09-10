@@ -1,4 +1,4 @@
-# From Claude — NCLEX study pack (snapshot 2026-09-10)
+# From Claude — NCLEX study pack (snapshot 2026-09-10, verified question bank)
 
 Everything in this folder was produced by Claude for Michelle's NCLEX-RN preparation. Files made by
 ChatGPT or other tools can live alongside it; nothing here depends on them.
@@ -32,9 +32,8 @@ GitHub repository `subseaguru/images`, branch `claude/nclex-quiz-android-app-1as
   the six clinical-judgment steps and difficulty levels, and phrased to be read aloud.
 - Real NCLEX items have four or more options and several other formats; these use three spoken
   options by design, so use them to practice the reasoning, not the exact exam format.
-- Each category file went through a clinical-accuracy review and an adversarial second review;
-  the two categories written last (Reduction of Risk Potential, Physiological Adaptation) were
-  still in review when this snapshot was taken and may change slightly in the final version.
+- Each category file went through a clinical-accuracy review and an adversarial second review
+  (both completed for all eight categories in this version).
 - Always check anything that surprises you against a current textbook or guideline. These are
   practice items, not an authoritative reference.
 

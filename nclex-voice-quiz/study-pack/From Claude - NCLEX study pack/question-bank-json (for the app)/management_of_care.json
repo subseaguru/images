@@ -8,7 +8,7 @@
         {
           "label": "A",
           "text": "The client with heart failure who gained one kilogram overnight and has ankle swelling.",
-          "rationale": "A one kilogram overnight gain with edema signals fluid retention that needs attention and a provider update, but it is a gradual change rather than an acute threat to oxygenation, so it can safely wait a few minutes."
+          "rationale": "A one kilogram overnight gain with edema is a reportable sign of fluid retention that needs a provider update this shift, but the client is not showing any change in breathing or level of consciousness, so it ranks below an acute threat to oxygenation."
         },
         {
           "label": "B",
@@ -319,12 +319,12 @@
         {
           "label": "B",
           "text": "The fall rate decreased from 4.2 to 2.1 falls per one thousand client days over the period.",
-          "rationale": "The fall rate is the outcome measure tied directly to the project's goal, and a rate expressed per one thousand client days adjusts for census so the before and after periods can be compared fairly."
+          "rationale": "The fall rate is the outcome measure tied directly to the project's goal, and expressing it per one thousand client days adjusts for changes in census so the before and after periods can be compared fairly."
         },
         {
           "label": "C",
-          "text": "Client satisfaction scores for nurse responsiveness increased by twelve points over the period.",
-          "rationale": "Improved satisfaction is a welcome secondary effect of rounding, but it measures the client's experience rather than fall occurrence, so it cannot prove the fall-reduction goal was met."
+          "text": "The total number of falls decreased from 14 to 9, during a period when the unit's average census was lower than before the project.",
+          "rationale": "A raw count of falls has no denominator, so when fewer clients were on the unit the drop may simply reflect fewer opportunities to fall rather than safer care; only a rate per one thousand client days lets the two periods be compared fairly."
         }
       ],
       "correct": "B",
@@ -333,7 +333,7 @@
       "clinicalJudgmentStep": "evaluate_outcomes",
       "difficulty": "hard",
       "source": "bundled",
-      "teachingPoint": "To judge whether a quality improvement project worked, look at the outcome measure that matches its stated goal; process measures show only that the change was implemented.",
+      "teachingPoint": "To judge whether a quality improvement project worked, look at the census-adjusted outcome measure that matches its stated goal; process measures show only that the change was implemented, and raw counts can mislead when the census changes.",
       "references": [
         "AHRQ Preventing Falls in Hospitals toolkit",
         "IHI Model for Improvement"
@@ -341,7 +341,8 @@
       "tags": [
         "quality improvement",
         "falls",
-        "outcome measures"
+        "outcome measures",
+        "rates"
       ],
       "createdAt": "2026-09-10T00:00:00Z"
     },
@@ -356,8 +357,8 @@
         },
         {
           "label": "B",
-          "text": "A client who began receiving a unit of packed red blood cells ten minutes ago.",
-          "rationale": "The first fifteen minutes of a transfusion carry the highest risk of an acute reaction, and blood administration and reaction assessment are generally a registered nurse responsibility, so this client is not a safe LPN assignment."
+          "text": "A client who arrived on the unit twenty minutes ago from the post-anesthesia care unit after an open appendectomy.",
+          "rationale": "A client just transferred from the post-anesthesia care unit needs the initial comprehensive postoperative assessment and frequent reassessment for airway, bleeding, and hemodynamic changes, which require registered nurse assessment and judgment rather than a practical nurse assignment."
         },
         {
           "label": "C",
@@ -371,15 +372,15 @@
       "clinicalJudgmentStep": "take_action",
       "difficulty": "hard",
       "source": "bundled",
-      "teachingPoint": "Assign the practical nurse to stable clients with predictable outcomes and established care plans; keep new admissions, unstable clients, and high-risk therapies such as blood transfusion with the registered nurse.",
+      "teachingPoint": "Assign the practical nurse to stable clients with predictable outcomes and established care plans; keep new admissions, clients just out of surgery, and clients whose condition is not yet established with the registered nurse.",
       "references": [
         "ANA and NCSBN National Guidelines for Nursing Delegation",
-        "AABB blood transfusion standards"
+        "NCSBN Practical Nurse Scope of Practice"
       ],
       "tags": [
         "assignment",
         "lpn scope",
-        "transfusion",
+        "postoperative",
         "charge nurse"
       ],
       "createdAt": "2026-09-10T00:00:00Z"

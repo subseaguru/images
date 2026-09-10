@@ -101,7 +101,7 @@
         {
           "label": "A",
           "text": "The sore throat and fever that have lasted two days.",
-          "rationale": "Clozapine can cause severe neutropenia, and the first sign is often an infection such as fever with a sore throat. An absolute neutrophil count is needed right away because the drug may have to be held to prevent a life-threatening infection."
+          "rationale": "Clozapine can cause severe neutropenia, and the first sign is often an infection such as fever with a sore throat. An absolute neutrophil count is needed right away because the drug may have to be held to prevent a life-threatening infection. Fever in the first two months of therapy can also be the first sign of clozapine-induced myocarditis, another reason it cannot wait."
         },
         {
           "label": "B",
@@ -137,7 +137,7 @@
         {
           "label": "B",
           "text": "Giving the first dose of IV vancomycin to the newly admitted client.",
-          "rationale": "A first dose of an IV antibiotic in a new admission carries an unpredictable risk of reaction and requires an initial assessment, so it stays with the RN. Later doses in a stable client may be appropriate for an LPN where the state practice act permits."
+          "rationale": "A first dose of an IV antibiotic in a new admission carries an unpredictable risk of reaction and requires an initial assessment, so it stays with the RN. Later doses in a stable client may be appropriate for an LPN only where the state practice act and facility policy permit IV medication administration."
         },
         {
           "label": "C",
@@ -297,7 +297,7 @@
         {
           "label": "C",
           "text": "Withhold the nitroglycerin and notify the provider of the tadalafil use.",
-          "rationale": "Nitrates and phosphodiesterase inhibitors both raise nitric oxide signaling, and together they can cause profound hypotension and cardiovascular collapse. The nurse holds the nitrate and alerts the provider so alternative chest pain treatment can be chosen."
+          "rationale": "Nitrates supply nitric oxide and phosphodiesterase inhibitors block the breakdown of the cyclic GMP it produces, so together they can cause profound hypotension and cardiovascular collapse. The nurse holds the nitrate and alerts the provider so alternative chest pain treatment can be chosen."
         }
       ],
       "correct": "C",

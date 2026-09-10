@@ -32,7 +32,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **Correct answer: B**
 
-- **A** (incorrect): A one kilogram overnight gain with edema signals fluid retention that needs attention and a provider update, but it is a gradual change rather than an acute threat to oxygenation, so it can safely wait a few minutes.
+- **A** (incorrect): A one kilogram overnight gain with edema is a reportable sign of fluid retention that needs a provider update this shift, but the client is not showing any change in breathing or level of consciousness, so it ranks below an acute threat to oxygenation.
 - **B** (correct): New confusion combined with a low oxygen saturation is an acute change in condition that points to hypoxemia or hypercapnia, so breathing and mental status changes take priority over stable or expected findings.
 - **C** (incorrect): Pain one day after surgery is expected and important to treat promptly, but it is not life threatening, so it ranks below an acute change in oxygenation and level of consciousness.
 
@@ -182,43 +182,43 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 ## 9. moc-009 · Performance Improvement (Quality Improvement)
 
-*Difficulty: hard · Clinical judgment: Evaluate Outcomes · Tags: quality improvement, falls, outcome measures*
+*Difficulty: hard · Clinical judgment: Evaluate Outcomes · Tags: quality improvement, falls, outcome measures, rates*
 
 **A medical-surgical unit implemented hourly rounding six months ago as a quality improvement project with the goal of reducing client falls. The nurse manager is reviewing the results with the unit practice council. Which finding best indicates that the project achieved its goal?**
 
 - **A.** Audits show that hourly rounding was documented on 94 percent of shifts during the period.
 - **B.** The fall rate decreased from 4.2 to 2.1 falls per one thousand client days over the period.
-- **C.** Client satisfaction scores for nurse responsiveness increased by twelve points over the period.
+- **C.** The total number of falls decreased from 14 to 9, during a period when the unit's average census was lower than before the project.
 
 **Correct answer: B**
 
 - **A** (incorrect): Documentation of rounding is a process measure that shows the intervention was carried out as planned, but it does not show whether the intervention actually changed the outcome it was meant to improve.
-- **B** (correct): The fall rate is the outcome measure tied directly to the project's goal, and a rate expressed per one thousand client days adjusts for census so the before and after periods can be compared fairly.
-- **C** (incorrect): Improved satisfaction is a welcome secondary effect of rounding, but it measures the client's experience rather than fall occurrence, so it cannot prove the fall-reduction goal was met.
+- **B** (correct): The fall rate is the outcome measure tied directly to the project's goal, and expressing it per one thousand client days adjusts for changes in census so the before and after periods can be compared fairly.
+- **C** (incorrect): A raw count of falls has no denominator, so when fewer clients were on the unit the drop may simply reflect fewer opportunities to fall rather than safer care; only a rate per one thousand client days lets the two periods be compared fairly.
 
-**Teaching point:** To judge whether a quality improvement project worked, look at the outcome measure that matches its stated goal; process measures show only that the change was implemented.
+**Teaching point:** To judge whether a quality improvement project worked, look at the census-adjusted outcome measure that matches its stated goal; process measures show only that the change was implemented, and raw counts can mislead when the census changes.
 
 *References: AHRQ Preventing Falls in Hospitals toolkit; IHI Model for Improvement*
 
 ## 10. moc-010 · Assignment, Delegation and Supervision
 
-*Difficulty: hard · Clinical judgment: Take Action · Tags: assignment, lpn scope, transfusion, charge nurse*
+*Difficulty: hard · Clinical judgment: Take Action · Tags: assignment, lpn scope, postoperative, charge nurse*
 
 **A charge nurse on a medical-surgical unit is making the day-shift assignments. A licensed practical nurse (LPN) will work alongside a registered nurse, and the charge nurse must decide which client is most appropriate for the LPN. Which client should the charge nurse assign to the LPN?**
 
 - **A.** A client admitted two hours ago with chest pain whose first troponin result is still pending.
-- **B.** A client who began receiving a unit of packed red blood cells ten minutes ago.
+- **B.** A client who arrived on the unit twenty minutes ago from the post-anesthesia care unit after an open appendectomy.
 - **C.** A client three days after colon surgery who needs a dressing change and oral medications.
 
 **Correct answer: C**
 
 - **A** (incorrect): A newly admitted client with an undiagnosed, potentially unstable condition needs ongoing registered nurse assessment and clinical judgment, which are outside the practical nurse scope in most states.
-- **B** (incorrect): The first fifteen minutes of a transfusion carry the highest risk of an acute reaction, and blood administration and reaction assessment are generally a registered nurse responsibility, so this client is not a safe LPN assignment.
+- **B** (incorrect): A client just transferred from the post-anesthesia care unit needs the initial comprehensive postoperative assessment and frequent reassessment for airway, bleeding, and hemodynamic changes, which require registered nurse assessment and judgment rather than a practical nurse assignment.
 - **C** (correct): A stable client with a predictable course whose care consists of established procedures and oral medications fits the practical nurse scope, with the registered nurse available for supervision.
 
-**Teaching point:** Assign the practical nurse to stable clients with predictable outcomes and established care plans; keep new admissions, unstable clients, and high-risk therapies such as blood transfusion with the registered nurse.
+**Teaching point:** Assign the practical nurse to stable clients with predictable outcomes and established care plans; keep new admissions, clients just out of surgery, and clients whose condition is not yet established with the registered nurse.
 
-*References: ANA and NCSBN National Guidelines for Nursing Delegation; AABB blood transfusion standards*
+*References: ANA and NCSBN National Guidelines for Nursing Delegation; NCSBN Practical Nurse Scope of Practice*
 
 ## 11. moc-011 · Ethical Practice
 
@@ -280,7 +280,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **Correct answer: B**
 
 - **A** (incorrect): Alcohol-based hand rubs do not kill C. difficile spores, so they are not sufficient after caring for a client with this infection; the spores must be physically removed from the skin.
-- **B** (correct): C. difficile forms spores that resist alcohol; the friction of washing with soap and water followed by rinsing physically removes the spores from the hands, which is why soap and water is preferred in this setting.
+- **B** (correct): C. difficile forms spores that resist alcohol; the friction of washing with soap and water for at least twenty seconds, followed by rinsing, physically removes the spores from the hands, which is why soap and water is preferred after caring for a client with this infection.
 - **C** (incorrect): Bleach and other sporicidal disinfectants are appropriate for cleaning environmental surfaces in a C. difficile room, but they are not intended for skin and can cause chemical injury.
 
 **Teaching point:** For spore-forming organisms such as C. difficile, and for norovirus, choose soap and water over alcohol-based hand rub, because alcohol does not inactivate spores.
@@ -354,16 +354,16 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **A home health nurse is teaching a client with chronic obstructive pulmonary disease (COPD) who has just started continuous home oxygen at two liters per minute by nasal cannula. The client lives with an adult son who smokes cigarettes. Which statement by the client indicates understanding of the safety teaching?**
 
 - **A.** I can keep using petroleum jelly on my dry lips as long as the oxygen flow stays low.
-- **B.** I will store the spare oxygen cylinders lying on their sides in the hall closet.
+- **B.** I will keep the spare oxygen cylinders in the utility closet next to the furnace so they are out of the way.
 - **C.** I will post no-smoking signs and ask my son to smoke only outside the house.
 
 **Correct answer: C**
 
 - **A** (incorrect): Petroleum-based products are flammable and should not be used near oxygen at any flow rate; a water-based lubricant is the safe choice for dry lips and nostrils.
-- **B** (incorrect): Oxygen cylinders must be secured upright in a stand or cart in a well-ventilated area away from heat; a loose cylinder can be knocked over and become a dangerous projectile if the valve breaks.
+- **B** (incorrect): Oxygen cylinders must be stored at least ten feet from any heat source or open flame, including a furnace, water heater, or stove, in a well-ventilated area and secured so they cannot fall; a closet beside a furnace fails both the heat and ventilation rules.
 - **C** (correct): Oxygen supports combustion, so no one may smoke in a home where oxygen is in use; posting signs and moving smoking outdoors removes the most common cause of home oxygen fires.
 
-**Teaching point:** Home oxygen teaching centers on fire prevention: no smoking or open flames near the oxygen, keep tubing and cylinders away from heat sources, use water-based skin products, and secure cylinders upright.
+**Teaching point:** Home oxygen teaching centers on fire prevention: no smoking or open flames near the oxygen, keep tubing and cylinders at least ten feet from heat sources, use water-based skin products, and secure cylinders so they cannot fall.
 
 *References: NFPA home oxygen safety guidance; American Lung Association home oxygen safety*
 
@@ -394,13 +394,13 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **An unlicensed assistive personnel (UAP) tells the nurse that the electric bed in a newly cleaned room has a power cord with a cracked cover and exposed wire near the plug. A client is scheduled to be admitted to that room within the hour. Which action should the nurse take?**
 
 - **A.** Cover the exposed area with electrical tape and use the bed until maintenance can replace the cord.
-- **B.** Unplug the bed, tag it as defective, and ask biomedical engineering for a replacement bed.
+- **B.** Unplug the bed, tag it as defective, report it for repair, and obtain a different bed for the admission.
 - **C.** Plug the bed into a different grounded outlet and test all bed functions before the client arrives.
 
 **Correct answer: B**
 
 - **A** (incorrect): Taping over exposed wiring does not restore the insulation and leaves the client and staff at risk for shock and fire; it is not an acceptable temporary fix.
-- **B** (correct): Damaged electrical equipment must be removed from service immediately, labelled so no one else uses it, and reported to biomedical engineering; a safe replacement is obtained for the client.
+- **B** (correct): Damaged electrical equipment must be removed from service immediately, labeled so no one else uses it, and reported to biomedical engineering or maintenance for repair; the nurse then obtains a safe bed so the admission is not delayed.
 - **C** (incorrect): A grounded outlet does not make a bed with exposed wiring safe; the fault is in the cord itself, and testing the functions of a damaged device exposes the person testing it to shock.
 
 **Teaching point:** Any equipment with a frayed cord, damaged plug, or unusual sparks, smell, or heat is taken out of service, tagged, and reported; nurses do not improvise repairs.
@@ -414,16 +414,16 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **A nurse is supervising a newly hired nurse who is setting up a sterile field for a central venous catheter dressing change on a medical-surgical unit. The supervising nurse watches each step of the setup. Which action by the newly hired nurse requires the supervising nurse to intervene?**
 
 - **A.** Opens the outer wrapper of the sterile kit by pulling the first flap away from the body.
-- **B.** Holds the bottle of sterile saline about six inches above the sterile basin while pouring.
-- **C.** Turns away from the sterile field to answer a family member's question, then turns back to continue.
+- **B.** Holds the saline bottle with the label facing the palm of the hand and pours slowly into the sterile basin.
+- **C.** Notices that spilled saline has soaked through the sterile drape onto the table, blots the spot with sterile gauze, and continues.
 
 **Correct answer: C**
 
 - **A** (incorrect): Opening the first flap away from the body is correct technique; it prevents the nurse from having to reach across the sterile inner surface of the wrapper later.
-- **B** (incorrect): Pouring from a height of four to six inches keeps the unsterile bottle from touching the sterile basin while limiting splashing, so this technique is acceptable.
-- **C** (correct): A sterile field must stay within the nurse's line of sight at all times; once the nurse turns away, contamination could occur unnoticed, so the field is considered contaminated and must be set up again.
+- **B** (incorrect): Keeping the label toward the palm protects it from drips so it stays readable, and pouring slowly limits splashing that could wet the field; this is correct technique.
+- **C** (correct): When moisture soaks through the drape, it wicks microorganisms up from the unsterile table surface, a process called strike-through; blotting does not undo this, so the field is contaminated and must be discarded and set up again with fresh supplies.
 
-**Teaching point:** Surgical asepsis rules to remember: keep the field in view and above waist level, do not reach across it, treat the one-inch border as unsterile, and consider anything out of sight or wet to be contaminated.
+**Teaching point:** Surgical asepsis rules to remember: keep the field in view and above waist level, do not reach across it, treat the one-inch border as unsterile, and consider anything out of sight or wet to be contaminated, because moisture carries organisms through a drape by strike-through.
 
 *References: AORN Guidelines for Perioperative Practice; CDC Guidelines for the Prevention of Intravascular Catheter-Related Infections*
 
@@ -451,7 +451,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: medium · Clinical judgment: Generate Solutions · Tags: safe patient handling, transfer, body mechanics*
 
-**A nurse on a rehabilitation unit plans to move a client who weighs one hundred thirty kilograms (about two hundred eighty-five pounds) from the bed to a wheelchair with the help of an unlicensed assistive personnel (UAP). The client had a stroke, cannot bear weight on either leg, and does not reliably follow directions. Which transfer method should the nurse choose?**
+**A nurse on a rehabilitation unit plans to move a client who weighs one hundred thirty kilograms (about two hundred eighty-seven pounds) from the bed to a wheelchair with the help of an unlicensed assistive personnel (UAP). The client had a stroke, cannot bear weight on either leg, and does not reliably follow directions. Which transfer method should the nurse choose?**
 
 - **A.** A two-person stand-and-pivot transfer using a gait belt around the client's waist.
 - **B.** A lateral slide across a transfer board with two staff after lowering the bed to chair height.
@@ -552,7 +552,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **Teaching point:** Know the normal newborn ranges so the abnormal cue stands out: heart rate 110 to 160, respirations 30 to 60 without grunting, flaring, or retractions, and acrocyanosis that is expected early but central cyanosis that is not.
 
-*References: AAP and AHA Neonatal Resuscitation Program guidelines*
+*References: AAP and ACOG Guidelines for Perinatal Care; AWHONN Assessment and Care of the Late Preterm and Term Newborn*
 
 ## 27. hpm-003 · Health Screening
 
@@ -581,18 +581,18 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **A home health nurse visits an 82-year-old client whose daughter reports that over the past three days the client has become forgetful, drowsy during the day, and fell once while getting out of bed. The client is oriented to person only, temperature is 98.0 degrees Fahrenheit, and the daughter mentions that the urine has looked cloudy and smelled strong. Which explanation should the nurse consider most likely?**
 
 - **A.** Expected age-related changes in memory and sleep pattern.
-- **B.** Delirium caused by an acute illness such as a urinary tract infection.
+- **B.** Delirium from an acute medical cause, such as an infection or dehydration.
 - **C.** Progression of an underlying dementia that has not yet been diagnosed.
 
 **Correct answer: B**
 
 - **A** (incorrect): Normal aging brings slower recall and lighter sleep, but it does not cause disorientation to place and time, daytime drowsiness, or falls that appear within days. Attributing acute change to age delays diagnosis of a treatable problem.
-- **B** (correct): A change in cognition and alertness that develops over hours to days is delirium until proven otherwise, and infection is a leading cause in older adults. Cloudy urine, falls, and confusion fit an atypical presentation of infection, which often occurs without fever in this age group.
+- **B** (correct): A change in cognition and alertness that develops over hours to days is delirium until proven otherwise, and acute illness is a leading cause in older adults, who often present without fever. The daughter's description of the urine raises concern for a urinary tract infection, but cloudy or strong-smelling urine alone does not confirm one, because bacteriuria without infection is common at this age. The new confusion, drowsiness, and fall call for prompt medical evaluation of infection, hydration, medications, and injury from the fall rather than acceptance of a chronic explanation.
 - **C** (incorrect): Dementia progresses gradually over months to years with a stable level of alertness. A three-day decline with drowsiness is the time course of delirium, so an acute, reversible cause must be sought before assuming dementia.
 
-**Teaching point:** Older adults often present infection atypically, with confusion, drowsiness, or falls instead of fever. Acute onset over days means delirium, which is a medical emergency, not normal aging or dementia.
+**Teaching point:** Older adults often present acute illness atypically, with confusion, drowsiness, or falls instead of fever. Acute onset over days means delirium, a medical emergency that needs a full search for the cause, including infection, dehydration, and medications; urine odor or cloudiness alone does not diagnose a urinary tract infection.
 
-*References: American Geriatrics Society delirium guidance; Hartford Institute for Geriatric Nursing, Confusion Assessment Method*
+*References: American Geriatrics Society delirium guidance; Hartford Institute for Geriatric Nursing, Confusion Assessment Method; IDSA guideline on asymptomatic bacteriuria (2019, reaffirmed 2024)*
 
 ## 29. hpm-005 · Developmental Stages and Transitions
 
@@ -638,7 +638,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: hard · Clinical judgment: Evaluate Outcomes · Tags: immunizations, older adult, primary prevention*
 
-**A 66-year-old client with well-controlled hypertension asks the clinic nurse about vaccines. The record shows an influenza vaccine last fall, a tetanus-diphtheria booster four years ago, and completed pneumococcal vaccination last year. The client has not received a zoster vaccine. Which statement by the client indicates understanding of the nurse's teaching?**
+**A 66-year-old client with well-controlled hypertension asks the clinic nurse about vaccines. The record shows an influenza vaccine last fall, a tetanus-diphtheria booster four years ago, completed pneumococcal vaccination last year, and no zoster vaccine. Which statement by the client indicates understanding of the nurse's teaching?**
 
 - **A.** "I need a repeat pneumococcal vaccine every five years now that I am past age 65."
 - **B.** "I am overdue for my tetanus booster because more than three years have passed since the last one."
@@ -647,8 +647,8 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **Correct answer: C**
 
 - **A** (incorrect): Once an adult has completed the recommended pneumococcal series, no routine repeat doses are scheduled. Periodic boosters of this vaccine are not part of current adult immunization guidance.
-- **B** (incorrect): Tetanus and diphtheria boosters are given every ten years in adults, or sooner only after a dirty wound. A booster four years ago is current, so this statement shows a misunderstanding of the interval.
-- **C** (correct): The recombinant zoster vaccine is recommended for all adults 50 and older as a two-dose series given two to six months apart, regardless of a prior history of shingles. This client has not been vaccinated and is due now.
+- **B** (incorrect): Adults receive a tetanus and diphtheria booster, as Td or Tdap, every ten years; an earlier dose is given only as part of wound care when five or more years have passed since the last dose. A booster four years ago is current, so this statement shows a misunderstanding of the interval.
+- **C** (correct): The recombinant zoster vaccine is recommended for all adults 50 and older as a two-dose series given two to six months apart, regardless of a prior episode of shingles or an earlier live zoster vaccine. This client has not been vaccinated and is due now.
 
 **Teaching point:** Know the adult schedule that older clients ask about most: yearly influenza, tetanus booster every ten years, a single completed pneumococcal series, and two doses of recombinant zoster vaccine from age 50.
 
@@ -680,13 +680,13 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **A 52-year-old client with a body mass index of 31 and a hemoglobin A1C of 6.1 percent is told that the results indicate prediabetes. The client works at a desk all day and says, "I want to avoid diabetes, but I do not know where to start." Which goal should the nurse help the client set first?**
 
-- **A.** Eliminate all carbohydrate foods from the diet and check a fingerstick glucose every morning.
-- **B.** Reach a normal body weight before starting any exercise program to protect the joints.
+- **A.** Follow a very low carbohydrate diet and check a fingerstick glucose every morning.
+- **B.** Reach a normal body weight before beginning an exercise program to protect the joints.
 - **C.** Lose about seven percent of body weight and work up to 150 minutes of moderate activity each week.
 
 **Correct answer: C**
 
-- **A** (incorrect): Eliminating an entire food group is not sustainable and is not what prevention evidence supports; balanced calorie reduction is. Daily glucose checks are not needed in prediabetes and do not by themselves lower risk.
+- **A** (incorrect): Prevention evidence comes from a moderate calorie reduction within an eating pattern the client can keep up, and an extreme restriction of one food group is hard to sustain and is not required. Daily fingerstick glucose checks are not recommended in prediabetes and do not by themselves lower the risk of progression.
 - **B** (incorrect): Physical activity is a core part of prevention from the start and improves insulin sensitivity even before weight changes. Delaying activity until weight is normal removes one of the two interventions that prevent progression.
 - **C** (correct): The Diabetes Prevention Program showed that a seven percent weight loss with at least 150 minutes of moderate activity weekly cuts progression to type 2 diabetes by more than half, so this is the evidence-based first goal.
 
@@ -718,7 +718,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: medium · Clinical judgment: Take Action · Tags: delegation, screening, community health*
 
-**A registered nurse is coordinating a community blood pressure screening at a senior center and is working with assistive personnel (AP) who have been trained and validated in using the automated blood pressure device. Which task is appropriate for the nurse to delegate to the assistive personnel?**
+**A registered nurse is coordinating a community blood pressure screening at a senior center and is working with assistive personnel who have been trained and validated in using the automated blood pressure device. Which task is appropriate for the nurse to delegate to the assistive personnel?**
 
 - **A.** Explain to a participant what a reading of 162 over 98 means for that person's health.
 - **B.** Decide which participants with elevated readings need a referral to a health care provider.
@@ -741,12 +741,12 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **During a home visit on the third day of life, a nurse assesses an exclusively breastfed term newborn. The parent reports that the baby feeds every four to five hours, is hard to wake for feedings, and had two wet diapers in the past 24 hours. The newborn has lost six percent of birth weight and has a yellow tint limited to the face. Which finding is most concerning?**
 
 - **A.** Weight loss of six percent from the birth weight.
-- **B.** Only two wet diapers during the past 24 hours.
+- **B.** Two wet diapers during the past 24 hours.
 - **C.** Yellow tint limited to the face on day three.
 
 **Correct answer: B**
 
-- **A** (incorrect): Breastfed newborns are expected to lose up to seven percent of birth weight in the first days; loss beyond seven to ten percent is what prompts evaluation of feeding. Six percent on day three is within the expected range and should begin to reverse as milk volume increases.
+- **A** (incorrect): Breastfed newborns commonly lose up to seven percent of birth weight in the first days; a loss of more than seven percent prompts a feeding evaluation, and more than ten percent calls for intervention. Six percent on day three is within the expected range and should begin to reverse as milk volume increases.
 - **B** (correct): By day three a newborn should have at least three wet diapers a day, rising to six or more by day five, and should feed eight to twelve times in 24 hours. Two wet diapers with infrequent, sleepy feeding signals inadequate intake and dehydration, which also drives bilirubin higher.
 - **C** (incorrect): Jaundice that appears after the first 24 hours and is confined to the face follows the usual physiologic pattern and bilirubin should be measured, but it is the poor intake that is causing the risk. Jaundice within the first 24 hours or spreading to the abdomen and legs would be the alarming pattern.
 
@@ -783,19 +783,19 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: easy · Clinical judgment: Analyze Cues · Tags: child abuse, mandated reporting, pediatrics, emergency*
 
-**A parent brings a four-month-old infant to the emergency department, stating that the baby rolled off the couch yesterday and has been fussy since. While taking the history, the nurse examines the infant. Which finding is most consistent with non-accidental injury and obligates the nurse to follow mandated reporting procedures?**
+**A parent brings a six-month-old infant who does not yet crawl to the emergency department, stating that the baby rolled off the couch yesterday and has been fussy since. While taking the history, the nurse examines the infant. Which finding is most consistent with non-accidental injury and obligates the nurse to follow mandated reporting procedures?**
 
-- **A.** Bruises of several different colors on the infant's back and buttocks.
+- **A.** Several bruises scattered across the infant's back and buttocks.
 - **B.** A single small bruise on the forehead with mild swelling.
 - **C.** Crying that stops when the infant is picked up and held by the parent.
 
 **Correct answer: A**
 
-- **A** (correct): An infant who cannot yet crawl or cruise rarely bruises at all, and multiple bruises of different ages on protected areas such as the back, buttocks, or torso are sentinel injuries for physical abuse that a nurse is legally required to report.
-- **B** (incorrect): One bruise on a bony prominence that matches the reported fall is far less specific for abuse; it should still be documented and evaluated because any bruise in a non-mobile infant deserves scrutiny, but it does not by itself establish a pattern of inflicted injury.
+- **A** (correct): An infant who cannot yet crawl or cruise rarely bruises at all, and multiple bruises on padded, protected areas such as the back, buttocks, or torso do not result from a single fall; they are sentinel injuries for physical abuse that a nurse is legally required to report. Bruise color cannot reliably date an injury, so the number and location of bruises, not their colors, are what raise suspicion.
+- **B** (incorrect): One bruise on a bony prominence that matches the reported fall is far less specific for abuse; it should still be documented and evaluated because any bruise in an infant who is not yet mobile deserves scrutiny, but it does not by itself establish a pattern of inflicted injury.
 - **C** (incorrect): An infant who is consoled by the caregiver is showing an expected attachment behavior, which is reassuring rather than concerning.
 
-**Teaching point:** Injuries that do not fit the child's developmental ability or the story given, especially multiple bruises of different ages in a non-mobile infant, are red flags for abuse, and nurses are mandated reporters who report reasonable suspicion rather than proof.
+**Teaching point:** Injuries that do not fit the child's developmental ability or the story given, especially multiple bruises on the torso, back, or buttocks of an infant who is not yet crawling, are red flags for abuse, and nurses are mandated reporters who report reasonable suspicion rather than proof.
 
 *References: American Academy of Pediatrics clinical report on the evaluation of suspected child physical abuse*
 
@@ -812,7 +812,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **Correct answer: C**
 
 - **A** (incorrect): Opioid excess produces sedation, pinpoint pupils, and slowed breathing, not the tremor, sweating, and racing heart seen here; hyperactivity with autonomic signs argues against opioid toxicity.
-- **B** (incorrect): Sepsis can raise the heart rate, but it typically brings fever and a falling blood pressure, and it does not explain tremor or tactile hallucinations within forty-eight hours of the last drink.
+- **B** (incorrect): Sepsis can raise the heart rate, but it usually brings fever or a low temperature with a normal or falling blood pressure rather than hypertension, and it does not explain tremor or tactile hallucinations appearing forty-eight hours after the last drink.
 - **C** (correct): Daily heavy drinking stopped abruptly by admission, followed forty-eight hours later by tremor, sweating, tachycardia, hypertension, and tactile hallucinations, is the classic picture of severe alcohol withdrawal, which can progress to seizures and delirium tremens and needs symptom-triggered benzodiazepine treatment.
 
 **Teaching point:** Alcohol withdrawal typically peaks twenty-four to seventy-two hours after the last drink; tremor with autonomic hyperactivity and hallucinations in a hospitalized drinker signals severe withdrawal that is a medical emergency, so screen every admission for alcohol use.
@@ -846,12 +846,12 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **A couple on a labor and birth unit has just delivered a stillborn infant at thirty-six weeks of gestation. The mother is physically stable, and both parents are crying quietly. The nurse is planning care for the next several hours. Which intervention should the nurse include in the plan?**
 
 - **A.** Take the infant to the morgue promptly so the parents are not further distressed by seeing the body.
-- **B.** Reassure the parents that they are young and healthy and can try for another pregnancy soon.
+- **B.** Reassure the parents that they are healthy and can try for another pregnancy soon.
 - **C.** Offer the parents the chance to hold, bathe, and name the infant and to keep mementos such as footprints.
 
 **Correct answer: C**
 
-- **A** (incorrect): Removing the infant quickly denies the parents the chance to make the loss real and to say goodbye, which is associated with more complicated grief; the decision to see the baby belongs to the parents.
+- **A** (incorrect): Removing the infant quickly takes away the parents' chance to make the loss real and to say goodbye; most bereaved parents later say they valued that time, and current obstetric guidance is that seeing and holding the baby is offered as a choice that belongs to the parents, never decided for them by staff.
 - **B** (incorrect): Pointing toward a future pregnancy dismisses this baby as replaceable and minimizes the current loss; it is a well-meaning cliche that blocks grieving rather than supporting it.
 - **C** (correct): Offering, without pressure, time with the baby and tangible keepsakes validates the infant as a real child and the parents as parents, which supports healthy grieving after perinatal loss.
 
@@ -863,7 +863,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: medium · Clinical judgment: Take Action · Tags: hospice, end of life, family teaching, home care*
 
-**A home hospice nurse visits a client with end-stage heart failure who now sleeps most of the day and has taken only a few sips of water in the past two days. The client's daughter says, "He is going to starve. Shouldn't we get him an intravenous (IV) line for fluids?" Which response by the nurse is best?**
+**A home hospice nurse visits a client with end-stage heart failure who now sleeps most of the day and has taken only a few sips of water in the past two days. The client's daughter says, "He is going to starve. Shouldn't we get him an intravenous line for fluids?" Which response by the nurse is best?**
 
 - **A.** "I will ask the hospice provider whether we can start intravenous fluids so he does not become dehydrated."
 - **B.** "Taking in less is a natural part of dying. Let me show you ways to keep his mouth moist and comfortable."
@@ -872,7 +872,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **Correct answer: B**
 
 - **A** (incorrect): Artificial hydration in the final days of life does not relieve thirst and can worsen edema, secretions, and breathlessness, especially in heart failure; deferring to a provider avoids the teaching the family needs.
-- **B** (correct): This answer gently corrects the misconception, normalizes the decline in intake as an expected part of the dying process, and redirects the daughter toward comfort measures she can provide, such as mouth care and ice chips.
+- **B** (correct): This answer gently corrects the misconception, normalizes the decline in intake as an expected part of the dying process, and redirects the daughter toward comfort measures she can provide, such as moistening the lips and mouth with swabs and offering small sips only when he is awake and able to swallow.
 - **C** (incorrect): Pushing food and fluids on a dying client who no longer feels hunger or thirst risks aspiration and distress and reinforces the family's belief that the decline can be reversed.
 
 **Teaching point:** Decreased appetite and thirst are expected near death; the nurse supports families by explaining this, discouraging forced intake and artificial hydration that add burden, and teaching comfort measures such as mouth care.
@@ -883,7 +883,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: medium · Clinical judgment: Generate Solutions · Tags: delirium, older adult, icu, sensory*
 
-**An eighty-two-year-old client is on day three in the intensive care unit (ICU) after abdominal surgery. Alert on admission, the client is now confused at night, pulls at the intravenous (IV) line, and says people are hiding in the corner of the room. The client's glasses and hearing aids are at home. Which intervention should the nurse include in the plan of care?**
+**An eighty-two-year-old client is on day three in the intensive care unit after abdominal surgery. Alert on admission, the client is now confused at night, pulls at the intravenous line, and says people are hiding in the corner of the room. The client's glasses and hearing aids are at home. Which intervention should the nurse include in the plan of care?**
 
 - **A.** Ask the family to bring the glasses and hearing aids and keep the blinds open during the day.
 - **B.** Request an as-needed dose of lorazepam at bedtime to help the client sleep through the night.
@@ -891,8 +891,8 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **Correct answer: A**
 
-- **A** (correct): Restoring sensory input and a normal day-night cycle are core non-drug strategies for delirium; sensory deprivation and disrupted sleep are among the most modifiable causes of confusion in older ICU clients.
-- **B** (incorrect): Benzodiazepines are a well-established cause of delirium in older adults and are avoided for sleep in the ICU; sedating the client would deepen rather than resolve the confusion.
+- **A** (correct): Restoring sensory input and a normal day-night cycle are core non-drug strategies for delirium; sensory deprivation and disrupted sleep are among the most modifiable causes of confusion in older intensive care clients.
+- **B** (incorrect): Benzodiazepines are a well-established cause of delirium in older adults and are avoided for sleep in intensive care; sedating the client would deepen rather than resolve the confusion.
 - **C** (incorrect): Constant darkness removes the daytime cues the brain needs to stay oriented and disrupts the sleep-wake cycle further; noise should be reduced at night while daytime light and activity are maintained.
 
 **Teaching point:** Delirium is managed first with non-pharmacologic measures: correct vision and hearing, orient with clocks and daylight, mobilize, protect nighttime sleep, and avoid benzodiazepines and other deliriogenic drugs in older adults.
@@ -911,31 +911,31 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **Correct answer: C**
 
-- **A** (incorrect): Family members lack training in medical terminology, may filter or soften information, and put the client's privacy and autonomy at risk; they should not serve as interpreters for clinical teaching.
+- **A** (incorrect): Federal language access rules allow an accompanying adult to interpret only in an emergency or when the client specifically asks for it; here the son volunteered, and family members lack training in medical terminology, may filter or soften information, and put the client's privacy and autonomy at risk, so the nurse should not rely on him for clinical teaching.
 - **B** (incorrect): Handing a client materials in a language the client cannot read, with no verification of understanding, does not meet the duty to provide meaningful access to health information.
 - **C** (correct): Federal language access requirements and health care communication standards call for a qualified interpreter for clinical communication; a family member may stay for emotional support but not to interpret.
 
 **Teaching point:** Clients with limited English proficiency have a right to a qualified medical interpreter for teaching and consent; using relatives, especially children, as interpreters compromises accuracy, confidentiality, and the client's autonomy.
 
-*References: HHS National CLAS Standards; Joint Commission patient-centered communication standards*
+*References: HHS Section 1557 regulations on language assistance services; HHS National CLAS Standards; Joint Commission patient-centered communication standards*
 
 ## 45. psi-009 · Family Dynamics
 
-*Difficulty: hard · Clinical judgment: Recognize Cues · Tags: caregiver strain, elder abuse, dementia, home care*
+*Difficulty: hard · Clinical judgment: Recognize Cues · Tags: caregiver strain, elder abuse, chemical restraint, dementia, home care*
 
 **A home health nurse visits a seventy-nine-year-old client with moderate dementia who lives with an adult daughter, the sole caregiver. While the nurse checks the client's medications, the daughter makes several comments about caring for her father. Which statement by the daughter requires the nurse's immediate follow-up?**
 
 - **A.** "He asks me the same question twenty times a day, and honestly it wears me down."
-- **B.** "I have not slept through the night in months, and yesterday I came so close to hitting him."
+- **B.** "I give him his bedtime sleeping pill at lunchtime too, so I can get a few hours to myself."
 - **C.** "I finally hired an aide to help with his bath three mornings a week, and it costs a fortune."
 
 **Correct answer: B**
 
 - **A** (incorrect): Frustration with repetitive questioning is a common and expected caregiver experience that calls for teaching and support, but it does not by itself signal danger to the client.
-- **B** (correct): Exhaustion combined with a disclosed impulse to strike the client is a warning sign of caregiver role strain at the threshold of elder abuse; the nurse must assess the client's safety now and connect the daughter with respite and support.
+- **B** (correct): Giving extra doses of a sedative to a person with dementia for the caregiver's convenience is a chemical restraint, a form of elder mistreatment, and an immediate physical danger from oversedation, falls, and worsening confusion; the nurse must assess the client now, notify the provider, and connect the daughter with respite and support for the exhaustion driving it.
 - **C** (incorrect): Arranging paid help is an adaptive, resourceful coping response; the cost concern warrants a social work referral but is not urgent.
 
-**Teaching point:** Caregiver exhaustion plus any expressed impulse to harm the dependent person is a red flag for abuse; the nurse assesses the client's safety immediately and treats caregiver strain as a risk to both people, not just a stress complaint.
+**Teaching point:** Mistreatment of a dependent older adult is often disguised as a practical coping solution, such as extra sedatives, locked doors, or skipped care; the nurse assesses the client's safety immediately and treats caregiver strain as a risk to both people, not just a stress complaint.
 
 ## 46. psi-010 · Behavioral Interventions
 
@@ -944,13 +944,13 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **On an inpatient psychiatric unit, a client with bipolar disorder in a manic episode begins pacing the hallway, speaking loudly, and slamming a hand against the wall after being told that visiting hours are over. Other clients are watching from the dayroom. Which action should the nurse take first?**
 
 - **A.** Direct staff to escort the client to the seclusion room until the client is calm.
-- **B.** Prepare the as-needed intramuscular (IM) haloperidol that is ordered for agitation.
+- **B.** Prepare the as-needed intramuscular haloperidol that is ordered for agitation.
 - **C.** Approach calmly from the side, speak in a low voice, and offer a quieter place to talk.
 
 **Correct answer: C**
 
 - **A** (incorrect): Seclusion is restricted by regulation to situations of imminent danger after less restrictive measures have failed; using it as a first response violates the client's rights and typically escalates the situation.
-- **B** (incorrect): Chemical restraint is a later step reserved for agitation that verbal strategies and oral medication have not controlled; reaching for an injection first skips the least restrictive interventions.
+- **B** (incorrect): An intramuscular antipsychotic is a later step reserved for agitation that verbal strategies and offered oral medication have not controlled; reaching for an injection first skips the least restrictive interventions, and a drug given to control behavior rather than to treat the condition counts as a chemical restraint under federal rules.
 - **C** (correct): Verbal de-escalation with a non-threatening stance, a calm tone, and a face-saving choice is the least restrictive and most effective first intervention for rising agitation, and it protects the other clients by reducing the audience.
 
 **Teaching point:** Manage escalating behavior along a least-restrictive continuum: verbal de-escalation and environmental changes first, medication next, and seclusion or restraint only for imminent danger when everything else has failed.
@@ -979,7 +979,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: hard · Clinical judgment: Evaluate Outcomes · Tags: delegation, suicide precautions, safety, supervision*
 
-**A client admitted to a medical unit after an intentional overdose is on continuous one-to-one observation. The registered nurse assigned an assistive personnel (AP) to provide the observation and reviewed the expectations. One hour later the nurse checks on them. Which observation indicates that the assistive personnel needs further instruction?**
+**A client admitted to a medical unit after an intentional overdose is on continuous one-to-one observation. The registered nurse assigned an assistive personnel to provide the observation and reviewed the expectations. One hour later the nurse checks on them. Which observation indicates that the assistive personnel needs further instruction?**
 
 - **A.** The assistive personnel waits outside the closed bathroom door while the client showers.
 - **B.** The assistive personnel sits in a chair at the bedside while the client naps.
@@ -987,7 +987,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **Correct answer: A**
 
-- **A** (correct): One-to-one observation means the client stays in direct sight and within arm's reach at all times, including in the bathroom, because ligature points and privacy make it the highest-risk location; the nurse must correct this immediately.
+- **A** (correct): One-to-one observation means the client stays in direct, unobstructed view at all times, including in the bathroom, which is the highest-risk location because of ligature points and privacy; many facility policies also require the observer to stay within arm's reach there, so the nurse must correct this immediately.
 - **B** (incorrect): Continuous observation continues during sleep, so remaining at the bedside with the client in view is exactly what is expected.
 - **C** (incorrect): Requesting a tray without metal utensils shows the assistive personnel understands the need to keep potential means of self-harm out of the client's reach.
 
@@ -1022,13 +1022,13 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 ## 50. bcc-002 · Mobility/Immobility
 
-*Difficulty: hard · Clinical judgment: Take Action · Tags: transfer, stroke, delegation, safety*
+*Difficulty: medium · Clinical judgment: Take Action · Tags: transfer, stroke, delegation, safety*
 
 **A nurse on a rehabilitation unit asks assistive personnel to transfer a client who has left-sided hemiparesis after a stroke from the bed to a wheelchair. The client can bear weight on the right leg and follows commands. Which instruction should the nurse give the assistive personnel before the transfer?**
 
 - **A.** Place the wheelchair on the client's left side so that the weaker side reaches the chair first.
 - **B.** Lift the client under both arms and pivot quickly so that the weak leg has no time to buckle.
-- **C.** Place the wheelchair on the client's right side, lock the brakes, and have the client pivot on the stronger leg.
+- **C.** Place the wheelchair on the client's right side, lock the brakes and have the client pivot on the right leg.
 
 **Correct answer: C**
 
@@ -1066,17 +1066,17 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **A client who had a stroke three days ago has right-sided facial weakness. After a bedside swallow evaluation, the speech-language pathologist recommends a dysphagia diet with mildly thick liquids. Which intervention should the nurse include in the plan of care for mealtimes?**
 
-- **A.** Sit the client fully upright with the chin slightly tucked and place food on the left side of the mouth.
+- **A.** Sit the client fully upright for the meal and place small bites of food on the left side of the mouth.
 - **B.** Offer the thickened liquids through a straw so the client can control the flow more easily.
 - **C.** Serve large spoonfuls of moist food so the client has fewer swallows to perform during the meal.
 
 **Correct answer: A**
 
-- **A** (correct): An upright position with a chin tuck helps protect the airway during the swallow, and placing food on the unaffected side lets the client feel and control the bolus. Together these measures reduce pocketing and aspiration.
+- **A** (correct): An upright position at ninety degrees helps protect the airway during the swallow, and placing small bites on the unaffected left side lets the client feel and control the bolus. Together these measures reduce pocketing and aspiration.
 - **B** (incorrect): A straw delivers liquid rapidly to the back of the throat before the swallow is ready, which increases aspiration risk. Clients with dysphagia are usually taught to sip from a cup or spoon unless the therapist specifically approves a straw.
 - **C** (incorrect): Large boluses are harder to control and are more likely to be pocketed or aspirated. Small bites, one at a time, with the mouth checked for clearing before the next bite, are safer for a client with dysphagia.
 
-**Teaching point:** For dysphagia after stroke: upright at ninety degrees, chin slightly tucked, small bites placed on the unaffected side, no straws unless approved, and remain upright for at least thirty minutes after eating.
+**Teaching point:** For dysphagia after stroke: upright at ninety degrees, small bites placed on the unaffected side, no straws unless approved, remain upright for at least thirty minutes after eating, and use compensatory maneuvers such as a chin tuck only when the speech-language pathologist has prescribed them.
 
 *References: IDDSI (International Dysphagia Diet Standardisation Initiative) framework*
 
@@ -1084,10 +1084,10 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: easy · Clinical judgment: Evaluate Outcomes · Tags: pediatrics, dehydration, oral rehydration, teaching*
 
-**A parent brings a fourteen-month-old toddler with two days of vomiting and watery diarrhea to a pediatric clinic. The toddler is alert with moist mucous membranes and is assessed as mildly dehydrated. The nurse teaches the parent about oral rehydration at home. Which statement by the parent indicates understanding of the teaching?**
+**A parent brings their fourteen-month-old daughter with two days of vomiting and watery diarrhea to a pediatric clinic. The toddler is alert with moist mucous membranes and is assessed as mildly dehydrated. The nurse teaches the parent about oral rehydration at home. Which statement by the parent indicates understanding of the teaching?**
 
 - **A.** I will give only apple juice and a sports drink until the diarrhea stops so she gets some sugar and salt.
-- **B.** I will give small amounts of oral rehydration solution every few minutes and continue her usual foods as she tolerates them.
+- **B.** I will give small sips of oral rehydration solution every few minutes and keep offering her usual foods.
 - **C.** I will hold all food and fluids for twenty-four hours so her stomach can rest before I start rehydrating her.
 
 **Correct answer: B**
@@ -1106,37 +1106,37 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **An intensive care nurse turns a client who has been sedated and on bed rest for four days. The nurse finds a coin-sized area of intact, reddened skin over the coccyx that does not blanch when pressed and feels warmer than the surrounding skin. How should the nurse interpret this finding?**
 
-- **A.** A stage 1 pressure injury that requires the area to be offloaded right away.
+- **A.** A stage one pressure injury that requires the area to be offloaded right away.
 - **B.** Reactive hyperemia that is expected after lying in one position and will fade within an hour.
 - **C.** A deep tissue pressure injury that is likely to open into a full-thickness wound.
 
 **Correct answer: A**
 
-- **A** (correct): Intact skin with nonblanchable redness over a bony prominence defines a stage 1 pressure injury. Because tissue damage has already begun, the area must be kept free of pressure and the prevention plan intensified.
+- **A** (correct): Intact skin with nonblanchable redness over a bony prominence defines a stage one pressure injury. Because tissue damage has already begun, the area must be kept free of pressure and the prevention plan intensified.
 - **B** (incorrect): Reactive hyperemia is a normal, temporary increase in blood flow after pressure is relieved, and it blanches when pressed. Redness that does not blanch indicates capillary damage rather than a normal response.
-- **C** (incorrect): Deep tissue pressure injury presents as persistent purple or maroon discoloration or a blood-filled blister, not simple redness. Reddened intact skin that does not blanch is classified as stage 1.
+- **C** (incorrect): Deep tissue pressure injury presents as persistent purple or maroon discoloration or a blood-filled blister, not simple redness. Reddened intact skin that does not blanch is classified as stage one.
 
-**Teaching point:** The blanch test separates harmless reactive hyperemia from a stage 1 pressure injury. Nonblanchable redness over a bony prominence means damage has started, so offload the area, reposition on schedule and reassess skin at every turn.
+**Teaching point:** The blanch test separates harmless reactive hyperemia from a stage one pressure injury. Nonblanchable redness over a bony prominence means damage has started, so offload the area, reposition on schedule and reassess skin at every turn.
 
 *References: NPIAP (National Pressure Injury Advisory Panel) pressure injury staging system*
 
 ## 55. bcc-007 · Non-Pharmacological Comfort Interventions
 
-*Difficulty: medium · Clinical judgment: Generate Solutions · Tags: labor, back pain, comfort measures, maternity*
+*Difficulty: hard · Clinical judgment: Generate Solutions · Tags: labor, back pain, comfort measures, maternity*
 
 **A client in active labor at five centimeters dilated reports intense lower back pain with every contraction, and the fetus is in an occiput posterior position. The client has chosen not to use medication for pain relief at this time. Which comfort measure is most appropriate for the nurse to offer?**
 
 - **A.** Help the client lie flat on the back with the knees bent and apply a warm pack to the abdomen.
-- **B.** Apply firm, steady counterpressure to the sacrum during contractions and encourage a hands-and-knees position.
-- **C.** Perform light effleurage over the abdomen and dim the lights to promote relaxation.
+- **B.** Perform light effleurage over the abdomen and dim the lights to promote relaxation.
+- **C.** Apply firm counterpressure to the sacrum during contractions and suggest a hands-and-knees position.
 
-**Correct answer: B**
+**Correct answer: C**
 
 - **A** (incorrect): Lying flat on the back compresses the vena cava, reduces placental perfusion and keeps the fetal head pressing against the sacrum, which worsens back labor. Upright or side-lying positions are preferred.
-- **B** (correct): Sacral counterpressure directly counters the pressure of the fetal occiput on the sacrum, and the hands-and-knees position uses gravity to encourage the fetus to rotate. These are the first-line comfort measures for back labor.
-- **C** (incorrect): Effleurage and a calm environment can ease general labor discomfort, but light abdominal stroking does little for the sacral pressure of an occiput posterior fetus. Back labor calls for measures aimed at the sacrum and fetal position.
+- **B** (incorrect): Effleurage and a calm environment can ease general labor discomfort, but light abdominal stroking does little for the sacral pressure of an occiput posterior fetus. Back labor calls for measures aimed at the sacrum and fetal position.
+- **C** (correct): Sacral counterpressure directly counters the pressure of the fetal occiput on the sacrum, and the hands-and-knees position takes the weight of the fetus off the sacrum and may encourage rotation to an anterior position. These are the first-line comfort measures for back labor.
 
-**Teaching point:** Match the comfort measure to the cause of the pain: back labor from an occiput posterior fetus responds to sacral counterpressure and positions such as hands-and-knees that relieve sacral pressure and promote fetal rotation.
+**Teaching point:** Match the comfort measure to the cause of the pain: back labor from an occiput posterior fetus responds to sacral counterpressure and positions such as hands-and-knees that relieve sacral pressure and may promote fetal rotation.
 
 *References: AWHONN (Association of Women's Health, Obstetric and Neonatal Nurses) guidance on continuous labor support*
 
@@ -1147,14 +1147,14 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **An eighty-two-year-old client on a medical unit tells the nurse on the third hospital morning that they have barely slept for two nights and have been dozing during the day. The client asks for a sleeping pill. Which intervention should the nurse include in the plan of care?**
 
 - **A.** Request a nightly order for a sedative-hypnotic so the client can catch up on the lost sleep.
-- **B.** Keep the room dim and quiet throughout the day so the client can nap whenever they feel tired.
-- **C.** Encourage daytime activity with daylight exposure and cluster nighttime care to limit interruptions.
+- **B.** Encourage daytime activity with daylight exposure and cluster nighttime care to limit interruptions.
+- **C.** Keep the room dim and quiet throughout the day so the client can nap whenever they feel tired.
 
-**Correct answer: C**
+**Correct answer: B**
 
 - **A** (incorrect): Sedative-hypnotics in older adults raise the risk of falls, delirium and daytime drowsiness and are listed as potentially inappropriate for this age group. Non-drug measures should be tried before any medication is considered.
-- **B** (incorrect): Daytime napping in a dark room weakens the circadian rhythm and makes nighttime sleep even harder. Bright daytime light and activity help reset the sleep-wake cycle.
-- **C** (correct): Daytime light and activity strengthen the circadian rhythm, while grouping nighttime tasks reduces awakenings. These non-pharmacological measures are the first-line approach to sleep disturbance in hospitalized older adults.
+- **B** (correct): Daytime light and activity strengthen the circadian rhythm, while grouping nighttime tasks reduces awakenings. These non-pharmacological measures are the first-line approach to sleep disturbance in hospitalized older adults.
+- **C** (incorrect): Daytime napping in a dark room weakens the circadian rhythm and makes nighttime sleep even harder. Bright daytime light and activity help reset the sleep-wake cycle.
 
 **Teaching point:** For sleep problems in hospitalized older adults, start with sleep hygiene: daytime light and activity, limited napping, quiet dark nights and clustered care. Sedative-hypnotics are a last resort because of falls and delirium.
 
@@ -1224,15 +1224,15 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **A nurse beginning a day shift on a medical-surgical unit receives a handoff report on three assigned clients, each of whom has a need related to basic care and comfort. Which client should the nurse assess first?**
 
-- **A.** A client on continuous nasogastric tube feeding who has become restless and whose oxygen saturation has fallen from 97 to 90 percent.
+- **A.** A client on continuous nasogastric tube feeding who has become restless with an oxygen saturation of 90 percent.
 - **B.** A client with a fractured hip awaiting surgery who reports pain of six out of ten and is due to be repositioned.
 - **C.** A client who has not had a bowel movement for three days since starting scheduled oxycodone after knee surgery.
 
 **Correct answer: A**
 
 - **A** (correct): Restlessness with a falling oxygen saturation during tube feeding suggests aspiration, which threatens the airway and breathing. Airway and breathing problems come before pain, mobility and elimination needs.
-- **B** (incorrect): Pain and scheduled repositioning are important but not immediately life-threatening. This client can safely wait a few minutes while an airway problem is addressed, and pain management can then be delegated in part or handled next.
-- **C** (incorrect): Opioid-induced constipation needs a bowel regimen and assessment for distention, but it is a stable chronic problem that does not threaten oxygenation. It is the lowest priority of the three.
+- **B** (incorrect): Pain and scheduled repositioning are important but not immediately life-threatening. This client can safely wait a few minutes while a possible airway problem is addressed, and the nurse then assesses and treats the pain next.
+- **C** (incorrect): Opioid-induced constipation needs a bowel regimen and assessment for distention, but it is a stable problem that does not threaten oxygenation. It is the lowest priority of the three.
 
 **Teaching point:** When ranking clients, an actual or potential airway or breathing problem outranks pain, mobility and elimination needs. A change in mental status with a falling saturation during enteral feeding should be treated as aspiration until proven otherwise.
 
@@ -1315,7 +1315,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **Correct answer: A**
 
-- **A** (correct): Clozapine can cause severe neutropenia, and the first sign is often an infection such as fever with a sore throat. An absolute neutrophil count is needed right away because the drug may have to be held to prevent a life-threatening infection.
+- **A** (correct): Clozapine can cause severe neutropenia, and the first sign is often an infection such as fever with a sore throat. An absolute neutrophil count is needed right away because the drug may have to be held to prevent a life-threatening infection. Fever in the first two months of therapy can also be the first sign of clozapine-induced myocarditis, another reason it cannot wait.
 - **B** (incorrect): Weight gain is an expected metabolic side effect of clozapine that is monitored over time and managed with diet and activity counseling. It is important but is not an emergency compared with a possible drop in neutrophils.
 - **C** (incorrect): Hypersalivation is a common and uncomfortable side effect of clozapine, particularly at night, and is managed with positioning or medication adjustments. It does not signal a dangerous complication.
 
@@ -1336,7 +1336,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **Correct answer: C**
 
 - **A** (incorrect): Titrating a high-alert IV medication requires interpreting a laboratory value and applying a protocol, which is nursing judgment that stays with the RN. The LPN may report the result but does not independently change the infusion.
-- **B** (incorrect): A first dose of an IV antibiotic in a new admission carries an unpredictable risk of reaction and requires an initial assessment, so it stays with the RN. Later doses in a stable client may be appropriate for an LPN where the state practice act permits.
+- **B** (incorrect): A first dose of an IV antibiotic in a new admission carries an unpredictable risk of reaction and requires an initial assessment, so it stays with the RN. Later doses in a stable client may be appropriate for an LPN only where the state practice act and facility policy permit IV medication administration.
 - **C** (correct): Giving routine oral medications to a stable client with a predictable course is within the LPN scope of practice under RN supervision. Tasks are assigned by matching client stability and task complexity to the licensed scope.
 
 **Teaching point:** Assign the LPN medication tasks for stable clients with predictable outcomes, and keep initial doses, titration of high-alert infusions and any task requiring assessment or interpretation with the RN.
@@ -1367,17 +1367,17 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: hard · Clinical judgment: Evaluate Outcomes · Tags: opioids, naloxone, pca, monitoring*
 
-**A client on a surgical unit receiving hydromorphone by patient-controlled analgesia (PCA) was found difficult to arouse with a respiratory rate of six breaths per minute. The nurse stopped the PCA, supported breathing, and gave intravenous (IV) naloxone per protocol. Twenty minutes later the client is awake, breathing sixteen times per minute, and asking for pain medication. Which action should the nurse take next?**
+**A client on a surgical unit receiving hydromorphone by patient-controlled analgesia (PCA) was found difficult to arouse with a respiratory rate of six breaths per minute. The nurse stopped the PCA, supported breathing, and gave intravenous (IV) naloxone per protocol. Twenty minutes later the client is awake, breathing sixteen times per minute, and asking for pain medication. How should the nurse interpret the client's current status?**
 
-- **A.** Resume the PCA at the previous settings because the client is alert and reporting pain.
-- **B.** Document the reversal and return to the unit's routine every-four-hour vital sign checks.
-- **C.** Keep checking sedation and breathing frequently because naloxone may wear off before the opioid.
+- **A.** The overdose has resolved, so the PCA can be resumed at the previous settings.
+- **B.** The client is stable and can return to the unit's routine every-four-hour vital sign checks.
+- **C.** The client remains at risk of renewed sedation because naloxone may wear off before the opioid.
 
 **Correct answer: C**
 
-- **A** (incorrect): The client just had life-threatening respiratory depression at those settings, so restarting them unchanged invites a repeat. The provider must reassess the opioid dose and the client's pain plan before any opioid is resumed.
+- **A** (incorrect): The client just had life-threatening respiratory depression at those settings, so an alert client is not proof the problem is over. The provider must reassess the opioid dose and the client's pain plan before any opioid is resumed.
 - **B** (incorrect): Routine monitoring is not safe after naloxone because the client can slip back into sedation once the antagonist wears off. Assessment must be far more frequent for at least the next few hours.
-- **C** (correct): Naloxone acts for roughly thirty to ninety minutes, while hydromorphone and other opioids last longer, so respiratory depression can recur. Close, frequent observation of sedation level and respirations continues until the opioid effect has clearly passed.
+- **C** (correct): Naloxone acts for roughly thirty to ninety minutes, while hydromorphone and other opioids last longer, so respiratory depression can recur. The improvement is real but temporary, and close, frequent observation of sedation level and respirations continues until the opioid effect has clearly passed.
 
 **Teaching point:** A good response to naloxone is not the end of the emergency: because the antagonist is shorter acting than most opioids, the client needs continued close monitoring for renarcotization and a revised opioid plan before dosing resumes.
 
@@ -1437,7 +1437,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 - **A** (incorrect): A normal starting blood pressure does not protect the client; the combination of a nitrate with a phosphodiesterase inhibitor can cause a sudden, severe and treatment-resistant drop in pressure. The current reading is not the deciding factor.
 - **B** (incorrect): Tadalafil has a long half-life, and nitrates are contraindicated for forty-eight hours after a dose (twenty-four hours for sildenafil or vardenafil). Twelve hours is well inside the danger window.
-- **C** (correct): Nitrates and phosphodiesterase inhibitors both raise nitric oxide signaling, and together they can cause profound hypotension and cardiovascular collapse. The nurse holds the nitrate and alerts the provider so alternative chest pain treatment can be chosen.
+- **C** (correct): Nitrates supply nitric oxide and phosphodiesterase inhibitors block the breakdown of the cyclic GMP it produces, so together they can cause profound hypotension and cardiovascular collapse. The nurse holds the nitrate and alerts the provider so alternative chest pain treatment can be chosen.
 
 **Teaching point:** Ask every chest pain client about phosphodiesterase inhibitor use before giving a nitrate: withhold nitrates for twenty-four hours after sildenafil or vardenafil and forty-eight hours after tadalafil, regardless of the current blood pressure.
 
@@ -1476,7 +1476,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **Correct answer: B**
 
 - **A** (incorrect): Anaphylaxis involves the airway or circulation, such as wheezing, stridor, lip or tongue swelling, or hypotension. Flushing and itching with a stable blood pressure and clear lungs do not meet that picture, so epinephrine is not indicated.
-- **B** (correct): Vancomycin infused too quickly triggers direct histamine release, producing flushing and itching of the face, neck and upper trunk. This vancomycin infusion reaction is not a true allergy and resolves when the infusion is slowed or paused and given over a longer time, often with an antihistamine.
+- **B** (correct): Vancomycin infused too quickly triggers direct histamine release, producing flushing and itching of the face, neck and upper trunk. This reaction, now called vancomycin flushing syndrome and formerly red man syndrome, is not a true allergy and resolves when the infusion is slowed or paused and given over a longer time, often with an antihistamine.
 - **C** (incorrect): Phlebitis is a local problem at the vein with redness, warmth and tenderness along the catheter path. Flushing of the face and neck is a systemic response and is not explained by irritation at the site.
 
 **Teaching point:** Distinguish a vancomycin infusion reaction (flushing and itching from rapid infusion, treated by slowing the rate) from anaphylaxis (airway compromise or hypotension, treated with epinephrine), because the first does not require stopping the drug permanently.
@@ -1497,13 +1497,13 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **A nurse on a medical-surgical unit is reviewing the morning laboratory results of a client who is two days after a bowel resection and is receiving intravenous (IV) furosemide for fluid overload. The client has a nasogastric tube to suction and has had nothing by mouth since surgery. Which laboratory value requires the nurse's immediate follow-up?**
 
 - **A.** A hemoglobin of 11.2 grams per deciliter, down from 12.4 before surgery.
-- **B.** A blood glucose of 148 milligrams per deciliter drawn before breakfast.
+- **B.** A blood glucose of 148 milligrams per deciliter on the morning draw.
 - **C.** A potassium of 2.9 milliequivalents per liter, down from 3.8 before surgery.
 
 **Correct answer: C**
 
 - **A** (incorrect): A modest drop in hemoglobin after surgery reflects expected operative blood loss and dilution from IV fluids; it should be trended, but at this level it does not signal an immediate threat.
-- **B** (incorrect): Mild hyperglycemia after surgery is a common stress response, especially in a client receiving IV fluids, and it warrants monitoring rather than urgent action.
+- **B** (incorrect): Mild hyperglycemia after surgery is a common stress response; it warrants monitoring and possibly correction insulin, but it is not an immediate threat to the client.
 - **C** (correct): Loop diuretics and nasogastric suction both waste potassium, and a level below 3.0 milliequivalents per liter raises the risk of life-threatening cardiac dysrhythmias, so it must be reported and replaced promptly.
 
 **Teaching point:** When several results are abnormal, act first on the one tied to a life-threatening complication; hypokalemia from diuretics and gastric losses threatens cardiac rhythm and must be corrected before it worsens.
@@ -1582,7 +1582,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **Correct answer: C**
 
-- **A** (incorrect): Opioids can cause confusion and slow breathing, but they do not produce rapid breathing, hypoxemia, or a petechial rash, so they do not explain the full picture.
+- **A** (incorrect): Opioids can cause confusion and slow, shallow breathing, but they do not produce a rapid respiratory rate or a petechial rash, so they do not explain the full picture.
 - **B** (incorrect): A thrombotic pulmonary embolism also causes sudden dyspnea and hypoxemia, but it does not produce petechiae, and the rash plus the timing point to a different source of emboli.
 - **C** (correct): The triad of hypoxemia, new confusion, and a petechial rash on the chest and neck appearing 24 to 72 hours after a long-bone fracture is the classic presentation of fat embolism syndrome, which needs immediate respiratory support.
 
@@ -1594,7 +1594,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: medium · Clinical judgment: Generate Solutions · Tags: contrast, kidney injury, ct scan, chronic kidney disease*
 
-**A 70-year-old client with stage 3 chronic kidney disease and an estimated glomerular filtration rate of 38 milliliters per minute is scheduled for a computed tomography (CT) scan of the abdomen with intravenous (IV) iodinated contrast to evaluate a suspected abscess. The nurse is planning care to reduce the risk of contrast-associated acute kidney injury. Which intervention should the nurse anticipate including in the plan?**
+**A 70-year-old client with stage 4 chronic kidney disease and an estimated glomerular filtration rate of 26 milliliters per minute is scheduled for a computed tomography (CT) scan of the abdomen with intravenous (IV) iodinated contrast to evaluate a suspected abscess. The nurse is planning care to reduce the risk of contrast-associated acute kidney injury. Which intervention should the nurse anticipate including in the plan?**
 
 - **A.** Giving a dose of IV furosemide after the scan to flush the contrast out of the kidneys.
 - **B.** Infusing isotonic IV fluid for several hours before and again after the contrast is given.
@@ -1603,10 +1603,10 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 **Correct answer: B**
 
 - **A** (incorrect): Diuretics do not speed contrast clearance and instead cause volume depletion, which lowers renal perfusion and increases the risk of kidney injury, so they are avoided around contrast studies.
-- **B** (correct): Volume expansion with isotonic crystalloid such as normal saline maintains renal perfusion and dilutes the contrast in the tubules, and it is the best-supported measure for preventing contrast-associated kidney injury in high-risk clients.
-- **C** (incorrect): Dehydration is a major risk factor for contrast-associated kidney injury; modern contrast agents rarely cause vomiting, and any fasting should be brief and offset with IV hydration.
+- **B** (correct): Volume expansion with isotonic crystalloid such as normal saline maintains renal perfusion and dilutes the contrast in the tubules; for clients with an estimated glomerular filtration rate below 30 who are not on dialysis, it is the best-supported measure for preventing contrast-associated kidney injury.
+- **C** (incorrect): Fasting is not required before IV iodinated contrast, and a long period without fluids causes the dehydration that is a major risk factor for contrast-associated kidney injury; modern low-osmolar agents rarely cause vomiting, so this plan adds risk without benefit.
 
-**Teaching point:** In clients with reduced kidney function, IV isotonic hydration before and after iodinated contrast is the key protective measure; avoid dehydration and diuretics around the study and recheck creatinine within 48 hours.
+**Teaching point:** In clients with severely reduced kidney function, IV isotonic hydration before and after iodinated contrast is the key protective measure; avoid dehydration, prolonged fasting, and diuretics around the study, and recheck creatinine within 48 to 72 hours.
 
 *References: ACR Manual on Contrast Media; KDIGO Clinical Practice Guideline for Acute Kidney Injury*
 
@@ -1642,7 +1642,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **Correct answer: A**
 
-- **A** (correct): Submerging the tube end in sterile water creates a temporary water seal that lets air escape from the pleural space while preventing air from being drawn back in, protecting the client until a new sterile system is connected.
+- **A** (correct): Submerging the tube end in sterile water creates a temporary water seal that lets air escape from the pleural space while preventing air from being drawn back in; the tube end that touched the linen is contaminated and cannot simply be reconnected, so the water seal protects the client until a new sterile system is connected.
 - **B** (incorrect): Clamping a chest tube in a client with a pneumothorax traps air in the pleural space and can produce a tension pneumothorax within minutes, so a clamp is used only momentarily under specific direction, not while gathering equipment.
 - **C** (incorrect): An occlusive dressing at the skin is the response when the tube itself comes out of the chest; here the tube is still in place, and covering the site does nothing to reseal the open tube end.
 
@@ -1664,7 +1664,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 - **A** (incorrect): Food and fluids reduce stomach upset and support hydration, but they do not lower a level that is already toxic, and giving another dose adds to the lithium load.
 - **B** (incorrect): A low sodium intake causes the kidneys to retain lithium and drives the level even higher; a consistent sodium intake is what keeps lithium levels stable.
-- **C** (correct): A level above 1.5 milliequivalents per liter with coarse tremor, vomiting, or diarrhea indicates lithium toxicity; the drug is held and the provider notified so hydration, repeat levels, and possibly dialysis can be arranged.
+- **C** (correct): A level above 1.5 milliequivalents per liter with coarse tremor, vomiting, or diarrhea indicates lithium toxicity; the drug is held and the provider notified so IV fluids, repeat levels, and further treatment can be arranged.
 
 **Teaching point:** Lithium has a narrow therapeutic range of about 0.6 to 1.2 milliequivalents per liter; a level above 1.5 with gastrointestinal symptoms or coarse tremor means toxicity, so hold the dose and escalate rather than medicate through it.
 
@@ -1684,7 +1684,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 - **A** (correct): The purpose of the initial bolus in septic shock is to restore tissue perfusion, and a mean arterial pressure of at least 65 millimeters of mercury is the resuscitation target; reaching it shows the fluid is doing its job.
 - **B** (incorrect): A small drop in heart rate is a favorable trend, but the client remains markedly tachycardic and the change is too small to confirm that perfusion has been restored.
-- **C** (incorrect): Fever reflects the infection and its treatment with antibiotics and antipyretics; a lower temperature does not tell the nurse whether circulating volume and perfusion have improved.
+- **C** (incorrect): Fever reflects the infection and begins to respond to antibiotics or to any antipyretic given; a lower temperature does not tell the nurse whether circulating volume and perfusion have improved.
 
 **Teaching point:** Judge fluid resuscitation in sepsis by perfusion targets rather than by fever or small heart-rate changes: a mean arterial pressure of 65 or higher, a falling lactate, and urine output of at least 0.5 milliliters per kilogram per hour show the plan is working.
 
@@ -1694,7 +1694,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: medium · Clinical judgment: Recognize Cues · Tags: thyroidectomy, hypocalcemia, postoperative, assessment*
 
-**A nurse on a surgical unit is performing the shift assessment of a client eight hours after a total thyroidectomy for a large goiter. The neck dressing is dry, the client is resting with the head of the bed raised, and the oxygen saturation is 97 percent on room air. Which finding requires the nurse's immediate follow-up?**
+**A nurse on a surgical unit is performing the shift assessment of a client twenty-four hours after a total thyroidectomy for a large goiter. The neck dressing is dry, the client is resting with the head of the bed raised, and the oxygen saturation is 97 percent on room air. Which finding requires the nurse's immediate follow-up?**
 
 - **A.** The client reports a sore throat and mild pain when swallowing.
 - **B.** The client reports tingling around the lips and in the fingertips.
@@ -1722,7 +1722,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **Correct answer: C**
 
-- **A** (incorrect): Adding more fluid to a bladder that cannot drain worsens distention and pain and can tear the fresh surgical site, so the irrigation is stopped, not sped up, until drainage is restored.
+- **A** (incorrect): Adding more fluid to a bladder that cannot drain worsens distention and pain and can disrupt the fresh surgical site and restart bleeding, so the irrigation is stopped, not sped up, until drainage is restored.
 - **B** (incorrect): Bladder spasms are common after prostate surgery, but here the pain comes from an obstructed catheter and a distended bladder; medicating the symptom leaves the obstruction and the risk of bleeding untreated.
 - **C** (correct): Absent outflow with a distended bladder means the catheter is blocked, usually by a clot; stopping the inflow and clearing the obstruction by checking the tubing and hand-irrigating with sterile saline restores drainage and prevents bladder rupture and bleeding.
 
@@ -1761,10 +1761,10 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: easy · Clinical judgment: Recognize Cues · Tags: hypokalemia, electrolytes, dysrhythmia, telemetry*
 
-**A nurse on a medical-surgical unit is caring for a 68-year-old client admitted with three days of vomiting who also takes furosemide daily for heart failure. The morning serum potassium is 2.8 milliequivalents per liter, and the client is on continuous cardiac monitoring. Which finding requires the nurse's immediate follow-up?**
+**A nurse on a medical-surgical unit is caring for a 68-year-old client admitted with three days of vomiting who also takes furosemide daily for heart failure. The morning serum potassium is 2.8 milliequivalents per liter. Which finding requires the nurse's immediate follow-up?**
 
 - **A.** The client reports cramping in both calves and feels too weak to stand.
-- **B.** The monitor shows flattened T waves with frequent premature ventricular contractions.
+- **B.** The cardiac monitor shows flattened T waves with frequent premature ventricular contractions.
 - **C.** Bowel sounds are faint and infrequent in all four abdominal quadrants.
 
 **Correct answer: B**
@@ -1781,7 +1781,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: hard · Clinical judgment: Generate Solutions · Tags: septic shock, vasopressors, icu, hemodynamics*
 
-**A client in the intensive care unit (ICU) with septic shock from pneumonia has received a thirty milliliter per kilogram crystalloid bolus. The mean arterial pressure is now 58, heart rate 118, central venous pressure 12, lactate 4.2 millimoles per liter, and the extremities are warm and flushed. Which order should the nurse anticipate next?**
+**A client in the intensive care unit (ICU) with septic shock from pneumonia has received a thirty milliliter per kilogram crystalloid bolus. The mean arterial pressure is now 58, heart rate 118, and lactate 4.2 millimoles per liter. A passive leg raise produces no increase in stroke volume, and the extremities are warm and flushed. Which order should the nurse anticipate next?**
 
 - **A.** A second thirty milliliter per kilogram crystalloid bolus infused over thirty minutes.
 - **B.** A norepinephrine infusion titrated to a mean arterial pressure of at least 65.
@@ -1789,11 +1789,11 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **Correct answer: B**
 
-- **A** (incorrect): The initial bolus is complete and a central venous pressure of 12 suggests preload is adequate, so more fluid risks pulmonary edema without correcting the low vascular resistance that is driving the hypotension.
+- **A** (incorrect): The initial bolus is complete and a passive leg raise that does not increase stroke volume shows the client is no longer fluid responsive, so more fluid risks pulmonary edema without correcting the low vascular resistance that is driving the hypotension.
 - **B** (correct): Persistent hypotension after adequate fluid resuscitation in septic shock reflects profound vasodilation, and norepinephrine is the first-line vasopressor recommended to restore a mean arterial pressure of 65 or greater and organ perfusion.
 - **C** (incorrect): Dobutamine is added when there is evidence of myocardial dysfunction and poor perfusion despite fluids and vasopressors; warm, flushed extremities point to vasodilation rather than pump failure.
 
-**Teaching point:** In septic shock, once a thirty milliliter per kilogram bolus has been given, hypotension that persists is treated with norepinephrine to reach a mean arterial pressure of 65; more fluid or an inotrope is chosen only when the assessment shows low preload or poor contractility.
+**Teaching point:** In septic shock, once a thirty milliliter per kilogram bolus has been given, hypotension that persists is treated with norepinephrine to reach a mean arterial pressure of 65; more fluid is given only when a dynamic measure such as a passive leg raise shows fluid responsiveness, and an inotrope only when there is evidence of poor contractility.
 
 *References: Surviving Sepsis Campaign Guidelines 2021*
 
@@ -1829,9 +1829,9 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **Correct answer: A**
 
-- **A** (correct): Daily morning weights on the same scale are the most sensitive early indicator of fluid retention, and reporting a gain of two to three pounds in a day or five pounds in a week allows treatment before breathlessness and hospitalization occur.
+- **A** (correct): Daily morning weights on the same scale, after voiding and before breakfast, are the most sensitive early indicator of fluid retention; reporting a gain of about three pounds in a day or five pounds in a week (the thresholds commonly taught) allows treatment before breathlessness and hospitalization occur.
 - **B** (incorrect): A loop diuretic taken at bedtime causes nighttime urination, disrupted sleep, and a higher risk of falls in the dark; it should be taken in the morning or early afternoon.
-- **C** (incorrect): Clients with heart failure are usually asked to limit fluid to about two liters a day and to restrict sodium, because excess fluid increases the volume the weakened heart must pump.
+- **C** (incorrect): Clients with heart failure are never told to push fluids: every extra liter adds to the volume the weakened heart must pump. Most are asked to limit sodium and, when directed, to keep fluid intake to about two liters a day, especially if the sodium level is low.
 
 **Teaching point:** Heart failure self-care rests on daily weights, sodium and fluid limits, and morning diuretic dosing; a rapid weight gain is the earliest sign of decompensation and should trigger a call before symptoms develop.
 
@@ -1863,17 +1863,17 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **A client at 34 weeks of gestation with preeclampsia with severe features is receiving a magnesium sulfate infusion at two grams per hour on the labor and delivery unit. The nurse completes the hourly assessment. Which finding indicates that the nurse should stop the infusion and notify the provider?**
 
-- **A.** Deep tendon reflexes are one plus and the client reports feeling warm and flushed.
+- **A.** Deep tendon reflexes are two plus and the client reports feeling warm and flushed.
 - **B.** Blood pressure is 152 over 96 and the client reports mild nausea.
 - **C.** Respiratory rate is ten breaths per minute and the patellar reflex cannot be elicited.
 
 **Correct answer: C**
 
-- **A** (incorrect): Diminished but present reflexes and a sensation of warmth are expected effects of a therapeutic magnesium level; they should be documented and trended, not treated as toxicity.
+- **A** (incorrect): Normal two plus reflexes show that magnesium has not reached a toxic level, and a sensation of warmth and flushing is an expected effect of the infusion; these findings are documented and trended, not treated as toxicity.
 - **B** (incorrect): A blood pressure in this range and nausea are consistent with the underlying preeclampsia and with magnesium's side effects; they call for continued monitoring and possibly antihypertensive medication, not stopping magnesium.
 - **C** (correct): Absent deep tendon reflexes and a respiratory rate below twelve show that magnesium has reached a toxic level with neuromuscular and respiratory depression; the infusion is stopped and calcium gluconate is prepared as the antidote.
 
-**Teaching point:** During a magnesium sulfate infusion, assess reflexes, respirations, and urine output every hour; loss of the patellar reflex, respirations under twelve, or urine output under thirty milliliters per hour signals toxicity, and calcium gluconate is the reversal agent.
+**Teaching point:** During a magnesium sulfate infusion, assess reflexes, respirations, and urine output every hour; loss of the patellar reflex or respirations under twelve signals toxicity, urine output under thirty milliliters per hour warns that magnesium is accumulating, and calcium gluconate is the reversal agent.
 
 *References: ACOG Practice Bulletin: Gestational Hypertension and Preeclampsia*
 
@@ -1961,7 +1961,7 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 *Difficulty: hard · Clinical judgment: Prioritize Hypotheses · Tags: fat embolism, fracture, orthopedics, deterioration*
 
-**A 22-year-old client on an orthopedic unit had an intramedullary rod placed twenty hours ago for a closed femur fracture sustained in a motorcycle crash. The nurse finds the client restless and confused, with a respiratory rate of 30, an oxygen saturation of 89 percent on room air, and a new petechial rash across the chest and axillae. Which complication should the nurse suspect first?**
+**A 22-year-old client on an orthopedic unit had an intramedullary rod placed thirty-six hours ago for a closed femur fracture sustained in a motorcycle crash. The nurse finds the client restless and confused, with a respiratory rate of 30, an oxygen saturation of 89 percent on room air, and a new petechial rash across the chest and axillae. Which complication should the nurse suspect first?**
 
 - **A.** Pulmonary embolism from a thrombus in the injured leg.
 - **B.** Compartment syndrome from swelling within the operative thigh.
@@ -1969,9 +1969,9 @@ Snapshot generated 2026-09-10. 96 questions across the eight NCLEX-RN Client Nee
 
 **Correct answer: C**
 
-- **A** (incorrect): Venous thromboembolism also causes sudden dyspnea and hypoxemia, but it usually develops several days after immobilization and does not produce a petechial rash or the early confusion seen here.
+- **A** (incorrect): Pulmonary embolism from a deep vein thrombosis also causes sudden dyspnea and hypoxemia, but it does not produce a petechial rash, and it more often develops after several days of immobility rather than within the first two days of a long bone fracture.
 - **B** (incorrect): Compartment syndrome presents with severe pain out of proportion to the injury, tense swelling, and paresthesia in the affected limb; it does not explain hypoxemia, confusion, or a rash on the trunk.
-- **C** (correct): Fat embolism syndrome classically appears twelve to seventy-two hours after a long bone fracture with the triad of respiratory distress, neurologic changes, and petechiae on the chest, axillae, and conjunctivae; it is a life-threatening emergency requiring oxygen and immediate provider notification.
+- **C** (correct): Fat embolism syndrome classically appears twenty-four to seventy-two hours after a long bone fracture with the triad of respiratory distress, neurologic changes, and petechiae on the chest, axillae, and conjunctivae; it is a life-threatening emergency requiring oxygen and immediate provider notification.
 
 **Teaching point:** After a long bone or pelvic fracture, the triad of hypoxemia, altered mental status, and a petechial rash within the first three days points to fat embolism syndrome; early fracture stabilization and rapid recognition are the keys to survival.
 

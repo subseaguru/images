@@ -56,7 +56,7 @@
       "category": "basic_care_and_comfort",
       "subtopic": "Mobility/Immobility",
       "clinicalJudgmentStep": "take_action",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "source": "bundled",
       "teachingPoint": "When one side is weak, move toward the strong side: chair on the strong side, weight on the strong leg, gait belt on, brakes locked. The nurse remains responsible for giving assistive personnel clear, client-specific instructions for a delegated transfer.",
       "references": ["ANA and NCSBN National Guidelines for Nursing Delegation"],
@@ -100,8 +100,8 @@
       "options": [
         {
           "label": "A",
-          "text": "Sit the client fully upright with the chin slightly tucked and place food on the left side of the mouth.",
-          "rationale": "An upright position with a chin tuck helps protect the airway during the swallow, and placing food on the unaffected side lets the client feel and control the bolus. Together these measures reduce pocketing and aspiration."
+          "text": "Sit the client fully upright for the meal and place small bites of food on the left side of the mouth.",
+          "rationale": "An upright position at ninety degrees helps protect the airway during the swallow, and placing small bites on the unaffected left side lets the client feel and control the bolus. Together these measures reduce pocketing and aspiration."
         },
         {
           "label": "B",
@@ -120,14 +120,14 @@
       "clinicalJudgmentStep": "generate_solutions",
       "difficulty": "medium",
       "source": "bundled",
-      "teachingPoint": "For dysphagia after stroke: upright at ninety degrees, chin slightly tucked, small bites placed on the unaffected side, no straws unless approved, and remain upright for at least thirty minutes after eating.",
+      "teachingPoint": "For dysphagia after stroke: upright at ninety degrees, small bites placed on the unaffected side, no straws unless approved, remain upright for at least thirty minutes after eating, and use compensatory maneuvers such as a chin tuck only when the speech-language pathologist has prescribed them.",
       "references": ["IDDSI (International Dysphagia Diet Standardisation Initiative) framework"],
       "tags": ["dysphagia", "stroke", "aspiration", "nutrition"],
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
       "id": "bcc-005",
-      "stem": "A parent brings a fourteen-month-old toddler with two days of vomiting and watery diarrhea to a pediatric clinic. The toddler is alert with moist mucous membranes and is assessed as mildly dehydrated. The nurse teaches the parent about oral rehydration at home. Which statement by the parent indicates understanding of the teaching?",
+      "stem": "A parent brings their fourteen-month-old daughter with two days of vomiting and watery diarrhea to a pediatric clinic. The toddler is alert with moist mucous membranes and is assessed as mildly dehydrated. The nurse teaches the parent about oral rehydration at home. Which statement by the parent indicates understanding of the teaching?",
       "options": [
         {
           "label": "A",
@@ -204,16 +204,16 @@
         {
           "label": "C",
           "text": "Apply firm counterpressure to the sacrum during contractions and suggest a hands-and-knees position.",
-          "rationale": "Sacral counterpressure directly counters the pressure of the fetal occiput on the sacrum, and the hands-and-knees position uses gravity to encourage the fetus to rotate. These are the first-line comfort measures for back labor."
+          "rationale": "Sacral counterpressure directly counters the pressure of the fetal occiput on the sacrum, and the hands-and-knees position takes the weight of the fetus off the sacrum and may encourage rotation to an anterior position. These are the first-line comfort measures for back labor."
         }
       ],
       "correct": "C",
       "category": "basic_care_and_comfort",
       "subtopic": "Non-Pharmacological Comfort Interventions",
       "clinicalJudgmentStep": "generate_solutions",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "source": "bundled",
-      "teachingPoint": "Match the comfort measure to the cause of the pain: back labor from an occiput posterior fetus responds to sacral counterpressure and positions such as hands-and-knees that relieve sacral pressure and promote fetal rotation.",
+      "teachingPoint": "Match the comfort measure to the cause of the pain: back labor from an occiput posterior fetus responds to sacral counterpressure and positions such as hands-and-knees that relieve sacral pressure and may promote fetal rotation.",
       "references": ["AWHONN (Association of Women's Health, Obstetric and Neonatal Nurses) guidance on continuous labor support"],
       "tags": ["labor", "back pain", "comfort measures", "maternity"],
       "createdAt": "2026-09-10T00:00:00Z"
