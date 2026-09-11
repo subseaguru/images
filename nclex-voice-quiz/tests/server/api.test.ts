@@ -151,19 +151,29 @@ describe("questions", () => {
       version: 1,
       questions: [
         fixtureQuestion({ id: "moc-901" }),
-        fixtureQuestion({ id: "custom-1", source: "ai" as const, createdAt: "2025-01-01T00:00:00.000Z" }),
+        fixtureQuestion({
+          id: "custom-1",
+          source: "ai" as const,
+          createdAt: "2025-01-01T00:00:00.000Z",
+          stem: "A client taking metformin asks why it is held before a contrast scan. Which explanation is correct?",
+        }),
+        // Same stem as the first entry: the second copy is skipped, not imported twice.
+        fixtureQuestion({ id: "dupe-1" }),
         { ...fixtureQuestion(), correct: "D" },
         "not an object",
       ],
     };
-    const { status, body } = await json<{ imported: number; rejected: { index: number; errors: string[] }[] }>(
-      s.base,
-      "/api/questions/import",
-      post(payload),
-    );
+    const { status, body } = await json<{
+      imported: number;
+      skippedDuplicates: number;
+      needsReview: number;
+      rejected: { index: number; errors: string[] }[];
+    }>(s.base, "/api/questions/import", post(payload));
     assert.equal(status, 200);
     assert.equal(body.imported, 2);
-    assert.deepEqual(body.rejected.map((r) => r.index), [2, 3]);
+    assert.equal(body.skippedDuplicates, 1);
+    assert.equal(body.needsReview, 0, "fully specified questions are not flagged");
+    assert.deepEqual(body.rejected.map((r) => r.index), [3, 4]);
     assert.ok(body.rejected[0]?.errors.some((e) => e.includes("correct")));
 
     const list = await json<{ questions: Question[]; counts: { bySource: Record<string, number> } }>(s.base, "/api/questions?source=imported");
@@ -174,8 +184,8 @@ describe("questions", () => {
     assert.ok(remint, "the question that reused moc-901 got a fresh id");
     assert.notEqual(remint.id, "moc-901");
     assert.ok(typeof remint.createdAt === "string" && !Number.isNaN(Date.parse(remint.createdAt)));
-    const kept = list.body.questions.find((q) => q.id === "custom-1");
-    assert.ok(kept);
+    const kept = list.body.questions.find((q) => q.stem.startsWith("A client taking metformin"));
+    assert.ok(kept, "the second question was imported under a fresh id");
     assert.equal(kept.createdAt, "2025-01-01T00:00:00.000Z");
     // Bundled question is untouched.
     const original = await json<Question>(s.base, "/api/questions/moc-901");
@@ -185,12 +195,26 @@ describe("questions", () => {
     const saved = JSON.parse(await readFile(path.join(s.dataDir, "questions.json"), "utf8")) as { version: number; questions: Question[] };
     assert.equal(saved.version, 1);
     assert.equal(saved.questions.length, 2);
+    assert.ok(saved.questions.every((q) => q.source === "imported"));
   });
 
-  it("accepts { questions: [...] } without a version and rejects other shapes", async () => {
-    const ok = await json<{ imported: number }>(s.base, "/api/questions/import", post({ questions: [fixtureQuestion()] }));
+  it("accepts a bare array, { questions: [...] } and rejects other shapes", async () => {
+    const ok = await json<{ imported: number }>(
+      s.base,
+      "/api/questions/import",
+      post({ questions: [fixtureQuestion({ stem: "A client asks when to take metformin with meals. Which instruction is correct?" })] }),
+    );
     assert.equal(ok.status, 200);
     assert.equal(ok.body.imported, 1);
+
+    const bare = await json<{ imported: number }>(
+      s.base,
+      "/api/questions/import",
+      post([fixtureQuestion({ stem: "A client asks whether metformin causes weight gain. Which reply is correct?" })]),
+    );
+    assert.equal(bare.status, 200);
+    assert.equal(bare.body.imported, 1);
+
     const bad = await json<{ code: string }>(s.base, "/api/questions/import", post({ foo: 1 }));
     assert.equal(bad.status, 400);
     assert.equal(bad.body.code, "invalid_import");

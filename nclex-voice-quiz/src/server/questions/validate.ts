@@ -149,6 +149,7 @@ export function validateQuestion(input: unknown, options: ValidateOptions = {}):
     source: source as QuestionSource,
     createdAt: createdAt as string,
   };
+  if (input.needsReview === true) question.needsReview = true;
   if (clinicalJudgmentStep) question.clinicalJudgmentStep = clinicalJudgmentStep;
   if (teachingPoint) question.teachingPoint = teachingPoint;
   if (references && references.length > 0) question.references = references;

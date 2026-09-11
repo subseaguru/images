@@ -12,7 +12,7 @@ import type { Settings } from "../../src/shared/types.js";
 
 const SEED_DIR = path.join(PROJECT_ROOT, "tests", "fixtures", "seed");
 
-async function startServer(options: { envApiKey?: string; generator?: Generator } = {}) {
+async function startServer(options: { envApiKey?: string; generator?: Partial<Generator> } = {}) {
   const dataDir = await mkdtemp(path.join(os.tmpdir(), "nclex-settings-"));
   const { app, stores } = createApp({ dataDir, seedDir: SEED_DIR, version: "test", warn: () => undefined, ...options });
   const server = await new Promise<import("node:http").Server>((resolve) => {
@@ -52,7 +52,7 @@ const DEFAULTS: Settings = {
 describe("/api/settings", () => {
   let s: Server;
   const verifyCalls: { apiKey: string; model: string }[] = [];
-  const generator: Generator = {
+  const generator: Partial<Generator> = {
     generateQuestions: async () => {
       throw new GeneratorError("unused", 500);
     },

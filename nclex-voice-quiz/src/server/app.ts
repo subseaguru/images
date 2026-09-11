@@ -6,6 +6,7 @@ import { existsSync } from "node:fs";
 import path from "node:path";
 import express from "express";
 import type { ErrorRequestHandler, Express, NextFunction, Request, Response } from "express";
+import { enrichQuestions } from "./generator/enrich.js";
 import { generateQuestions, verifyApiKey } from "./generator/index.js";
 import { PUBLIC_DIR } from "./paths.js";
 import { QuestionStore } from "./questions/store.js";
@@ -22,6 +23,7 @@ import { ensureDirSync } from "./storage/jsonFile.js";
 
 export interface Generator {
   generateQuestions: typeof generateQuestions;
+  enrichQuestions: typeof enrichQuestions;
   verifyApiKey: typeof verifyApiKey;
 }
 
@@ -30,7 +32,8 @@ export interface AppOptions {
   seedDir: string;
   version: string;
   envApiKey?: string;
-  generator?: Generator;
+  /** Override individual generator functions (tests inject fakes); the rest stay real. */
+  generator?: Partial<Generator>;
   /** Fetch used by `POST /api/sources/url` (tests inject a fake). */
   fetchImpl?: typeof globalThis.fetch;
   /** Where store warnings go (defaults to console.warn). */
@@ -104,7 +107,7 @@ export function createApp(options: AppOptions): { app: Express; stores: AppStore
     sources: new SourceStore(path.join(options.dataDir, "sources"), warn),
     settings: new SettingsStore(path.join(options.dataDir, "settings.json"), warn),
   };
-  const generator: Generator = options.generator ?? { generateQuestions, verifyApiKey };
+  const generator: Generator = { generateQuestions, verifyApiKey, enrichQuestions, ...options.generator };
   const envApiKey = options.envApiKey?.trim() || undefined;
 
   const app = express();
@@ -135,6 +138,7 @@ export function createApp(options: AppOptions): { app: Express; stores: AppStore
       settings: stores.settings,
       envApiKey,
       generateQuestions: generator.generateQuestions,
+      enrichQuestions: generator.enrichQuestions,
     }),
   );
   api.use((req, res) => {

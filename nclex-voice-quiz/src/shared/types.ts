@@ -72,6 +72,13 @@ export interface Question {
   /** Names of study sources / guidelines the question was grounded in. */
   references?: string[];
   tags?: string[];
+  /**
+   * Set by the importer when a question arrived without its NCLEX classification, a rationale for
+   * every option or a teaching point (common for question sets written by other tools). Such a
+   * question is usable in a quiz straight away, but the Bank page flags it so the learner can fill
+   * the gaps by hand or with "Enrich with Claude", which clears the flag.
+   */
+  needsReview?: boolean;
   /** ISO-8601 timestamp. */
   createdAt: string;
 }
@@ -130,6 +137,34 @@ export interface Stats {
 // ---------------------------------------------------------------------------------------------
 // API request / response shapes (see docs/API.md)
 // ---------------------------------------------------------------------------------------------
+
+export interface EnrichRequest {
+  /** Enrich exactly these questions. */
+  ids?: string[];
+  /** Enrich every question currently flagged `needsReview` (ignored when `ids` is given). */
+  all?: boolean;
+}
+
+export interface EnrichResponse {
+  /** Questions that were changed and saved. */
+  updated: number;
+  /** Questions Claude could not complete confidently; each is left exactly as it was. */
+  flagged: { id: string; concern: string }[];
+  warnings: string[];
+  model: string;
+  usage: { inputTokens: number; outputTokens: number };
+}
+
+export interface ImportResponse {
+  imported: number;
+  /** Questions whose stem already existed in the bank. */
+  skippedDuplicates: number;
+  rejected: { index: number; errors: string[] }[];
+  /** How many of the imported questions are flagged `needsReview`. */
+  needsReview: number;
+  /** Options discarded when a question arrived with more than three. */
+  dropped: { index: number; options: string[] }[];
+}
 
 export interface QuizStartRequest {
   /** 1..50 */

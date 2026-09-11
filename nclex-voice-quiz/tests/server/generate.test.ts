@@ -11,7 +11,7 @@ import type { GenerateRequest, GenerateResponse, Question, StudySource } from ".
 
 const SEED_DIR = path.join(PROJECT_ROOT, "tests", "fixtures", "seed");
 
-async function startServer(options: { envApiKey?: string; generator?: Generator } = {}) {
+async function startServer(options: { envApiKey?: string; generator?: Partial<Generator> } = {}) {
   const dataDir = await mkdtemp(path.join(os.tmpdir(), "nclex-generate-"));
   const { app, stores } = createApp({ dataDir, seedDir: SEED_DIR, version: "test", warn: () => undefined, ...options });
   const server = await new Promise<import("node:http").Server>((resolve) => {
@@ -64,7 +64,7 @@ interface Call {
   ctx: GeneratorContext;
 }
 
-function fakeGenerator(calls: Call[], respond: (request: GenerateRequest, ctx: GeneratorContext) => Promise<GenerateResponse>): Generator {
+function fakeGenerator(calls: Call[], respond: (request: GenerateRequest, ctx: GeneratorContext) => Promise<GenerateResponse>): Partial<Generator> {
   return {
     generateQuestions: async (request, ctx) => {
       calls.push({ request, ctx });

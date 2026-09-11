@@ -7,7 +7,6 @@ const BASE_URL = `http://127.0.0.1:${PORT}`;
 
 export default defineConfig({
   testDir: "e2e",
-  globalSetup: "./e2e/global-setup.ts",
   fullyParallel: false,
   workers: 1,
   retries: 0,
@@ -20,7 +19,10 @@ export default defineConfig({
   },
   projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],
   webServer: {
-    command: "node dist/src/server/index.js",
+    // The data directory is wiped in the same command, because Playwright starts the web server
+    // before globalSetup runs - a directory emptied afterwards would already be loaded in memory.
+    command:
+      "node -e \"require('node:fs').rmSync('.playwright-tmp/data',{recursive:true,force:true})\" && node dist/src/server/index.js",
     url: `${BASE_URL}/api/health`,
     env: {
       PORT: String(PORT),

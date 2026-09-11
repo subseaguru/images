@@ -190,6 +190,26 @@ export class QuestionStore {
     return stored;
   }
 
+  /**
+   * Replaces questions the learner owns (generated or imported) with updated copies. Bundled
+   * questions and unknown ids are ignored; returns how many were actually replaced.
+   */
+  async update(questions: readonly Question[]): Promise<number> {
+    let changed = 0;
+    for (const question of questions) {
+      if (!this.own.has(question.id)) continue;
+      this.own.set(question.id, { ...question });
+      changed += 1;
+    }
+    if (changed > 0) await this.persist();
+    return changed;
+  }
+
+  /** Questions flagged by the importer as missing their classification or rationales. */
+  needingReview(): Question[] {
+    return this.all().filter((q) => q.needsReview === true);
+  }
+
   async delete(id: string): Promise<DeleteResult> {
     if (this.seeded.has(id)) return "bundled";
     if (!this.own.delete(id)) return "missing";

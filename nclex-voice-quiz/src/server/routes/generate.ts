@@ -1,6 +1,7 @@
 import { Router } from "express";
-import type { GenerateRequest, GenerateResponse, Question } from "../../shared/types.js";
+import type { EnrichResponse, GenerateRequest, GenerateResponse, Question } from "../../shared/types.js";
 import { CATEGORY_IDS, CLINICAL_JUDGMENT_STEPS, DIFFICULTIES } from "../../shared/types.js";
+import type { enrichQuestions } from "../generator/enrich.js";
 import type { GeneratorContext, GeneratorSource, generateQuestions } from "../generator/index.js";
 import type { QuestionStore } from "../questions/store.js";
 import { validateQuestion } from "../questions/validate.js";
@@ -51,8 +52,85 @@ export function generateRouter(deps: {
   settings: SettingsStore;
   envApiKey?: string;
   generateQuestions: typeof generateQuestions;
+  enrichQuestions: typeof enrichQuestions;
 }): Router {
   const router = Router();
+
+  /** Shared by both routes: the key from the environment, else the one saved in Settings. */
+  const requireApiKey = (action: string): string => {
+    const apiKey = deps.settings.effectiveApiKey(deps.envApiKey);
+    if (!apiKey) {
+      throw badRequest(
+        `No Anthropic API key is configured. Add your key in Settings (or set ANTHROPIC_API_KEY) to ${action}.`,
+        "no_api_key",
+      );
+    }
+    return apiKey;
+  };
+
+  /** GeneratorError messages are written for the learner, so forward them with their own status. */
+  const forwardGeneratorError = (err: unknown): never => {
+    if (err instanceof Error && err.name === "GeneratorError") {
+      const { status, code } = err as Error & { status?: unknown; code?: unknown };
+      throw new HttpError(
+        typeof status === "number" ? status : 500,
+        err.message,
+        typeof code === "string" ? code : "generator_error",
+      );
+    }
+    throw err;
+  };
+
+  router.post("/questions/enrich", async (req, res) => {
+    // Enrichment of a large import runs for minutes, like generation.
+    req.setTimeout(0);
+    res.setTimeout(0);
+
+    const body = bodyObject(req);
+    const ids = optionalStringList(body.ids, "ids");
+    const all = optionalBoolean(body.all, "all");
+    let targets: Question[];
+    if (ids && ids.length > 0) {
+      targets = [];
+      for (const id of [...new Set(ids)]) {
+        const question = deps.questions.get(id);
+        if (!question) throw badRequest(`Unknown question: ${id}.`, "unknown_question");
+        if (question.source === "bundled") {
+          throw badRequest("Bundled questions already have rationales and cannot be enriched.", "bundled_question");
+        }
+        targets.push(question);
+      }
+    } else if (all) {
+      targets = deps.questions.needingReview().filter((q) => q.source !== "bundled");
+    } else {
+      throw badRequest('Send either { "ids": [...] } or { "all": true }.', "invalid_enrich");
+    }
+
+    const apiKey = requireApiKey("fill in missing categories and rationales");
+    const result = await deps
+      .enrichQuestions(targets, { apiKey, model: deps.settings.model })
+      .catch(forwardGeneratorError);
+
+    const warnings = [...result.warnings];
+    const valid: Question[] = [];
+    for (const question of result.questions) {
+      const checked = validateQuestion(question, { defaultSource: "imported" });
+      if (!checked.ok) {
+        warnings.push(`Left question ${question.id} unchanged: ${checked.errors.join("; ")}`);
+        continue;
+      }
+      valid.push({ ...checked.question, id: question.id, source: question.source });
+    }
+    const updated = await deps.questions.update(valid);
+    const response: EnrichResponse = {
+      updated,
+      flagged: result.flagged,
+      warnings,
+      model: result.model,
+      usage: result.usage,
+    };
+    res.json(response);
+  });
 
   router.post("/generate", async (req, res) => {
     // Generation can run for minutes; make sure neither socket nor response gives up first.
@@ -60,13 +138,7 @@ export function generateRouter(deps: {
     res.setTimeout(0);
 
     const request = parseGenerateRequest(bodyObject(req));
-    const apiKey = deps.settings.effectiveApiKey(deps.envApiKey);
-    if (!apiKey) {
-      throw badRequest(
-        "No Anthropic API key is configured. Add your key in Settings (or set ANTHROPIC_API_KEY) to generate questions.",
-        "no_api_key",
-      );
-    }
+    const apiKey = requireApiKey("generate questions");
 
     const sources: GeneratorSource[] = [];
     for (const id of request.sourceIds ?? []) {
@@ -83,19 +155,7 @@ export function generateRouter(deps: {
     };
     if (request.targetWeakAreas) ctx.stats = computeStats(deps.attempts.list());
 
-    const result = await deps.generateQuestions(request, ctx).catch((err: unknown) => {
-      // GeneratorError messages are written for the learner (bad key, unknown model, offline...),
-      // so forward them with their status instead of masking 5xx ones as a generic failure.
-      if (err instanceof Error && err.name === "GeneratorError") {
-        const { status, code } = err as Error & { status?: unknown; code?: unknown };
-        throw new HttpError(
-          typeof status === "number" ? status : 500,
-          err.message,
-          typeof code === "string" ? code : "generator_error",
-        );
-      }
-      throw err;
-    });
+    const result = await deps.generateQuestions(request, ctx).catch(forwardGeneratorError);
 
     const warnings = [...(result.warnings ?? [])];
     const valid: Question[] = [];

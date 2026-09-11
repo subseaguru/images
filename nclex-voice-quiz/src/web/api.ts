@@ -55,11 +55,27 @@ export interface QuestionFilters {
   source?: QuestionSource[];
   difficulty?: Difficulty[];
   q?: string;
+  /** Only questions the importer flagged as missing a category or rationales. */
+  needsReview?: boolean;
 }
 
 export interface ImportResponse {
   imported: number;
+  /** Questions whose stem was already in the bank. */
+  skippedDuplicates: number;
   rejected: { index: number; errors: string[] }[];
+  /** How many imported questions still need a category or rationales. */
+  needsReview: number;
+  /** Options discarded from questions that arrived with more than three. */
+  dropped: { index: number; options: string[] }[];
+}
+
+export interface EnrichResponse {
+  updated: number;
+  flagged: { id: string; concern: string }[];
+  warnings: string[];
+  model: string;
+  usage: { inputTokens: number; outputTokens: number };
 }
 
 export interface SessionResponse {
@@ -131,12 +147,20 @@ export const api = {
         source: filters.source,
         difficulty: filters.difficulty,
         q: filters.q,
+        needsReview: filters.needsReview ? "1" : undefined,
       })}`,
     ),
   question: (id: string) => request<Question>("GET", `/api/questions/${encodeURIComponent(id)}`),
   deleteQuestion: (id: string) => request<{ ok: true }>("DELETE", `/api/questions/${encodeURIComponent(id)}`),
-  importQuestions: (file: QuestionFile | { questions: Question[] }) =>
-    request<ImportResponse>("POST", "/api/questions/import", file),
+  /**
+   * The payload goes to the server exactly as the file contained it (a bare array included): the
+   * server repairs question sets written by other tools, and doing that in one place keeps the
+   * browser and `npm run import` behaving identically.
+   */
+  importQuestions: (payload: QuestionFile | { questions: unknown[] } | unknown[]) =>
+    request<ImportResponse>("POST", "/api/questions/import", payload),
+  enrichQuestions: (target: { ids: string[] } | { all: true }) =>
+    request<EnrichResponse>("POST", "/api/questions/enrich", target),
 
   startQuiz: (body: QuizStartRequest) => request<QuizStartResponse>("POST", "/api/quiz/start", body),
   recordAttempt: (body: AttemptRequest) => request<AttemptResponse>("POST", "/api/attempts", body),

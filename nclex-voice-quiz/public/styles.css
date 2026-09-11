@@ -358,6 +358,19 @@ button {
   background: var(--surface-2);
   color: var(--muted);
 }
+/* Imported questions still missing a category or rationales. */
+.chip.warn {
+  background: var(--warn-soft);
+  color: var(--warn);
+  margin-left: 0.5rem;
+}
+/* Checkbox with its label on one line (filters, toggles). */
+label.inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
 .stat-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));

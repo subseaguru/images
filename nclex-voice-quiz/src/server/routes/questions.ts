@@ -1,7 +1,8 @@
 import { Router } from "express";
-import type { Question } from "../../shared/types.js";
+import type { ImportResponse, Question } from "../../shared/types.js";
 import { CATEGORY_IDS, DIFFICULTIES, QUESTION_SOURCES } from "../../shared/types.js";
 import type { QuestionStore } from "../questions/store.js";
+import { importQuestions } from "../questions/import.js";
 import { validateQuestion } from "../questions/validate.js";
 import { badRequest, bodyObject, notFound, optionalEnumList, queryList, queryString } from "./http.js";
 
@@ -16,31 +17,18 @@ export function questionsRouter(deps: { questions: QuestionStore }): Router {
       difficulty: optionalEnumList(queryList(req.query.difficulty), DIFFICULTIES, "difficulty"),
       q: queryString(req.query.q),
     });
-    res.json({ questions: list, counts: questions.counts() });
+    const needsReview = queryString(req.query.needsReview) === "1";
+    res.json({
+      questions: needsReview ? list.filter((q) => q.needsReview === true) : list,
+      counts: questions.counts(),
+    });
   });
 
   router.post("/questions/import", async (req, res) => {
-    const body = bodyObject(req);
-    if (!Array.isArray(body.questions)) {
-      throw badRequest('Expected a question file: { "version": 1, "questions": [...] }.', "invalid_import");
-    }
-    const rejected: { index: number; errors: string[] }[] = [];
-    const valid: Question[] = [];
-    const seenIds = new Set<string>();
-    body.questions.forEach((raw, index) => {
-      const result = validateQuestion(raw, { defaultSource: "imported" });
-      if (!result.ok) {
-        rejected.push({ index, errors: result.errors });
-        return;
-      }
-      const question: Question = { ...result.question, source: "imported" };
-      // Duplicates inside the same import file also get fresh ids.
-      if (question.id && seenIds.has(question.id)) question.id = "";
-      if (question.id) seenIds.add(question.id);
-      valid.push(question);
-    });
-    const stored = await questions.addMany(valid);
-    res.json({ imported: stored.length, rejected });
+    // Deliberately lenient: question sets written by other tools are repaired where their meaning
+    // is recoverable and flagged for review, instead of being rejected wholesale.
+    const report: ImportResponse = await importQuestions(req.body, questions);
+    res.json(report);
   });
 
   router.get("/questions/:id", (req, res) => {
