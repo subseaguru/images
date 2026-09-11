@@ -35,9 +35,9 @@ Returns `Blueprint` (from `src/shared/blueprint.ts`).
 
 ## Questions
 
-### `GET /api/questions?category=&source=&difficulty=&q=`
+### `GET /api/questions?category=&source=&difficulty=&q=&needsReview=1`
 Filters are optional and may repeat (`?category=a&category=b`). `q` is a case-insensitive substring
-match on stem/option text. Response:
+match on stem/option text. `needsReview=1` returns only questions the importer flagged. Response:
 ```json
 { "questions": Question[], "counts": { "total": n, "bySource": { "bundled": n, "ai": n, "imported": n }, "byCategory": { "<CategoryId>": n } } }
 ```
@@ -50,10 +50,28 @@ Only `ai` and `imported` questions can be deleted (400 for bundled). Deleting al
 from attempts (history is kept).
 
 ### `POST /api/questions/import`
-Body: `QuestionFile` or `{ questions: Question[] }`. Each question is validated
-(`src/server/questions/validate.ts`); valid ones are saved with `source: "imported"`, a fresh id if
-the id is missing or already taken, and `createdAt` set when missing.
-Response: `{ imported: number, rejected: [{ index: number, errors: string[] }] }`.
+Body: `QuestionFile`, `{ questions: [...] }`, or a bare array. Entries are repaired by
+`src/server/questions/normalize.ts` (field aliases, options as strings or a label map, the answer as
+a label, index or text, more than three options trimmed to the correct one plus the first two
+distractors, markdown stripped) and then validated. A question missing its category, activity
+statement or a rationale is imported with `needsReview: true` (its category guessed by
+`src/server/questions/classify.ts`) rather than rejected; only a question whose stem, three usable
+options or correct answer cannot be recovered is rejected. Questions whose stem already exists in
+the bank are skipped. Saved with `source: "imported"` and a fresh id; a valid `createdAt` is kept.
+Response: `ImportResponse` = `{ imported, skippedDuplicates, rejected: [{ index, errors }],
+needsReview, dropped: [{ index, options }] }`. The same pipeline backs `npm run import -- <files>`
+(`src/server/cli/import.ts`).
+
+### `POST /api/questions/enrich`
+Body: `{ ids: string[] }` or `{ all: true }` (every `needsReview` question). Asks Claude to fill in
+the category, activity statement, clinical-judgment step, difficulty, a rationale for every option
+and a teaching point, in batches of 10. The stem, option texts and keyed answer are always copied
+from the stored question, never from the model, and values the author supplied are kept; the
+`needsReview` flag clears only when nothing is missing. A question Claude has a concern about (the
+key looks wrong, more than one option is defensible, the question is unanswerable) is left
+untouched and returned in `flagged`. Same `no_api_key` handling as `/api/generate`, and the request
+timeout is disabled. Response: `EnrichResponse` = `{ updated, flagged: [{ id, concern }], warnings,
+model, usage }`.
 
 Validation rules (also used for generated questions):
 - `stem` non-empty (>= 20 chars), plain text

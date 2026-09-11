@@ -68,32 +68,65 @@ import them one after another (duplicate stems are skipped).
 The importer normalises common variations before validating, so hand-made or ChatGPT-made files
 usually import without editing:
 
-- A bare array `[ {...}, {...} ]`, `{ "questions": [...] }`, or the full `{ "version": 1, ... }` form.
-- Field aliases: `question` → `stem`; `answer`, `correctAnswer`, `correct_option`, `key` → `correct`;
-  `explanation` → `teachingPoint`; `choices` → `options`.
-- Options given as plain strings (`"options": ["...", "...", "..."]`) or as an object
-  (`{"A": "...", "B": "...", "C": "..."}`); labels are assigned in order. `correct` may be a label,
-  an index (`0`-based or `1`-based when unambiguous) or the full text of the right option.
-- Per-option explanations given separately (`"rationales": { "A": "...", ... }` or an array in
-  option order) are attached to the options.
-- Four or more options: the correct option is kept together with the first two distractors, so the
-  question becomes A/B/C (the dropped options are listed in the import report).
-- Missing `difficulty` → `medium`; missing `references`/`tags` → `[]`.
-- Missing `category`, `subtopic`, `clinicalJudgmentStep`, `teachingPoint` or any `rationale`: the
-  question is still imported and flagged `needsReview` so you can fill it in by hand in Bank or
-  let Claude do it (section 3). Questions whose stem, options or correct answer cannot be
-  recovered are rejected with a reason in the import report.
-- Duplicates (same stem as a question already in the bank, ignoring case and spacing) are skipped.
+- A bare array `[ {...}, {...} ]`, `{ "questions": [...] }`, `{ "items": [...] }`, or the full
+  `{ "version": 1, ... }` form.
+- Field aliases: `question`, `prompt`, `text` → `stem`; `answer`, `correctAnswer`, `correct_option`,
+  `key`, `answerIndex` → `correct`; `explanation`, `takeaway`, `notes` → `teachingPoint`;
+  `choices`, `answers` → `options`; `sources` → `references`; `keywords` → `tags`.
+- Options given as plain strings (`"options": ["...", "...", "..."]`), as objects
+  (`{ "text": "...", "rationale": "..." }`), or as a label map (`{"A": "...", "B": "...", "C": "..."}`);
+  the writer's order is kept and labels are reassigned A, B, C in that order.
+- `correct` may be a label with any decoration (`"B"`, `"b."`, `"Option B)"`, `"answer: b"`), a
+  number (`0` means the first option; `1`, `2`, `3` mean the first, second and third), or the exact
+  text of the correct option.
+- Per-option explanations given separately (`"rationales": { "A": "..." }` or an array in option
+  order) are attached to the options.
+- Four or more options: the correct option is kept together with the first two distractors, in
+  their original order, so the question becomes A/B/C. The dropped options are listed in the report.
+- Markdown emphasis around the stem or options is stripped (`**bold**` → `bold`), since everything
+  is read aloud.
+- Missing `difficulty` → `medium`; missing `references`/`tags` → `[]`; a valid `createdAt` is kept,
+  anything else is stamped at import time. `id` and `source` are always assigned by the app.
+- Missing `category` → guessed from the wording by a keyword classifier, and the question is flagged
+  **needs review**. Missing activity statement or a missing rationale for any option → also flagged
+  (the rationale reads "Rationale not provided yet." until it is filled in). A question missing only
+  a teaching point or a clinical-judgment step studies correctly and is **not** flagged; enrichment
+  fills those in too when it runs.
+- Questions whose stem already exists in the bank (ignoring case, spacing and punctuation) are
+  skipped and counted separately from rejections.
+- Only a question whose stem, three usable options or correct answer cannot be recovered is
+  rejected, with the reason in the import report.
+
+The import report shows: how many were imported, how many were skipped as duplicates, how many need
+review, which options were dropped from over-long questions, and why anything was rejected.
+
+### Importing a folder of files from the command line
+
+```bash
+npm run import -- "path/to/file1.json" "path/to/file2.json"
+```
+
+It writes into the same bank the app reads (`DATA_DIR`, default `./data`) and prints a report per
+file. Handy for a few hundred questions arriving in many files; the Bank page's Import button does
+exactly the same thing for one file at a time.
 
 ## 3. Let Claude finish the job (enrich)
 
-In **Bank**, filter by "needs review" and choose **Enrich with Claude** (or enrich a single
-question). Claude reads each question and fills in what is missing without changing the stem or
-the correct answer: the NCLEX category and activity statement, the clinical-judgment step, the
-difficulty, a rationale for every option (why it is right or wrong) and a teaching point. It also
-flags any question whose keyed answer it believes is wrong instead of silently "fixing" it, so you
-can decide. Enrichment needs an API key (Settings) and costs roughly the same per question as
-generating one.
+In **Bank**, tick "Needs review only" and press **Enrich with Claude** (or expand a single question
+and use its own button). Claude reads each question and fills in what is missing: the NCLEX category
+and activity statement, the clinical-judgment step, the difficulty, a rationale for every option and
+a teaching point.
 
-Large sets: enrich runs in batches of 10 questions; several hundred questions take a few minutes
-and you can leave the page open while it works.
+What it will not do:
+
+- It never changes the stem, the option texts or the keyed answer. Those are copied from the stored
+  question when the answer comes back, so enrichment can only add explanation.
+- It never silently re-keys a question. If Claude thinks the keyed answer is wrong, that more than
+  one option is defensible, or the question cannot be answered as written, it returns a **concern**:
+  that question is left exactly as it was and the concern is shown against it in the Bank page for
+  you to judge.
+- Rationales you (or the other tool) already wrote are kept; only blanks are filled.
+
+The "needs review" flag clears once nothing is missing. Enrichment needs an API key (Settings) and
+runs in batches of ten questions, so several hundred questions take a few minutes; leave the page
+open while it works. Token usage is reported when it finishes.

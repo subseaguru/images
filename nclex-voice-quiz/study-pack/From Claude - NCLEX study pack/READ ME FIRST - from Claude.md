@@ -1,45 +1,57 @@
-# From Claude — NCLEX study pack (snapshot 2026-09-10, verified question bank)
+# From Claude — NCLEX study pack
 
-Everything in this folder was produced by Claude for Michelle's NCLEX-RN preparation. Files made by
-ChatGPT or other tools can live alongside it; nothing here depends on them.
+Everything in this folder was made by Claude for Michelle's NCLEX-RN preparation. Files made by
+ChatGPT or other tools can sit alongside it; nothing here depends on them.
 
-## What is in this folder
+## Start here
 
 | File / folder | What it is |
 |---|---|
-| `NCLEX question bank - readable (from Claude).docx` | 96 practice questions (12 per NCLEX-RN Client Needs subcategory) with A/B/C options, the correct answer, a rationale for every option and a teaching point. Word format for reading, printing or annotating. The same content as the `.md` file. |
-| `NCLEX question bank - readable (from Claude).md` | Same questions in plain Markdown (opens in any text editor or on GitHub). |
-| `question-bank-json (for the app)/` | The same 96 questions as JSON, one file per category. This is the machine-readable format the NCLEX Voice Quiz app loads and the format the app's Import button expects. |
-| `NCLEX-RN 2026 test plan blueprint (from Claude).md` | The NCLEX-RN test plan the app follows: the eight subcategories with their percentage ranges, the activity statements under each, the integrated processes and the six clinical-judgment steps. |
-| `ChatGPT prompt and import format (from Claude).md` | A prompt to paste into ChatGPT so it produces questions in the app's format, plus what the app's importer accepts and repairs when the format is different, and how "Enrich with Claude" fills in missing categories and rationales. |
-| `app-documentation/` | Technical specs of the app (HTTP API and screen/voice behaviour). Useful for a developer; not needed for studying. |
+| `NCLEX question bank - readable (from Claude).docx` | **For studying right now.** 96 practice questions (12 per NCLEX-RN content area) with A/B/C options, the correct answer, a rationale for *every* option and a teaching point. Word format, ready to read or print. |
+| `NCLEX question bank - readable (from Claude).md` | The same questions as plain text, for any editor. |
+| `nclex-voice-quiz-app (from Claude).zip` | **The talking quiz app.** Unzip it and follow "How to install and run the app". |
+| `How to install and run the app (from Claude).md` | Setup and usage: installing, opening it in a browser, using it from a phone, voice commands, generating questions, importing ChatGPT questions. |
+| `ChatGPT prompt and import format (from Claude).md` | A prompt to paste into ChatGPT so its questions land in the app's format, and what the importer repairs when the format is different. |
+| `question-bank-json (for the app)/` | The 96 questions as JSON, one file per category. Already inside the app; here too in case you want them separately. |
+| `NCLEX-RN 2026 test plan blueprint (from Claude).md` | The test plan the questions follow: the eight content areas with their exam percentages, the topics under each, and the six clinical-judgment steps. |
+| `app-documentation/` | Technical specifications. Only needed by a developer. |
 
-## Status of the app
+## The app in one paragraph
 
-The NCLEX Voice Quiz app is a small website you run on a computer at home and open in Chrome or
-Edge. It reads each question aloud, listens for "A", "B" or "C" (or a tap/keyboard answer), says
-"Correct" or "Wrong" with the reason, and tracks weak areas. It can also generate new questions
-with Claude from the NCLEX blueprint and from your own study documents, and import question sets
-made elsewhere (for example with ChatGPT).
+It is a small website you run on a computer at home and open in Chrome or Edge. It reads each
+question and its three options aloud, listens for "A", "B" or "C" (tapping and the keyboard work
+too), then says **Correct** or **Wrong** and explains why — including why the option you picked was
+wrong. It tracks which content areas you are weakest in and steers later quizzes toward them. With
+an Anthropic API key it also writes new questions following the NCLEX-RN test plan, based on study
+material you give it (notes, a PDF, a web page), and it can take in question sets made with ChatGPT
+and fill in any missing categories or explanations.
 
-At the time of this snapshot the app is still being finished and tested. The code lives in the
-GitHub repository `subseaguru/images`, branch `claude/nclex-quiz-android-app-1asuvm`, folder
-`nclex-voice-quiz/`. A ready-to-run copy with setup instructions will follow when it is complete.
+Install: unzip the app, open a terminal in that folder, run `npm install` then `npm start`, and open
+the address it prints. The 96 bundled questions work with no API key.
 
 ## About the questions
 
-- Written to the 2026 NCLEX-RN test plan (which keeps the 2023 percentage ranges), balanced across
-  the six clinical-judgment steps and difficulty levels, and phrased to be read aloud.
-- Real NCLEX items have four or more options and several other formats; these use three spoken
-  options by design, so use them to practice the reasoning, not the exact exam format.
-- Each category file went through a clinical-accuracy review and an adversarial second review
-  (both completed for all eight categories in this version).
-- Always check anything that surprises you against a current textbook or guideline. These are
-  practice items, not an authoritative reference.
+- Written to the 2026 NCLEX-RN test plan, which keeps the 2023 percentage ranges. Balanced across
+  the six clinical-judgment steps and across difficulty.
+- Every category went through a clinical-accuracy review and a second, adversarial review that
+  argued for the distractors; 67 items were amended as a result and one ambiguous question was
+  rewritten.
+- Phrased to be read aloud: abbreviations expanded, numbers written out, no tables or lists.
+- Real NCLEX items have four or more options and other formats (select-all-that-apply, matrix, case
+  studies). Three spoken options are a deliberate choice so questions can be answered hands-free.
+  Use these to drill the reasoning; use a full-format bank to rehearse exam mechanics.
+- Check anything that surprises you against a current textbook or guideline. These are practice
+  items, not an authoritative reference.
 
-## Adding ChatGPT questions to the app later
+## Adding the ChatGPT questions
 
-Save each ChatGPT reply as a `.json` file in this folder (the prompt in the ChatGPT file above makes
-ChatGPT produce the right format). In the app, open **Bank → Import JSON** and choose the file, or
-run `npm run import -- "path/to/file.json"` from the app folder. Questions with missing categories
-or rationales are imported flagged "needs review", and **Enrich with Claude** fills them in.
+Save each ChatGPT reply as a `.json` file (the prompt in the ChatGPT file above produces the right
+shape). Then either open the app and use **Bank → Import JSON…**, or run
+`npm run import -- "path/to/file.json"` in the app folder. Questions missing a category or
+explanations are imported and flagged "needs review"; **Enrich with Claude** in the Bank fills them
+in without ever changing the question or its correct answer.
+
+## Where this came from
+
+The app's source code also lives in the GitHub repository `subseaguru/images`, on the branch
+`claude/nclex-quiz-android-app-1asuvm`, in the folder `nclex-voice-quiz/`.
